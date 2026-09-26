@@ -1,9 +1,13 @@
-# macOS
 .DS_Store
-._*
-
-# Obsidian
-.obsidian/workspace.json
-.obsidian/workspace
-.obsidian/cache/
-.trash/
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix
+.quartz/
+quartz/cli/tui/dist/
+.turbo/
