@@ -229,7 +229,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true # aliases/title 是本仓库的变通产物，不必展示
       delimiters: ---
       language: yaml
     order: 5
