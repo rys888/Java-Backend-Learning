@@ -89,7 +89,7 @@ plugins:
     enabled: false
     order: 85
   - source: "@quartz-community/hard-line-breaks"
-    enabled: false
+    enabled: true # 与 Obsidian 一致：单换行即换行
     order: 90
   - source: "@quartz-community/ox-hugo"
     enabled: false
@@ -158,7 +158,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: "@quartz-community/content-meta"
-    enabled: true
+    enabled: false # 不显示日期与阅读时长
     layout:
       position: beforeBody
       priority: 20
