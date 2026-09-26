@@ -1,6 +1,6 @@
 # Java 后端学习笔记
 
-个人 Java 后端学习笔记与网课感想，用 Obsidian 编写。
+Java 后端学习笔记，用 Obsidian 编写。
 
 **📖 在线阅读：<https://rys888.github.io/Java-Backend-Learning/>**
 
