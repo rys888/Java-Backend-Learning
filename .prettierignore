@@ -1,3 +1,6 @@
 public
 node_modules
 .quartz-cache
+
+# Vault notes are user-authored prose, not code — never reformat them.
+content
