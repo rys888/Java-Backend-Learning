@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="1110" viewBox="0 0 1520 1110" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b95a5"/>
+    </marker>
+    <marker id="arwBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b7fc7"/>
+    </marker>
+    <style>
+      .title { font-size: 30px; font-weight: 700; fill: #1f2733; }
+      .sub   { font-size: 15px; fill: #7c8698; }
+      .sec   { font-size: 21px; font-weight: 700; fill: #1f2733; }
+      .pt    { font-size: 16px; font-weight: 600; fill: #5a6b85; }
+      .code  { font-size: 17px; font-family: 'SF Mono','Menlo','Consolas',monospace; fill: #1f2733; }
+      .lb    { font-size: 14.5px; fill: #58637a; }
+      .note  { font-size: 15px; fill: #3d4757; }
+      .tiny  { font-size: 12.5px; fill: #7c8698; }
+      .num   { font-size: 18px; font-weight: 700; }
+      .arrow { stroke: #5b7fc7; stroke-width: 2.5; fill: none; marker-end: url(#arwBlue); }
+    </style>
+  </defs>
+
+  <rect width="1520" height="1110" fill="#ffffff"/>
+
+  <text class="title" x="48" y="56">Java 内存分配：int 与 Integer 到底差在哪</text>
+  <text class="sub" x="48" y="88">实测环境：OpenJDK 25 · 64 位 · 压缩指针（CompressedOops）开启 · 对象按 8 字节对齐 · 数据由 JOL 实测</text>
+
+  <!-- ================= ① int ================= -->
+  <rect x="48" y="112" width="36" height="30" rx="9" fill="#eef2fb" stroke="#8aa5d8"/>
+  <text x="66" y="133" text-anchor="middle" font-size="17" font-weight="700" fill="#2b4a80">①</text>
+  <text class="sec" x="98" y="135">int a = 10;　—— 基本数据类型：值直接住在栈上</text>
+
+  <!-- 栈 -->
+  <rect x="48" y="158" width="620" height="250" rx="14" fill="#f7f9fc" stroke="#d8dfea" stroke-width="1.6"/>
+  <text class="pt" x="72" y="188">栈内存 Stack（线程私有，随方法调用自动分配与释放）</text>
+  <rect x="72" y="206" width="572" height="182" rx="10" fill="#ffffff" stroke="#e3e8f0"/>
+  <text class="lb" x="92" y="234">变量 a</text>
+  <rect x="92" y="246" width="80" height="56" rx="8" fill="#e9f7ee" stroke="#62b183" stroke-width="1.8"/>
+  <text x="132" y="282" text-anchor="middle" font-size="20" font-weight="700" fill="#1d6b3d">10</text>
+  <text class="tiny" x="132" y="320" text-anchor="middle">4 字节</text>
+  <text class="note" x="200" y="252">· 变量 a 直接绑定到这 4 字节内存</text>
+  <text class="note" x="200" y="280">· 里面存的就是数值本身 10，没有第二层</text>
+  <text class="note" x="200" y="308">· 方法一返回，栈帧整体弹出，不需要 GC</text>
+  <text class="note" x="200" y="336">· 这才是「不需要实例化」的真正含义：不去堆上盖房</text>
+
+  <!-- 堆 -->
+  <rect x="700" y="158" width="772" height="250" rx="14" fill="#fafbfd" stroke="#d8dfea" stroke-width="1.6" stroke-dasharray="6 5"/>
+  <text class="pt" x="724" y="188">堆内存 Heap（所有线程共享，由 GC 管理）</text>
+  <rect x="724" y="206" width="724" height="182" rx="10" fill="#ffffff" stroke="#cfd6e2" stroke-dasharray="6 5"/>
+  <text x="1086" y="288" text-anchor="middle" font-size="20" font-weight="700" fill="#b6bfcd">这里什么都不用分配</text>
+  <text x="1086" y="320" text-anchor="middle" class="lb">基本类型不产生对象，堆上不会多出任何东西</text>
+
+  <!-- ================= ② Integer ================= -->
+  <rect x="48" y="436" width="36" height="30" rx="9" fill="#eef2fb" stroke="#8aa5d8"/>
+  <text x="66" y="457" text-anchor="middle" font-size="17" font-weight="700" fill="#2b4a80">②</text>
+  <text class="sec" x="98" y="459">Integer b = 10;　—— 引用数据类型：栈上一个地址，堆上一个对象</text>
+
+  <!-- 栈 -->
+  <rect x="48" y="482" width="620" height="300" rx="14" fill="#f7f9fc" stroke="#d8dfea" stroke-width="1.6"/>
+  <text class="pt" x="72" y="512">栈内存 Stack</text>
+  <rect x="72" y="530" width="572" height="232" rx="10" fill="#ffffff" stroke="#e3e8f0"/>
+  <text class="lb" x="92" y="560">变量 b</text>
+  <rect x="92" y="572" width="80" height="56" rx="8" fill="#eef2fb" stroke="#8aa5d8" stroke-width="1.8"/>
+  <text x="132" y="606" text-anchor="middle" font-size="12" font-weight="700" fill="#2b4a80">0x1f3a</text>
+  <text class="tiny" x="132" y="648" text-anchor="middle">引用 4 字节（地址）</text>
+  <text class="note" x="200" y="578">· b 里存的不是 10，而是堆里那个对象的地址</text>
+  <text class="note" x="200" y="606">· 引用类型变量 = 一张写着门牌号的纸条</text>
+  <text class="note" x="200" y="634">· 「必须为对象分配内存」＝ 先在堆上把房子盖好</text>
+  <text class="note" x="200" y="662">· 房子不归栈帧管，只能等 GC 来回收</text>
+  <text class="note" x="200" y="690">· 多出来的这次分配，就是性能差距的来源之一</text>
+  <text class="note" x="200" y="718">· 赋值时是写一个地址，而不是挪动 4 个字节的数值</text>
+
+  <path class="arrow" d="M 178 600 H 726"/>
+
+  <!-- 堆 -->
+  <rect x="700" y="482" width="772" height="300" rx="14" fill="#fafbfd" stroke="#d8dfea" stroke-width="1.6" stroke-dasharray="6 5"/>
+  <text class="pt" x="724" y="512">堆内存 Heap</text>
+
+  <text class="lb" x="736" y="562">一个 Integer 对象 = 16 字节</text>
+  <rect x="736" y="572" width="344" height="76" rx="10" fill="#fdf3e3" stroke="#d9a441" stroke-width="1.8"/>
+  <rect x="748" y="576" width="160" height="68" rx="6" fill="#f9e7c6" stroke="#d9a441"/>
+  <text class="tiny" x="828" y="604" text-anchor="middle" fill="#8a5a12">对象头 mark word</text>
+  <text class="tiny" x="828" y="626" text-anchor="middle" fill="#8a5a12">8 字节</text>
+  <rect x="908" y="576" width="80" height="68" rx="6" fill="#f9e7c6" stroke="#d9a441"/>
+  <text class="tiny" x="948" y="604" text-anchor="middle" fill="#8a5a12">类型指针</text>
+  <text class="tiny" x="948" y="626" text-anchor="middle" fill="#8a5a12">4 字节</text>
+  <rect x="988" y="576" width="80" height="68" rx="6" fill="#e9f7ee" stroke="#62b183"/>
+  <text class="tiny" x="1028" y="604" text-anchor="middle" fill="#1d6b3d">int value</text>
+  <text class="tiny" x="1028" y="626" text-anchor="middle" fill="#1d6b3d">= 10</text>
+
+  <text class="tiny" x="736" y="676">对象头 12 字节是每个 Java 对象都要交的「管理税」：GC 标记、锁状态、identity hashCode</text>
+  <text class="note" x="736" y="708">真正的数据只占 4 字节，剩下 12 字节全是对象本身的开销。</text>
+  <text class="note" x="736" y="736">数组或集合里每个元素，还要再额外存一个 4 字节的引用。</text>
+
+  <!-- 汇总 -->
+  <rect x="48" y="810" width="620" height="66" rx="12" fill="#e9f7ee" stroke="#62b183" stroke-width="1.6"/>
+  <text class="num" x="72" y="852" fill="#1d6b3d">int a = 10　→　一共 4 字节</text>
+  <rect x="700" y="810" width="772" height="66" rx="12" fill="#fdf3e3" stroke="#d9a441" stroke-width="1.6"/>
+  <text class="num" x="724" y="852" fill="#8a5a12">Integer b = 10　→　4 字节引用 + 16 字节对象 = 20 字节（5 倍）</text>
+
+  <!-- ================= ③ 实测 ================= -->
+  <rect x="48" y="896" width="36" height="30" rx="9" fill="#eef2fb" stroke="#8aa5d8"/>
+  <text x="66" y="917" text-anchor="middle" font-size="17" font-weight="700" fill="#2b4a80">③</text>
+  <text class="sec" x="98" y="919">实测：100 万个元素的数组（本机 OpenJDK 25 + JOL）</text>
+
+  <text class="code" x="48" y="982">int[n]</text>
+  <rect x="172" y="952" width="180" height="34" rx="6" fill="#62b183"/>
+  <text class="lb" x="364" y="976" fill="#1d6b3d" font-weight="600">4,000,016 字节 ≈ 3.8 MB（每元素 4.0 字节）</text>
+
+  <text class="code" x="48" y="1032">Integer[n]</text>
+  <rect x="172" y="1002" width="900" height="34" rx="6" fill="#d9a441"/>
+  <text class="lb" x="1084" y="1026" fill="#8a5a12" font-weight="600">20,000,016 字节 ≈ 19.1 MB（每元素 20.0 字节）</text>
+
+  <text class="tiny" x="172" y="1072">同样的 100 万个数字，内存差 5 倍；而且这 100 万个对象都要 GC 逐个标记、回收。</text>
+</svg>
