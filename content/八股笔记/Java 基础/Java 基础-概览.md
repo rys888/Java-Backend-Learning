@@ -9,7 +9,7 @@ title: Java 基础
 面向对象三大特性 [[面向对象三大特性]]
 int 和 Integer  [[int 和 Integer]]
 String、StringBuffer、StringBuilder
-equals 和 hashCode
+equals 和 hashCode [[equals]] [[hashcode和equals方法关系]]
 Java 8 新特性
 反射机制 [[反射-概览|反射]]
 
@@ -21,6 +21,9 @@ Java 8 新特性
 [[对象-概览|对象]]
 [[反射-概览|反射]]
 [[注解-概览|注解]]
+[[异常-概览|异常]]
+[[Object-概览|Object]] 🌟🌟🌟
+
 
 
 
