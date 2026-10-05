@@ -1,0 +1,3 @@
+- 普通 for 循环：可以在遍历过程中修改元素，只要修改的索引不超出 List 范围即可
+- 使用foreach 循环遍历：不建议
+- 使用迭代器遍历时：如果要删除，应该使用 Iterator.remove()；如果要替换元素，ListIterator.set()
