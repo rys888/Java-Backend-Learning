@@ -715,7 +715,7 @@ get(key) == null
 
 ---
 
-## Q：**ConcurrentHashMap 是怎么实现线程安全的？**
+## Q：ConcurrentHashMap 是怎么实现线程安全的？
 
 ConcurrentHashMap 在 JDK 7 和 JDK 8 中实现不同。JDK 7 主要采用 Segment 分段锁，每个 Segment 继承 ReentrantLock，不同 Segment 可以并发操作，从而提高并发度。
 
