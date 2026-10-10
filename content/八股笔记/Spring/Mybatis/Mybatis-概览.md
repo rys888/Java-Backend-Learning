@@ -1,0 +1,6 @@
+---
+aliases:
+  - Mybatis
+title: Mybatis
+---
+
