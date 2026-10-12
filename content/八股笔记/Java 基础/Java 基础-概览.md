@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Java 基础
-title: Java 基础
+  - "Java 基础"
+title: "Java 基础"
 ---
 
 看的是小林 coding

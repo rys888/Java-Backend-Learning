@@ -1,7 +1,7 @@
 ---
 aliases:
-  - List
-title: List
+  - "List"
+title: "List"
 ---
 
 [[讲一下java里面list的几种实现有什么不同？]]

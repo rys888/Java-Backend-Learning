@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Spring
-title: Spring
+  - "Spring"
+title: "Spring"
 ---
 
 [[Spring的核心思想]]

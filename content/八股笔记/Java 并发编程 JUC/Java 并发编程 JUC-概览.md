@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Java 并发编程 JUC
-title: Java 并发编程 JUC
+  - "Java 并发编程 JUC"
+title: "Java 并发编程 JUC"
 ---
 
 小林 Coding 中提到的面试里的高频区域，建议重点投入：

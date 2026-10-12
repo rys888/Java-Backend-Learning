@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Java新特性
-title: Java新特性
+  - "Java新特性"
+title: "Java新特性"
 ---
 
 [[Java8新特性]]

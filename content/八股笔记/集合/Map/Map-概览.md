@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Map
-title: Map
+  - "Map"
+title: "Map"
 ---
 
 [[如何对map进行快速遍历]]

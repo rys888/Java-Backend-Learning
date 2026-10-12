@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Object
-title: Object
+  - "Object"
+title: "Object"
 ---
 
 [[Object类的方法]]
