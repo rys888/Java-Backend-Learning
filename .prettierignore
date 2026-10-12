@@ -4,3 +4,7 @@ node_modules
 
 # Vault notes are user-authored prose, not code — never reformat them.
 content
+
+# Generated from the vault by the sync script; prettier would fight the generator
+# over table/ASCII-tree layout.
+Java后端学习笔记-目录说明.md
