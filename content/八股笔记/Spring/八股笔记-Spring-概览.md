@@ -10,7 +10,7 @@ title: "Spring"
 - **SpringBoot 自动装配原理**：`@SpringBootApplication` 背后的逻辑、自动配置类是怎么被发现和筛选的，这块是 SpringBoot 的核心，面试里问的很多。
 - **Bean 的生命周期**：从实例化到销毁经历了哪些步骤、各个扩展点在哪里介入，这块答好了能体现对 Spring 底层的理解深度。
 
-[[八股笔记/Spring/Spring/Spring-概览|Spring]]
+[[Spring-Spring-概览|Spring]]
 [[SpringBoot-概览|SpringBoot]]
 [[SpringMVC-概览|SpringMVC]]
 [[Mybatis-概览|Mybatis]]
