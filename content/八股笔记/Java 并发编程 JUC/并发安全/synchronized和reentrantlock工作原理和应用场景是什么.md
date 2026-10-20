@@ -783,8 +783,18 @@ ReentrantLock 就非常合适。
 
 `synchronized` 和 `ReentrantLock` 都属于可重入的互斥锁，用于保证同一时刻只有一个线程进入临界区。
 
+1.实现层次：
 `synchronized` 是 Java 关键字，由 JVM 提供同步语义，与对象 Monitor 机制相关，同步代码块在字节码层面会涉及 `monitorenter` 和 `monitorexit`，退出同步区域时 JVM 会自动释放锁。
-
 `ReentrantLock` 是 JUC 提供的显式锁，主要基于 AQS 实现，通过同步状态 `state`、CAS 和等待队列管理锁的获取与释放，需要在 `finally` 中手动 `unlock()`。
 
-两者都支持可重入，但 ReentrantLock 功能更丰富，支持 `tryLock`、超时获取、可中断获取、公平锁以及多个 Condition。因此普通简单同步场景通常使用 synchronized；需要高级锁控制能力时使用 ReentrantLock。
+2.锁的灵活性：
+ReentrantLock 支持公平锁、非公平锁等；而 synchronized 只能是非公平锁
+
+3.锁释放：
+synchronized 自动释放；ReentrantLock 必须手动在 finally 块中调用 unlock()释放，否则可能死锁
+
+4.条件等待：
+synchronized 使用 wait()、notify()，只能有一个等待队列；ReentrantLock 可以创建多个 Condition 对象，实现更精细的等待
+
+5.底层
+synchronized 通过字节码指令实现；ReentrantLock 通过 CAS 和 LockSupport 实现

@@ -1,3 +1,17 @@
+## Q：说一下 Java 8 有哪些新特性？
+
+Java 8 比较重要的新特性主要有：首先是 **Lambda 表达式和函数式接口**，让 Java 支持更加函数式的编程方式；其次引入了 **Stream API**，可以对集合数据进行过滤、映射、聚合等流水线操作；同时加入了**方法引用**来进一步简化 Lambda。
+
+接口方面支持了 **default 方法和 static 方法**，其中 default 方法可以在不破坏原有实现类的情况下扩展接口。[[static]]
+
+API 方面还加入了 **Optional** 来更明确地表示一个值可能不存在，以及新的 **java.time 日期时间 API**。
+
+并发方面 Java 8 引入了 **CompletableFuture**，增强了异步任务的组合和编排能力。
+
+另外，Java 8 中 **HashMap 在哈希冲突严重时可以由链表转为红黑树**；HotSpot JVM 中也**移除了永久代并使用 Metaspace 元空间**。
+
+---
+
 Java 8 新特性是 **Java 后端实习面试非常经典的一组八股**。不用把 JDK 8 所有变化都背下来，Oracle 官方列出的变化很多，但从面试角度，重点集中在 **Lambda、函数式接口、Stream、方法引用、接口 default/static 方法、Optional、新日期时间 API、CompletableFuture，以及 JVM 的永久代→元空间变化**。Oracle 官方也将 Lambda、方法引用、默认方法、Stream 等列为 JDK 8 的核心增强。 
 
 |**特性**|**实习面试重要度**|**要掌握程度**|
@@ -905,75 +919,3 @@ Oracle 官方还列出了：
 但是你现在准备 **Java 后端实习**，不建议花大量时间背这些。
 
 ---
-
-# **最后给你一版「面试回答」**
-
-如果面试官直接问：
-
-**“说一下 Java 8 有哪些新特性？”**
-
-你不要回答十几分钟，第一轮这样说：
-
-Java 8 比较重要的新特性主要有：首先是 **Lambda 表达式和函数式接口**，让 Java 支持更加函数式的编程方式；其次引入了 **Stream API**，可以对集合数据进行过滤、映射、聚合等流水线操作；同时加入了**方法引用**来进一步简化 Lambda。
-
-接口方面支持了 **default 方法和 static 方法**，其中 default 方法可以在不破坏原有实现类的情况下扩展接口。
-
-API 方面还加入了 **Optional** 来更明确地表示一个值可能不存在，以及新的 **java.time 日期时间 API**。
-
-并发方面 Java 8 引入了 **CompletableFuture**，增强了异步任务的组合和编排能力。
-
-另外，Java 8 中 **HashMap 在哈希冲突严重时可以由链表转为红黑树**；HotSpot JVM 中也**移除了永久代并使用 Metaspace 元空间**。
-
-然后停下来。
-
-**面试官对哪个感兴趣，就会往哪个方向追问。**
-
-而这道题最容易形成的追问链是：
-
-```text
-Java 8 新特性
-   │
-   ├── Lambda
-   │     ↓
-   │   函数式接口是什么？
-   │     ↓
-   │   Function / Consumer / Supplier / Predicate？
-   │
-   ├── Stream
-   │     ↓
-   │   filter / map / reduce？
-   │     ↓
-   │   中间操作和终止操作？
-   │     ↓
-   │   parallelStream？
-   │
-   ├── Optional
-   │     ↓
-   │   of 和 ofNullable？
-   │     ↓
-   │   orElse 和 orElseGet？
-   │
-   ├── CompletableFuture
-   │     ↓
-   │   Future 有什么问题？
-   │     ↓
-   │   thenApply / thenCompose？
-   │     ↓
-   │   默认使用什么线程池？
-   │
-   ├── HashMap
-   │     ↓
-   │   数组+链表+红黑树
-   │     ↓
-   │   为什么树化？
-   │     ↓
-   │   为什么阈值是8？
-   │
-   └── JVM
-         ↓
-       PermGen 和 Metaspace
-         ↓
-       元空间存在哪里？
-```
-
-**先吃透前 6 个：Lambda → 函数式接口 → Stream → 方法引用 → default 方法 → Optional。** 这几个实际上是一整套东西，不要拆成六个互不相关的知识点来背。等进入并发和 JVM，再分别把 `CompletableFuture` 和 Metaspace 补深。

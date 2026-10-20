@@ -42,4 +42,8 @@ Arrays.copyOf(elements,len+1);
 
 ### Q：CopyOnWriteArrayList 是如何实现线程安全的
 
-CopyOnWriteArrayList 内部通过 volatile 的 Object 数组保存数据。读操作通常直接读取当前数组，不加写锁；写操作首先通过 ReentrantLock 保证多个写线程互斥，然后使用 Arrays.copyOf 复制当前数组，在新数组上完成修改，最后通过 setArray 将 volatile 数组引用指向新数组，并在 finally 中释放锁。因此它实现了写时复制，读写之间干扰较少，但写操作需要复制整个数组，所以适合读多写少的场景。
+CopyOnWriteArrayList 是线程安全的 ArrayList 变体。
+当执行修改操作时，不直接修改原数组，而是先复制一个新数组，在新数组上进行修改，然后将内部数组引用指向新数组。读操作不加锁，直接读取原数组。
+
+- 线程安全：写操作通过 ReentrantLock 加锁，保证同一时刻只有一个线程进行写操作，复制过程对读线程无影响。
+- 适用场景：适合读多写少的并发场景，比如说缓存、监听器列表。因为写操作涉及数组复制，开销较大，不适合频繁写。同时，数据最终一致性，读操作是可能读取到旧数据的。

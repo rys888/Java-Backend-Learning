@@ -4,4 +4,8 @@ aliases:
 title: "Mybatis"
 ---
 
-[[Mybatis里的 ＃ 和 $ 的区别？|Mybatis里的 # 和 $ 的区别？]]
+[[八股笔记/Spring/Mybatis/Mybatis里的]]
+
+
+
+

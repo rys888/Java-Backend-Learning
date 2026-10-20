@@ -10,6 +10,7 @@ title: "Object"
 [[String、StringBuffer、StringBuilder区别和联系]]
 
 
+[[为什么重写equals()也必须重写hashcode()方法]]
 
 
 

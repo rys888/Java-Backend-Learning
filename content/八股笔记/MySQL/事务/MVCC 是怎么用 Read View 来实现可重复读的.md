@@ -18,7 +18,7 @@ balance = 1000
   ├── BEGIN                      │
   │                              │
   ├── SELECT balance             │
-  │   结果：1000                 │
+  │   结果：1000                  │
   │                              │
   └── 创建 Read View ①           │
 ```

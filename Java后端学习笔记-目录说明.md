@@ -7,7 +7,7 @@
 |---|---|
 | 📖 **在线阅读** | <https://rys888.github.io/Java-Backend-Learning/> |
 | 💻 笔记源仓库 | `rys888/Java-Backend-Learning` |
-| 📊 规模 | **291 篇笔记** · 117 张配图 · 4 大板块 |
+| 📊 规模 | **309 篇笔记** · 117 张配图 · 4 大板块 |
 | 🗂 组织方式 | 文件夹分层 + 双链交叉引用，每个板块有一个入口索引页 |
 
 ---
@@ -17,14 +17,14 @@
 ```
 Java后端学习笔记（入口页）
 │
-├── 八股笔记/              231 篇   面试八股，按技术栈分块
-│   ├── Java 基础/          47 篇
-│   ├── 集合/               28 篇
-│   ├── Java 并发编程 JUC/    26 篇
-│   ├── Java虚拟机 JVM/      30 篇
-│   ├── Spring/           17 篇
-│   ├── MySQL/            47 篇
-│   ├── Redis/            34 篇
+├── 八股笔记/              249 篇   面试八股，按技术栈分块
+│   ├── Java 基础/          49 篇
+│   ├── 集合/               31 篇
+│   ├── Java 并发编程 JUC/    30 篇
+│   ├── Java虚拟机 JVM/      35 篇
+│   ├── Spring/           18 篇
+│   ├── MySQL/            49 篇
+│   ├── Redis/            35 篇
 │   ├── RabbitMQ/          1 篇  （待补充）
 │
 ├── 网课笔记/               17 篇   跟着视频课的逐模块笔记
@@ -40,18 +40,18 @@ Java后端学习笔记（入口页）
 
 ---
 
-## 二、八股笔记（231 篇）
+## 二、八股笔记（249 篇）
 
 面试导向的知识体系，按「语言 → 集合 → 并发 → 虚拟机 → 框架 → 数据库」的顺序铺开。
 
-### 1. Java 基础（47 篇）
+### 1. Java 基础（49 篇）
 
 | 子主题 | 篇数 | 覆盖内容 |
 |---|---|---|
-| 概念 | 6 | JVM/JDK/JRE 区别、Java 特点、值传递与引用传递、编译型 vs 解释型 |
+| 概念 | 7 | JVM/JDK/JRE 区别、Java 特点、值传递与引用传递、编译型 vs 解释型 |
 | 数据类型 | 4 | `int` 与 `Integer`、自动装箱与缓存池、类型转换方式 |
 | 面向对象 | 7 | 三大特性、抽象类与接口、静态变量/方法、内部类、设计原则 |
-| Object | 6 | `equals` 与 `==`、`hashCode` 与 `equals` 的关系、Object 类方法、String/StringBuffer/StringBuilder |
+| Object | 7 | `equals` 与 `==`、`hashCode` 与 `equals` 的关系、Object 类方法、String/StringBuffer/StringBuilder |
 | 对象 | 2 | 创建对象的几种方式 |
 | 关键字 | 3 | `final`、`static` |
 | 反射 | 3 | 什么是反射、运行期获取类信息、在框架中的应用 |
@@ -64,47 +64,47 @@ Java后端学习笔记（入口页）
 | 设计模式 | 1 | 常用设计模式 |
 | IO | 1 | IO 体系 |
 
-### 2. 集合（28 篇）
+### 2. 集合（31 篇）
 
 | 子主题 | 篇数 | 覆盖内容 |
 |---|---|---|
-| 概念 | 4 | 集合体系、数组 vs 集合、遍历方式 |
+| 概念 | 7 | 集合体系、数组 vs 集合、遍历方式 |
 | List | 10 | ArrayList 扩容机制、与 LinkedList/Vector 的区别、CopyOnWriteArrayList 线程安全、遍历中修改 |
 | Map | 10 | HashMap 实现原理与扩容、为什么容量是 2 的 n 次方、红黑树转换、ConcurrentHashMap、Hashtable |
 | Set | 3 | List vs Set、Set 排序 |
 
-### 3. Java 并发编程 JUC（26 篇）
+### 3. Java 并发编程 JUC（30 篇）
 
 | 子主题 | 篇数 | 覆盖内容 |
 |---|---|---|
 | 多线程 | 7 | 线程与操作系统的关系、JMM 内存模型、线程通信、创建方式与线程池、`sleep` vs `wait`、`BLOCKED` vs `WAITING` |
-| 并发安全 | 11 | `synchronized` 与 `ReentrantLock` 底层原理、volatile、AQS、CAS 与 ABA 问题、ThreadLocal、乐观锁/悲观锁、公平锁/非公平锁 |
+| 并发安全 | 15 | `synchronized` 与 `ReentrantLock` 底层原理、volatile、AQS、CAS 与 ABA 问题、ThreadLocal、乐观锁/悲观锁、公平锁/非公平锁 |
 | 线程池 | 7 | 参数、工作原理、四种拒绝策略、`shutdown` vs `shutdownNow`、Future |
 
-### 4. Java虚拟机 JVM（30 篇）
+### 4. Java虚拟机 JVM（35 篇）
 
 | 子主题 | 篇数 | 覆盖内容 |
 |---|---|---|
-| 内存结构 | 10 | 堆栈区别、内存结构 vs Java 内存模型、堆分区、方法区、程序计数器、引用类型、内存泄漏与溢出、String 的内存归属 |
-| 垃圾回收 | 11 | GC 机制与触发时机、分代与 minor/major/full GC、对象进入老年代、垃圾回收器、CMS vs G1、G1 的 Young/Mixed GC、G1 vs ZGC、安全点 |
+| 内存结构 | 11 | 堆栈区别、内存结构 vs Java 内存模型、堆分区、方法区、程序计数器、引用类型、内存泄漏与溢出、String 的内存归属 |
+| 垃圾回收 | 14 | GC 机制与触发时机、分代与 minor/major/full GC、对象进入老年代、垃圾回收器、CMS vs G1、G1 的 Young/Mixed GC、G1 vs ZGC、安全点 |
 | 类初始化和类加载 | 6 | 类加载过程、双亲委派、TLAB、同名类判定、对象创建过程 |
-| 执行与性能排查 | 2 | 解释器与 JIT 编译器的协作 |
+| 执行与性能排查 | 3 | 解释器与 JIT 编译器的协作 |
 
-### 5. Spring（17 篇）
+### 5. Spring（18 篇）
 
 | 子主题 | 篇数 | 覆盖内容 |
 |---|---|---|
 | Spring | 11 | 核心思想、IOC 与 AOP 的实现机制、依赖注入、Bean 生命周期、BeanFactory vs ApplicationContext、**三级缓存**、SpringAOP 原理、AOP 典型应用、声明式事务原理、用到的设计模式 |
 | SpringBoot | 2 | 相比 Spring 的优势 |
 | SpringMVC | 1 | 请求处理流程 |
-| Mybatis | 2 | `#` 与 `$` 的区别 |
+| Mybatis | 3 | `#` 与 `$` 的区别 |
 
-### 6. MySQL（47 篇）
+### 6. MySQL（49 篇）
 
 | 子主题 | 篇数 | 覆盖内容 |
 |---|---|---|
-| SQL基础 | 9 | CHAR vs VARCHAR、DELETE/TRUNCATE/DROP、三大范式、外键约束、基本函数、`INT(1)` vs `INT(10)`、NoSQL vs SQL、用 MySQL 实现可重入锁 |
-| 索引 | 10 | B+ 树特性、索引实现、聚簇 vs 非聚簇索引、联合索引与最左匹配原则、索引失效、索引下推与覆盖索引、主键为什么用自增 ID |
+| SQL基础 | 10 | CHAR vs VARCHAR、DELETE/TRUNCATE/DROP、三大范式、外键约束、基本函数、`INT(1)` vs `INT(10)`、NoSQL vs SQL、用 MySQL 实现可重入锁 |
+| 索引 | 11 | B+ 树特性、索引实现、聚簇 vs 非聚簇索引、联合索引与最左匹配原则、索引失效、索引下推与覆盖索引、主键为什么用自增 ID |
 | 事务 | 7 | MVCC 是怎么用 Read View 来实现可重复读的、MySQL是怎么解决并发问题的、事务出现丢失更新怎么办 等 6 篇 |
 | 锁 | 5 | MySQL 有哪些锁、InnoDB 行锁锁的是行还是索引、死锁、为什么没用上索引会扩大加锁范围 |
 | 日志 | 5 | 日志有哪几种、update 语句的执行过程、两阶段提交、主从复制 |
@@ -112,14 +112,14 @@ Java后端学习笔记（入口页）
 | 架构 | 4 | 分库分表与分片键选择、主从延迟的解决 |
 | 性能调优 | 3 | ORDER BY 怎么利用索引避免排序、查询变慢的排查思路 |
 
-### 7. Redis（34 篇）
+### 7. Redis（35 篇）
 
 | 子主题 | 篇数 | 覆盖内容 |
 |---|---|---|
 | 数据结构 | 7 | 常用数据类型、String/ZSet/哈希表/跳表/listpack 的底层实现与扩容 |
 | 线程模型 | 2 | Redis 为什么快、单线程模型 |
 | 缓存淘汰和缓存过期 | 3 | 内存淘汰策略、过期删除策略 |
-| 场景 | 12 | 分布式锁、限流、大 Key / 热 Key、缓存与 MySQL 一致性、秒杀与超卖、布隆过滤器、缓存雪崩/击穿/穿透、本地缓存 vs Redis、变慢排查 |
+| 场景 | 13 | 分布式锁、限流、大 Key / 热 Key、缓存与 MySQL 一致性、秒杀与超卖、布隆过滤器、缓存雪崩/击穿/穿透、本地缓存 vs Redis、变慢排查 |
 | 日志 | 2 | 持久化方式（RDB/AOF）与优缺点 |
 | 事务 | 2 | Redis 事务与原子性实现 |
 | 集群 | 5 | 主从同步（增量 / 完全）、集群方案 |

@@ -1,4 +1,25 @@
 
+## Q：ConcurrentHashMap 是怎么实现线程安全的？
+
+ConcurrentHashMap 在 JDK 7 和 JDK 8 中实现不同。JDK 7 主要采用 Segment 分段锁，每个 Segment 继承 ReentrantLock，不同 Segment 可以并发操作，从而提高并发度。
+
+JDK 8 取消了 Segment，底层采用 Node 数组、链表和红黑树，主要通过 CAS、synchronized 以及 volatile 等机制保证并发安全。put 时，如果目标桶为空，可以通过 CAS 尝试插入；如果桶中已经存在节点，则通常使用 synchronized 锁住桶头节点，再进行链表或者红黑树的修改，因此锁粒度比较细。读取操作通常不需要加锁。
+
+另外 JDK 8 的 ConcurrentHashMap 在扩容时支持多个线程协助迁移，并通过 ForwardingNode 标识已经迁移的桶，从而提高并发扩容效率。
+
+
+**JDK 7：Segment 分段锁。**  
+**JDK 8：CAS + synchronized。**  
+**空桶 CAS，非空桶锁桶头。**  
+**读通常不加锁，扩容可以多线程协助。**
+
+
+什么时候从链表变为红黑树？
+- 当链表长度>=9 且数组长度>=64 时，链表转为红黑树
+- 当红黑树节点<=6 时，退化为链表
+
+---
+
 **HashMap 追求高效，但不保证多线程安全；ConcurrentHashMap 在尽量保持高并发性能的同时，保证并发访问安全。**
 
 而且这个题一定要分 **JDK 1.7 和 JDK 1.8** 来讲，因为实现变化很大：
@@ -124,7 +145,7 @@ table[]
 
 ---
 
-# **三、JDK 8 ConcurrentHashMap 怎么保证线程安全？⭐⭐⭐⭐⭐**
+# **三、JDK 8 ConcurrentHashMap 怎么保证线程安全？**
 
 先记住一句：
 
@@ -714,17 +735,3 @@ get(key) == null
 ```
 
 ---
-
-## Q：ConcurrentHashMap 是怎么实现线程安全的？
-
-ConcurrentHashMap 在 JDK 7 和 JDK 8 中实现不同。JDK 7 主要采用 Segment 分段锁，每个 Segment 继承 ReentrantLock，不同 Segment 可以并发操作，从而提高并发度。
-
-JDK 8 取消了 Segment，底层采用 Node 数组、链表和红黑树，主要通过 CAS、synchronized 以及 volatile 等机制保证并发安全。put 时，如果目标桶为空，可以通过 CAS 尝试插入；如果桶中已经存在节点，则通常使用 synchronized 锁住桶头节点，再进行链表或者红黑树的修改，因此锁粒度比较细。读取操作通常不需要加锁。
-
-另外 JDK 8 的 ConcurrentHashMap 在扩容时支持多个线程协助迁移，并通过 ForwardingNode 标识已经迁移的桶，从而提高并发扩容效率。
-
-
-**JDK 7：Segment 分段锁。**  
-**JDK 8：CAS + synchronized。**  
-**空桶 CAS，非空桶锁桶头。**  
-**读通常不加锁，扩容可以多线程协助。**

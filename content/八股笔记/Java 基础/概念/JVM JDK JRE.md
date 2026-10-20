@@ -4,4 +4,7 @@ JDK 是 java 开发工具包，是开发 java 程序所需要的工具集合。�
 
 JRE 是 java 运行时的环境，时 java 程序运行所需要的最小环境。包含 JVM 和一组 java 类库（`String`、`Object`、集合、IO 这些基础类库），用于支持 java 程序执行
 
+关系：JDK 包含 JRE、JRE 包含 JVM。JDK 用来开发，JRE 用于运行，JVM 是运行核心
+
+
 ![[Pasted image 20260925192728.png]]

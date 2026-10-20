@@ -11,6 +11,7 @@ title: "SQL基础"
 [[外键约束]]
 [[mysql中的基本函数]]
 [[DELETE、TRUNCATE 和 DROP 有什么区别？]]
+[[MySQL和Redis区别]]
 
 
 

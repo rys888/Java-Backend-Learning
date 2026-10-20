@@ -20,6 +20,23 @@ title: "Java 并发编程 JUC"
 [[线程池-概览|线程池]]
 
 
+重点：
+[[什么是JUC，包含哪些主要组件]]
+[[线程池的工作原理]] 底层实现，执行流程（🌟🌟）
+[[线程池的参数]]
+[[乐观锁和悲观锁的概念]] （乐观锁怎么实现的）
+[[Java不是有垃圾回收机制吗，为什么ThreadLocal这里没有回收掉]]
+[[volatile关键词]]
+[[AQS]]
+[[ReentrantLock底层原理]]
+[[公平锁和非公平锁分别是什么]] 底层 CAS
+[[synchronized和reentrantlock工作原理和应用场景是什么]]
+[[s
+[[ReentrantLock和synchronized都可重入吗，怎么做到的]]
+[[ConcurrentHashMap怎么实现的]]
+[[线程创建方式有哪些（特别是线程池），怎么启动线程，怎么停止一个线程]]
+[[线程安全的List，CopyOnWriteArrayList是如何实现线程安全的]]
+
 
 
 
