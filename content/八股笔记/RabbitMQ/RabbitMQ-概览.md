@@ -1,6 +1,0 @@
----
-aliases:
-  - "RabbitMQ"
-title: "RabbitMQ"
----
-

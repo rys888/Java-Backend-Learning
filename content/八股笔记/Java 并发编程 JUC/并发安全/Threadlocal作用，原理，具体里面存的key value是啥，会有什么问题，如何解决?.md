@@ -1103,4 +1103,4 @@ ThreadLocal 用于保存线程本地变量，使每个线程拥有自己独立�
 
 ThreadLocalMap 中 Entry 的 key 对 ThreadLocal 是弱引用，而 value 通常是强引用。当 ThreadLocal 没有其他强引用后，GC 可以回收 ThreadLocal，使 Entry 出现 `key=null`，但只要线程仍然存活，value 仍可能通过 `Thread → ThreadLocalMap → Entry → value` 的引用链无法及时回收，从而产生内存泄漏风险。在线程池中由于线程长期存活和复用，这个问题更加明显，还可能造成不同任务之间的数据污染。
 
-因此使用 ThreadLocal 后应该在 `finally` 中调用 `remove()` 主动清理。**
+因此使用 ThreadLocal 后应该在 `finally` 中调用 `remove()` 主动清理。

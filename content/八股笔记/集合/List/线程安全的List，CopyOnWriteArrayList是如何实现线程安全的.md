@@ -6,6 +6,8 @@ private transient volatile Object[] array;
 
 在写入操作时，加了一把互斥锁 ReentrantLock 以保证线程安全。
 
+[[synchronized和reentrantlock工作原理和应用场景是什么]]
+
 ```
 public boolean add(E e) {
     //获取锁

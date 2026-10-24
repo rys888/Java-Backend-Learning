@@ -8,7 +8,7 @@ IoC 和 AOP 是 Spring 的两个核心思想，但两者的底层实现机制完
 
 ---
 
-## **一、IoC 是通过什么机制实现的？⭐⭐⭐⭐⭐**
+## **一、IoC 是通过什么机制实现的？**
 
 IoC（控制反转）的核心是：**将对象的创建、依赖注入和生命周期管理交给 Spring 容器。** Spring IoC 的实现主要涉及三个机制。
 
@@ -188,6 +188,40 @@ public class OrderServiceImpl implements OrderService {
 }
 ```
 
+```
+public class Main {
+
+    public static void main(String[] args) {
+
+        // 1. 创建目标对象
+        UserService target = new UserServiceImpl();
+
+        // 2. 创建代理对象
+        UserService proxy = (UserService) Proxy.newProxyInstance(
+                target.getClass().getClassLoader(),
+                target.getClass().getInterfaces(),
+
+                (proxyObj, method, args1) -> {
+
+                    // 前置增强
+                    System.out.println("开始执行方法");
+
+                    // 调用目标对象的方法
+                    Object result = method.invoke(target, args1);
+
+                    // 后置增强
+                    System.out.println("方法执行结束");
+
+                    return result;
+                }
+        );
+
+        // 3. 通过代理对象调用方法
+        proxy.getUser();
+    }
+}
+```
+
 JDK 动态代理通过 `Proxy` 和 `InvocationHandler` 等机制创建代理对象：由 `Proxy` 在运行时生成一个实现了同样接口的代理类，所有方法调用都会被转发到 `InvocationHandler` 的 `invoke()` 里，增强逻辑写在这里，增强完再调用目标方法。
 
 ```text
@@ -304,5 +338,12 @@ Spring 的 IoC 主要通过 Spring 容器、反射和依赖注入等机制实现
 此外，Spring AOP 与 IoC 容器密切相关，Spring 可以通过 BeanPostProcessor 在 Bean 创建过程中生成 AOP 代理对象，从而实现日志记录、权限校验和声明式事务等功能。
 
 
-- **IoC：容器管理 + BeanDefinition + 反射 + 依赖注入。**
-- **AOP：动态代理（JDK / CGLIB）+ BeanPostProcessor。**
+
+1. IoC（控制反转）：将传统上由程序代码直接操控的**对象创建和依赖关系**的控制权转移给容器，由容器负责**对象的生命周期和依赖关系管理**。实现方式是依赖注入 DI。
+   [[Bean的生命周期]]
+
+2. AOP（面向切面编程）：作用是把那些与业务无关、却为业务模块所共同调用的逻辑封装起来，减少系统的重复代码，降低模块间的耦合度。允许开发者在不修改源代码的情况下，对业务方法进行增强。
+
+3. AOP 的实现原理：Spring AOP 基于动态代理实现。
+	a. 当目标类实现了至少一个接口时，Spring 使用 JDK 动态代理，生成一个实现相同接口的代理类，通过 InvocationHandler 拦截方法调用，并织入增强逻辑。
+	b. 当目标类没有实现接口时，Spring 使用 CGLIB 代理，生成目标类的子类作为代理，通过重写方法实现增强。CGLIB 在运行时动态生成字节码，效率较高，但无法对 final 方法进行代理。

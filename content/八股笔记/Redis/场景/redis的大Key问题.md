@@ -21,7 +21,7 @@ Redis 不同数据类型的大 Key 表现不同：
 
 ---
 
-## **二、Big Key 有什么危害？⭐⭐⭐⭐⭐**
+## **二、Big Key 有什么危害？**
 
 主要有四个问题。
 
@@ -45,7 +45,7 @@ Redis 不同数据类型的大 Key 表现不同：
 
 ---
 
-## **三、如何发现 Big Key？⭐⭐⭐⭐⭐**
+## 三、如何发现 Big Key
 
 ### **① redis-cli --bigkeys**
 
@@ -65,8 +65,7 @@ Redis 提供了一个很方便的工具 `redis-cli --bigkeys`，它会扫描数�
 
 ---
 
-## **四、如何解决 Big Key？⭐⭐⭐⭐⭐**
-
+## 四、如何解决 Big Key？
 ### **① 拆分 Big Key**
 
 这是最常用的方法。假设一个 Hash `users` 保存了 `user1`、`user2` …… `user1000000` 共 100 万个用户的信息，可以拆分为 `users:0`、`users:1`、`users:2` …… `users:99` 这 100 个 Key，每个 Key 只存储一部分数据。

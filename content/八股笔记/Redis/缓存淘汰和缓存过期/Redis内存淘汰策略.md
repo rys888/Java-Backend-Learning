@@ -10,16 +10,15 @@ Redis 的内存淘汰策略，说的是内存用到 `maxmemory` 上限之后，R
 
 **volatile**：只从设置了过期时间的 Key 里挑。
 
-| 淘汰策略 | 含义 |
+| 淘汰策略                | 含义                           |
 | ------------------- | ---------------------------- |
-| **noeviction** | 不主动淘汰数据，内存不足时拒绝需要额外内存的写操作 |
-| **allkeys-lru** | 从所有 Key 中淘汰最近最少使用的 Key |
-| **volatile-lru** | 从设置了过期时间的 Key 中淘汰最近最少使用的 Key |
-| **allkeys-lfu** | 从所有 Key 中淘汰使用频率最低的 Key |
-| **volatile-lfu** | 从设置了过期时间的 Key 中淘汰使用频率最低的 Key |
-| **allkeys-random** | 从所有 Key 中随机淘汰 |
-| **volatile-random** | 从设置了过期时间的 Key 中随机淘汰 |
-| **volatile-ttl** | 优先淘汰剩余过期时间较短的 Key |
+| **allkeys-lru**     | 从所有 Key 中淘汰最近最少使用的 Key       |
+| **volatile-lru**    | 从设置了过期时间的 Key 中淘汰最近最少使用的 Key |
+| **allkeys-lfu**     | 从所有 Key 中淘汰使用频率最低的 Key       |
+| **volatile-lfu**    | 从设置了过期时间的 Key 中淘汰使用频率最低的 Key |
+| **allkeys-random**  | 从所有 Key 中随机淘汰                |
+| **volatile-random** | 从设置了过期时间的 Key 中随机淘汰          |
+| **volatile-ttl**    | 优先淘汰剩余过期时间较短的 Key            |
 
 其中 Redis 默认用的是 **noeviction**，也就是内存满了之后直接拒绝写操作。
 

@@ -19,6 +19,15 @@ title: "Spring"
 重点：
 [[Mybatis里的]]
 
+[[IOC和AOP通过什么机制来实现]]
+[[SpringAOP的原理]]
+[[@Transactional注解在什么情况下会失效]]
+[[事务的隔离级别有哪些]]
+[[Spring的start如何定义]]  （记不住）
+SpringBoot 自动配置原理是什么，如何按需加载
+[[Bean的生命周期]] 🌟
+[[Spring三级缓存]]
+
 
 
 

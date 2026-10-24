@@ -17,3 +17,6 @@ Spring 容器中存的是什么：BeanDefinition，Bean 实例，相关元数据
 [[BeanFactory和ApplicationContext区别是什么]]
 .....太多了实在看不下去了
 
+[[@Transactional注解在什么情况下会失效]]
+[[Spring的start如何定义]]
+[[spring怎么使用事务]]

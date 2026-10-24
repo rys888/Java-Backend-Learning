@@ -197,7 +197,7 @@ A 还没有执行结束
 
 ---
 
-## **四、Redisson 如何实现分布式锁？
+## 四、Redisson 如何实现分布式锁？
 
 Redisson 是 Java 中常用的 Redis 客户端，提供了封装好的分布式锁。
 
