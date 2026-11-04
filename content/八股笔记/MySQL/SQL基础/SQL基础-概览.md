@@ -12,6 +12,7 @@ title: "SQL基础"
 [[mysql中的基本函数]]
 [[DELETE、TRUNCATE 和 DROP 有什么区别？]]
 [[MySQL和Redis区别]]
+[[INNER JOIN 和 LEFT JOIN 的主要区别]]
 
 
 

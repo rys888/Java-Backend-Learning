@@ -4,3 +4,5 @@
 - Spring Boot 提供了快速的项目启动器，通过引入不同的 Starter，可以快速集成常用的框架和库（如数据库、消息队列、Web 开发等），极大地提高了开发效率。
  
 - Spring Boot 支持内嵌 Web 服务器，常见的 Servlet Web starter 默认使用 Tomcat，也可以按版本和依赖选择其他实现。应用可以打包成可执行 JAR，直接运行。
+
+[[SpringBoot核心原理]]

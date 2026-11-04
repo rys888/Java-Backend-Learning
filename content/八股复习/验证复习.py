@@ -77,7 +77,7 @@ class ReviewTest(unittest.TestCase):
         self.add('板块0', '新补题')
         next_state = self.run_day(24)
         self.assertFalse(set(next_state['rounds'][-1]['batches'][-1]['ids']) & set(ids))
-        self.assertTrue(any(next_state['catalog'][k]['title'] == '新补题' for k in next_state['rounds'][-1]['batches'][-1]['ids']))
+        self.assertFalse(any(next_state['catalog'][k]['title'] == '新补题' for k in next_state['rounds'][-1]['batches'][-1]['ids']))
         self.mark(24, ['java/八股复习/今日八股复习.md'])
         self.run_day(24)
         state = self.run_day(25)
@@ -90,6 +90,32 @@ class ReviewTest(unittest.TestCase):
         for item in state['catalog'].values():
             if item['active']:
                 self.assertTrue((self.vault / item['path']).is_file())
+
+    def test_new_topics_deferred_to_fixed_next_round(self):
+        state = self.run_day(23)
+        original = set(state['rounds'][0]['target_ids'])
+        self.add('板块0', '新增1')
+        self.run_day(24)
+        self.add('板块0', '新增2')
+        state = self.run_day(25)
+        self.assertEqual(len(state['rounds'][0]['batches'][-1]['ids']), 7)
+        self.assertEqual(set(state['rounds'][0]['target_ids']), original)
+        self.assertEqual(state['rounds'][0]['allocation_completed_on'], '2026-10-25')
+        self.add('板块0', '新增3')
+        self.config['daily_count'] = 10
+        review.write_json(self.base / '配置.json', self.config)
+        state = self.run_day(26)
+        self.assertEqual(state['rounds'][-1]['number'], 2)
+        self.assertEqual(len(state['rounds'][-1]['batches'][-1]['ids']), 10)
+        self.assertEqual(len(state['rounds'][-1]['target_ids']), 50)
+        self.assertFalse(state['rounds'][0]['batches'][0]['done'])
+        self.add('板块0', '下轮再入')
+        state = self.run_day(27)
+        self.assertEqual(len(state['rounds'][-1]['target_ids']), 50)
+        self.assertEqual(len(state['rounds'][-1]['batches'][-1]['ids']), 10)
+        ids = [k for batch in state['rounds'][-1]['batches'] for k in batch['ids']]
+        self.assertEqual(len(ids), len(set(ids)))
+        self.assertFalse(any(state['catalog'][k]['title'] == '下轮再入' for k in ids))
 
     def test_round_history_and_next_round(self):
         seen = set()
@@ -131,6 +157,22 @@ class ReviewTest(unittest.TestCase):
         self.assertFalse(next_batch['done'])
         self.assertNotIn('completed_on', state['rounds'][-1])
         self.assertEqual(sum(len(b['done']) for b in state['rounds'][-1]['batches']), 20)
+
+    def test_paused_preserves_files_and_resume_uses_ten(self):
+        self.run_day(23)
+        state_before = (self.base / '复习状态.json').read_bytes()
+        page_before = (self.base / '今日八股复习.md').read_bytes()
+        self.config.update(paused=True, daily_count=10)
+        review.write_json(self.base / '配置.json', self.config)
+        self.run_day(24)
+        self.assertEqual((self.base / '复习状态.json').read_bytes(), state_before)
+        self.assertEqual((self.base / '今日八股复习.md').read_bytes(), page_before)
+        self.assertFalse((self.base / '每日记录/2026-10-24.md').exists())
+        self.config['paused'] = False
+        review.write_json(self.base / '配置.json', self.config)
+        state = self.run_day(25)
+        self.assertEqual(len(state['rounds'][-1]['batches'][-1]['ids']), 10)
+        self.assertFalse((self.base / '每日记录/2026-10-24.md').exists())
 
     def test_daily_new_batch_without_completing_yesterday(self):
         first = self.run_day(23)

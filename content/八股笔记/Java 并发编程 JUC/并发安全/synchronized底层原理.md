@@ -685,7 +685,7 @@ Monitor同步机制
 
 `synchronized` 是 Java 提供的可重入互斥同步机制。线程进入 synchronized 保护的临界区之前，需要先获得对应对象的锁，其他使用同一把锁的线程无法同时进入该临界区。
 
-它的实现与 JVM 的 Monitor 机制有关。对于 synchronized 代码块，字节码层面会使用 `monitorenter` 和 `monitorexit` 来表示 monitor 的获取和释放；对于 synchronized 方法，则通过 `ACC_SYNCHRONIZED` 标志让 JVM 在调用方法时进行同步。
+它的实现与 JVM 的 Monitor 机制有关。对于 synchronized 代码块，**字节码层面**会使用 `monitorenter` 和 `monitorexit` 来表示 monitor 的获取和释放；对于 synchronized 方法，则通过 `ACC_SYNCHRONIZED` 标志让 JVM 在调用方法时进行同步。
 
 当一个线程持有锁时，其他竞争同一 monitor 的线程可能进入 BLOCKED 状态；持锁线程退出同步区域后释放锁，其他线程再参与竞争。synchronized 还是可重入锁，同一个线程已经获得锁之后可以再次进入由同一把锁保护的同步代码。
 

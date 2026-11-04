@@ -291,7 +291,7 @@ private OrderMapper orderMapper;
 
 依赖注入是 Spring 实现 IoC 的主要方式，指的是对象不需要自己创建依赖对象，而是由 Spring 容器负责创建和注入，从而降低对象之间的耦合度。
 
-Spring 主要支持构造器注入、Setter 注入和字段注入三种方式，其中实际开发更推荐构造器注入。
+Spring 主要支持**构造器注入、Setter 注入和字段注入**三种方式，其中实际开发更推荐构造器注入。
 
 从底层实现来看，Spring 首先通过组件扫描或配置解析 BeanDefinition，并将其注册到 BeanFactory 中（之前已经提到 BeanFactory 是一个 IOC 容器接口）。
 

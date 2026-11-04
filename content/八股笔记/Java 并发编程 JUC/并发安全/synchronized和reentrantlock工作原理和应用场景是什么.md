@@ -794,7 +794,7 @@ ReentrantLock 支持公平锁、非公平锁等；而 synchronized 只能是非�
 synchronized 自动释放；ReentrantLock 必须手动在 finally 块中调用 unlock()释放，否则可能死锁
 
 4.条件等待：
-synchronized 使用 wait()、notify()，只能有一个等待队列；ReentrantLock 可以创建多个 Condition 对象，实现更精细的等待
+synchronized **使用 wait()、notify()，只能有一个等待队列**；ReentrantLock 可以创建**多个 Condition 对象**，实现更精细的等待
 
 5.底层
 synchronized 通过字节码指令实现；ReentrantLock 通过 CAS 和 LockSupport 实现

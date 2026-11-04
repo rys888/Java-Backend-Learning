@@ -1,5 +1,5 @@
 {
-  "daily_count": 20,
+  "daily_count": 10,
   "vault": "../..",
   "source": "java/八股笔记",
   "review_records": ".obsidian/plugins/java-review-heatmap/data.json",
@@ -11,5 +11,6 @@
   ],
   "exclude": [
     "Spring/Mybatis/Mybatis里的 # 和 $ 的区别？.md"
-  ]
+  ],
+  "paused": false
 }

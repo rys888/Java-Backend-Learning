@@ -183,3 +183,4 @@ Spring Boot 自动配置的核心是 `@EnableAutoConfiguration` 和条件装配�
 例如引入 Redis Starter 后，Spring Boot 可以自动创建 RedisTemplate 等 Bean，我们直接注入使用即可。
 
 因此，自动配置的本质就是根据类路径、配置属性和容器中已有的 Bean，动态决定需要注册哪些 Bean。
+[[SpringBoot核心原理]]

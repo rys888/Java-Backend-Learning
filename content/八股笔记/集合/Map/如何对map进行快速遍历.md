@@ -1,5 +1,5 @@
-- 使用 for-each 循环和 entrySet()方法
-- 使用 for-each 循环和 keySet()方法
+- 使用 for-each 循环和 entrySet()方法：遍历值
+- 使用 for-each 循环和 keySet()方法：遍历键
 - 使用迭代器
 - 使用 Lambda 表达式和 forEach()方法
 - 使用 Stream API
@@ -175,7 +175,7 @@ while (iterator.hasNext()) {
 这样可以安全删除当前遍历到的元素。
 
 ---
-## **4. Lambda + `forEach()` **⭐⭐⭐⭐⭐**
+## **4. Lambda + `forEach()` ⭐⭐⭐⭐⭐**
 
 Java 8 之后非常简洁：
 

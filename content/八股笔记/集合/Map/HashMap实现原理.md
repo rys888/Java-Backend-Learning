@@ -1,4 +1,3 @@
-
 ## Q：
 
 HashMap 是基于哈希表实现的 Key-Value 数据结构。它会先获取 Key 的 hashCode，并经过扰动计算得到 hash，再通过 `(n - 1) & hash` 确定元素所在的桶位置。如果发生哈希冲突，会在同一个桶中进一步处理，并通过 hash 和 equals 判断 Key 是否相同。

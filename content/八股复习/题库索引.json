@@ -78,7 +78,7 @@
       "path": "java/八股笔记/Java 基础/Object/hashcode和equals方法关系.md",
       "title": "hashcode和equals方法关系",
       "section": "Java 基础",
-      "digest": "3de9bc2721c8cb526055320a67c41f622fdadeaed10a118c69c685eb546f930d",
+      "digest": "a28aef021803cb569ac124c78adb496b4ff0d22283c0d14618ce5ca2c35e59c4",
       "active": true
     },
     {
@@ -114,7 +114,7 @@
       "path": "java/八股笔记/Java 基础/反射/什么是反射.md",
       "title": "什么是反射",
       "section": "Java 基础",
-      "digest": "f8e3110575f9b7ebfff25ff135770e43e9da812196c40f699b7f052d42de6ceb",
+      "digest": "2351a99565f50f2b2cb8fef962e119c55c319673a2a401ec1b49b72008633f8b",
       "active": true
     },
     {
@@ -123,7 +123,7 @@
       "path": "java/八股笔记/Java 基础/反射/反射.md",
       "title": "反射",
       "section": "Java 基础",
-      "digest": "6b2752515e4e5e0b3399f1c3d79ab23b7320386c650f5cd4c17cbd90d7b9c95e",
+      "digest": "5a0d79baf1e0bae44cdcc96a72e1d6bf95142cfaa29f4ea81de20f360b72b4ea",
       "active": true
     },
     {
@@ -132,7 +132,7 @@
       "path": "java/八股笔记/Java 基础/反射/反射在你的代码中和框架中应用有多少？.md",
       "title": "反射在你的代码中和框架中应用有多少？",
       "section": "Java 基础",
-      "digest": "e35dd55de12e1a78d4f5e78cfcd49986d572252eee7c7dc0ba94066b9dbbc94f",
+      "digest": "25cc229a063e0b66780e503a9fb35bba1c994416d925d8efed5e4b878df96ecd",
       "active": true
     },
     {
@@ -195,7 +195,7 @@
       "path": "java/八股笔记/Java 基础/概念/JVM JDK JRE.md",
       "title": "JVM JDK JRE",
       "section": "Java 基础",
-      "digest": "70d1709c9411bfb3d5b8499ee915742f6f21eb98952e1259d88957923aa9e5b5",
+      "digest": "64fd283c3d3b21870227155033373319b02227e1997b57a9a7ba08633fa5fa3f",
       "active": true
     },
     {
@@ -204,7 +204,7 @@
       "path": "java/八股笔记/Java 基础/概念/JVM是什么.md",
       "title": "JVM是什么",
       "section": "Java 基础",
-      "digest": "57c89178aa507d2c9316bedb487f8fa8631f9ed0dd2093cfd7431b564d284612",
+      "digest": "f0ff4ac1fdf8c1abcda3b5f4d32c582ce9fdd89c5743508911c26b8fb0796b2b",
       "active": true
     },
     {
@@ -222,7 +222,7 @@
       "path": "java/八股笔记/Java 基础/概念/Java解释和编译型语言都算.md",
       "title": "Java解释和编译型语言都算",
       "section": "Java 基础",
-      "digest": "a413420d001288f46d85d2cb7b6f7adbd3fcaf14c720b3405e3c6ac8f7bbbd6a",
+      "digest": "ca05e2c33291de4898d506cadc18dcbb1c89783d644286bfb6fb0e2a08f3a361",
       "active": true
     },
     {
@@ -231,7 +231,7 @@
       "path": "java/八股笔记/Java 基础/概念/java特点.md",
       "title": "java特点",
       "section": "Java 基础",
-      "digest": "677aec589d03c7b3ffddf94fc06ecfff3fcedf02543ff2650d2cfa2295f3b16c",
+      "digest": "23cf1d3bd001f66fe6409fc835e8403433b2b035b3833be129b1648fe63bbd53",
       "active": true
     },
     {
@@ -294,7 +294,7 @@
       "path": "java/八股笔记/Java 基础/面向对象/抽象类和接口.md",
       "title": "抽象类和接口",
       "section": "Java 基础",
-      "digest": "086c1549a3d9754202627f1143b62264b287f699d825b1509874c2a6f70360d4",
+      "digest": "8c6453e26005db4824bd3c954678fe0c08390eda54d8e8c3c38121f69c52c72e",
       "active": true
     },
     {
@@ -393,7 +393,7 @@
       "path": "java/八股笔记/Java 并发编程 JUC/多线程/线程创建方式有哪些（特别是线程池），怎么启动线程，怎么停止一个线程.md",
       "title": "线程创建方式有哪些（特别是线程池），怎么启动线程，怎么停止一个线程",
       "section": "Java 并发编程 JUC",
-      "digest": "c7e4ecf30cc3d818079cd1cc41a6fb7a8df096d9a80984b594c0158575140c81",
+      "digest": "6f3c9362ca005fb8e9e65f64c2eb37bc484cf9c412910a01a79b90cd26b195a0",
       "active": true
     },
     {
@@ -456,7 +456,7 @@
       "path": "java/八股笔记/Java 并发编程 JUC/并发安全/synchronized和reentrantlock工作原理和应用场景是什么.md",
       "title": "synchronized和reentrantlock工作原理和应用场景是什么",
       "section": "Java 并发编程 JUC",
-      "digest": "552f1591c97cdb434c1fc12c766f75f86fecaf5772dc4c3bd5ae6fcc910618ff",
+      "digest": "4ad761a19fa6d3c2c4a02c147b34687f2b2718de928b1388ddca79d1b15497b3",
       "active": true
     },
     {
@@ -465,7 +465,7 @@
       "path": "java/八股笔记/Java 并发编程 JUC/并发安全/synchronized底层原理.md",
       "title": "synchronized底层原理",
       "section": "Java 并发编程 JUC",
-      "digest": "b68e103c05b2e2f69c4326a75eeed77f72827769c9652fc2f0fddd91a5afce71",
+      "digest": "047486fb2b79501a7b8b79361715a30bbb3191fda204fa25321a6867008f616a",
       "active": true
     },
     {
@@ -618,7 +618,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/内存结构/JVM的内存结构.md",
       "title": "JVM的内存结构",
       "section": "Java虚拟机 JVM",
-      "digest": "4c4994f04767c316420769f52dfcb949bfdffcc90f8e6618a1d3fed8d1396023",
+      "digest": "630a4572afb38f88483af9d9582378abe25f90f6206c006de6439121469a024d",
       "active": true
     },
     {
@@ -645,7 +645,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/内存结构/内存溢出（OOM）可能发生在哪些区域.md",
       "title": "内存溢出（OOM）可能发生在哪些区域",
       "section": "Java虚拟机 JVM",
-      "digest": "39fecab65de217584a63bd2756fa4383552d9c601aa2d301e1c9b974eed4e814",
+      "digest": "ccbcac8b502ff0880d2e02438e60ada8fcf817a177f1f48285eab1949e2d981d",
       "active": true
     },
     {
@@ -654,7 +654,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/内存结构/引用类型有哪些？有什么区别？.md",
       "title": "引用类型有哪些？有什么区别？",
       "section": "Java虚拟机 JVM",
-      "digest": "89b99d0ec46f311c3990083efe342c16d2d602165a15c4d084fa99e67cfceeff",
+      "digest": "309bd973f3dee4a92bbc24e999310cd89db034a3885927df41643e6b288dad06",
       "active": true
     },
     {
@@ -690,7 +690,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/垃圾回收/G1回收器的特色是什么.md",
       "title": "G1回收器的特色是什么",
       "section": "Java虚拟机 JVM",
-      "digest": "5a9100f208d4d7430b2b94eea4f04daa8061b66f996b3537c55eb2e905741e91",
+      "digest": "3b13cbe0ccdb27f1ea1e12e543019c88bc7bf8a46873d57dacfec31c2f22b1f7",
       "active": true
     },
     {
@@ -735,7 +735,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/垃圾回收/什么是安全点，为什么GC要等线程到安全点.md",
       "title": "什么是安全点，为什么GC要等线程到安全点",
       "section": "Java虚拟机 JVM",
-      "digest": "6399328b1f68d01818943d20e7732420f02c55d9fbe1fad19cfe498b127cd99a",
+      "digest": "c911b9c26db996bcb61fa4d0de9b2c51a37777c8bca48a82ee212ab1242a1149",
       "active": true
     },
     {
@@ -780,7 +780,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/垃圾回收/系统频繁发生Full GC，如何排查.md",
       "title": "系统频繁发生Full GC，如何排查",
       "section": "Java虚拟机 JVM",
-      "digest": "d2c4a2526482fef8aa635e1f1ec2fd940616d3bff5e57c3b51e5ef2fc04eb101",
+      "digest": "1ee8b2b52646c4aa204642004f450422dfc1cee491c5ad71d9ad5611c1d3b5f7",
       "active": true
     },
     {
@@ -789,7 +789,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/执行与性能排查/JVM为什么既有解释器，又有JIT编译器.md",
       "title": "JVM为什么既有解释器，又有JIT编译器",
       "section": "Java虚拟机 JVM",
-      "digest": "543d23fc8e2d313996aca3cfc1a7856a0f19e538eb824dd677475d1490bda916",
+      "digest": "8bab8ed288dc1e22d61eff96644a5fa8706c08342370acf8681bfd17819c0bb6",
       "active": true
     },
     {
@@ -798,7 +798,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/执行与性能排查/JVM调优的参数有哪些.md",
       "title": "JVM调优的参数有哪些",
       "section": "Java虚拟机 JVM",
-      "digest": "3244bf097c3f6611860aefe441ddb7771549996454602139b9e9dbb8491329f5",
+      "digest": "786ccfd6669459503bd740b41627bf9b9246dca87e8f9c26b9926c9a282223da",
       "active": true
     },
     {
@@ -816,7 +816,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/类初始化和类加载/TLAB是什么？为什么能够提高对象分配效率？.md",
       "title": "TLAB是什么？为什么能够提高对象分配效率？",
       "section": "Java虚拟机 JVM",
-      "digest": "6b2159d94ab72a9923bbc102bda20209dd523b4a5daaae56b7abc1864ef3e61c",
+      "digest": "d67b5bf8b0c79ce5730fe700283c7488c3686fe200796c9febe42715ae41a957",
       "active": true
     },
     {
@@ -843,7 +843,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/类初始化和类加载/类加载过程.md",
       "title": "类加载过程",
       "section": "Java虚拟机 JVM",
-      "digest": "60080acf9f76fe8aca16987f10b39bca87251e4f6ebff42b1096a3a6cc40773e",
+      "digest": "109101cf22e08ef8c5070f4fb80b09830a82b266121e85b304dec35b6f21bdd8",
       "active": true
     },
     {
@@ -924,7 +924,7 @@
       "path": "java/八股笔记/MySQL/SQL基础/如何用MySQL实现可重入锁.md",
       "title": "如何用MySQL实现可重入锁",
       "section": "MySQL",
-      "digest": "f96f5c79755c0e57eedd23923833301dd2afb377ba1af046c2bb9238090491ac",
+      "digest": "20294465d4d2afc7dc598eec1f87a68b6af6864abd47080ac5f4ca28a57b2435",
       "active": true
     },
     {
@@ -933,7 +933,7 @@
       "path": "java/八股笔记/MySQL/事务/MVCC 是怎么用 Read View 来实现可重复读的.md",
       "title": "MVCC 是怎么用 Read View 来实现可重复读的",
       "section": "MySQL",
-      "digest": "37a8ac74cbc179da31a01b94d277699bad7907c6e1723f0106f59c4d8cebfd16",
+      "digest": "d472773c76259f5dd60ff9e35301134b7f1bdfe36cd9ea8f1c052bf14109405c",
       "active": true
     },
     {
@@ -969,7 +969,7 @@
       "path": "java/八股笔记/MySQL/事务/事务的隔离级别有哪些.md",
       "title": "事务的隔离级别有哪些",
       "section": "MySQL",
-      "digest": "22d9a42764dd0c8f0c0fdc625813961f2164c9afaba08c00b5d6cb08afa8e25a",
+      "digest": "8e65e96e587a374e13e57b800fe5548aa8013512acb66ed286f9f4d9dd07113b",
       "active": true
     },
     {
@@ -996,7 +996,7 @@
       "path": "java/八股笔记/MySQL/存储引擎/执行一条SQL请求的过程.md",
       "title": "执行一条SQL请求的过程",
       "section": "MySQL",
-      "digest": "e544901d731888c7f7c7b8a01450ed43ec733aab34983148f402e15428d7af02",
+      "digest": "ce71ca6004e53c717ce3c5e7cad4bf17262aa8107627ca04f68485fca2273a56",
       "active": true
     },
     {
@@ -1011,10 +1011,10 @@
     {
       "first_seen": "2026-10-23",
       "new": false,
-      "path": "java/八股笔记/MySQL/性能调优/给一张表，发现查询很慢，有什么解决办法.md",
-      "title": "给一张表，发现查询很慢，有什么解决办法",
+      "path": "java/八股笔记/MySQL/性能调优/慢查询解决方法.md",
+      "title": "慢查询解决方法",
       "section": "MySQL",
-      "digest": "77e8944f0ec84526b39db3db966c73a507064f12e485bd8382f6c0355a3b89f5",
+      "digest": "66f684e1cedfa8c5349bcfc6f4b253687a34a01b37a22c6fa0eeee7d833e304c",
       "active": true
     },
     {
@@ -1023,7 +1023,7 @@
       "path": "java/八股笔记/MySQL/日志/update语句的具体执行过程是怎么样的.md",
       "title": "update语句的具体执行过程是怎么样的",
       "section": "MySQL",
-      "digest": "e4824b0365bb45b74327663b0efe10b43f694487168ec61a5231bfd6fe2874d3",
+      "digest": "1d7487cb44c63c7375c33beba3cd01ea73843cc734b06213451775be6b7f53c4",
       "active": true
     },
     {
@@ -1086,7 +1086,7 @@
       "path": "java/八股笔记/MySQL/索引/B+树特性.md",
       "title": "B+树特性",
       "section": "MySQL",
-      "digest": "8b802a0847472e5f253178f04373b3e2593e56e0990fbc2a517f54ab1125e0cf",
+      "digest": "ebe711b91391acaba31d156a9e68673f1335887afc4a2a83c71075b22aeebf67",
       "active": true
     },
     {
@@ -1185,7 +1185,7 @@
       "path": "java/八股笔记/MySQL/锁/MySQL为什么会死锁.md",
       "title": "MySQL为什么会死锁",
       "section": "MySQL",
-      "digest": "ffba48a8b5245e6fa921f3c63343a634d072670689131b0593bde6f669b65577",
+      "digest": "df91e2ed2768c6f82f2cef8315a132c04d423f14562f03f1d1396010d50c8a6c",
       "active": true
     },
     {
@@ -1248,7 +1248,7 @@
       "path": "java/八股笔记/Redis/场景/redis怎么实现限流.md",
       "title": "redis怎么实现限流",
       "section": "Redis",
-      "digest": "83359e86dc9a96de778c82992430dd6d1a739a9faf814eac40d50ca843b0db18",
+      "digest": "7601e13d557d7b7d4fa4a5f186756115853d3461d1ad57fb21f9829a47b1eadf",
       "active": true
     },
     {
@@ -1275,7 +1275,7 @@
       "path": "java/八股笔记/Redis/场景/如何保证redis和mysql数据缓存一致性.md",
       "title": "如何保证redis和mysql数据缓存一致性",
       "section": "Redis",
-      "digest": "8224bea67ea1c948b1b906a5be692e31a860eb2485b884646d8d6ae3224ca265",
+      "digest": "23b077415b4b9a905cb186f6c2d1dc93418d8db532c25a1295e8fa85baab648a",
       "active": true
     },
     {
@@ -1320,7 +1320,7 @@
       "path": "java/八股笔记/Redis/数据结构/Redis常见5种数据类型的底层实现.md",
       "title": "Redis常见5种数据类型的底层实现",
       "section": "Redis",
-      "digest": "b9899d09724ca85199578cff97ec5a885f7e8c330c506ed1aa413f5c81702211",
+      "digest": "969d493ff014c048fc37f2bda1e419dbde571e245d91b071fe56d5fde9038b31",
       "active": true
     },
     {
@@ -1365,7 +1365,7 @@
       "path": "java/八股笔记/Redis/数据结构/哈希表是什么，怎么扩容.md",
       "title": "哈希表是什么，怎么扩容",
       "section": "Redis",
-      "digest": "74bf6db4c492d3b9be3a072f0ccd32d47c2696b446bc6aea5a1c35b41e7a8950",
+      "digest": "09e2befcb3e8327c1b88b847a8326e2a6761f2e7944fb27f90e46c3d49ad5abe",
       "active": true
     },
     {
@@ -1419,7 +1419,7 @@
       "path": "java/八股笔记/Redis/集群/Redis主从同步中的增量和完全同步怎么实现？.md",
       "title": "Redis主从同步中的增量和完全同步怎么实现？",
       "section": "Redis",
-      "digest": "ff840c0ed4151e03c079f84ee2dec6ecf0ceac8add179befc2e00f93d6c189eb",
+      "digest": "c995843c81e04d8a6ac0df409bf860255064d953d0db6834f932b7045bcca163",
       "active": true
     },
     {
@@ -1428,7 +1428,7 @@
       "path": "java/八股笔记/Redis/集群/Redis哨兵机制.md",
       "title": "Redis哨兵机制",
       "section": "Redis",
-      "digest": "9e9bdcb3642bc614ef32d4cc3b69f27d3ea986e3aedd28df03fbefe711214c8a",
+      "digest": "0637a2e14baee7d293df6640044dc167045207f3365eade54147ace0e5bd5994",
       "active": true
     },
     {
@@ -1473,7 +1473,7 @@
       "path": "java/八股笔记/Spring/Spring/@Transactional注解在什么情况下会失效.md",
       "title": "@Transactional注解在什么情况下会失效",
       "section": "Spring",
-      "digest": "a25a241c06780434e562d7549e0408c477a0094901dcca62a5243f4979f2decb",
+      "digest": "0b3cd4ee85f893cdd81e5fef90be2caf23c4c155e763974a5ebb62d7bb5d3789",
       "active": true
     },
     {
@@ -1491,7 +1491,7 @@
       "path": "java/八股笔记/Spring/Spring/BeanFactory和ApplicationContext区别是什么.md",
       "title": "BeanFactory和ApplicationContext区别是什么",
       "section": "Spring",
-      "digest": "4da4670470a3ac26cc10319f16154b0399430673a55c28896ea3d80b82e7a258",
+      "digest": "7ae02283ef3092044c4ce85c05338baa9436eb5ab9d024cf3c834a3293593a5d",
       "active": true
     },
     {
@@ -1518,7 +1518,7 @@
       "path": "java/八股笔记/Spring/Spring/SpringAOP的原理.md",
       "title": "SpringAOP的原理",
       "section": "Spring",
-      "digest": "76b42a8fc1c548f3c1d00f420ccf75a21f313f3972feb7a19c40d6606b8effca",
+      "digest": "bd98a85aa41de98bfba254c296202904dec03e5bec16406be8a447fd44e1b8b7",
       "active": true
     },
     {
@@ -1581,7 +1581,7 @@
       "path": "java/八股笔记/Spring/Spring/依赖注入DI.md",
       "title": "依赖注入DI",
       "section": "Spring",
-      "digest": "37c264fb02bf18ab36c6f2fb098d424406aea431f838aa35eadf65b7d06f0ad5",
+      "digest": "1d18663f8f52e05d6f03e737834e988f2d148a7c5d134e0c7a291d6b7f5a8cc1",
       "active": true
     },
     {
@@ -1599,7 +1599,7 @@
       "path": "java/八股笔记/Spring/SpringBoot/SpringBoot自动配置原理.md",
       "title": "SpringBoot自动配置原理",
       "section": "Spring",
-      "digest": "2a859fce97b0a941fce7d0d82b39920b2da3deb6a7135524e323dfe65ce90d56",
+      "digest": "7ae5af268d81afd060b39d87aa9a994c88c757b709e30921b07d2d5a6f120b60",
       "active": true
     },
     {
@@ -1608,7 +1608,7 @@
       "path": "java/八股笔记/Spring/SpringBoot/springboot相比spring好在哪里.md",
       "title": "springboot相比spring好在哪里",
       "section": "Spring",
-      "digest": "1ecd18dde495ff92c28d736e4a26f44e62dd6dd0e9c349d1123b1e28e00ea2af",
+      "digest": "098b38fb70a5dfb6db4ddfd5421cc7d4f1d135fcaef2a6194ccc6fa1da466d36",
       "active": true
     },
     {
@@ -1680,7 +1680,7 @@
       "path": "java/八股笔记/消息队列/消息队列场景/消息丢失怎么解决.md",
       "title": "消息丢失怎么解决",
       "section": "消息队列",
-      "digest": "0fb3e293b3e13297b077f2a9fed66537fe6a74e5fc70be693be0aba249ff4177",
+      "digest": "1817aa373d202efe0ddb1f3a52eec29dfb732a4b0e0b5f43743fa50955615096",
       "active": true
     },
     {
@@ -1797,7 +1797,7 @@
       "path": "java/八股笔记/集合/Map/ConcurrentHashMap怎么实现的.md",
       "title": "ConcurrentHashMap怎么实现的",
       "section": "集合",
-      "digest": "cf2c8f4e8e1751676b55f4b650222734e7a9db1fd5b2834a9ef12a2d3032e133",
+      "digest": "34d3c48f4a853fdd5e7a9edf7dad3636f719a3cf6c4c347b7a82d66875b19a4b",
       "active": true
     },
     {
@@ -1851,7 +1851,7 @@
       "path": "java/八股笔记/集合/Map/HashMap链表发生转换后为什么不用平衡二叉树.md",
       "title": "HashMap链表发生转换后为什么不用平衡二叉树",
       "section": "集合",
-      "digest": "586e8e8e3f0a9aa0abe635bd0e28b2f79bba78121d8136db0813dcd8d46340df",
+      "digest": "fb621c85c7bb7b1e507894b66931e9a27bad6a36f5d61b6c6a07b524c5d27659",
       "active": true
     },
     {
@@ -1869,7 +1869,7 @@
       "path": "java/八股笔记/集合/Map/如何对map进行快速遍历.md",
       "title": "如何对map进行快速遍历",
       "section": "集合",
-      "digest": "449c79650049bd6d9bf15832167c255d80b5b609f6fd4c1de94122f211e66af4",
+      "digest": "66f81aca3d3938daadfac23d1508f85c9a087b1a9bce6b4840e2ad06840824c9",
       "active": true
     },
     {
@@ -1942,6 +1942,42 @@
       "title": "集合遍历的方法有哪些",
       "section": "集合",
       "digest": "292e0b066d3063d837beebcd4092be02bf8851e156ac48e34d9a1034c00928eb",
+      "active": true
+    },
+    {
+      "first_seen": "2026-10-25",
+      "new": true,
+      "path": "java/八股笔记/Spring/SpringMVC/DispatcherServlet有什么用？.md",
+      "title": "DispatcherServlet有什么用？",
+      "section": "Spring",
+      "digest": "bc1af4f157b6c22d713b914c5c36394139cc481590695c122891fb7a7625b901",
+      "active": true
+    },
+    {
+      "first_seen": "2026-10-26",
+      "new": true,
+      "path": "java/八股笔记/MySQL/SQL基础/INNER JOIN 和 LEFT JOIN 的主要区别.md",
+      "title": "INNER JOIN 和 LEFT JOIN 的主要区别",
+      "section": "MySQL",
+      "digest": "74747321467ed68a2630d7a5be96db7841429f44d6dccdf64997e8015a9405ef",
+      "active": true
+    },
+    {
+      "first_seen": "2026-11-02",
+      "new": true,
+      "path": "java/八股笔记/Redis/场景/Redis内存溢出.md",
+      "title": "Redis内存溢出",
+      "section": "Redis",
+      "digest": "d5995dc502a343757e827f918b18194a5030689ca0a942fc88e9ae7863be565c",
+      "active": true
+    },
+    {
+      "first_seen": "2026-11-03",
+      "new": true,
+      "path": "java/八股笔记/MySQL/锁/InnDB有哪些锁.md",
+      "title": "InnDB有哪些锁",
+      "section": "MySQL",
+      "digest": "b34ed1f5eb48caa879a23f87b70765f3a6b30383e13a4bdffcfc7b66da809a75",
       "active": true
     }
   ],
@@ -2111,6 +2147,10 @@
       "reason": "配置排除"
     },
     {
+      "path": "Spring/Mybatis/Mybatis里的 1.md",
+      "reason": "空白页"
+    },
+    {
       "path": "Spring/Spring/Spring.md",
       "reason": "目录页"
     },
@@ -2124,7 +2164,7 @@
     },
     {
       "path": "Spring/SpringMVC/SpringMVC.md",
-      "reason": "占位页"
+      "reason": "目录页"
     },
     {
       "path": "八股笔记.md",

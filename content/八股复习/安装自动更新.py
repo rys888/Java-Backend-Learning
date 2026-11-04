@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """安装或卸载当前用户的 macOS 每分钟更新任务；无需管理员权限。"""
 import argparse
+import json
 import os
 from pathlib import Path
 import plistlib
@@ -14,7 +15,16 @@ domain = 'gui/' + str(os.getuid())
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--uninstall', action='store_true')
 args = parser.parse_args()
+def set_paused(paused):
+    config_path = base / '配置.json'
+    config = json.loads(config_path.read_text(encoding='utf-8'))
+    config['paused'] = paused
+    temp = config_path.with_name(config_path.name + '.tmp')
+    temp.write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temp.replace(config_path)
+
 if args.uninstall:
+    set_paused(True)
     subprocess.run(['launchctl', 'bootout', domain + '/' + label], check=False)
     agent.unlink(missing_ok=True)
     print('已停止自动更新；复习内容和进度保留。')
@@ -36,5 +46,6 @@ else:
     status = subprocess.run(['launchctl', 'print', domain + '/' + label], capture_output=True)
     if status.returncode:
         subprocess.run(['launchctl', 'bootstrap', domain, str(agent)], check=True)
+    set_paused(False)
     subprocess.run(['launchctl', 'kickstart', domain + '/' + label], check=True)
     print('已启用每分钟更新：' + str(agent))

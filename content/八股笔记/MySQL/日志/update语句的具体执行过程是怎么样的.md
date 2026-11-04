@@ -83,6 +83,8 @@ Redo Log Prepare
 Redo Log Commit
 ```
 
+[[两阶段提交]]
+
 这里展示的是简化后的提交流程。
 
 **⑧ 释放锁，后续将脏页刷入磁盘**

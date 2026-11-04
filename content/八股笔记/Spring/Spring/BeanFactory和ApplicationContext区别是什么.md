@@ -282,7 +282,7 @@ ApplicationContext     ApplicationContext
 BeanFactory 和 ApplicationContext 都是 Spring IoC 容器的核心接口。
 
 BeanFactory 是最基础的容器接口，主要负责 Bean 的创建、依赖注入、生命周期管理以及 Bean 的获取。
-
+[[Bean的生命周期]]
 ApplicationContext 继承了 BeanFactory，并在此基础上扩展了国际化、事件发布、资源加载等功能，因此实际开发中通常使用 ApplicationContext。
 
 此外，两者在典型使用方式下的 Bean 创建时机也有所不同。BeanFactory 的具体加载行为取决于实现，而 ApplicationContext 通常会在容器刷新时提前实例化非懒加载的单例 Bean。

@@ -745,6 +745,1771 @@
       "id": "S-2e8f1cbfb199d502",
       "question_signature": "196cad8b78272834692ec389d87c573569b1c54503edca37db5b42457a0ea150",
       "collected_on": "2026-10-24"
+    },
+    {
+      "platform": "牛客",
+      "company_size": "未知",
+      "published_date": null,
+      "verification": "public_article_body_reviewed",
+      "verification_method": "本次Agent使用专用网页open工具实际读取公开原文正文；非搜索摘要，未绕过访问限制。",
+      "url": "https://www.nowcoder.com/discuss/943496145010020352",
+      "title": "健康160-JAVA开发实习生",
+      "company": "健康160",
+      "role": "Java开发实习生",
+      "author": "零微",
+      "published_display": "昨天13:17 已编辑",
+      "interview_date": null,
+      "date_evidence": "原文仅写9.18投递及当天电话面，未给年份；页面相对日期不可靠，不推算发布日期。",
+      "window_note": "发布日期和面试年份未知，作为日期质量受限补充，不能认证近30天。",
+      "selection_note": "仅选摘两道清晰技术问题；原文订单题存在歧义，未脑补成订单防重题；不为作者生成求职经历。",
+      "items": [
+        {
+          "question_id": "backend-locking-choices",
+          "raw_question": "详细说一说后端加锁。",
+          "locator": "正文：场景题之后的后端加锁提问（本次open正文L61）。"
+        },
+        {
+          "question_id": "database-types-relational-nosql",
+          "raw_question": "说一说数据库的类型",
+          "locator": "正文：后端加锁之后的数据库类型提问（本次open正文L63）。"
+        }
+      ],
+      "id": "S-8752e512316a810e",
+      "question_signature": "87af7e5393b7eb135e8ad88d6a2471753164d5bf23cc597c50d94765f49bc52c",
+      "collected_on": "2026-10-25"
+    },
+    {
+      "platform": "牛客",
+      "company_size": "未知",
+      "published_date": null,
+      "verification": "public_article_body_reviewed",
+      "verification_method": "本次Agent使用专用网页open工具实际读取公开原文正文；非搜索摘要，未绕过访问限制。",
+      "url": "https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f",
+      "title": "熙牛医疗 杭州java实习生 一面面经 2026.9.3",
+      "company": "熙牛医疗",
+      "role": "杭州Java实习生",
+      "author": "爱上语文_Agent开发版",
+      "published_display": "09-03 16:04 已编辑",
+      "interview_date": "2026-09-03",
+      "date_evidence": "标题明确2026.9.3作为面试日；页面发布栏只有月日，不把标题面试日充作发布日期。",
+      "window_note": "近30天合格来源不足，扩大到60天补充；标题面试日在采集日前52天，发布日期仍未知。",
+      "selection_note": "选摘集合、并发、事务和引用等7道技术问题；删除括号内作者答题自评，不引用其错误答案；其余个人经历等未采集。",
+      "items": [
+        {
+          "question_id": "hashmap-core-mechanism",
+          "raw_question": "讲一下HashMap",
+          "locator": "正文第3问L55。"
+        },
+        {
+          "question_id": "hashmap-resize-jdk8",
+          "raw_question": "HashMap的扩容原理",
+          "locator": "正文第4问L56。"
+        },
+        {
+          "question_id": "concurrenthashmap-jdk8-mechanism",
+          "raw_question": "讲一下ConcurrentHashMap",
+          "locator": "正文第5问L57。"
+        },
+        {
+          "question_id": "synchronized-versus-reentrantlock",
+          "raw_question": "说一下Synchronized和ReentrantLock的区别",
+          "locator": "正文第7问L59。"
+        },
+        {
+          "question_id": "mysql-transaction-acid",
+          "raw_question": "事务特性，然后如何实现这些特性的",
+          "locator": "正文第10问L62。"
+        },
+        {
+          "question_id": "mysql-mvcc-consistent-read",
+          "raw_question": "MVCC",
+          "locator": "正文第11问L63，原题为术语式提问，未补造其他原题。"
+        },
+        {
+          "question_id": "java-reference-strengths",
+          "raw_question": "你知道引用类型吗，就是哪些会被GC，哪些不会GC",
+          "locator": "正文第12问L64。"
+        }
+      ],
+      "id": "S-f00f95cd929aabc6",
+      "question_signature": "b0385cba8c012f18cd498263bcf0b0af334c58c57eb35e8a763dc04ab5a370c4",
+      "collected_on": "2026-10-25"
+    },
+    {
+      "platform": "牛客",
+      "company_size": "未知",
+      "published_date": null,
+      "verification": "public_article_body_reviewed",
+      "verification_method": "本次Agent使用专用网页open工具实际读取公开原文正文；非搜索摘要，未绕过访问限制。",
+      "url": "https://www.nowcoder.com/feed/main/detail/fd30324de36044c69ab16437026163d4",
+      "title": "华盛通JAVA实习生二面",
+      "company": "华盛通",
+      "role": "Java实习生（二面）",
+      "author": "贾斯汀luo",
+      "published_display": "10-14 15:37",
+      "interview_date": null,
+      "date_evidence": "页面只显示10-14 15:37，没有可证实年份；标题也无完整面试日。",
+      "window_note": "页面月日距本次日期接近，但缺年份，不能认证近30天，作为日期质量受限补充。",
+      "selection_note": "选摘9条技术原题并归为7道问题；序列化机制与用途、事务使用与回滚分别合并语义，同一面经同题仅计一次。自述经历、问题不完整的题不补造。公司规模未独立证实。",
+      "items": [
+        {
+          "question_id": "java-serialization-purpose",
+          "raw_question": "对象序列化是什么机制？",
+          "locator": "正文第8问L63。"
+        },
+        {
+          "question_id": "java-serialization-purpose",
+          "raw_question": "序列化有什么用？",
+          "locator": "正文第9问L64。"
+        },
+        {
+          "question_id": "springmvc-dispatcherservlet",
+          "raw_question": "DispatcherServlet 有什么用？",
+          "locator": "正文第18问L74。"
+        },
+        {
+          "question_id": "thread-interrupt-cooperative-cancel",
+          "raw_question": "interrupt 是干嘛用的？",
+          "locator": "正文第21问L78。"
+        },
+        {
+          "question_id": "hashmap-core-mechanism",
+          "raw_question": "HashMap 的数据结构是什么样的？",
+          "locator": "正文第23问L81。"
+        },
+        {
+          "question_id": "spring-declarative-transaction",
+          "raw_question": "Spring 的事务是怎么用的？",
+          "locator": "正文第36问L96。"
+        },
+        {
+          "question_id": "spring-declarative-transaction",
+          "raw_question": "什么情况下会回滚？",
+          "locator": "正文第38问L98。"
+        },
+        {
+          "question_id": "mysql-bplus-tree-index",
+          "raw_question": "索引内部是什么结构？B+ 树为什么快？",
+          "locator": "正文第41问L102。"
+        },
+        {
+          "question_id": "mysql-pagination-offset-keyset",
+          "raw_question": "MySQL 的分页查询？",
+          "locator": "正文第42问L103。"
+        }
+      ],
+      "id": "S-b1fc1e0c4557aade",
+      "question_signature": "c061450c685e959b4bbd86e69a5fb6e2bc2a146e2ff4df91101fe5763da2ab3c",
+      "collected_on": "2026-10-25"
+    },
+    {
+      "platform": "牛客",
+      "published_date": null,
+      "interview_date": null,
+      "verification": "public_article_body_reviewed",
+      "verification_method": "本次Agent用专用网页open工具实际读取公开原文正文；非搜索摘要，未绕过访问限制。",
+      "url": "https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06",
+      "title": "华盛通JAVA实习生面经",
+      "company": "华盛通",
+      "company_size": "未知",
+      "role": "Java实习生",
+      "author": "贾斯汀luo",
+      "published_display": "10-13 15:35 已编辑",
+      "date_evidence": "原文发布栏仅有月日和时间，缺年份，面试日期未明确，不推断为2026年。",
+      "window_note": "月日接近本轮采集日，但缺完整年份，不能认证近30天发布；作为日期受限的公开正文补充。",
+      "distinct_interview_evidence": "与已采华盛通JAVA实习生二面是不同原文URL：本篇10-13、五十多分钟，另一篇10-14、二面四十多分钟；题目和轮次内容不同，非同文换URL重采。",
+      "selection_note": "选摘JVM、网络、认证、Spring、MySQL、Redis和线程池的16条技术提问，归为12题；个人项目性能、RAG经历等不为用户编造，其他问题未采集。",
+      "items": [
+        {
+          "question_id": "g1-region-generations",
+          "raw_question": "G1 的内存分块情况？相对之前的新生代/老年代有什么改变？",
+          "locator": "正文JVM第3条，L56。"
+        },
+        {
+          "question_id": "https-tls-handshake",
+          "raw_question": "HTTP 和 HTTPS 的区别？",
+          "locator": "正文计算机网络第8问，L59。"
+        },
+        {
+          "question_id": "https-tls-handshake",
+          "raw_question": "TLS 的加解密过程？用什么算法加密、解密？",
+          "locator": "正文第9问，L60。"
+        },
+        {
+          "question_id": "websocket-versus-http",
+          "raw_question": "WebSocket 和普通 HTTP 有什么区别？",
+          "locator": "正文第10问，L61。"
+        },
+        {
+          "question_id": "jwt-structure-and-validation",
+          "raw_question": "JWT 是做什么的？",
+          "locator": "正文认证与会话第13问，L65。"
+        },
+        {
+          "question_id": "jwt-structure-and-validation",
+          "raw_question": "JWT 的 Token 包含多少段？",
+          "locator": "正文第16问，L68。"
+        },
+        {
+          "question_id": "spring-aop-concept",
+          "raw_question": "Spring 的 AOP 依赖什么实现？",
+          "locator": "正文Spring第17问，L70。"
+        },
+        {
+          "question_id": "java-dynamic-proxy-jdk-cglib",
+          "raw_question": "动态代理有哪几种？",
+          "locator": "正文第18问，L71。"
+        },
+        {
+          "question_id": "java-dynamic-proxy-jdk-cglib",
+          "raw_question": "JDK 动态代理和 CGLIB 有什么区别？",
+          "locator": "正文第19问，L72。"
+        },
+        {
+          "question_id": "spring-transaction-proxy-failure",
+          "raw_question": "@Transactional 什么情况下会失效？",
+          "locator": "正文第20问，L73。"
+        },
+        {
+          "question_id": "mysql-query-tuning-workflow",
+          "raw_question": "给你一个慢 SQL，怎么分析和解决？",
+          "locator": "正文MySQL第21问，L75。"
+        },
+        {
+          "question_id": "mysql-explain-plan-reading",
+          "raw_question": "explain 能得到什么信息？",
+          "locator": "正文第22问，L76。"
+        },
+        {
+          "question_id": "redis-lua-cluster-safety",
+          "raw_question": "集群模式下写 Lua 要注意什么？",
+          "locator": "正文Redis第25问，L80。"
+        },
+        {
+          "question_id": "thread-pool-configuration",
+          "raw_question": "线程池核心参数有哪些？",
+          "locator": "正文并发第31问，L87。"
+        },
+        {
+          "question_id": "thread-pool-submit-rejection",
+          "raw_question": "线程池的运行逻辑是什么？",
+          "locator": "正文第32问，L88。"
+        },
+        {
+          "question_id": "thread-pool-submit-rejection",
+          "raw_question": "拒绝策略有哪几种？",
+          "locator": "正文第33问，L89。"
+        }
+      ],
+      "id": "S-0cc1a8d6f7d711b5",
+      "question_signature": "ab9fd7509ad961d95fe6c5192c0bdccfe3e9dcbe5ade072baeaffdb25cf7cf50",
+      "collected_on": "2026-10-26"
+    },
+    {
+      "platform": "牛客",
+      "published_date": null,
+      "interview_date": null,
+      "verification": "public_article_body_reviewed",
+      "verification_method": "本次Agent用专用网页open工具实际读取公开原文正文；非搜索摘要，未绕过访问限制。",
+      "url": "https://www.nowcoder.com/feed/main/detail/3375e792921b46a0ae44aefae6fbcba3",
+      "title": "重庆小小小厂面试",
+      "company": "重庆某小厂（匿名）",
+      "company_size": "作者描述十几人，未独立核实",
+      "role": "实习（含Java技术题，具体职位名称未知）",
+      "author": "爱上语文_Agent开发版",
+      "published_display": "09-14 14:55",
+      "date_evidence": "发布栏无年份；正文用今天描述面试，不能据此推算完整面试日或发布日期。",
+      "window_note": "近30天来源不足后扩大60/90天候选检索发现；若年份为本年则月日在60天范围，但年份未经证实，仍保留未知。",
+      "selection_note": "仅选摘明确的单点登录题和Java商品分组平均值题；数据库经验为个人经历不代答，工资及评价不作为技术事实。公司未实名，不能误写为金蝶公司，原文只是描述金蝶软件二次开发业务。",
+      "items": [
+        {
+          "question_id": "single-sign-on-design",
+          "raw_question": "单点登录怎么做的",
+          "locator": "正文第2问，L55。"
+        },
+        {
+          "question_id": "java-group-average-price",
+          "raw_question": "一道Java题，一个List里面存了很多商品，商品有三个属性（名称、种类、价格），现在要求出每种商品的平均值。",
+          "locator": "正文第3问，L56；去除原作者括号中的作答思路，未增加题目约束。"
+        }
+      ],
+      "id": "S-f52fad175c961412",
+      "question_signature": "31e8a3e4bb35fb731ecd8c2887346571b08649a285ebf1b816629997a387ad6c",
+      "collected_on": "2026-10-26"
+    },
+    {
+      "platform": "牛客",
+      "published_date": null,
+      "interview_date": null,
+      "verification": "public_article_body_reviewed",
+      "verification_method": "本次Agent用专用网页open工具实际读取公开原文正文；非搜索摘要，未绕过访问限制。",
+      "url": "https://www.nowcoder.com/discuss/932329388496945152",
+      "title": "27届学院本Agent秋招（OC已拒）",
+      "company": "匿名公司",
+      "company_size": "未知",
+      "role": "Java后端（正文称实习，标题称秋招）",
+      "author": "她与Java皆是遗憾",
+      "published_display": "09-23 17:44",
+      "date_evidence": "发布栏缺年份；标题秋招与正文Java后端实习表述存在差异，均保留，不确定具体批次。",
+      "window_note": "扩大60天候选检索后的补充；完整发布日期与面试日期未知，不能认证近30天。",
+      "selection_note": "仅选摘第五节三道清晰Java/MySQL技术题；正文说明用户在换实习，标题称秋招，批次差异如实记录。未采个人AI教育平台、智能鼠标项目经历，不推断公司名称与规模。",
+      "items": [
+        {
+          "question_id": "java-overload-versus-override",
+          "raw_question": "Java 中，方法重载（Overload）和方法重写（Override）有什么区别？",
+          "locator": "正文第五节Java基础与MySQL第1问，L95。"
+        },
+        {
+          "question_id": "java-thread-creation",
+          "raw_question": "Java 中，如何创建一个新的线程？",
+          "locator": "正文第五节第2问，L96。"
+        },
+        {
+          "question_id": "mysql-inner-left-join",
+          "raw_question": "MySQL 中，INNER JOIN 和 LEFT JOIN 在查询结果集上有什么区别？",
+          "locator": "正文第五节第3问，L97。"
+        }
+      ],
+      "id": "S-d91e164d76dacfcc",
+      "question_signature": "054bf843aa22c5d66c4d04f9f8b5dfa5195061468f5cf112e0f37f21c56688be",
+      "collected_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/0da5ca7b308e49d985dd22aa5fe3a9fc",
+      "title": "南京某小厂java实习面经",
+      "company": "南京某小厂（匿名，作者自述）",
+      "company_size": "小厂（作者自述，未独立核实）",
+      "role": "Java后端开发实习生",
+      "author": "小猫盖浇西蓝花",
+      "published_display": "10-23 12:20",
+      "published_date": null,
+      "interview_date": null,
+      "platform": "牛客",
+      "verification": "public_article_body_reviewed",
+      "verification_method": "本次专用网页open实际读取canonical URL正文L44-L69；sourceSSR=post失败后打开正常公开原文成功，未绕过登录或验证码。",
+      "date_evidence": "发布栏未显示年份；不从搜索抓取日期推断发布日期。",
+      "window_note": "近30天候选，但完整年份无法核实，不认证为近30天发布。",
+      "selection_note": "只选摘3—7号技术题；不把作者项目模块、个人经历或性能改进数字套给用户。",
+      "items": [
+        {
+          "question_id": "redis-lua-stock-admission",
+          "raw_question": "简历里写用 Lua 脚本实现秒杀，为什么不直接用 MySQL 扣库存？",
+          "locator": "正文面试题第3题，L63。"
+        },
+        {
+          "question_id": "redis-lua-stock-admission",
+          "raw_question": "如果库存只有 1，两个用户同时请求你的 Lua 脚本，怎么保证只有一个人成功？",
+          "locator": "正文面试题第4题，L64；同篇与第3题归一为库存预扣机制，频次只计一次。"
+        },
+        {
+          "question_id": "mysql-conditional-stock-update",
+          "raw_question": "简历写了“条件更新扣减库存”，这个条件更新的 SQL 怎么写？",
+          "locator": "正文面试题第5题，L65。"
+        },
+        {
+          "question_id": "transactional-outbox-pattern",
+          "raw_question": "订单变更同事务写入本地消息表，为什么要多建一张消息表？",
+          "locator": "正文面试题第6题，L66。"
+        },
+        {
+          "question_id": "rag-query-pipeline",
+          "raw_question": "项目里的 Spring AI + RAG，用户提问之后，从收到问题到生成回答，完整经过哪些步骤？",
+          "locator": "正文面试题第7题，L67。"
+        }
+      ],
+      "id": "S-d222c33372ba2e20",
+      "question_signature": "1689897f32461b439b8d785c0934e7525742be157a6e412505e56578672798dc",
+      "collected_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/5083b0fbb75e480db6e8db2bbafc1195",
+      "title": "佛山宏旺 java实习生",
+      "company": "佛山宏旺（原文标题）",
+      "company_size": "未知",
+      "role": "Java实习生",
+      "author": "墨子Mozi",
+      "published_display": "09-10 17:23",
+      "published_date": null,
+      "interview_date": null,
+      "interview_display": "6.8（原文未给年份）",
+      "platform": "牛客",
+      "verification": "public_article_body_reviewed",
+      "verification_method": "本次专用网页open实际读取原文L44-L71；非搜索摘要。",
+      "date_evidence": "发布栏09-10缺年份，面试时间另写6.8；两者分开记录，均不推断年份。",
+      "window_note": "不足后扩大60/90天候选补充；按月日看发布较早、面试更早且年份未知，不能认证近30/60/90天。",
+      "selection_note": "选摘清晰Java/框架/SQL问题；RAG内容一词过于笼统、个人AI工具使用及项目介绍不补造。SQL并列追问与主问同篇计一次。",
+      "items": [
+        {
+          "question_id": "jvm-runtime-memory-areas",
+          "raw_question": "java的堆和栈区别",
+          "locator": "正文L57；复用历史JVM运行时内存区域答案。"
+        },
+        {
+          "question_id": "java-multithreading-workload-selection",
+          "raw_question": "多线程能提高速度",
+          "locator": "正文L58，保留作者问题表述，括号内作者作答不并入原题。"
+        },
+        {
+          "question_id": "java-multithreading-workload-selection",
+          "raw_question": "IO密集型和计算密集型哪个需要多线程",
+          "locator": "正文L59；同篇同归一问题计一次。"
+        },
+        {
+          "question_id": "os-thread-scheduling-unit",
+          "raw_question": "cpu执行的最小单位",
+          "locator": "正文L60；AI答案明确执行单位与调度单位的歧义。"
+        },
+        {
+          "question_id": "java-reflection-use-cases",
+          "raw_question": "反射了解吗，反射的场景",
+          "locator": "正文L62，括号内作者自评不并入原题。"
+        },
+        {
+          "question_id": "mybatis-mapper-execution",
+          "raw_question": "mybatis怎么实现的",
+          "locator": "正文L63。"
+        },
+        {
+          "question_id": "rpc-invocation-pipeline",
+          "raw_question": "rpc原理，为什么能像调用本地一样调用远程服务",
+          "locator": "正文L64。"
+        },
+        {
+          "question_id": "springmvc-dispatcherservlet",
+          "raw_question": "tomcat怎么路由请求到对应Controller啥的",
+          "locator": "正文L65；复用历史Servlet容器与Spring MVC处理链答案。"
+        },
+        {
+          "question_id": "mysql-group-sum-top-ties",
+          "raw_question": "sql语句，一个学生表，记录学生姓名，科目，分数。找到总分最高分的那个",
+          "locator": "正文L66；不编造原表字段名，AI答案给方法及明确假设。"
+        },
+        {
+          "question_id": "mysql-group-sum-top-ties",
+          "raw_question": "假如最高分有两个怎么解决",
+          "locator": "正文L67；同篇与前问归一为总分排名及并列处理，计一次。"
+        }
+      ],
+      "id": "S-4b799fd843f93030",
+      "question_signature": "269efb2f1887bc6c189b2e786f79383fa644ac2e90a3e7e856a3282c856d600d",
+      "collected_on": "2026-10-27"
+    },
+    {
+      "company": "北森",
+      "company_size": "未知",
+      "role": "客开实习生（实习转正，正文涉及Java开发）",
+      "platform": "牛客",
+      "title": "北森客开实习生(实习转正) 2026.10.13",
+      "author": "不上10k不改名",
+      "url": "https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e",
+      "published_date": null,
+      "published_display": "10-13 15:53 已编辑",
+      "published_date_evidence": {
+        "quote": "10-13 15:53 已编辑 门头沟学院 Java 发布于河南",
+        "locator": "web open turn10view0 L46，标题前发布栏",
+        "url": "https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e?sourceSSR=post",
+        "assessment": "发布栏缺年份，标题中的2026.10.13不作为发表年份证据。"
+      },
+      "interview_date": "2026-10-13",
+      "interview_date_evidence": {
+        "quote": "北森客开实习生(实习转正) 2026.10.13",
+        "locator": "web open turn10view0 L51，面经标题",
+        "assessment": "按面经标题日期记录面试日期，与发表日分开；正文无单独面试日期栏。"
+      },
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e?sourceSSR=post",
+        "tool": "CLI内置web search / open",
+        "tool_result": "turn8view1返回text/html共276行；turn10view0再次open显示作者、发布栏、标题及正文L52-L66，公开正文实际可读，无登录或付费阻断。",
+        "locator": "turn10view0 L44-L66",
+        "excerpts": [
+          {
+            "locator": "L59",
+            "quote": "8. 重载和重写的区别"
+          },
+          {
+            "locator": "L63",
+            "quote": "12. 冒泡排序怎么实现？有几层for 循环"
+          }
+        ]
+      },
+      "verification": "public_article_body_reviewed",
+      "verification_method": "实际open原文并按正文行号核查；搜索摘要未作为正文凭据。",
+      "window_note": "近30天优先候选，标题记面试2026-10-13；发表栏缺年份，不能认证为近30天发布。扩大60/90天后仍不足目标。",
+      "selection_note": "只摘录技术问句；未收录自我介绍、个人项目经历、ETL个人数据库选型与难点；不补造项目实现。作者取实际open署名，搜索结果旧署名不覆盖。",
+      "deduplication_note": "与sources.json全部20篇URL及现有原题对照，未发现同文或转载；所选7条映射7个不同规范题，同一复合原题的HashMap与ConcurrentHashMap是不同技术角度。",
+      "items": [
+        {
+          "raw_question": "Java的try-catch-finally，try里面有return finally还会执行吗？",
+          "question_id": "java-finally-return-semantics",
+          "locator": "原文编号正文 web open turn10view0 L58；仅选取问句；后续作者自评未并入题干。"
+        },
+        {
+          "raw_question": "重载和重写的区别",
+          "question_id": "java-overload-versus-override",
+          "locator": "原文编号正文 web open turn10view0 L59；"
+        },
+        {
+          "raw_question": "必考的HashMap，以及是否线程安全，还有ConcurrentHashMap",
+          "question_id": "hashmap-core-mechanism",
+          "locator": "原文编号正文 web open turn10view0 L60；复合原题保留；HashMap与ConcurrentHashMap分别映射不同角度。"
+        },
+        {
+          "raw_question": "必考的HashMap，以及是否线程安全，还有ConcurrentHashMap",
+          "question_id": "concurrenthashmap-jdk8-mechanism",
+          "locator": "原文编号正文 web open turn10view0 L60；同一复合原题中的ConcurrentHashMap角度。"
+        },
+        {
+          "raw_question": "synchronized和Lock的区别",
+          "question_id": "synchronized-versus-reentrantlock",
+          "locator": "原文编号正文 web open turn10view0 L61；原文后半明确重点比较ReentrantLock；作者关于继承关系的自评不并入题干。"
+        },
+        {
+          "raw_question": "斐波那契数算法有哪些解法？",
+          "question_id": "algorithm-fibonacci-methods",
+          "locator": "原文编号正文 web open turn10view0 L62；原文括号列迭代、递归、数学公式；未补造输入约束。"
+        },
+        {
+          "raw_question": "冒泡排序怎么实现？有几层for 循环",
+          "question_id": "algorithm-bubble-sort",
+          "locator": "原文编号正文 web open turn10view0 L63；"
+        }
+      ],
+      "id": "S-acc0ee181185ca00",
+      "question_signature": "56ddc73dd71854b3c705d5ad643f82027a629b7ea962a8733aec5b7290df216c",
+      "collected_on": "2026-10-28"
+    },
+    {
+      "company": "深圳市中科保泰科技有限公司",
+      "company_size": "未知（标题称小厂，未独立核实）",
+      "role": "Java实习",
+      "platform": "牛客",
+      "title": "26届 小厂java实习面经",
+      "author": "做梦都想做梦",
+      "url": "https://www.nowcoder.com/discuss/862367705284816896",
+      "published_date": null,
+      "published_display": "04-18 23:53 已编辑",
+      "published_date_evidence": {
+        "quote": "04-18 23:53 已编辑",
+        "locator": "turn0view0 L46 发布栏",
+        "assessment": "缺年份，发表日期未知，不据标题或抓取时间补年。"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/862367705284816896",
+        "tool": "Codex原生web search / open",
+        "tool_result": "turn0view0 返回text/html，公开原文正文可读，无登录/付费阻断；已阅读作者、日期、标题及正文。",
+        "locator": "turn0view0 L44-L84"
+      },
+      "verification": "public_article_body_reviewed",
+      "selection_note": "仅选摘下列后端技术问句；不收评论、推荐、个人经历或未明确条件题，不替作者或用户编造项目实现。",
+      "deduplication_note": "与既有21篇来源及本批其余文章逐篇对照；公司、作者、叙事与题目组合不同，未发现同文转载。",
+      "items": [
+        {
+          "raw_question": "Java八大基础类型",
+          "question_id": "java-primitive-wrappers",
+          "locator": "turn0view0 L57，正文技术问句选摘"
+        },
+        {
+          "raw_question": "ArrayList LinkList 区别",
+          "question_id": "arraylist-versus-linkedlist",
+          "locator": "turn0view0 L61，正文技术问句选摘"
+        },
+        {
+          "raw_question": "Aop切片概念",
+          "question_id": "spring-aop-concept",
+          "locator": "turn0view0 L62，正文技术问句选摘"
+        },
+        {
+          "raw_question": "mybatis \"#\" 和 $区别",
+          "question_id": "mybatis-hash-dollar-parameters",
+          "locator": "turn0view0 L63，原第7条前半，正文技术问句选摘"
+        },
+        {
+          "raw_question": "SpringBoot自动装配原理",
+          "question_id": "spring-boot-auto-configuration",
+          "locator": "turn0view0 L63，原第7条后半标8，正文技术问句选摘"
+        },
+        {
+          "raw_question": "mysql 索引优缺点",
+          "question_id": "mysql-index-benefits-costs",
+          "locator": "turn0view0 L64，正文技术问句选摘"
+        }
+      ],
+      "id": "S-1269d0500b32778a",
+      "question_signature": "92fb0f39591d5ac6e5c8ca3a670e63eb9e78cdb0a7ca87a53f9564c10bc82135",
+      "collected_on": "2026-10-29"
+    },
+    {
+      "company": "武汉众智鸿图",
+      "company_size": "未知（标题自述几百人小厂，未独立核实）",
+      "role": "Java实习",
+      "platform": "牛客",
+      "title": "几百人小厂Java实习面经 第50场面!",
+      "author": "匿名牛油",
+      "url": "https://www.nowcoder.com/feed/main/detail/a2476f1aebb84c9191ab53717464f55c",
+      "published_date": "2024-02-26",
+      "published_display": "2024-02-26 18:55 已编辑",
+      "published_date_evidence": {
+        "quote": "2024-02-26 18:55 已编辑",
+        "locator": "turn0view1 L48 发布栏",
+        "assessment": "保留页面已编辑显示，不推断面试日。"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/feed/main/detail/a2476f1aebb84c9191ab53717464f55c?sourceSSR=enterprise",
+        "tool": "Codex原生web search / open",
+        "tool_result": "turn0view1 返回text/html，公开原文正文可读，无登录/付费阻断；已阅读作者、日期、标题及正文。",
+        "locator": "turn0view1 L46-L73"
+      },
+      "verification": "public_article_body_reviewed",
+      "selection_note": "仅选摘下列后端技术问句；不收评论、推荐、个人经历或未明确条件题，不替作者或用户编造项目实现。",
+      "deduplication_note": "与既有21篇来源及本批其余文章逐篇对照；公司、作者、叙事与题目组合不同，未发现同文转载。",
+      "items": [
+        {
+          "raw_question": "Java里怎么用多线程",
+          "question_id": "java-thread-creation",
+          "locator": "turn0view1 L64，原第6题，正文技术问句选摘"
+        },
+        {
+          "raw_question": "建立索引要注意的地方",
+          "question_id": "mysql-index-types",
+          "locator": "turn0view1 L67，原第9题（括号为作者个人举例，不并入题干），正文技术问句选摘"
+        }
+      ],
+      "id": "S-468c6e753854a8f2",
+      "question_signature": "b41a47c3153c65e21115e1756270d4a08469f87a75bd2938936a3afb278d7c7e",
+      "collected_on": "2026-10-29"
+    },
+    {
+      "company": "极兔",
+      "company_size": "未知",
+      "role": "后端（级别未知，正文涉及Java）",
+      "platform": "牛客",
+      "title": "极兔后端一面",
+      "author": "歪waiy",
+      "url": "https://www.nowcoder.com/discuss/932663753219244032",
+      "published_date": null,
+      "published_display": "09-24 15:52",
+      "published_date_evidence": {
+        "quote": "09-24 15:52",
+        "locator": "turn0view2 L46 发布栏",
+        "assessment": "缺年份，发表日期未知，不据标题或抓取时间补年。"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/932663753219244032?sourceSSR=post",
+        "tool": "Codex原生web search / open",
+        "tool_result": "turn0view2 返回text/html，公开原文正文可读，无登录/付费阻断；已阅读作者、日期、标题及正文。",
+        "locator": "turn0view2 L44-L86"
+      },
+      "verification": "public_article_body_reviewed",
+      "selection_note": "仅选摘下列后端技术问句；不收评论、推荐、个人经历或未明确条件题，不替作者或用户编造项目实现。",
+      "deduplication_note": "与既有21篇来源及本批其余文章逐篇对照；公司、作者、叙事与题目组合不同，未发现同文转载。",
+      "items": [
+        {
+          "raw_question": "事务注解在什么情况下会失效吗？",
+          "question_id": "spring-transaction-proxy-failure",
+          "locator": "turn0view2 L65，原第7题，正文技术问句选摘"
+        },
+        {
+          "raw_question": "比如说现在有一个线程池，它的核心线程数是 5，最大线程数是 10，然后等待队列也是 10。这时候一下涌进来 30 个任务，每个任务执行都很慢。你能简单说一下，这 30 个任务在刚才那个线程池里执行的流程。",
+          "question_id": "thread-pool-submit-rejection",
+          "locator": "turn0view2 L67，原第8题，仅选技术场景，未收前置个人经历问句，正文技术问句选摘"
+        },
+        {
+          "raw_question": "JVM 内存区域划分",
+          "question_id": "jvm-runtime-memory-areas",
+          "locator": "turn0view2 L75，原第12题，正文技术问句选摘"
+        },
+        {
+          "raw_question": "现在有一张表， A 字段跟 B 字段设置了一个联合索引。但是写的时候没注意，写反了，先写的 B 等于，然后 and A 等于，这时候这个索引能生效吗？",
+          "question_id": "mysql-composite-equality-range",
+          "locator": "turn0view2 L76，原第13题，正文技术问句选摘"
+        },
+        {
+          "raw_question": "项目中出现慢查询的时候，你是怎么定位的？",
+          "question_id": "mysql-query-tuning-workflow",
+          "locator": "turn0view2 L86，原第18题；答案只讲排查方法，不编造个人经历，正文技术问句选摘"
+        }
+      ],
+      "id": "S-7f41046bbd048518",
+      "question_signature": "b539a70002401c7bb1d9361f37ea0960e417a5f5aed6c9a7f351d1b3e9e69e3d",
+      "collected_on": "2026-10-29"
+    },
+    {
+      "company": "用友金融",
+      "company_size": "未知",
+      "role": "后端（级别未知，正文涉及Java）",
+      "platform": "牛客",
+      "title": "用友金融一面",
+      "author": "选择困难症_uuid",
+      "url": "https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829",
+      "published_date": null,
+      "published_display": "10-10 15:19",
+      "published_date_evidence": {
+        "quote": "10-10 15:19",
+        "locator": "turn0view3 L46 发布栏",
+        "assessment": "缺年份，发表日期未知，不据标题或抓取时间补年。"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829?sourceSSR=post",
+        "tool": "Codex原生web search / open",
+        "tool_result": "turn0view3 返回text/html，公开原文正文可读，无登录/付费阻断；已阅读作者、日期、标题及正文。",
+        "locator": "turn0view3 L44-L66"
+      },
+      "verification": "public_article_body_reviewed",
+      "selection_note": "仅选摘下列后端技术问句；不收评论、推荐、个人经历或未明确条件题，不替作者或用户编造项目实现。",
+      "deduplication_note": "与既有21篇来源及本批其余文章逐篇对照；公司、作者、叙事与题目组合不同，未发现同文转载。",
+      "items": [
+        {
+          "raw_question": "ArrayList和LinkedList区别和使用场景",
+          "question_id": "arraylist-versus-linkedlist",
+          "locator": "turn0view3 L55，原第3题，正文技术问句选摘"
+        },
+        {
+          "raw_question": "acid讲一下",
+          "question_id": "mysql-transaction-acid",
+          "locator": "turn0view3 L56，原第4题，正文技术问句选摘"
+        },
+        {
+          "raw_question": "java的内存模型了解吗",
+          "question_id": "java-memory-model-happens-before",
+          "locator": "turn0view3 L61，原第9题，按JMM处理，不映射JVM内存区域，正文技术问句选摘"
+        },
+        {
+          "raw_question": "OOM了解吗,怎么排查",
+          "question_id": "jvm-oom-gc-troubleshooting",
+          "locator": "turn0view3 L64，原第12题，正文技术问句选摘"
+        }
+      ],
+      "id": "S-4f6acedbb7a540a9",
+      "question_signature": "279cf6fda042ad19f21a543bf6c34d7c8c2e4a6ffe386bb5e245b86be4e885ce",
+      "collected_on": "2026-10-29"
+    },
+    {
+      "company": "阿里菜鸟",
+      "company_size": "未知，未独立核实规模",
+      "role": "Java后端开发实习（标题及正文技术内容核实）",
+      "platform": "牛客",
+      "title": "阿里菜鸟实习Java一面面经",
+      "author": "Lamder",
+      "url": "https://www.nowcoder.com/discuss/353157949398917120",
+      "published_date": null,
+      "published_display": "2021-05-21 10:18 已编辑 门头沟学院 Java",
+      "published_date_evidence": {
+        "open_url": "https://www.nowcoder.com/discuss/353157949398917120",
+        "locator": "turn2view1 L46",
+        "page_text": "2021-05-21 10:18 已编辑 门头沟学院 Java",
+        "assessment": "完整日期为页面已编辑时间，不能证明首次发布日期，保守写null"
+      },
+      "interview_date": "2021-05-19",
+      "date_evidence": "正文L57明确2021年5月19日 19:30 - 20:43",
+      "body_evidence": {
+        "open_url": "https://www.nowcoder.com/discuss/353157949398917120",
+        "tool": "web.run open",
+        "tool_result": "turn2view1，公开HTML正文成功返回；L51-L110；总368行",
+        "locator": "L51-L110；总368行",
+        "review_summary": "正文有明确面试时间、通过结果和后端项目、Java并发、Spring与数据库连续问答，核实为亲历Java后端实习面经。"
+      },
+      "verification": "public_article_body_reviewed",
+      "selection_note": "仅选摘下列可定位技术原题；未收录个人经历、条件不完整题与原作者自评。",
+      "items": [
+        {
+          "raw_question": "Java 四种引用和区别？",
+          "locator": "turn2view1 L71",
+          "question_id": "java-reference-strengths"
+        },
+        {
+          "raw_question": "什么场景适合使用切面？",
+          "locator": "turn2view1 L73",
+          "question_id": "spring-aop-concept"
+        },
+        {
+          "raw_question": "HashMap 底层结构和原理？",
+          "locator": "turn2view1 L91",
+          "question_id": "hashmap-core-mechanism"
+        },
+        {
+          "raw_question": "Java 中 Class 文件的加载过程？",
+          "locator": "turn2view1 L95",
+          "question_id": "class-loading-process"
+        },
+        {
+          "raw_question": "ThreadLocal 的作用和实现原理？",
+          "locator": "turn2view1 L68",
+          "question_id": "threadlocal-scenarios-risks"
+        }
+      ],
+      "id": "S-a3d11737ce66e514",
+      "question_signature": "c4752252af48b1b4f6ce995c76efd45d6a61166b7430e7569cf5d6d531c44d50",
+      "collected_on": "2026-10-30"
+    },
+    {
+      "company": "神州信息",
+      "company_size": "未知，未独立核实规模",
+      "role": "Java后端开发实习（标题及正文技术内容核实）",
+      "platform": "牛客",
+      "title": "神州信息 java实习生面经（已offer）",
+      "author": "Gs1mple",
+      "url": "https://www.nowcoder.com/discuss/353159627783217152",
+      "published_date": null,
+      "published_display": "2022-05-15 20:18 已编辑 上海电力大学 C++",
+      "published_date_evidence": {
+        "open_url": "https://www.nowcoder.com/discuss/353159627783217152",
+        "locator": "turn4view0 L44",
+        "page_text": "2022-05-15 20:18 已编辑 上海电力大学 C++",
+        "assessment": "完整日期为页面已编辑时间，不能证明首次发布日期，保守写null"
+      },
+      "interview_date": null,
+      "date_evidence": "正文未明确可独立确定的面试日期，不使用编辑日期替代。",
+      "body_evidence": {
+        "open_url": "https://www.nowcoder.com/discuss/353159627783217152",
+        "tool": "web.run open",
+        "tool_result": "turn4view0，公开HTML正文成功返回；L49-L72；总379行",
+        "locator": "L49-L72；总379行",
+        "review_summary": "虽然作者标签为C++，标题与技术正文明确Java实习；叙述15分钟HR加技术、项目及后续测评，技术含Java类型、集合、超卖。"
+      },
+      "verification": "public_article_body_reviewed",
+      "selection_note": "仅选摘下列可定位技术原题；未收录个人经历、条件不完整题与原作者自评。",
+      "items": [
+        {
+          "raw_question": "Java基础数据类型",
+          "locator": "turn4view0 L58",
+          "question_id": "java-primitive-wrappers"
+        },
+        {
+          "raw_question": "final的理解",
+          "locator": "turn4view0 L59",
+          "question_id": "java-final-semantics"
+        },
+        {
+          "raw_question": "list,set,map的理解",
+          "locator": "turn4view0 L60",
+          "question_id": "java-list-set-map-contracts"
+        },
+        {
+          "raw_question": "介绍一下项目",
+          "locator": "web open turn0view1 L64（技术项目介绍；去除作者自评）",
+          "question_id": "project-technical-introduction"
+        },
+        {
+          "raw_question": "超卖如何解决",
+          "locator": "web open turn0view1 L65（去除作者自评）",
+          "question_id": "inventory-overselling-prevention"
+        }
+      ],
+      "id": "S-a6755f2b6cd19f37",
+      "question_signature": "2b6fde91a01f52594e7743956ad8a9545cf7da917c73958862e46e80e1b9bdd5",
+      "collected_on": "2026-10-30"
+    },
+    {
+      "company": "京东物流",
+      "company_size": "未知，未独立核实规模",
+      "role": "Java后端开发实习（标题及正文技术内容核实）",
+      "platform": "牛客",
+      "title": "京东物流java实习一面面经",
+      "author": "想做一名程序员好难",
+      "url": "https://www.nowcoder.com/discuss/353157644422684672",
+      "published_date": null,
+      "published_display": "2021-03-13 16:22 已编辑 中国地质大学（武汉） Java",
+      "published_date_evidence": {
+        "open_url": "https://www.nowcoder.com/discuss/353157644422684672",
+        "locator": "turn6view1 L46",
+        "page_text": "2021-03-13 16:22 已编辑 中国地质大学（武汉） Java",
+        "assessment": "完整日期为页面已编辑时间，不能证明首次发布日期，保守写null"
+      },
+      "interview_date": null,
+      "date_evidence": "正文未明确可独立确定的面试日期，不使用编辑日期替代。",
+      "body_evidence": {
+        "open_url": "https://www.nowcoder.com/discuss/353157644422684672",
+        "tool": "web.run open",
+        "tool_result": "turn6view1，公开HTML正文成功返回；L51-L83；总382行",
+        "locator": "L51-L83；总382行",
+        "review_summary": "正文叙述96分钟一面及实际问答和复盘，Java集合、并发、MyBatis、数据库与Redis构成后端技术内容。"
+      },
+      "verification": "public_article_body_reviewed",
+      "selection_note": "仅选摘下列可定位技术原题；未收录个人经历、条件不完整题与原作者自评。",
+      "items": [
+        {
+          "raw_question": "int和Integer区别？",
+          "locator": "turn6view1 L57",
+          "question_id": "java-primitive-wrappers"
+        },
+        {
+          "raw_question": "面向对象特征？",
+          "locator": "turn6view1 L60",
+          "question_id": "java-object-oriented-basics"
+        },
+        {
+          "raw_question": "ArrayList、LinkedList底层？",
+          "locator": "turn6view1 L66",
+          "question_id": "arraylist-versus-linkedlist"
+        },
+        {
+          "raw_question": "redis缓存与数据库的一致性问题？",
+          "locator": "turn6view1 L77",
+          "question_id": "cache-database-consistency"
+        },
+        {
+          "raw_question": "乐观锁与悲观锁？使用场景？乐观锁如何实现？",
+          "locator": "turn6view1 L81",
+          "question_id": "database-optimistic-pessimistic-lock"
+        }
+      ],
+      "id": "S-29b177fc2f328323",
+      "question_signature": "4bd8cbdf1d7693df53753ae84105a6294d2115f870e4bfac266f2562da14b919",
+      "collected_on": "2026-10-30"
+    },
+    {
+      "company": "美团",
+      "company_size": "未知，未独立核实规模",
+      "role": "Java后端开发实习（标题及正文技术内容核实）",
+      "platform": "牛客",
+      "title": "美团后台开发Java 实习面经",
+      "author": "泽110",
+      "url": "https://www.nowcoder.com/discuss/353156179603955712",
+      "published_date": null,
+      "published_display": "2020-03-20 16:37 已编辑 上海大学 测试工程师",
+      "published_date_evidence": {
+        "open_url": "https://www.nowcoder.com/discuss/353156179603955712?sourceSSR=subject",
+        "locator": "turn8view1 L46",
+        "page_text": "2020-03-20 16:37 已编辑 上海大学 测试工程师",
+        "assessment": "完整日期为页面已编辑时间，不能证明首次发布日期，保守写null"
+      },
+      "interview_date": null,
+      "date_evidence": "正文未明确可独立确定的面试日期，不使用编辑日期替代。",
+      "body_evidence": {
+        "open_url": "https://www.nowcoder.com/discuss/353156179603955712?sourceSSR=subject",
+        "tool": "web.run open",
+        "tool_result": "turn8view1，公开HTML正文成功返回；L51-L65；总297行",
+        "locator": "L51-L65；总297行",
+        "review_summary": "作者标签虽为测试工程师，正文明确第一次视频面试、Java商城后端项目及ThreadLocal、MySQL索引和锁问题，与标题Java后台实习一致。"
+      },
+      "verification": "public_article_body_reviewed",
+      "selection_note": "仅选摘下列可定位技术原题；未收录个人经历、条件不完整题与原作者自评。",
+      "items": [
+        {
+          "raw_question": "ThreadLocal 实现原理 作用",
+          "locator": "turn8view1 L58（仅合并空白）",
+          "question_id": "threadlocal-scenarios-risks"
+        },
+        {
+          "raw_question": "Mysql 乐观锁 悲观锁",
+          "locator": "turn8view1 L59",
+          "question_id": "database-optimistic-pessimistic-lock"
+        },
+        {
+          "raw_question": "Mysql的B+树结构",
+          "locator": "turn8view1 L60",
+          "question_id": "mysql-bplus-tree-index"
+        },
+        {
+          "raw_question": "编程题：手写一个栈实现",
+          "locator": "web open turn0view3 L55",
+          "question_id": "algorithm-stack-implementation"
+        },
+        {
+          "raw_question": "编程题：表达式求值利用栈",
+          "locator": "web open turn0view3 L56",
+          "question_id": "algorithm-expression-stack-evaluation"
+        },
+        {
+          "raw_question": "编程题：找到树中两个节点的最短路径",
+          "locator": "web open turn0view3 L57",
+          "question_id": "algorithm-tree-two-node-shortest-path"
+        },
+        {
+          "raw_question": "synchronize 以及锁的优化 轻量级锁 偏向锁 重量级锁",
+          "locator": "web open turn0view3 L61（仅合并空白，原文拼写保留）",
+          "question_id": "synchronized-lock-optimization-states"
+        },
+        {
+          "raw_question": "最近用Java做什么项目",
+          "locator": "web open turn0view3 L63（叙述式提问转录，原文：面试官问最近用Java 做什么项目）",
+          "question_id": "project-technical-introduction"
+        }
+      ],
+      "id": "S-f20d2659ebb4a260",
+      "question_signature": "3dafbbd49c74dbb18f9796122ed32723587bdef77cd1b4115de6d58464469aeb",
+      "collected_on": "2026-10-30"
+    },
+    {
+      "company": "贝壳",
+      "role": "Java开发实习生",
+      "platform": "牛客网",
+      "title": "贝壳Java实习一二面面经",
+      "author": "咸鱼咕咕咕",
+      "url": "https://www.nowcoder.com/discuss/353156432944111616",
+      "published_date": "2020-05-14",
+      "published_date_evidence": {
+        "text": "2020-05-14 14:48 已编辑",
+        "locator": "turn5view0 L46，作者下方时间；页面标已编辑，可能为编辑日期",
+        "url": "https://www.nowcoder.com/discuss/353156432944111616?sourceSSR=subject"
+      },
+      "interview_date": null,
+      "interview_date_evidence": {
+        "text": "一面(40min，5.13)；二面(40min，5.13)",
+        "locator": "turn5view0 L53、L79",
+        "reason": "正文未明示面试年份，不将发表年份自动充作面试年份"
+      },
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/353156432944111616?sourceSSR=subject",
+        "tool_result": "web.open turn5view0；text/html，353行，公开正文可读，无需登录",
+        "locator": "L51-L98；一面12条、二面9条完整正文",
+        "direction_evidence": "标题明确Java实习，两轮正文含JVM、Java跨平台、HashMap和ConcurrentHashMap及后端Redis/ES检索问题。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "JVM的内存模型，为什么这么设计？",
+          "locator": "turn5view0 L55；一面",
+          "question_id": "jvm-memory-layout-design"
+        },
+        {
+          "raw_question": "简单介绍垃圾回收",
+          "locator": "turn5view0 L57；一面",
+          "question_id": "gc-collection-mechanism"
+        },
+        {
+          "raw_question": "怎么判断对象已死？",
+          "locator": "turn5view0 L59；一面",
+          "question_id": "gc-collection-mechanism"
+        },
+        {
+          "raw_question": "GC Roots、根搜索算法、引用计数法的缺点",
+          "locator": "turn5view0 L61；一面",
+          "question_id": "gc-roots-reference-counting"
+        },
+        {
+          "raw_question": "volatile关键字，什么情况下不能重排序",
+          "locator": "turn5view0 L63；一面",
+          "question_id": "java-volatile-ordering"
+        },
+        {
+          "raw_question": "HashMap底层实现，什么适合扩容",
+          "locator": "turn5view0 L65；一面",
+          "question_id": "hashmap-core-mechanism"
+        },
+        {
+          "raw_question": "HashMap底层实现，什么适合扩容",
+          "locator": "turn5view0 L65；一面",
+          "question_id": "hashmap-resize-jdk8"
+        },
+        {
+          "raw_question": "ConcurrentHashMap的底层实现，在JDK1.7和1.8中的区别",
+          "locator": "turn5view0 L67；一面",
+          "question_id": "concurrenthashmap-jdk8-mechanism"
+        },
+        {
+          "raw_question": "Redis的基本数据类型，Zset的使用场景、底层实现、简介跳跃表",
+          "locator": "turn5view0 L69；一面",
+          "question_id": "redis-basic-data-types"
+        },
+        {
+          "raw_question": "Redis的基本数据类型，Zset的使用场景、底层实现、简介跳跃表",
+          "locator": "turn5view0 L69；一面",
+          "question_id": "redis-zset-skiplist"
+        },
+        {
+          "raw_question": "简介ES",
+          "locator": "turn5view0 L71；一面",
+          "question_id": "elasticsearch-basic-overview"
+        },
+        {
+          "raw_question": "数组的最长升序子序列",
+          "locator": "turn5view0 L73；一面",
+          "question_id": "algorithm-longest-increasing-subsequence"
+        },
+        {
+          "raw_question": "队列实现栈",
+          "locator": "turn5view0 L75；一面",
+          "question_id": "algorithm-queue-implements-stack"
+        },
+        {
+          "raw_question": "堆排序(简述)",
+          "locator": "turn5view0 L77；一面",
+          "question_id": "algorithm-heap-sort"
+        },
+        {
+          "raw_question": "Java是怎么实现一次编译，到处执行",
+          "locator": "turn5view0 L81；二面",
+          "question_id": "java-bytecode-portability"
+        },
+        {
+          "raw_question": "什么是倒排索引",
+          "locator": "turn5view0 L83；二面",
+          "question_id": "search-inverted-index"
+        },
+        {
+          "raw_question": "HashMap什么情况下扩容，怎么扩容",
+          "locator": "turn5view0 L85；二面",
+          "question_id": "hashmap-resize-jdk8"
+        },
+        {
+          "raw_question": "负载因子过大过小会怎么样？",
+          "locator": "turn5view0 L87；二面",
+          "question_id": "hashmap-load-factor-tradeoff"
+        },
+        {
+          "raw_question": "如果初始化一个HashMap时，指定长度为13，那底层的数组长度是多少？",
+          "locator": "turn5view0 L89；二面",
+          "question_id": "hashmap-initial-capacity-rounding"
+        },
+        {
+          "raw_question": "给定两个存储字符串的大文件，他们都不能全放进内存，怎么求共有字符串",
+          "locator": "turn5view0 L91；二面",
+          "question_id": "algorithm-large-file-common-strings"
+        },
+        {
+          "raw_question": "上述问题，文件中改为存储数字，怎么求共有的数字",
+          "locator": "turn5view0 L93；二面",
+          "question_id": "algorithm-large-file-common-numbers"
+        },
+        {
+          "raw_question": "一个数组中除了一个数字外其他的数字均出现了两次，怎么求这个这个数字如果出现三次呢(剑指offer原题)",
+          "locator": "turn5view0 L94；二面",
+          "question_id": "algorithm-single-number-frequency"
+        },
+        {
+          "raw_question": "二叉树的直径",
+          "locator": "turn5view0 L96；二面",
+          "question_id": "algorithm-binary-tree-diameter"
+        }
+      ],
+      "id": "S-94b1fc7e331c3d3c",
+      "question_signature": "44d838c7adae0a0ebdc5cbe6de16fef8c0c337d4ba89d426981833af73d133c5",
+      "collected_on": "2026-10-31"
+    },
+    {
+      "company": "用友",
+      "role": "Java开发实习生",
+      "platform": "牛客网",
+      "title": "用友 Java实习面经",
+      "author": "狸猫换offer",
+      "url": "https://www.nowcoder.com/discuss/784203612955090944",
+      "published_date": null,
+      "published_date_evidence": {
+        "text": "08-10 23:45",
+        "locator": "turn3view0 L46 作者栏时间",
+        "url": "https://www.nowcoder.com/discuss/784203612955090944"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/784203612955090944",
+        "tool_result": "web.open turn3view0；text/html，公开正文可读，无需登录阅读",
+        "locator": "turn3view0 L51-L62",
+        "direction_evidence": "正文记录面试十分钟、过几天oc，问题包括线程、AQS、项目并发、HTTP、TCP与Redis，确认Java后端。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "线程是什么，讲一下线程的好处",
+          "locator": "turn3view0 L53",
+          "question_id": "java-thread-definition-benefits"
+        },
+        {
+          "raw_question": "为什么要用线程池",
+          "locator": "turn3view0 L54",
+          "question_id": "thread-pool-benefits"
+        },
+        {
+          "raw_question": "介绍一下乐观锁，AQS是什么",
+          "locator": "turn3view0 L55",
+          "question_id": "optimistic-concurrency-control"
+        },
+        {
+          "raw_question": "介绍一下乐观锁，AQS是什么",
+          "locator": "turn3view0 L55",
+          "question_id": "aqs-synchronizer-framework"
+        },
+        {
+          "raw_question": "项目里怎么做到线程安全的",
+          "locator": "turn3view0 L56",
+          "question_id": "backend-locking-choices"
+        },
+        {
+          "raw_question": "http和https的区别是什么",
+          "locator": "turn3view0 L57",
+          "question_id": "https-tls-handshake"
+        },
+        {
+          "raw_question": "讲一下tcp和udp",
+          "locator": "turn3view0 L58",
+          "question_id": "tcp-versus-udp"
+        },
+        {
+          "raw_question": "redis缓存三兄弟",
+          "locator": "turn3view0 L60",
+          "question_id": "cache-penetration-breakdown-avalanche"
+        }
+      ],
+      "id": "S-4290dc148e813b79",
+      "question_signature": "1b6806e19a2b0c292afdf09bf972576cd48f0aee442c832eb90a456f5c7fb596",
+      "collected_on": "2026-11-01"
+    },
+    {
+      "company": "恒生电子",
+      "role": "Java开发实习生",
+      "platform": "牛客网",
+      "title": "恒生电子Java实习超短面经",
+      "author": "菜粥",
+      "url": "https://www.nowcoder.com/discuss/353156540611895296",
+      "published_date": "2020-06-27",
+      "published_date_evidence": {
+        "text": "2020-06-27 19:44 已编辑",
+        "locator": "turn7view0 L46 作者栏时间",
+        "url": "https://www.nowcoder.com/discuss/353156540611895296?sourceSSR=subject"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/353156540611895296?sourceSSR=subject",
+        "tool_result": "web.open turn7view0；text/html，公开正文可读，无需登录阅读",
+        "locator": "turn7view0 L51-L83",
+        "direction_evidence": "正文记录15分钟面试，涉及JVM、线程、反射、集合、MySQL事务查询及Redis，确认Java后端。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "Java虚拟机有了解吗？",
+          "locator": "turn7view0 L57",
+          "question_id": "jvm-basic-responsibility"
+        },
+        {
+          "raw_question": "JVM内存结构",
+          "locator": "turn7view0 L59",
+          "question_id": "jvm-runtime-memory-areas"
+        },
+        {
+          "raw_question": "启动线程的方式",
+          "locator": "turn7view0 L61",
+          "question_id": "java-thread-creation"
+        },
+        {
+          "raw_question": "线程池",
+          "locator": "turn7view0 L63",
+          "question_id": "thread-pool-configuration"
+        },
+        {
+          "raw_question": "多线程并发访问",
+          "locator": "turn7view0 L65",
+          "question_id": "backend-locking-choices"
+        },
+        {
+          "raw_question": "反射",
+          "locator": "turn7view0 L67",
+          "question_id": "java-reflection-use-cases"
+        },
+        {
+          "raw_question": "static关键字",
+          "locator": "turn7view0 L69",
+          "question_id": "java-static-semantics"
+        },
+        {
+          "raw_question": "Java集合",
+          "locator": "turn7view0 L71",
+          "question_id": "java-list-set-map-contracts"
+        },
+        {
+          "raw_question": "ArrayList和LinkedList",
+          "locator": "turn7view0 L73",
+          "question_id": "arraylist-versus-linkedlist"
+        },
+        {
+          "raw_question": "HashMap HashTable",
+          "locator": "turn7view0 L75",
+          "question_id": "hashmap-versus-hashtable"
+        },
+        {
+          "raw_question": "MySQL事务",
+          "locator": "turn7view0 L77",
+          "question_id": "mysql-transaction-acid"
+        },
+        {
+          "raw_question": "提高查询速度",
+          "locator": "turn7view0 L79",
+          "question_id": "mysql-query-tuning-workflow"
+        },
+        {
+          "raw_question": "Redis特点",
+          "locator": "turn7view0 L81",
+          "question_id": "redis-characteristics-tradeoffs"
+        }
+      ],
+      "id": "S-f6567501ecaadb14",
+      "question_signature": "64067dbeaa31f1f5f0895916394d01563f38abe37ab81025adc7952d565fdd41",
+      "collected_on": "2026-11-01"
+    },
+    {
+      "company": "匿名公司",
+      "role": "Java后端实习生",
+      "platform": "博客园",
+      "title": "Java 后端新手的第一次面试复盘",
+      "author": "路有所思",
+      "url": "https://www.cnblogs.com/thr-0103/p/18113538",
+      "published_date": "2024-04-03",
+      "published_date_evidence": {
+        "text": "posted @ 2024-04-03 21:25",
+        "locator": "turn6view0 L161",
+        "url": "https://www.cnblogs.com/thr-0103/p/18113538"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.cnblogs.com/thr-0103/p/18113538",
+        "tool_result": "web.open turn6view0；text/html，公开正文可读，无需登录阅读",
+        "locator": "turn6view0 L13-L158",
+        "direction_evidence": "L13明示昨天经历Java后端实习面试，L15-L19记录流程，L24-L101保留6组原题。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "你用过日志嘛？你个人有什么理解？如果说你写日志，你会有自己的一些习惯嘛？规范？",
+          "locator": "turn6view0 L26",
+          "question_id": "backend-logging-practices"
+        },
+        {
+          "raw_question": "使用过异常处理嘛？除了书本上的，你自己对于异常的理解呢？比如说抛出异常，期望程序在抛出异常时提供什么？",
+          "locator": "turn6view0 L37",
+          "question_id": "backend-exception-handling-design"
+        },
+        {
+          "raw_question": "你用的 mybatis-plus 是吧？你用过 mybatis 吗？对你来说有什么不同吗？为什么会选择 mybatis-plus？那你感觉 mybatis 有好的地方吗？",
+          "locator": "turn6view0 L50",
+          "question_id": "mybatis-plus-versus-mybatis"
+        },
+        {
+          "raw_question": "Java常被描述为哪种类型的语言？请解释Java的编译与执行流程，并讨论这种方式带来的主要好处是什么？",
+          "locator": "turn6view0 L63",
+          "question_id": "java-bytecode-portability"
+        },
+        {
+          "raw_question": "Java 还学了什么？高级的？比如说 并发、多线程？比如说多个线程处理一个变量会发生什么？",
+          "locator": "turn6view0 L76",
+          "question_id": "java-shared-variable-races"
+        },
+        {
+          "raw_question": "问一个计算机方面的知识，输入一个 url 地址，到你访问到会经过哪些过程？",
+          "locator": "turn6view0 L88",
+          "question_id": "web-url-request-lifecycle"
+        }
+      ],
+      "id": "S-db81dfb63438d713",
+      "question_signature": "d2805e9baa2135a8e8afcb09f41903c0e934682239a5b69e8a759cdf7c35125b",
+      "collected_on": "2026-11-02"
+    },
+    {
+      "company": "华为OD",
+      "role": "Java（级别未明示）",
+      "platform": "掘金",
+      "title": "纯干货-华为OD面经 [Java]",
+      "author": "香菇油菜",
+      "url": "https://juejin.cn/post/7370994785656668187",
+      "published_date": "2024-05-21",
+      "published_date_evidence": {
+        "text": "2024-05-21",
+        "locator": "turn6view1 L6",
+        "url": "https://juejin.cn/post/7370994785656668187"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://juejin.cn/post/7370994785656668187",
+        "tool_result": "web.open turn6view1；text/html，公开正文可读，无需登录阅读",
+        "locator": "turn6view1 L8-L49",
+        "direction_evidence": "正文按技术一面、二面、加面记录Java集合、锁、数据库、Redis与MQ，并记录主管面未通过结果。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "在过往的项目中你负责的什么",
+          "locator": "turn6view1 L10",
+          "question_id": "project-technical-introduction"
+        },
+        {
+          "raw_question": "遇到了什么困难？当时是如何解决的？还遇到过其他问题吗",
+          "locator": "turn6view1 L11",
+          "question_id": "project-technical-problem-solving"
+        },
+        {
+          "raw_question": "封装继承多态，说一说，以及应用",
+          "locator": "turn6view1 L12",
+          "question_id": "java-object-oriented-basics"
+        },
+        {
+          "raw_question": "平时会使用到的集合有哪些?",
+          "locator": "turn6view1 L13",
+          "question_id": "java-list-set-map-contracts"
+        },
+        {
+          "raw_question": "HashMap",
+          "locator": "turn6view1 L14",
+          "question_id": "hashmap-core-mechanism"
+        },
+        {
+          "raw_question": "多线程中如何使用的锁",
+          "locator": "turn6view1 L15",
+          "question_id": "backend-locking-choices"
+        },
+        {
+          "raw_question": "数据库分表是如何分的？",
+          "locator": "turn6view1 L19",
+          "question_id": "database-sharding-design"
+        },
+        {
+          "raw_question": "Redis内存溢出是如何定位解决的？",
+          "locator": "turn6view1 L20",
+          "question_id": "redis-memory-exhaustion-troubleshooting"
+        },
+        {
+          "raw_question": "MQ如何保证信息不丢失的？",
+          "locator": "turn6view1 L21",
+          "question_id": "mq-reliable-delivery"
+        },
+        {
+          "raw_question": "接口与抽象类的区别？",
+          "locator": "turn6view1 L22",
+          "question_id": "java-interface-versus-abstract-class"
+        },
+        {
+          "raw_question": "什么是死锁，如何减少这种情况的发生？",
+          "locator": "turn6view1 L24",
+          "question_id": "java-deadlock-prevention"
+        },
+        {
+          "raw_question": "常见的集合有哪些，哪些是线程安全的？",
+          "locator": "turn6view1 L25",
+          "question_id": "java-thread-safe-collections"
+        },
+        {
+          "raw_question": "面向对象的特征（封装继承多态）",
+          "locator": "turn6view1 L34",
+          "question_id": "java-object-oriented-basics"
+        },
+        {
+          "raw_question": "运行时异常和编译时异常",
+          "locator": "turn6view1 L35",
+          "question_id": "java-checked-unchecked-exceptions"
+        },
+        {
+          "raw_question": "创建线程的方式",
+          "locator": "turn6view1 L36",
+          "question_id": "java-thread-creation"
+        },
+        {
+          "raw_question": "如何优化的SQL",
+          "locator": "turn6view1 L37",
+          "question_id": "mysql-query-tuning-workflow"
+        }
+      ],
+      "id": "S-08a8c7e5a62f1aa8",
+      "question_signature": "97f47eaf249924d88361db608c7a3f5a51e8c84f8f3e769ba6e1f5042de6ca35",
+      "collected_on": "2026-11-02"
+    },
+    {
+      "company": "匿名（北京小厂）",
+      "role": "Java开发实习生",
+      "platform": "牛客",
+      "title": "北京小厂Java实习面经 oc",
+      "author": "卒获有所闻",
+      "url": "https://www.nowcoder.com/discuss/497888682959974400",
+      "published_date": null,
+      "published_date_evidence": {
+        "text": "2023-06-14 21:16 已编辑",
+        "locator": "turn2view0 L46",
+        "url": "https://www.nowcoder.com/discuss/497888682959974400?sourceSSR=subject",
+        "interpretation": "作者区标记已编辑，无法证明首次发表日，保留显示时间而不推断。"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/497888682959974400?sourceSSR=subject",
+        "tool_result": "CLI web.open turn2view0；text/html，返回可定位公开正文，无需登录阅读",
+        "locator": "turn2view0 L51-L76",
+        "direction_evidence": "正文按一面八股、二面聊天记录过程及获得offer；明确问Java集合、JVM、MySQL、Redis，可判定Java后端。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "java集合有哪些，分别讲讲，让我讲的好细",
+          "locator": "turn2view0 L56",
+          "question_id": "java-list-set-map-contracts"
+        },
+        {
+          "raw_question": "HashMap中get方法的原理",
+          "locator": "turn2view0 L57",
+          "question_id": "hashmap-core-mechanism"
+        },
+        {
+          "raw_question": "HashMap的扩容原理",
+          "locator": "turn2view0 L58",
+          "question_id": "hashmap-resize-jdk8"
+        },
+        {
+          "raw_question": "HashMap线程安全问题",
+          "locator": "turn2view0 L59",
+          "question_id": "hashmap-concurrent-modification-risks"
+        },
+        {
+          "raw_question": "HashMap的value能不能存null，key能不能为null",
+          "locator": "turn2view0 L60",
+          "question_id": "hashmap-null-key-value"
+        },
+        {
+          "raw_question": "Java中的异常有哪些",
+          "locator": "turn2view0 L61",
+          "question_id": "java-exception-hierarchy"
+        },
+        {
+          "raw_question": "JVM的类加载机制",
+          "locator": "turn2view0 L62",
+          "question_id": "class-loading-process"
+        },
+        {
+          "raw_question": "MySQL有哪些存储引擎",
+          "locator": "turn2view0 L63",
+          "question_id": "mysql-storage-engine-comparison"
+        },
+        {
+          "raw_question": "InnoDB有哪些锁",
+          "locator": "turn2view0 L64",
+          "question_id": "mysql-innodb-lock-types"
+        },
+        {
+          "raw_question": "事务的隔离级别",
+          "locator": "turn2view0 L65",
+          "question_id": "mysql-transaction-isolation-levels"
+        },
+        {
+          "raw_question": "Redis的主从、哨兵、切片有没有搭建过",
+          "locator": "turn2view0 L66",
+          "question_id": "redis-topology-deployment-discussion"
+        },
+        {
+          "raw_question": "挑一个项目介绍",
+          "locator": "turn2view0 L74",
+          "question_id": "project-technical-introduction"
+        }
+      ],
+      "id": "S-362e0430b8c654c6",
+      "question_signature": "65815cc7103fe73840a29d84ec6985fb78748550b7a96cdf6a2a20a70e61592f",
+      "collected_on": "2026-11-03"
+    },
+    {
+      "company": "浪潮",
+      "role": "Java开发暑期实习生",
+      "platform": "牛客",
+      "title": "浪潮暑期实习java开发面经",
+      "author": "以梦为驴儿",
+      "url": "https://www.nowcoder.com/discuss/353156399897190400",
+      "published_date": null,
+      "published_date_evidence": {
+        "text": "2020-05-11 21:06 已编辑",
+        "locator": "turn8view0 L46",
+        "url": "https://www.nowcoder.com/discuss/353156399897190400?toCommentId=6051869",
+        "interpretation": "作者区标记已编辑，无法证明首次发表日，保留显示时间而不推断。"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/353156399897190400?toCommentId=6051869",
+        "tool_result": "CLI web.open turn8view0；text/html，返回可定位公开正文，无需登录阅读",
+        "locator": "turn8view0 L51-L77",
+        "direction_evidence": "原文记录Java开发暑期实习的HR、视频技术面与OC，技术面明确项目多线程及Object通知机制。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "项目",
+          "locator": "turn8view0 L65",
+          "question_id": "project-technical-introduction"
+        },
+        {
+          "raw_question": "项目中的多线程怎么实现的",
+          "locator": "turn8view0 L67",
+          "question_id": "project-multithreading-implementation"
+        },
+        {
+          "raw_question": "Notify()和NotifyAll()的区别",
+          "locator": "turn8view0 L69",
+          "question_id": "java-notify-versus-notifyall"
+        }
+      ],
+      "id": "S-a4009f3844264049",
+      "question_signature": "13ec85fc112a3027b9d5e991690b69af6f2eb5432c4cdc736f52e9c724ff8ad9",
+      "collected_on": "2026-11-03"
+    },
+    {
+      "company": "阅文",
+      "role": "Java开发（校招）",
+      "platform": "牛客",
+      "title": "阅文面试结束，一共四面[Java]",
+      "author": "sleepy_bear",
+      "url": "https://www.nowcoder.com/discuss/353155938444058624",
+      "published_date": null,
+      "published_date_evidence": {
+        "text": "2019-11-27 11:31 已编辑",
+        "locator": "turn8view1 L46",
+        "url": "https://www.nowcoder.com/discuss/353155938444058624",
+        "interpretation": "作者区标记已编辑，无法证明首次发表日，保留显示时间而不推断。"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/353155938444058624",
+        "tool_result": "CLI web.open turn8view1；text/html，返回可定位公开正文，无需登录阅读",
+        "locator": "turn8view1 L51-L82",
+        "direction_evidence": "正文说明秋招补招的Java四面，明确Java在项目/实习中的技术运用与项目介绍；仅收这两项，不推断未提供的业务、框架或实现。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "在你的项目或者实习中，你是怎么运用 Java 的这些好处的。",
+          "locator": "turn8view1 L69",
+          "question_id": "project-java-language-benefits"
+        },
+        {
+          "raw_question": "简要地介绍一下你的项目。",
+          "locator": "turn8view1 L71",
+          "question_id": "project-technical-introduction"
+        }
+      ],
+      "id": "S-7c0a8772426df750",
+      "question_signature": "afaaef73e19060b63e7cf6a43080f3637bc5ada7b86142075ec5d59fa880997b",
+      "collected_on": "2026-11-03"
+    },
+    {
+      "company": "高德",
+      "role": "Java开发暑期实习（正文核实Java后端，未披露完整岗位名称）",
+      "platform": "牛客",
+      "title": "高德java一面面经",
+      "author": "同尘去",
+      "url": "https://www.nowcoder.com/discuss/868599400765874176",
+      "published_date": null,
+      "published_date_evidence": {
+        "text": "03-31 21:03 北京理工大学 Java 发布于北京",
+        "locator": "turn1view0 L44-L46",
+        "url": "https://www.nowcoder.com/discuss/868599400765874176",
+        "interpretation": "作者区缺年份，不从搜索时间、帖子ID或相对时间推断。"
+      },
+      "interview_date": null,
+      "body_evidence": {
+        "opened_url": "https://www.nowcoder.com/discuss/868599400765874176",
+        "tool_result": "CLI web.open turn1view0，text/html，共303行，公开正文可读；页面有登录入口但正文未受登录限制。",
+        "locator": "turn1view0 L51-L77",
+        "direction_evidence": "L53说明本人暑期实习第一面；L55明确回到Java部分；L56-L75覆盖Java集合、锁、ThreadLocal、Redis、MySQL与RocketMQ，核实为Java后端面经。"
+      },
+      "verification": "public_article_body_reviewed",
+      "items": [
+        {
+          "raw_question": "HashMap 的底层实现是什么？",
+          "locator": "turn1view0 L56",
+          "question_id": "hashmap-core-mechanism"
+        },
+        {
+          "raw_question": "是线程安全的吗？",
+          "locator": "turn1view0 L56",
+          "question_id": "hashmap-concurrent-modification-risks"
+        },
+        {
+          "raw_question": "HashMap 会有死循环问题吗？",
+          "locator": "turn1view0 L57",
+          "question_id": "hashmap-concurrent-modification-risks"
+        },
+        {
+          "raw_question": "如果要用线程安全的数据结构，有什么替代方案？",
+          "locator": "turn1view0 L58",
+          "question_id": "java-thread-safe-collections"
+        },
+        {
+          "raw_question": "synchronized 的底层实现大概是怎么样的？",
+          "locator": "turn1view0 L59",
+          "question_id": "synchronized-lock-optimization-states"
+        },
+        {
+          "raw_question": "线程锁锁的到底是什么？",
+          "locator": "turn1view0 L60",
+          "question_id": "java-monitor-lock-target"
+        },
+        {
+          "raw_question": "ThreadLocal 有了解吗？大概是怎么回事？",
+          "locator": "turn1view0 L61",
+          "question_id": "threadlocal-scenarios-risks"
+        },
+        {
+          "raw_question": "ThreadLocal 在什么场景下会用到？",
+          "locator": "turn1view0 L62",
+          "question_id": "threadlocal-scenarios-risks"
+        },
+        {
+          "raw_question": "在你的项目中，有用到 ThreadLocal 吗？",
+          "locator": "turn1view0 L63",
+          "question_id": "project-threadlocal-usage-evidence"
+        },
+        {
+          "raw_question": "Redis 常见的数据结构有哪些？",
+          "locator": "turn1view0 L64",
+          "question_id": "redis-basic-data-types"
+        },
+        {
+          "raw_question": "ZSet 和 Set 的底层实现有了解吗？",
+          "locator": "turn1view0 L65",
+          "question_id": "redis-set-zset-encoding-comparison"
+        },
+        {
+          "raw_question": "缓存雪崩、穿透、击穿分别是怎么回事？怎么解决？",
+          "locator": "turn1view0 L66",
+          "question_id": "cache-penetration-breakdown-avalanche"
+        },
+        {
+          "raw_question": "如何提高布隆过滤器的准确性，降低假阳性概率？",
+          "locator": "turn1view0 L67",
+          "question_id": "bloom-filter-false-positive-tuning"
+        },
+        {
+          "raw_question": "MySQL 执行一条 select count(*) 的关键节点有哪些？",
+          "locator": "turn1view0 L68",
+          "question_id": "mysql-count-execution-pipeline"
+        },
+        {
+          "raw_question": "常见的索引失效场景有哪些？",
+          "locator": "turn1view0 L69",
+          "question_id": "mysql-index-unusable-scenarios"
+        },
+        {
+          "raw_question": "like 查询一定会导致索引失效吗？",
+          "locator": "turn1view0 L70",
+          "question_id": "mysql-like-index-range"
+        },
+        {
+          "raw_question": "MySQL 的存储引擎有哪些？",
+          "locator": "turn1view0 L71",
+          "question_id": "mysql-storage-engine-comparison"
+        },
+        {
+          "raw_question": "存储引擎中索引是怎么存储的？",
+          "locator": "turn1view0 L72",
+          "question_id": "mysql-engine-index-storage"
+        },
+        {
+          "raw_question": "如何避免回表？",
+          "locator": "turn1view0 L73",
+          "question_id": "mysql-covering-index-avoid-lookup"
+        },
+        {
+          "raw_question": "RocketMQ 的架构由哪几部分组成？",
+          "locator": "turn1view0 L74",
+          "question_id": "rocketmq-architecture-components"
+        },
+        {
+          "raw_question": "你在项目中用它来做什么？",
+          "locator": "turn1view0 L74",
+          "question_id": "mq-business-use-cases"
+        },
+        {
+          "raw_question": "你在这个项目中用 RocketMQ 异步通知数据库更新的是什么内容？",
+          "locator": "turn1view0 L75",
+          "question_id": "project-mq-database-update-boundary"
+        }
+      ],
+      "id": "S-711e5df1fb2cb059",
+      "question_signature": "4b8a6a708329a8431484746d31c14dc9eba618bbd91e5afff10a6da8dccf26ee",
+      "collected_on": "2026-11-04"
     }
   ],
   "questions": {
@@ -1683,6 +3448,1096 @@
       "first_seen": "2026-10-24",
       "answer_origin": "AI参考答案",
       "revisions": []
+    },
+    "backend-locking-choices": {
+      "title": "后端如何选择并发控制方式",
+      "domain": "Java 并发与 JVM",
+      "answer": "先明确竞争的数据和作用范围。单进程内共享变量可用synchronized或ReentrantLock，跨实例共同修改数据库时，优先考虑原子条件更新、唯一约束或数据库行锁；确需协调跨节点任务时再评估分布式锁。选择时还要看事务边界、锁粒度、超时与死锁处理。加锁只能保护参与同一协议的访问，不能拿到锁就认为重复请求、远程调用失败和业务幂等都已解决。",
+      "version_scope": "",
+      "followups": [
+        {
+          "q": "为什么多实例不能只用synchronized保护数据库余额？",
+          "a": "监视器只协调当前JVM，另一实例仍可同时更新同一行。应让竞争请求在同一数据库约束或其他共享协调机制下竞争。"
+        }
+      ],
+      "project_note": "采云台预算扣减在同一条UPDATE中检查可用额度并增加used_amount，利用数据库原子更新及行锁处理多实例竞争，不依赖单个JVM的锁。它适合解释为什么余额判断与扣减必须一起执行；返还时的金额条件只保护总额不为负，并不能证明同一订单只返还一次，订单级幂等还要单独核实。",
+      "project_feature_ids": [
+        "C-BUDGET"
+      ],
+      "project_reviewed_shas": {
+        "caiyuntai": "6845e8b3e421b8b7504a93ccb3421c56ecff7b0e"
+      },
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "database-types-relational-nosql": {
+      "title": "常见数据库类型及适用场景",
+      "domain": "MySQL",
+      "answer": "常见分类包括关系型数据库和多种非关系型数据库。MySQL等关系型数据库以表、约束和事务组织数据，适合订单、账户等关联查询与一致性要求明确的业务；Redis偏向键值访问和丰富数据结构，文档库便于保存结构变化较多的文档，图数据库擅长关系遍历。应按访问模式、事务需求和维护成本选型，不能把非关系型简单理解为没有事务，也不能把数据库类别混同于MySQL存储引擎。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "hashmap-resize-jdk8": {
+      "title": "HashMap如何扩容",
+      "domain": "Java 基础与集合",
+      "answer": "以JDK 8为例，HashMap通常在元素数量超过容量乘负载因子的阈值时扩容，新桶数组一般扩大为原来的两倍。迁移节点时利用容量为二的幂这一特点，检查哈希值与旧容量对应的位，节点留在原位置或移动到原下标加旧容量的位置，不需要重新调用键的hashCode。扩容有分配和迁移成本，可按预计规模设置初始容量；这些规则并不使HashMap具备并发安全性。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "concurrenthashmap-jdk8-mechanism": {
+      "title": "ConcurrentHashMap如何保证并发安全",
+      "domain": "Java 并发与 JVM",
+      "answer": "以JDK 8为例，ConcurrentHashMap使用桶数组，冲突桶可为链表或树。空桶插入主要通过CAS竞争，非空桶更新会使用桶级同步，并配合可见性机制，使不同桶上的操作尽量并行；扩容时线程也可协助迁移。不能把JDK 7的Segment分段锁当成JDK 8实现。单次操作安全不代表先判断再写入的组合操作原子，应使用putIfAbsent、compute等合适接口，遍历和size也不能当成全表一致快照。",
+      "version_scope": "",
+      "followups": [
+        {
+          "q": "为什么不允许null键和值？",
+          "a": "可以避免并发读取时无法区分不存在映射与映射值为null的歧义，接口直接禁止这类输入。"
+        }
+      ],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "synchronized-versus-reentrantlock": {
+      "title": "synchronized与ReentrantLock的区别",
+      "domain": "Java 并发与 JVM",
+      "answer": "两者都支持互斥和可重入。synchronized由JVM管理监视器，退出同步块或异常离开时自动释放，使用简单；ReentrantLock需要在成功加锁后用finally解锁，但支持可中断获取、限时尝试及可选公平策略，还能创建多个Condition。公平锁并不保证线程调度的绝对先后，性能也要结合竞争情况测试。普通临界区可优先用简单方式，确有取消、超时或多条件等待需求时再选择显式锁。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mysql-mvcc-consistent-read": {
+      "title": "InnoDB的MVCC如何工作",
+      "domain": "MySQL",
+      "answer": "InnoDB通过行版本信息、undo日志中的历史版本和Read View实现多版本并发控制，让一致性读按可见性规则找到合适版本，减少读写互相阻塞。在读已提交级别，每次一致性读通常创建新的Read View；可重复读通常复用事务内首次一致性读建立的视图。更新和锁定读属于当前读，需要结合锁机制分析。MVCC不是复制整张表，也不意味着所有读都无锁，或能单独解决任何隔离级别下的幻读。",
+      "version_scope": "",
+      "followups": [
+        {
+          "q": "为什么长事务可能增加历史版本负担？",
+          "a": "仍活跃的旧Read View可能需要较早版本，影响undo历史清理，应关注事务持续时间和实际访问模式。"
+        }
+      ],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-reference-strengths": {
+      "title": "Java引用类型与垃圾回收",
+      "domain": "Java 并发与 JVM",
+      "answer": "通常区分强引用、软引用、弱引用和虚引用。对象若仍通过有效的强引用链从GC Roots可达，就不能当作垃圾回收；软引用对象在内存压力下可能被清理，弱引用不会阻止其所指对象被回收。虚引用的get始终返回null，常配合引用队列进行回收后的资源管理通知。具体回收时机由收集器决定，不能承诺一次GC必定回收；弱键也不代表容器里相关的强引用值会自动及时释放。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-serialization-purpose": {
+      "title": "对象序列化的机制与用途",
+      "domain": "Java 基础与集合",
+      "answer": "序列化是把对象所表示的数据按约定格式编码，供网络传输或持久化；反序列化再按格式恢复数据结构。Java原生对象流依赖Serializable等协议，可处理对象图；JSON和Protobuf则采用各自的数据模型与兼容规则，并不要求都实现Serializable。实际选型要看跨语言、体积、性能与版本演进。不能把所有序列化都等同于Java对象流，也应避免对不可信输入直接使用原生反序列化。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "springmvc-dispatcherservlet": {
+      "title": "DispatcherServlet的作用",
+      "domain": "Spring / Spring Boot / MyBatis",
+      "answer": "DispatcherServlet是Spring MVC的前端控制器，负责把Servlet容器交给它的请求接入MVC处理链。它通过HandlerMapping找到处理器，再由HandlerAdapter调用Controller；返回结果按配置交给视图解析器或消息转换器，例如将对象转换为JSON。异常也可进入相应解析器。Filter通常在Servlet层包围请求，MVC拦截器则处于MVC处理流程内；不能把DispatcherServlet本身等同于监听端口的HTTP服务器。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "thread-interrupt-cooperative-cancel": {
+      "title": "线程interrupt的作用",
+      "domain": "Java 并发与 JVM",
+      "answer": "interrupt是协作式中断请求，不是强制杀死线程。普通运行中的线程通常只是被设置中断标志，需要主动检查并退出；处于sleep、wait或join等可中断等待时，通常会抛出InterruptedException并清除中断标志。捕获异常后应按业务决定向上抛出、结束任务或恢复标志，不能无条件吞掉。部分阻塞操作有各自的中断规则，因此取消任务还要处理资源关闭和退出路径，不能只调用interrupt就认为任务已经停止。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mysql-bplus-tree-index": {
+      "title": "MySQL的B+树索引为什么快",
+      "domain": "MySQL",
+      "answer": "InnoDB常用B+树组织索引，节点按页存储、分支多，树通常较矮，查找只需访问较少层级的页；内部节点主要保存导航信息，叶子节点有序并支持相邻遍历，适合等值与范围查询。聚簇索引的叶子保存行数据，二级索引叶子通常保存主键，取非覆盖列可能需要回表。查询快还依赖选择性、缓存命中和执行计划，不能仅凭建了B+树就认定不会扫描大量记录。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mysql-pagination-offset-keyset": {
+      "title": "MySQL如何分页查询",
+      "domain": "MySQL",
+      "answer": "常见方式是配合稳定的ORDER BY使用LIMIT offset,count。偏移量较大时，即使只返回少量行，也可能先扫描并丢弃大量前置记录，深分页成本较高。连续翻页可考虑基于上页最后一个排序键的游标分页，并以唯一键打破排序值相同的情况，结合合适索引减少扫描。游标分页不便直接跳任意页；并发插入删除时也要明确展示一致性需求，不能只改LIMIT就保证页面永远无重复或遗漏。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-25",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "g1-region-generations": {
+      "title": "G1如何划分堆内存",
+      "domain": "Java 并发与 JVM",
+      "answer": "G1把堆划分为多个大小相同的Region，按需要把部分Region作为Eden、Survivor或老年代使用，因此仍然是分代收集，只是不再要求各代占据固定连续的大块区域。大对象还可能占用连续的专用Region。回收时通过复制整理，把存活对象迁移到其他Region，并按垃圾收益和暂停目标选择回收集合。暂停目标是优化目标而非绝对时限，不能认为启用G1就不再出现停顿或Full GC。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "https-tls-handshake": {
+      "title": "HTTP、HTTPS与TLS握手",
+      "domain": "计算机网络与操作系统",
+      "answer": "HTTPS通过TLS保护HTTP传输，提供身份认证、机密性和完整性。以常见TLS 1.3证书握手为例，双方协商参数，通常用ECDHE交换密钥材料、派生会话密钥，用RSA-PSS或ECDSA等签名完成身份验证，再用AES-GCM或ChaCha20-Poly1305等对称算法保护应用数据。还需校验证书信任链、域名和有效期；不能说全程公钥加密，也不能把旧版RSA密钥交换当成所有TLS版本通用流程。",
+      "version_scope": "",
+      "followups": [
+        {
+          "q": "HTTPS能保证业务接口没有漏洞吗？",
+          "a": "不能。它主要保护传输链路，业务权限、输入校验和终端安全仍需单独处理。"
+        }
+      ],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "websocket-versus-http": {
+      "title": "WebSocket与普通HTTP的区别",
+      "domain": "计算机网络与操作系统",
+      "answer": "普通HTTP围绕请求与响应交互，长连接只是允许复用底层连接，不等于服务端能随时主动推送任意消息。WebSocket常见实现通过HTTP/1.1 Upgrade建立连接后，使用自己的帧协议进行双向通信，适合聊天或实时协作；单向通知也可评估SSE。实际使用还要处理鉴权、心跳、断线重连和慢客户端，不能因为有持久连接就省略消息顺序、补发或业务确认机制。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "jwt-structure-and-validation": {
+      "title": "JWT的用途、结构与校验",
+      "domain": "Spring / Spring Boot / MyBatis",
+      "answer": "JWT可用于携带签名的身份声明。常见的签名JWT采用紧凑JWS表示，由Header、Payload和Signature三段组成；前两段只是编码，默认并不保密，所以不应放密码等敏感数据。服务端不能只解码就信任内容，还应校验签名、允许的算法、有效期及业务要求的签发者和受众。客户端按约定携带令牌，授权判断仍由服务端完成；若需要立即撤销，可结合服务端会话或名单机制。",
+      "version_scope": "",
+      "followups": [],
+      "project_note": "采云台登录后不仅签发JWT，还将令牌状态写入Redis白名单；请求拦截器同时检查JWT、白名单和员工状态，登出会删除白名单。因此项目不是完全无状态认证，可解释为什么签名有效也不代表一定允许继续访问。角色鉴权另由AOP处理，不能把令牌携带的身份与业务权限混为一谈。",
+      "project_feature_ids": [
+        "C-AUTH"
+      ],
+      "project_reviewed_shas": {
+        "caiyuntai": "6845e8b3e421b8b7504a93ccb3421c56ecff7b0e"
+      },
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-dynamic-proxy-jdk-cglib": {
+      "title": "JDK动态代理与CGLIB的区别",
+      "domain": "Spring / Spring Boot / MyBatis",
+      "answer": "JDK动态代理通常基于接口生成代理对象，通过InvocationHandler转发调用；CGLIB通过生成目标类的子类实现增强，因此不能靠子类重写增强final方法，也不能继承final类。Spring AOP可根据配置和目标类型选择实现，不能笼统说始终使用其中一种。无论哪种代理，普通同类内部直接调用都可能绕过代理增强；判断事务或切面是否生效，要看实际调用是否经过代理对象。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mysql-explain-plan-reading": {
+      "title": "EXPLAIN执行计划怎么看",
+      "domain": "MySQL",
+      "answer": "EXPLAIN主要观察优化器选择的访问路径。结合type判断访问方式，possible_keys和key区分候选与实际索引，key_len辅助分析索引使用情况，rows与filtered查看估计扫描和过滤规模，Extra了解覆盖索引、额外排序等信息。字段要联动分析，不能仅凭用了索引就断言高效；估计值也不是实际耗时。MySQL 8.0.18起提供EXPLAIN ANALYZE，会实际执行支持的查询并给出运行信息，生产使用前需评估开销。",
+      "version_scope": "",
+      "followups": [
+        {
+          "q": "Using filesort一定表示磁盘排序吗？",
+          "a": "不一定，它表示不能直接按所需索引顺序完成排序，具体是否落盘还取决于数据规模、内存及执行方式。"
+        }
+      ],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "single-sign-on-design": {
+      "title": "单点登录如何实现",
+      "domain": "项目设计与技术选型",
+      "answer": "单点登录要解决用户在多个业务系统间只认证一次的问题，可使用统一身份提供方和标准协议，例如OpenID Connect授权码流程。业务系统把用户引导到认证中心，认证完成后校验回调状态并交换、校验令牌，再建立自己的登录态；跨域时不能简单共享任意Cookie。还要设计令牌有效期、退出及撤销策略。JWT只是令牌的一种格式，给各系统发JWT不等于已经完成安全的单点登录。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-group-average-price": {
+      "title": "按商品种类计算平均价格",
+      "domain": "Java 基础与集合",
+      "answer": "遍历商品List，以种类为键维护累计金额和数量，最后对每组求平均值，时间复杂度为O(n)，额外空间与种类数有关。金额一般用BigDecimal按约定精度累加和除法，明确舍入方式，避免直接用浮点数造成价格误差；也可以用Stream分组配合自定义累计器。先约定空价格、空种类和空列表的处理规则，不要为每种商品反复扫描全表，也不应并行修改普通HashMap。",
+      "version_scope": "",
+      "followups": [
+        {
+          "q": "同组商品价格先除以总数再求和可以吗？",
+          "a": "不宜作为默认金额计算方式，逐项舍入可能累计误差。通常先汇总精确金额，再按组内数量统一除法和舍入。"
+        }
+      ],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-overload-versus-override": {
+      "title": "方法重载与重写的区别",
+      "domain": "Java 基础与集合",
+      "answer": "重载是在同一类或继承体系中使用相同方法名、不同参数列表，编译器根据声明类型和参数选择调用目标，不能只改变返回类型来重载。重写是子类对继承的实例方法提供兼容实现，调用时再按对象实际类型动态分派；返回类型需兼容，不能收紧访问权限或任意扩大受检异常范围。静态方法是隐藏而非实例方法重写，私有方法也不按普通重写规则参与动态分派。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mysql-inner-left-join": {
+      "title": "INNER JOIN与LEFT JOIN的结果差异",
+      "domain": "MySQL",
+      "answer": "INNER JOIN只保留满足连接条件的匹配行；LEFT JOIN除匹配行外，还保留左表未匹配的行，并把对应右表列补为NULL。一对多关系仍可能产生多行结果，不能理解为左连接永远与左表行数相同。右表筛选条件放在ON中或WHERE中可能改变结果：WHERE若要求右表列等于某值，通常会排除那些补NULL的未匹配行。应先明确是否需要保留左表记录，再决定条件位置。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-26",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "redis-lua-stock-admission": {
+      "title": "Lua库存预扣与MySQL扣库存如何取舍",
+      "domain": "Redis",
+      "answer": "Lua把库存检查和扣减放到Redis服务端一次执行，减少网络往返；同一节点上的脚本执行不被其他命令插入，库存为1时，先执行者扣成0，后执行者检查后失败。高并发场景可用它提前拦截无库存请求，减轻数据库压力，但MySQL条件更新本身也能防超卖。Redis预扣成功不等于订单落库成功，还需处理重复请求、异步落库失败补偿和对账；脚本运行报错也不代表自动回滚已执行的写操作。",
+      "version_scope": "",
+      "followups": [
+        {
+          "q": "Redis Cluster下多key脚本要注意什么？",
+          "a": "相关key须位于同一哈希槽，可设计一致的hash tag；脚本原子执行不解决跨节点或Redis与MySQL的事务一致性。"
+        }
+      ],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mysql-conditional-stock-update": {
+      "title": "如何用条件UPDATE防止库存扣成负数",
+      "domain": "MySQL",
+      "answer": "可用参数化SQL：UPDATE goods SET stock=stock-? WHERE id=? AND stock>=?，扣减数量必须为正数，两个数量参数一致。根据影响行数判断成功或库存不足，避免先普通查询再无条件扣减。InnoDB会对更新涉及的记录加锁，并发更新会按锁规则检查条件，因此库存不足的请求不能扣成负数；扣库存和写订单应置于同一数据库事务，业务异常须回滚。唯一业务号或唯一约束另行解决重复请求，不能把防超卖等同于幂等。",
+      "version_scope": "MySQL InnoDB。",
+      "followups": [
+        {
+          "q": "影响行数为0一定表示库存不足吗？",
+          "a": "也可能记录不存在或其他条件不满足；需要按业务约定区分，不能仅凭0编造原因。"
+        }
+      ],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "transactional-outbox-pattern": {
+      "title": "订单和本地消息表为何放在同一事务",
+      "domain": "RabbitMQ / 消息队列",
+      "answer": "本地消息表用于把订单变更与待发送事件一起写入同一数据库事务：提交时两者同时保存，回滚时都不生效，避免订单成功却没有可重试的消息记录。事务外由可靠投递任务读取消息，发送成功并确认后更新状态，失败按策略重试。它解决的是本地事务与消息投递之间的衔接，不是数据库和MQ天然组成一个原子事务；发送后更新状态前宕机可能导致重复投递，因此消费者还要按事件ID或业务唯一键幂等处理，并监控积压和最终失败。",
+      "version_scope": "",
+      "followups": [
+        {
+          "q": "收到MQ确认后才写消息表可以吗？",
+          "a": "会重新引入订单提交与消息记录分离的失败窗口。待发送事件应先和订单原子持久化，再在事务外投递。"
+        }
+      ],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "rag-query-pipeline": {
+      "title": "Spring AI与RAG的问答链路",
+      "domain": "项目设计与技术选型",
+      "answer": "先区分离线建库和在线问答：建库时解析文档、分块、生成向量并保存文本及来源；在线收到问题后做身份与权限校验，按需改写问题并生成查询向量，结合关键词或向量检索取回候选，过滤和重排后组装带上下文的提示词，再调用模型并返回答案与引用。Spring AI可提供模型、向量存储和检索链的集成能力，具体组件依所用版本配置。检索无证据时应说明不足，不能把模型生成内容冒充文档事实；还需控制上下文长度和超时。",
+      "version_scope": "Spring AI具体API依版本配置。",
+      "followups": [],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-multithreading-workload-selection": {
+      "title": "多线程是否更快及CPU与IO任务如何选线程数",
+      "domain": "Java 并发与 JVM",
+      "answer": "多线程不保证更快：并发是任务交错推进，并行才是在多个执行资源上同时计算。CPU密集任务通常把工作线程控制在可用CPU核数附近，再通过压测调整；线程过多会增加调度、锁竞争和缓存开销。IO密集任务有较多等待时间，可用更多线程覆盖等待，但仍受数据库连接数、远端限流和内存约束。Java 21虚拟线程适合大量阻塞式IO任务，也不会增加CPU算力或下游容量；最终应以吞吐、延迟和资源占用验证。",
+      "version_scope": "Java 21虚拟线程与平台线程区分。",
+      "followups": [],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "os-thread-scheduling-unit": {
+      "title": "CPU调度的基本单位是什么",
+      "domain": "计算机网络与操作系统",
+      "answer": "在通常的现代通用操作系统面试语境中，线程是CPU调度的基本单位，进程主要作为资源分配与隔离的单位。一个进程可含多个线程，线程共享进程地址空间，但各自有执行上下文和栈，内核调度可运行线程到CPU上执行。若问题说的是CPU“执行”的最小单位，需要先澄清它问调度单位还是机器指令，不能混为一谈；Java虚拟线程又由JVM调度到载体线程上，内核并非直接调度每个虚拟线程。",
+      "version_scope": "现代操作系统通常语境；虚拟线程边界另行说明。",
+      "followups": [],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-reflection-use-cases": {
+      "title": "Java反射的原理与应用场景",
+      "domain": "Java 基础与集合",
+      "answer": "反射是在运行时通过Class等对象获取类、字段、构造器和方法信息，并按权限规则创建实例或调用成员。常见场景包括依赖注入、对象映射、注解解析、测试框架和动态代理的调用分发，使框架不必为每种业务类写死处理逻辑。代价是额外运行开销、访问检查和对成员名称的运行时依赖，应缓存元数据并控制使用范围；反射不会自动让对象线程安全。Java 9后的模块封装也可能限制深反射，不能假定setAccessible永远可用。",
+      "version_scope": "Java 9+模块访问限制。",
+      "followups": [],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mybatis-mapper-execution": {
+      "title": "MyBatis如何从Mapper方法执行SQL",
+      "domain": "Spring / Spring Boot / MyBatis",
+      "answer": "MyBatis加载配置、Mapper XML或注解，建立映射语句等元数据；获取Mapper接口时通常返回动态代理。调用方法后，代理按接口与方法定位MappedStatement，将参数及动态SQL处理成可执行SQL和参数映射，再由执行器经JDBC完成预编译、绑定、查询或更新，最后按结果映射转为对象。MyBatis主要封装SQL执行与映射，SQL仍需开发者负责；SqlSession本身不宜跨线程共享，Spring集成通常通过SqlSessionTemplate参与事务管理。",
+      "version_scope": "MyBatis 3及常见Spring集成。",
+      "followups": [],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "rpc-invocation-pipeline": {
+      "title": "RPC为何看起来像调用本地方法",
+      "domain": "计算机网络与操作系统",
+      "answer": "RPC框架通常用客户端代理提供与服务接口相似的方法调用入口：代理把服务名、方法、参数和请求ID编码序列化，通过网络发送；服务端解码后定位实现并执行，将结果或异常信息返回，客户端再关联请求并反序列化。因此相似的是使用方式，实际还多了网络延迟、超时、连接失败和版本兼容问题。超时不代表服务端一定没执行，写操作不能盲目重试，需要幂等设计；鉴权、限流与服务发现也应按场景配置。",
+      "version_scope": "",
+      "followups": [],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mysql-group-sum-top-ties": {
+      "title": "如何查询学生总分最高者并保留并列",
+      "domain": "MySQL",
+      "answer": "先按学生分组计算SUM(score)，再取最高总分对应的全部学生。MySQL 8.0可先在派生表或CTE中聚合，再用DENSE_RANK() OVER(ORDER BY total DESC)排名，筛选排名为1；也可以把聚合结果与最大总分比较。不能只用ORDER BY总分DESC LIMIT 1，因为它只返回一行，可能漏掉并列者。原题仅给姓名、科目和分数；若现实中可能同名，应补充稳定学号分组，并明确重复科目、补考和NULL分数的计算规则。",
+      "version_scope": "MySQL 8.0窗口函数。",
+      "followups": [
+        {
+          "q": "为什么不能直接按姓名就认定学生唯一？",
+          "a": "同名学生会被错误合并；真实表应使用学号或其他稳定学生ID，原题未提供时明确这一假设。"
+        }
+      ],
+      "first_seen": "2026-10-27",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-finally-return-semantics": {
+      "domain": "Java 基础与集合",
+      "title": "try中return后finally是否执行",
+      "answer": "通常会执行。try中的return先计算返回值，随后执行finally；若finally正常结束，才完成原来的返回。finally若也return或抛异常，会覆盖原本的返回或异常，因此应避免在finally里改变控制流。finally中修改局部基本类型变量通常不改变已计算的返回值，但修改返回对象的内容可能被调用方看到。进程被终止、JVM退出或代码一直未离开try等情况下，不能保证执行finally。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-28",
+      "revisions": []
+    },
+    "algorithm-fibonacci-methods": {
+      "domain": "其他问题",
+      "title": "斐波那契数有哪些计算方法",
+      "answer": "先约定数列起点，例如F(0)=0、F(1)=1。直接递归按F(n)=F(n-1)+F(n-2)计算，但重复子问题很多，时间呈指数增长；记忆化递归或动态规划可降到O(n)。只求某一项时用两个变量滚动迭代，时间O(n)、额外空间O(1)；更大n可用矩阵快速幂或快速倍增，按算术操作数计为O(log n)。通项公式涉及浮点误差，不宜直接用于大整数精确计算；数值超范围需使用大整数或按题意取模。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-28",
+      "revisions": []
+    },
+    "algorithm-bubble-sort": {
+      "domain": "其他问题",
+      "title": "冒泡排序的实现与复杂度",
+      "answer": "常见实现用两层循环：外层控制轮数，最多n-1轮；内层比较尚未排好部分的相邻元素，逆序就交换，每轮把最大元素移到该部分末尾，所以下一轮比较范围缩小。可设置交换标志，某轮没有交换就提前结束。平均和最坏时间复杂度O(n²)，有提前终止时已排序输入最好为O(n)，额外空间O(1)。仅在前者严格大于后者时交换可保持稳定性，适合小规模数据或教学，较大数据通常采用更高效的排序。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-28",
+      "revisions": []
+    },
+    "arraylist-versus-linkedlist": {
+      "domain": "Java 基础与集合",
+      "title": "ArrayList与LinkedList的区别及场景",
+      "answer": "ArrayList基于可扩容数组，按下标访问为O(1)，尾部追加通常是摊销O(1)，中间插入删除需要移动元素。LinkedList基于双向链表，按下标定位仍为O(n)，只有已经定位节点或在两端操作时，链接调整才是O(1)，不能笼统说插入一定更快。一般列表优先ArrayList；需要双端操作可比较ArrayDeque等实现。两者都不自动保证并发安全，选择时还要考虑节点内存和缓存局部性。",
+      "followups": [],
+      "first_seen": "2026-10-29",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "mybatis-hash-dollar-parameters": {
+      "domain": "Spring / Spring Boot / MyBatis",
+      "title": "MyBatis的井号与美元参数占位区别",
+      "answer": "MyBatis的#{value}通常生成PreparedStatement的问号占位并绑定参数，适合传递数据值；${value}是直接把字符串替换进SQL结构，不能依靠参数绑定防止注入。表名、列名和排序方向不能简单当作普通问号参数，确需动态选择时，应由服务端把有限选项映射到固定SQL片段或做严格白名单校验。不要将用户输入直接放入${}；模糊查询也可使用绑定参数构造匹配值。",
+      "followups": [],
+      "first_seen": "2026-10-29",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-memory-model-happens-before": {
+      "domain": "Java 并发与 JVM",
+      "title": "Java内存模型与happens-before",
+      "answer": "Java内存模型JMM规定线程对共享变量读写时允许观察到的行为，重点是可见性、有序性和同步关系，与堆、栈等JVM运行时内存区域不是同一概念。可通过同一锁的释放与后续获取、volatile写与后续读等建立happens-before关系。volatile能提供相应可见性与顺序保证，但不能让i++这样的复合操作自动原子化；需要互斥锁或原子类，并结合业务整体不变量设计同步。",
+      "followups": [],
+      "first_seen": "2026-10-29",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "java-final-semantics": {
+      "domain": "Java 基础与集合",
+      "title": "final修饰变量、方法与类的含义",
+      "answer": "final修饰变量表示只能赋值一次；引用变量不能再指向其他对象，但对象内部状态仍可能变化，所以不等于不可变或线程安全。修饰方法表示不能被子类重写，修饰类表示不能被继承。成员final字段需在声明、初始化块或构造过程中完成赋值；局部变量需在使用前赋值。并发中final字段有专门的初始化可见性语义，但前提包括构造期间不让this逸出，仍不能代替对可变共享状态的同步。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-30",
+      "revisions": []
+    },
+    "java-list-set-map-contracts": {
+      "domain": "Java 基础与集合",
+      "title": "List、Set与Map的区别",
+      "answer": "List表示有序序列，通常允许重复元素，可按下标访问；Set主要表达元素唯一性；Map保存键值映射，键唯一而值可以重复，Map本身不继承Collection。具体顺序和空值规则取决于实现：HashSet不保证迭代顺序，TreeSet按排序规则组织元素。HashMap或HashSet中的自定义键要正确实现equals与hashCode，并避免修改参与判等的字段。选择时先看是否需要位置、去重或按键查询，再考虑并发和性能。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-30",
+      "revisions": []
+    },
+    "database-optimistic-pessimistic-lock": {
+      "domain": "MySQL",
+      "title": "数据库乐观锁与悲观锁如何选择",
+      "answer": "悲观锁先取得数据库锁再处理竞争，例如在InnoDB事务中使用SELECT ... FOR UPDATE读取需要修改的记录；锁范围受索引、条件与隔离级别影响，事务应尽量短。乐观锁通常通过版本号条件更新，更新时同时校验旧版本并递增版本，根据影响行数判断冲突，再按业务决定重试或返回失败。低冲突场景可减少等待，高冲突时重试成本可能较高。两者都需要正确事务边界，不能用普通先查后改代替并发控制。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-30",
+      "revisions": []
+    },
+    "project-technical-introduction": {
+      "title": "如何介绍项目的技术设计",
+      "domain": "项目设计与技术选型",
+      "answer": "通用AI参考思路：先说明业务目标、核心流程和本人负责的技术模块，再解释架构、数据模型、接口及关键技术选型，结合一个真实难点说明方案、取舍与验证方式。原文没有披露完整项目实现，不能据此断言采用了微服务、缓存或消息队列，也不能编造性能指标；回答者应以自己实际做过、能够展示代码依据的内容展开，区分已实现能力与后续优化建议。",
+      "first_seen": "2026-10-30",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "inventory-overselling-prevention": {
+      "title": "如何解决超卖",
+      "domain": "项目设计与技术选型",
+      "answer": "通用AI参考思路：先明确库存权威数据源与下单事务边界，数据库扣减可采用带库存充足条件的原子UPDATE，并检查影响行数，避免先查询再无条件扣减。并发较高时可用缓存原子预扣削峰，但仍需处理消息可靠投递、消费幂等、失败补偿和库存对账。原题未给出项目架构和一致性要求，不能断言必须使用分布式锁或某种队列；具体方案应按流量、超时及容错要求选择。",
+      "first_seen": "2026-10-30",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "algorithm-stack-implementation": {
+      "title": "手写栈的实现",
+      "domain": "其他问题",
+      "answer": "可用数组或链表实现后进先出的栈，定义push、pop、peek与判空操作，并明确空栈访问时的异常或返回约定。数组方案以size标记下一写入位置，容量不足时扩容，弹出引用后清空槽位避免对象滞留；链表方案在表头插入和删除。单次基本操作通常为O(1)，动态数组扩容后的入栈为均摊O(1)。原文未指定容量、泛型和线程安全要求，应先确认约束，不把自选接口当作原题条件。",
+      "first_seen": "2026-10-30",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "algorithm-expression-stack-evaluation": {
+      "title": "利用栈求表达式的值",
+      "domain": "其他问题",
+      "answer": "原文没有给出表达式语法、运算符集合和输入示例，无法确定唯一实现。若是常见中缀算术表达式，可用操作数栈与运算符栈，按优先级和结合性归约，括号控制归约边界；也可先转逆波兰表达式再求值。必须先确认是否支持一元负号、小数、空白和幂运算，并约定非法输入、除零及溢出行为。对有限运算符集合的常见实现，时间与辅助空间通常为O(n)。",
+      "first_seen": "2026-10-30",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "algorithm-tree-two-node-shortest-path": {
+      "title": "树中两节点的最短路径",
+      "domain": "其他问题",
+      "answer": "原题未说明树是否有根、节点如何标识、边是否带权以及要求返回距离还是路径，需要先补充这些条件。若为普通无权树，两节点间只有一条简单路径，可从起点做DFS或BFS并记录父节点，再回溯得到路径；若为有根树且已具备父指针，可经最近公共祖先拼接两段路径。单次遍历时间和空间均可为O(n)，多次查询可预处理LCA；不能凭原文假定为二叉搜索树或自行补造输入。",
+      "first_seen": "2026-10-30",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "synchronized-lock-optimization-states": {
+      "title": "synchronized与锁优化",
+      "domain": "Java 并发与 JVM",
+      "answer": "synchronized通过对象监视器提供互斥及可见性，可修饰实例方法、静态方法或代码块，锁对象分别取决于实例、类或指定对象。传统HotSpot锁优化会涉及偏向锁、轻量级锁和重量级监视器，并可能使用自旋、锁消除与锁粗化降低开销。需要说明版本边界：偏向锁从JDK 15起默认禁用并废弃，较新JDK的轻量级锁实现也有变化，不能将旧版对象头状态与固定升级路径直接套用于所有版本。",
+      "first_seen": "2026-10-30",
+      "answer_origin": "AI参考答案",
+      "revisions": []
+    },
+    "jvm-memory-layout-design": {
+      "domain": "Java 并发与 JVM",
+      "title": "JVM内存区域为何区分线程私有与共享",
+      "answer": "AI参考答案：原题“内存模型”可能指运行时内存区域，也可能指JMM，应先澄清。若指区域划分，线程私有的程序计数器和栈保存执行位置、局部变量及调用现场，避免线程调用状态相互覆盖；共享堆便于对象共享，方法区承载类级信息。共享也带来同步和回收问题。若指JMM，则应讨论可见性、有序性和happens-before，不能拿堆栈分区代替并发语义。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "gc-roots-reference-counting": {
+      "domain": "Java 并发与 JVM",
+      "title": "GC Roots与引用计数的局限",
+      "answer": "AI参考答案：可达性分析从GC Roots沿引用关系遍历，不能经有效强引用链到达的对象才可能进入回收处理。常见根包括活动线程栈中使用的对象引用、已加载类的静态引用及JNI引用等，具体根集合由实现确定。引用计数在引用增减时维护计数，普通引用计数难以识别相互引用但整体不可达的环。不可达也不表示立刻释放，回收时机和引用处理仍由收集器决定。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "java-volatile-ordering": {
+      "domain": "Java 并发与 JVM",
+      "title": "volatile的可见性与重排序约束",
+      "answer": "AI参考答案：volatile写与后续对同一变量的读建立happens-before关系，使写之前的操作对正确观察该写的线程可见。编译器和处理器必须遵守Java内存模型要求，不能把普通操作跨越volatile读写重排到破坏该关系的位置；并不是整个程序都禁止重排。volatile适合状态发布等场景，不能让自增、先检查再更新等复合操作自动原子化，需要结合锁或原子类保护业务不变量。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "redis-basic-data-types": {
+      "domain": "Redis",
+      "title": "Redis常用基本数据类型",
+      "answer": "AI参考答案：常用类型包括String、Hash、List、Set和ZSet。String适合简单缓存或计数，Hash适合对象字段，List适合两端操作的序列，Set适合去重及交并差，ZSet适合按分数排序和范围查询。类型是对外的数据语义，底层编码会随元素数量、大小及版本变化。选型应结合查询与更新方式、内存和过期粒度；Stream等也是Redis支持的类型，不能把传统五种说成全部类型。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "redis-zset-skiplist": {
+      "domain": "Redis",
+      "title": "ZSet场景、编码与跳跃表",
+      "answer": "AI参考答案：ZSet以唯一成员关联分数，适合排行榜、排名查询和按时间排序的任务索引。常见较大集合编码结合字典与跳跃表，字典方便按成员查询，跳跃表以多层有序链表加速定位并支持范围遍历，平均查找和插入为O(log n)。小集合可能使用紧凑编码，旧版本有ziplist，Redis 7常见listpack；应按版本与阈值说明，不能认为每个ZSet始终都是跳跃表。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "elasticsearch-basic-overview": {
+      "domain": "其他问题",
+      "title": "Elasticsearch的基本用途与结构",
+      "answer": "AI参考答案：Elasticsearch是基于Lucene的分布式检索与分析系统，适合全文搜索、日志检索和聚合分析。文档进入索引后按映射和分析器处理，全文字段通过倒排索引支持检索；分片承担数据划分，副本用于冗余及部分读扩展。它通常是近实时搜索，写入成功不代表马上可检索。选型还要考虑映射、分片和资源成本，不能把它当作关系数据库事务与约束的直接替代品。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "algorithm-longest-increasing-subsequence": {
+      "domain": "其他问题",
+      "title": "最长升序子序列",
+      "answer": "AI参考答案：先确认要求严格递增还是允许相等，以及返回长度还是序列；子序列不要求连续。基础动态规划令dp[i]表示以当前位置结尾的最长长度，遍历此前更小元素转移，时间O(n²)、空间O(n)。只求长度可维护各长度对应的最小尾值，用二分定位替换，降至O(n log n)；严格递增使用首个大于等于当前值的位置。需要恢复序列时另存前驱，不能直接把尾值数组当作最终子序列。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "algorithm-queue-implements-stack": {
+      "domain": "其他问题",
+      "title": "用队列实现栈",
+      "answer": "AI参考答案：可用一个队列实现后进先出：入栈时先把新元素入队，再把此前的元素依次从队首取出放到队尾，使新元素位于队首；出栈直接删除队首，查看栈顶直接读队首。此方案入栈O(n)，出栈与取顶O(1)，空间O(n)。也可用两个队列在出栈时搬运，交换时间成本。原题未指定接口和容量，应确认空栈行为及是否要求某个操作为常数时间。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "algorithm-heap-sort": {
+      "domain": "其他问题",
+      "title": "堆排序的步骤与复杂度",
+      "answer": "AI参考答案：升序排序可先把数组建成大顶堆，从最后一个非叶节点向前下沉，整体建堆为O(n)。随后反复交换堆顶与未排序区末尾元素，缩小堆范围，再对堆顶下沉恢复堆性质，每轮把当前最大值放到最终位置。总时间为O(n log n)，迭代下沉时额外空间O(1)，通常不稳定。要区分堆的有序约束与整个数组已排序，注意子节点下标和堆边界，不能把建堆误算成必须O(n log n)。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "java-bytecode-portability": {
+      "domain": "Java 基础与集合",
+      "title": "Java如何实现一次编译到处执行",
+      "answer": "AI参考答案：Java源码通常经javac编译为符合虚拟机规范的class字节码，各操作系统和处理器平台提供对应JVM，由其加载、解释或即时编译后执行，因此可复用同一份兼容字节码。可移植性依赖目标JVM支持该class版本，也依赖所需类库和外部资源；JNI、本地库、文件路径或平台相关行为仍可能限制跨平台。它不表示JVM本身无需针对平台实现，也不保证任意新版本字节码可在旧JVM运行。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "search-inverted-index": {
+      "domain": "其他问题",
+      "title": "倒排索引是什么",
+      "answer": "AI参考答案：正排关系从文档找到词或字段，倒排索引则从词项找到包含它的文档列表。文本经分析器分词、规范化后建立词典和倒排列表，列表可记录文档标识、词频和位置；查询时对相关列表做交并等运算，并据相关性规则排序。位置等信息可支持短语查询。倒排结构适合全文检索，但词项分析、更新和存储都有成本；它不是数据库B+树索引，也不能直接把词频等同于最终相关性分数。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "hashmap-load-factor-tradeoff": {
+      "domain": "Java 基础与集合",
+      "title": "HashMap负载因子的取舍",
+      "answer": "AI参考答案：负载因子影响扩容阈值，常见默认值为0.75。因子较小会更早扩容、通常减少桶内竞争与冲突链长度，但占用更多数组空间；因子较大可节省部分桶空间，却可能增加冲突与查找成本。实际影响还取决于哈希分布、元素量和访问模式，不能简单认为越小越快。迭代成本还与容量有关，预估元素数与设置初始容量时应同时考虑负载因子，避免不必要扩容和过度预分配。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "hashmap-initial-capacity-rounding": {
+      "domain": "Java 基础与集合",
+      "title": "HashMap指定初始容量13时的数组长度",
+      "answer": "AI参考答案：以OpenJDK 8的new HashMap<>(13)为例，构造时通常尚未分配桶数组，而是保存向上取整到2的幂后的初始阈值16。首次插入分配长度16的数组，默认负载因子0.75使后续扩容阈值成为12；加入第13个不同键时通常扩为32。因此必须区分构造后、首次插入后与放入13个元素后的时刻，参数13不是保证无需扩容保存13条映射的容量承诺。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "algorithm-large-file-common-strings": {
+      "domain": "其他问题",
+      "title": "内存受限时求两个大文件的共有字符串",
+      "answer": "AI参考答案：先明确字符串分隔、编码、大小写及结果是否去重。可对两个文件使用相同哈希函数按字符串分桶写入外存，让相同字符串进入对应桶，再逐对桶读取，用哈希集合求交并输出。桶仍过大时继续分区，数据倾斜或超长字符串需单独处理；哈希相同后还要比较原字符串，不能把哈希碰撞当作相等。也可分别外部排序后归并求交，方案取决于可用内存、磁盘空间与IO成本。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "algorithm-large-file-common-numbers": {
+      "domain": "其他问题",
+      "title": "大文件共有数字如何求解",
+      "answer": "AI参考答案：数字同样可采用一致哈希分桶后逐桶求交，或外部排序后双指针归并。若已知数字落在较小、有限且稠密的整数范围，可用位图记录出现情况，再扫描另一个文件求交；范围过大或数字并非整数时不能直接采用该方案。原文未给数值范围、重复次数和输出要求，需先澄清是否去重及是否保留频次。精确结果不能只依赖有误判概率的布隆过滤器，应保留最终验证。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "algorithm-single-number-frequency": {
+      "domain": "其他问题",
+      "title": "成对数字中的唯一数及三次变体",
+      "answer": "AI参考答案：若严格满足只有一个数出现一次、其他数均出现两次，对所有元素异或即可，时间O(n)、额外空间O(1)。原文“三次”没有明确指谁出现三次，必须先确认：若其他数均出现三次、目标出现一次，可逐位计数模3恢复目标；若只是目标出现三次而其他数仍成对，异或仍得到目标。还应明确整数位宽和有符号数处理，不把含糊追问自动改写成某个完整的力扣输入条件。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "algorithm-binary-tree-diameter": {
+      "domain": "其他问题",
+      "title": "二叉树直径如何计算",
+      "answer": "AI参考答案：先确认直径按边数还是节点数计。常见按边数定义时，后序DFS返回每个节点向下的最大边长，通过左右子树高度之和更新全局最大值；用空节点高度0、非空高度1加子树最大高度的写法时，左右高度之和也恰为经过当前节点的路径边数。最长路径未必经过根节点。每个节点处理一次，时间O(n)、辅助栈O(h)；退化树可能栈溢出，可改显式栈后序遍历，并约定空树结果。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-10-31",
+      "revisions": []
+    },
+    "java-thread-definition-benefits": {
+      "domain": "Java 并发与 JVM",
+      "title": "线程是什么及使用线程的好处",
+      "answer": "AI参考答案：线程是程序的一条执行路径，有自己的栈和执行现场，同一进程的线程通常共享堆等资源。多线程可让耗时任务与请求处理分离，重叠IO等待，并在多核条件下并行计算，提高响应性或吞吐量。但线程越多不一定越快，创建、切换和共享状态同步都有成本。实际应限制并发并保护共享数据，不能把多线程等同于自动提高性能。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-01",
+      "revisions": []
+    },
+    "optimistic-concurrency-control": {
+      "domain": "Java 并发与 JVM",
+      "title": "乐观锁的思想与实现",
+      "answer": "AI参考答案：乐观并发控制假设冲突较少，先读取旧值或版本，更新时原子校验它是否变化，成功才提交修改，失败则按业务重试或返回冲突。Java原子类常利用CAS，数据库也可用版本号条件更新，作用范围不同。要关注高竞争下的重试开销、ABA问题和复合操作的原子边界；它不表示完全没有底层同步，也不能靠普通先查后改保证正确。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-01",
+      "revisions": []
+    },
+    "aqs-synchronizer-framework": {
+      "domain": "Java 并发与 JVM",
+      "title": "AQS是什么",
+      "answer": "AI参考答案：AQS是构建锁和同步器的基础框架，通过整数同步状态和等待队列组织竞争线程。子类定义如何尝试获取、释放资源，框架负责获取失败后的排队、阻塞和唤醒，支持独占和共享模式。ReentrantLock、Semaphore等可基于它实现不同语义；状态含义由同步器决定，不能都理解成重入次数。FIFO等待队列也不代表所有实现天然公平，是否允许插队由获取策略决定。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-01",
+      "revisions": []
+    },
+    "tcp-versus-udp": {
+      "domain": "计算机网络与操作系统",
+      "title": "TCP与UDP的区别",
+      "answer": "AI参考答案：TCP提供面向连接的可靠有序字节流，通过序号、确认、重传、流量控制和拥塞控制等机制传输数据，不保留应用消息边界。UDP以数据报为单位，无需TCP式连接握手，不承诺可靠交付或顺序，应用可自行设计这些能力。选择取决于延迟、丢包容忍度和协议要求；不能简单说UDP必然更快，也不能说使用UDP就无法实现可靠通信。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-01",
+      "revisions": []
+    },
+    "cache-penetration-breakdown-avalanche": {
+      "domain": "Redis",
+      "title": "缓存穿透、击穿与雪崩的区别及应对",
+      "answer": "AI参考答案：穿透是反复查询缓存和数据库都不存在的数据，可用参数校验、短期空值缓存或布隆过滤器减少回源，注意误判及数据新增。击穿是热点键失效引发大量并发回源，可用互斥重建、预热或逻辑过期。雪崩是大量键集中失效或缓存整体故障，可通过过期时间打散、限流降级和高可用减轻影响。方案要明确容忍的旧数据时间和数据库承载能力，不能忽略超时与失败。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-01",
+      "revisions": []
+    },
+    "java-static-semantics": {
+      "domain": "Java 基础与集合",
+      "title": "static关键字的含义",
+      "answer": "AI参考答案：static成员属于类，静态字段通常由该类的实例共享，静态方法无需先创建实例即可调用。静态方法没有this，不能直接访问实例成员；同名静态方法是隐藏，不是实例方法的动态重写。静态初始化块在类初始化阶段执行。static不等于常量、单例或线程安全，共享可变静态字段仍需同步；不同类加载器加载的同名类也可能拥有各自的静态状态。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-01",
+      "revisions": []
+    },
+    "redis-characteristics-tradeoffs": {
+      "domain": "Redis",
+      "title": "Redis的特点与使用边界",
+      "answer": "AI参考答案：Redis以内存数据访问为主，提供字符串、哈希、列表、集合和有序集合等结构，常用于缓存、计数和排行榜，也可配置持久化、复制与集群。需要权衡内存成本、过期淘汰和故障恢复时的数据丢失窗口，不能默认数据永不丢失。以常见Redis开源版本为例，核心命令处理以串行为主，但网络IO及后台任务可使用其他线程或进程，不能笼统说整个Redis只有一个线程。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://redis.io/docs/latest/develop/get-started/faq/",
+        "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/"
+      ],
+      "first_seen": "2026-11-01",
+      "revisions": []
+    },
+    "backend-logging-practices": {
+      "domain": "项目设计与技术选型",
+      "title": "后端日志应该记录什么与遵循哪些规范",
+      "answer": "AI参考答案：日志用于定位故障、追踪请求和观察关键业务状态。可统一记录追踪号、操作名称、耗时、结果码及必要的业务标识，按DEBUG、INFO、WARN、ERROR区分级别，使用参数化日志。异常应保留堆栈与上下文，避免多层重复打印。密码、令牌和敏感个人信息不能原样写入日志；大报文应截断或采样，并配置滚动、保留周期和访问权限。回答实践经历时只说自己实际做过的部分。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "backend-exception-handling-design": {
+      "domain": "项目设计与技术选型",
+      "title": "异常处理如何提供有用信息并保证业务一致性",
+      "answer": "AI参考答案：异常应表达失败原因、业务错误码和必要上下文，包装时保留原始cause，让调用方能够判断是否可恢复或重试。业务异常与系统故障分开处理，在请求边界统一转换响应，内部堆栈只留在服务端，不泄露敏感数据。不要捕获后直接忽略或返回成功；涉及数据库事务时确认异常传播与回滚规则，外部调用失败还需考虑幂等、补偿和超时。没有真实项目细节时按通用设计思路说明。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "java-shared-variable-races": {
+      "domain": "Java 并发与 JVM",
+      "title": "多个线程操作同一个变量可能发生什么",
+      "answer": "AI参考答案：多个线程操作同一变量不一定出错，要看是否存在并发写入及正确同步。像count++包含读、计算、写，交错执行可能丢失更新；即使单次读写原子，也可能有可见性和顺序问题。可用同一把锁保护完整操作，或用AtomicInteger等原子类更新单个状态；多个变量共同维护不变量时仍需整体同步。volatile主要提供可见性与有序性，不能让复合操作自动原子化。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "web-url-request-lifecycle": {
+      "domain": "计算机网络与操作系统",
+      "title": "输入URL到页面显示会经历哪些过程",
+      "answer": "AI参考答案：浏览器解析URL并检查可用缓存，通常通过DNS获得服务器地址。使用HTTP/1.1或HTTP/2时一般建立TCP连接，HTTPS还需TLS握手与证书校验；已有连接可以复用，HTTP/3则基于QUIC。请求经网关或负载均衡到达后端，后端执行业务并返回响应。浏览器解析HTML，获取样式和脚本等资源，构建页面并布局绘制。实际过程会受到缓存、代理、重定向和协议版本影响。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "project-technical-problem-solving": {
+      "domain": "项目设计与技术选型",
+      "title": "如何讲述项目难点与解决过程",
+      "answer": "AI参考答案：通用AI参考思路：选择自己确实参与的问题，说明触发场景、影响范围和限制条件，再展示如何通过日志、监控、复现或代码阅读定位根因。比较候选方案的成本与风险，解释采用方案、边界处理和验证方式，并交代遗留问题。没有实测数据就描述可核查的现象和验证步骤，不编造性能收益；原文未公开项目实现，不能替作者或回答者补写某次故障经历。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "database-sharding-design": {
+      "domain": "MySQL",
+      "title": "数据库分表如何设计",
+      "answer": "AI参考答案：先确认单表瓶颈是否可通过索引、归档或SQL优化解决，再按业务访问路径选择分片键。水平分表分散数据行，可按哈希均匀分布，也可按时间等范围便于归档；垂直拆分则按字段或业务职责拆开。设计时考虑热点、分片路由、全局ID、跨表分页与聚合，以及跨分片事务和扩容迁移。原文没有表结构、数据量和查询条件，只能给通用取舍，不能假定某个固定分片数。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "redis-memory-exhaustion-troubleshooting": {
+      "domain": "Redis",
+      "title": "Redis内存不足如何定位与处理",
+      "answer": "AI参考答案：先区分达到maxmemory后的写入OOM报错与操作系统因内存不足终止进程。结合INFO memory、键数量和TTL分布，观察数据增长、大key、客户端缓冲及内存碎片；可用MEMORY USAGE抽样定位，避免在线上执行高开销全量操作。确认业务后清理无用数据、补齐过期时间或拆分大key，并评估容量和淘汰策略。持久化、复制还需额外内存，不能把maxmemory直接等同于进程RSS上限。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://redis.io/docs/latest/reference/eviction/",
+        "https://redis.io/docs/latest/management/optimization/memory-optimization/"
+      ],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "mq-reliable-delivery": {
+      "domain": "RabbitMQ / 消息队列",
+      "title": "消息队列如何降低消息丢失风险",
+      "answer": "AI参考答案：按生产、存储、消费三个阶段分别保证可靠性。以RabbitMQ为例，生产者处理发布确认与不可路由返回，确认不明的消息需可重试；队列与消息按需求持久化，关键数据可采用合适的复制队列。消费者完成业务提交后再手动确认，失败重试并设置死信或人工补偿，避免无限重投。重试可能产生重复，消费必须幂等；数据库提交与发消息的一致性可用本地消息表等方案，不能承诺任意故障下绝不丢失。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://www.rabbitmq.com/docs/reliability",
+        "https://www.rabbitmq.com/docs/confirms"
+      ],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "java-interface-versus-abstract-class": {
+      "domain": "Java 基础与集合",
+      "title": "接口与抽象类有什么区别",
+      "answer": "AI参考答案：接口主要定义能力契约，一个类可以实现多个接口；抽象类适合表达同一类型体系中的共享状态和部分实现，一个类只能直接继承一个类。抽象类可以有实例字段、构造器和不同可见性的方法；接口字段是常量，不能保存每个对象的实例状态。Java 8接口可有default和static方法，Java 9起还可有private方法。选择时优先根据类型关系与职责决定，不要仅为了代码复用建立不合理继承。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "java-deadlock-prevention": {
+      "domain": "Java 并发与 JVM",
+      "title": "什么是死锁以及如何减少死锁",
+      "answer": "AI参考答案：死锁是多个线程互相等待对方持有的资源，导致都无法继续。典型条件包括互斥、持有并等待、不可抢占和循环等待。工程中可统一多把锁的获取顺序、缩小持锁范围，避免持锁进行远程调用；必要时用带超时的tryLock并在失败后释放已持有资源。通过线程转储检查等待关系和持有者，确认实际环路。超时重试也需退避和次数限制，防止死锁变成活锁或持续重试。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html"
+      ],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "java-thread-safe-collections": {
+      "domain": "Java 基础与集合",
+      "title": "常见集合中哪些支持线程安全访问",
+      "answer": "AI参考答案：常用ArrayList、HashMap、HashSet不提供并发修改安全保证。可按需求使用ConcurrentHashMap、CopyOnWriteArrayList或阻塞队列，也可用Collections的同步包装；Vector和Hashtable的方法虽有同步，复合操作仍可能产生竞争。并发Map的“先判断再写入”应使用putIfAbsent、compute等原子接口。CopyOnWrite适合读多写少，写入会复制数组；遍历同步包装集合通常仍需外部加同一把锁。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "java-checked-unchecked-exceptions": {
+      "domain": "Java 基础与集合",
+      "title": "受检异常与运行时异常的区别",
+      "answer": "AI参考答案：所谓“编译时异常”通常指受检异常，并不是异常真的在编译阶段抛出。除RuntimeException、Error及其子类外，受检异常需要在编译时满足捕获或声明要求，例如IOException；运行时异常如NullPointerException不强制捕获或声明，但同样在运行中发生。异常类型应表达调用方能否合理恢复，不能为逃避处理一律包装为运行时异常。包装需保留cause，资源释放优先使用try-with-resources。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html"
+      ],
+      "first_seen": "2026-11-02",
+      "revisions": []
+    },
+    "hashmap-concurrent-modification-risks": {
+      "domain": "Java 基础与集合",
+      "title": "HashMap并发修改有哪些风险",
+      "answer": "AI参考答案：HashMap没有为并发修改提供同步保证，多线程put可能发生覆盖、丢更新或读取到不符合预期的结果，size和遍历也不能视为一致快照。JDK 7扩容的链表成环问题不能直接套到JDK 8，但8仍不是线程安全容器。共享可变映射应使用ConcurrentHashMap或统一外部锁，先查后改等复合业务也需原子API或完整加锁。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/HashMap.html"
+      ],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "hashmap-null-key-value": {
+      "domain": "Java 基础与集合",
+      "title": "HashMap是否允许null键与null值",
+      "answer": "AI参考答案：HashMap允许一个null键及多个null值；再次写入null键会更新同一映射。get返回null既可能表示没有该键，也可能表示该键对应的值为null，需要containsKey区分。允许空值与线程安全是不同问题；ConcurrentHashMap不允许null键和值，不能把HashMap的规则推广到所有Map。设计接口时应说明缺失值与空值各自的业务含义。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/HashMap.html"
+      ],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "java-exception-hierarchy": {
+      "domain": "Java 基础与集合",
+      "title": "Java异常体系如何分类",
+      "answer": "AI参考答案：Throwable主要分为Error与Exception。Error通常代表虚拟机或运行环境的严重问题；Exception中，RuntimeException及其子类是非受检异常，其余常见受检异常要求捕获或声明。空指针、越界属于运行时异常，IOException是受检异常。按调用方能否恢复选择处理边界，保留异常原因，资源释放优先用try-with-resources，不应捕获后静默吞掉。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "mysql-storage-engine-comparison": {
+      "domain": "MySQL",
+      "title": "MySQL常见存储引擎及区别",
+      "answer": "AI参考答案：常见引擎有InnoDB、MyISAM、MEMORY等。MySQL 8.0默认InnoDB，支持事务、崩溃恢复、外键和行级锁，适合常见业务表。MyISAM不支持事务，主要使用表级锁；MEMORY将数据保存在内存中，重启后数据会丢失，不能代替持久业务存储。选择应看事务、一致性、恢复能力和访问模式，不能单凭读写速度作结论。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://dev.mysql.com/doc/refman/8.0/en/storage-engines.html"
+      ],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "mysql-innodb-lock-types": {
+      "domain": "MySQL",
+      "title": "InnoDB有哪些锁及锁定范围",
+      "answer": "AI参考答案：可从共享锁和排他锁、表级意向锁，以及索引上的记录锁、间隙锁与临键锁说明。记录锁锁住索引记录，间隙锁限制区间插入，临键锁结合二者；还存在插入意向锁与特定配置下的自增锁。实际锁范围由隔离级别、索引和查询条件共同决定，不能认为按主键以外条件更新就一定锁整表，也不能把普通一致性读说成都加行锁。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html"
+      ],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "mysql-transaction-isolation-levels": {
+      "domain": "MySQL",
+      "title": "事务的四种隔离级别",
+      "answer": "AI参考答案：四种级别是读未提交、读已提交、可重复读和串行化，隔离增强通常伴随并发成本。InnoDB默认可重复读，普通一致性读通常复用事务内首次一致性读建立的快照；读已提交每次一致性读可建立新视图。更新与锁定读按当前版本并结合锁工作，不能套用快照读结论。幻读应区分读方式、锁范围与事务场景，不能说一个级别能无条件消除所有并发异常。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html"
+      ],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "redis-topology-deployment-discussion": {
+      "domain": "Redis",
+      "title": "如何说明Redis主从、哨兵与分片部署",
+      "answer": "AI参考答案：通用AI参考思路：先如实回答是否亲自搭建，再区分三种职责。主从复制同步数据并可分担读流量，异步复制可能产生延迟；Sentinel监控主从并协调故障转移，不负责数据分片；Redis Cluster把键空间按哈希槽分配给不同主节点，并配合副本提供可用性。实际部署还需验证客户端重连、故障恢复和数据丢失窗口，未搭建过不能编造配置或故障演练经历。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://redis.io/docs/latest/manual/replication/",
+        "https://redis.io/docs/latest/management/sentinel/"
+      ],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "project-multithreading-implementation": {
+      "domain": "项目设计与技术选型",
+      "title": "项目中的多线程如何实现与说明",
+      "answer": "AI参考答案：通用AI参考思路：先指出真实可并行的任务及为何需要异步，再按代码说明任务提交、受控线程池、结果汇总和关闭方式。共享数据需明确锁、原子操作或线程隔离，任务还要处理异常、超时、取消和队列满时的策略。多线程会增加调度与下游压力，不能默认一定提速。原文没有披露实现，不应替作者或回答者虚构线程数、吞吐或已经使用的框架。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "java-notify-versus-notifyall": {
+      "domain": "Java 并发与 JVM",
+      "title": "notify与notifyAll有什么区别",
+      "answer": "AI参考答案：两者都要求当前线程持有目标对象的监视器。notify任意唤醒一个在该对象上等待的线程，notifyAll唤醒全部等待线程，但它们仍需重新竞争锁；通知不会立即释放当前线程持有的锁。等待线程应在while循环中重新检查条件，防止虚假唤醒或条件已被其他线程改变。存在多种等待条件时，仅通知一个线程可能选错等待者，应结合正确性与唤醒成本选择。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html"
+      ],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "project-java-language-benefits": {
+      "domain": "项目设计与技术选型",
+      "title": "如何说明Java优势在项目中的实际运用",
+      "answer": "AI参考答案：通用AI参考思路：把语言优势与真实实现对应，例如用接口和多态隔离可替换实现，用成熟类库处理集合、并发和数据库访问，用JVM工具观察运行状态。可移植性还受JDK版本、本地依赖和部署环境限制，垃圾回收也不等于无需管理连接等外部资源。只讲自己代码能证明的选择及代价；原文没有说明具体优势与项目细节，不能补写技术经历或性能收益。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [],
+      "first_seen": "2026-11-03",
+      "revisions": []
+    },
+    "java-monitor-lock-target": {
+      "domain": "Java 并发与 JVM",
+      "title": "线程获取的对象监视器锁对应什么",
+      "answer": "AI参考答案：以synchronized为例，线程竞争的是某个对象关联的监视器，保护范围由共同遵守的锁协议决定，并非自动锁住对象的全部字段。实例同步方法锁当前this，静态同步方法锁对应Class对象，代码块锁括号中的对象。两个线程必须使用同一把锁才能互斥；同一对象的普通方法仍可被其他线程调用。应选稳定、私有且职责明确的锁，避免锁引用变化。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "project-threadlocal-usage-evidence": {
+      "domain": "项目设计与技术选型",
+      "title": "如何说明项目中的ThreadLocal用途",
+      "answer": "AI参考答案：通用思路：先如实确认是否使用，再说明保存什么、谁设置、谁读取、何时清理，以及调用是否跨线程。常见场景是请求用户上下文或链路标识，入口设置、业务读取、finally中remove，防止线程池复用造成数据串用。异步任务需明确传递上下文，不能假设自动继承。若项目没有使用，应直接说明，并解释可替代的参数传递方案；不能把这些例子当作个人实现。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "redis-set-zset-encoding-comparison": {
+      "domain": "Redis",
+      "title": "Redis Set与ZSet的底层编码如何选择",
+      "answer": "AI参考答案：Set提供无序去重语义，常见编码是哈希表或小型纯整数集合的intset；Redis 7.2起还支持小型Set使用listpack。ZSet维护成员与分数，小集合可用紧凑编码，Redis 7常见listpack，较大集合通常结合字典与跳跃表，分别支持按成员查分和有序范围遍历。编码会按版本、元素大小及数量阈值转换，可用OBJECT ENCODING核实，不能只凭类型断言编码。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://redis.io/docs/latest/commands/object-encoding/"
+      ],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "bloom-filter-false-positive-tuning": {
+      "domain": "Redis",
+      "title": "如何降低布隆过滤器假阳性概率",
+      "answer": "AI参考答案：布隆过滤器用位数组与多个哈希位置判断成员，误判率取决于位数、哈希次数和实际插入量。应按预期元素数量与目标误判率设计，增加每个元素可用的位数，并选择合适的哈希次数；哈希越多并非总越准确，也会增加计算成本。容量明显超出设计值时应扩容或重建，并保证数据同步。普通布隆过滤器不能直接清位删除，阳性结果仍需查询真实存储确认。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://guava.dev/releases/20.0/api/docs/com/google/common/hash/BloomFilter.html"
+      ],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "mysql-count-execution-pipeline": {
+      "domain": "MySQL",
+      "title": "SELECT COUNT(*)经过哪些执行节点",
+      "answer": "AI参考答案：以MySQL 8.0与InnoDB为例，请求经过连接与权限检查、SQL解析、优化器选访问路径，再由执行器调用存储引擎扫描并聚合，最终返回计数。COUNT(*)统计符合条件的行，包括字段为NULL的行。无过滤条件时通常选择较小的可用二级索引扫描，没有合适索引则扫描聚簇索引；InnoDB受事务可见性影响，不能直接使用一个全局精确行数。具体扫描路径仍需看执行计划。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html"
+      ],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "mysql-index-unusable-scenarios": {
+      "domain": "MySQL",
+      "title": "哪些情况使索引难以有效定位数据",
+      "answer": "AI参考答案：常见情况有在索引列上进行函数或运算、某些隐式类型转换、联合索引缺少可用前导列，以及LIKE以通配符开头，导致普通B+树难以形成有效查找范围。OR条件能否利用索引要结合各分支与优化器判断。即使存在可用索引，选择性低或回表成本高时优化器也可能选扫描。应区分无法有效定位和成本选择，结合EXPLAIN与实际数据验证，避免把范围条件后的列一概说成完全无用。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://dev.mysql.com/doc/refman/8.0/en/range-optimization.html"
+      ],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "mysql-like-index-range": {
+      "domain": "MySQL",
+      "title": "LIKE查询是否一定无法使用索引",
+      "answer": "AI参考答案：不一定。普通B+树索引下，LIKE以固定字符串开头，如name LIKE 'abc%'，通常能提取前缀范围；以%或_开头往往不能靠前缀定位，但覆盖索引扫描仍可能出现，不能等同于完全不访问索引。实际选择还受字符集、排序规则、参数形式及数据选择性影响。应通过EXPLAIN区分范围扫描与全索引扫描，前缀匹配之后也可能需要检查完整LIKE条件。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://dev.mysql.com/doc/refman/8.0/en/range-optimization.html"
+      ],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "mysql-engine-index-storage": {
+      "domain": "MySQL",
+      "title": "不同MySQL存储引擎如何存放索引与数据",
+      "answer": "AI参考答案：InnoDB通常以B+树组织索引，聚簇索引叶子保存完整行，二级索引叶子保存索引键和主键，读取其他列时可能再查聚簇索引。没有显式主键时按规则选择合适唯一键或生成隐藏行标识。MyISAM的索引与数据分开存放，索引叶子通过数据地址定位记录。MEMORY可使用HASH或BTREE索引。回答应先明确引擎，不能把所有引擎的索引叶子都说成保存行数据。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "mysql-covering-index-avoid-lookup": {
+      "domain": "MySQL",
+      "title": "如何利用覆盖索引减少回表",
+      "answer": "AI参考答案：让查询所需的过滤、返回等列尽量由同一个索引提供，可以减少从二级索引再次访问聚簇索引的操作。例如按业务查询模式设计联合索引并只选择必要列，避免无目的SELECT *。InnoDB二级索引通常包含主键，查询主键也可被覆盖。索引越宽越占空间、增加写入成本，不能把全部字段都塞入索引；需要结合EXPLAIN与实测验证，事务可见性等细节也可能影响实际访问。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://dev.mysql.com/doc/refman/8.0/en/optimizing-innodb-queries.html"
+      ],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "rocketmq-architecture-components": {
+      "domain": "RabbitMQ / 消息队列",
+      "title": "RocketMQ的核心架构组件有哪些",
+      "answer": "AI参考答案：以经典RocketMQ 4.x架构为例，Producer发送消息，Broker负责存储、投递及消费进度等服务，Consumer订阅处理，NameServer提供Broker与Topic路由发现。客户端查询路由后与相应Broker通信，NameServer不负责保存业务消息。Topic下有多个队列，可分布在不同Broker上。部署时还需考虑副本、高可用与消费组；RocketMQ 5.x还可能涉及Proxy等组件，应明确版本和部署模式。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "reference_urls": [
+        "https://github.com/apache/rocketmq/blob/develop/docs/en/architecture.md"
+      ],
+      "first_seen": "2026-11-04",
+      "revisions": []
+    },
+    "project-mq-database-update-boundary": {
+      "domain": "项目设计与技术选型",
+      "title": "如何说明消息异步驱动的数据库更新内容",
+      "answer": "AI参考答案：通用思路：先明确实际业务事件、生产者、消息字段、消费者及更新的表和状态，再解释为什么可以异步，以及用户何时看到最终结果。数据库写入需考虑幂等键、状态流转校验、重复与乱序消息、失败重试和补偿；还要说明原事务提交与消息发送之间的一致性方案。原面经没有披露更新内容，不能替作者或用户填成订单、库存等具体经历，只能结合真实实现作答。",
+      "answer_origin": "AI参考答案",
+      "followups": [],
+      "first_seen": "2026-11-04",
+      "revisions": []
     }
   },
   "runs": {
@@ -2012,6 +4867,1542 @@
         "interruption": "functions.exec returned aborted by user after 7378.4s during offline payload assembly; no commit/ref update was reached. Root cause of the delay is unknown."
       },
       "top_review_ids": []
+    },
+    "2026-10-25": {
+      "source_ids": [
+        "S-8752e512316a810e",
+        "S-f00f95cd929aabc6",
+        "S-b1fc1e0c4557aade"
+      ],
+      "notes": [
+        "接受3篇不同Java实习面经的公开正文，非大厂面经汇编；各公司规模未经独立证实，均保留未知。",
+        "未能证实3篇均为近30天发布；扩大60/90天候选检索，明确日期限制；熙牛面试日为52天前，不把面试日当发布日期。",
+        "按正文选摘技术原题，其他问题未收录；同文重复语义只计一次，历史规范答案原文复用，不制造答案修订。",
+        "本周日按实际采集日期生成2026-W43周总结，不按未知发布日期猜归周。"
+      ],
+      "search_log": [
+        {
+          "queries": [
+            "Java 实习 面经 2026 10 牛客 中小厂",
+            "site:nowcoder.com Java 实习 面经 9月 10月",
+            "熙牛医疗 Java 实习 2026.9.3",
+            "华盛通 JAVA 实习生二面",
+            "Java 实习 面经 CSDN 掘金 小红书"
+          ],
+          "method": "专用网页搜索及open正文；query为本次检索主题摘要，检索范围由30天扩大60/90天。",
+          "results": "接受本批3篇正文；未找到可证明近30天发布且满足要求的3～5篇。"
+        },
+        {
+          "rejected": "2025-03-27北京中小厂、05-24重庆、熙牛3月/4月、宏途7月等候选，日期过旧；不以搜索爬取时间充作发布日期。"
+        },
+        {
+          "rejected": "映客转正实习候选虽读到正文，但无法确认Java岗位，不采集。"
+        },
+        {
+          "rejected": "部分原文链接仅返回导航或无法打开，聚合页仅作发现线索，不以摘要/转载题单代替正文。"
+        },
+        {
+          "retry": "熙牛sourceSSR链接首次仅导航，改用同篇常规公开原文URL后实际读到完整正文；未绕过登录、验证码或反爬。"
+        },
+        {
+          "technical_review": "Agent依据Java8集合/并发、InnoDB与Spring MVC基础机制撰写新答案；规范答案不采纳原作者括号内自评。采云台BudgetMapper.xml固定SHA正文已重读，SQL条件更新与索引依据一致。"
+        }
+      ],
+      "execution": {
+        "provider": "cloud",
+        "observations_current": true,
+        "environment_id": "ccarenv_b64_Y2NhcmVudl9kYzY3Mjg0MjczMTg4MTkxYmQzNWU3ODZmZTVlOTg3OQ",
+        "source_config_id": "52a93e04-1934-4e44-a3aa-8716c42ee6e0~cecfg_6ad7846a425c819a80f2cad7d51ca088",
+        "mode": "cloud_agent_connector_transport",
+        "collection_is_scheduled": null,
+        "configured_daily_time": "06:30 Asia/Shanghai",
+        "planned_time": "2026-10-25T06:30:00+08:00",
+        "scheduled_for": "未知",
+        "started_at": "未知",
+        "run_id": "未知",
+        "platform_last_run_time": "2026-10-24T22:34:18.345691+00:00",
+        "first_observed_utc": "2026-10-24T22:34:25Z",
+        "first_observed_beijing": "2026-10-25T06:34:25+08:00",
+        "batch_prepared_at_utc": "2026-10-24 22:44:29 UTC",
+        "deadline_beijing": "2026-10-25T07:30:00+08:00",
+        "deadline_status": "未达到07:30目标；已超过截止时间，用户要求继续完成发布。",
+        "environment_preflight": "首次精确返回The environment configuration changed. Try again.，等待5秒后第2次读取成功；未沿用旧状态。",
+        "permissions": "未观察到审批；无平台审批审计，不能审计证明零审批；未申请Shell联网权限。",
+        "transport": "仅GitHub连接器；Shell仅离线生成与测试。",
+        "schedule_evidence_limit": "正式任务启用及last_run_time可读取，但详细调度运行ID、scheduled_for、started_at缺失；消息到达不作为完整调度证明。",
+        "project_versions": {
+          "caiyuntai": "6845e8b3e421b8b7504a93ccb3421c56ecff7b0e",
+          "yanyuetong": "0170f0c1f0f94216ba111c1d5e7ea771be4d77ce"
+        },
+        "baseline_head": "e05384da797c78c8a2208f20fb0bf40fc8ceb67b",
+        "mac_updated": "未知",
+        "resumed_at_utc": "2026-10-25T04:08:40.318178+00:00",
+        "resume_reason": "原批次完成生成及16项检查后，收到Phase5指令而中断发布；本次用户明确要求继续交付。",
+        "resume_spec_revision": "121",
+        "background_unattended_success": false,
+        "delivery_verification": "本记录为发布前快照，最终GitHub与Gitee核对证据以本次任务结果为准。"
+      },
+      "top_review_ids": []
+    },
+    "2026-10-26": {
+      "source_ids": [
+        "S-0cc1a8d6f7d711b5",
+        "S-f52fad175c961412",
+        "S-d91e164d76dacfcc"
+      ],
+      "notes": [
+        "接受3篇未采集的公开正文，选摘21条真实技术提问，原题均可定位。",
+        "所有来源的发布栏均缺年份，未伪造发布日期；本轮未证明3篇均近30天发布，已扩大60/90天候选范围并记录日期/岗位限制。",
+        "重庆公司匿名，十几人仅为作者描述；另一匿名文章标题秋招而正文实习，具体批次不确定。华盛通规模未知。",
+        "同文同归一问题多个表述只计一次；历史题在当日完整显示并复用原答案，新题由本次Agent生成；未重采旧URL或拿测试题增频。",
+        "两项目当前SHA与已审版本一致，复用不可变索引；JWT附采云台白名单真实实现，Redis Cluster附研约通现存同槽约束建议，不声称已实施优化。"
+      ],
+      "search_log": [
+        {
+          "queries": [
+            "site:nowcoder.com Java 实习 面经 10.20 2026",
+            "site:nowcoder.com 小厂 Java 实习 面经 10-",
+            "Java 实习 面经 小公司 2026 9 10 牛客 深圳 广州",
+            "site:juejin.cn/post Java 实习 面经 小厂 2026 9",
+            "site:blog.csdn.net Java 实习 面经 2026 10 小厂",
+            "site:cnblogs.com Java 实习 面经 2026 9 小厂"
+          ],
+          "method": "专用联网工具多轮search及open；近30天优先，后扩60/90天。",
+          "results": "三篇接受来源正文实际打开；搜索结果、爬取日期及聚合页不充作原文发布日期。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/0da5ca7b308e49d985dd22aa5fe3a9fc",
+          "status": "excluded",
+          "reason": "原文及常规sourceSSR链接均返回工具不可访问，仅摘要可见，未采集。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/918283947849547776",
+          "status": "excluded",
+          "reason": "常规页面只返回导航，sourceSSR版本不可访问，不能用推荐摘要代替正文。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/a35ab3b0a35444179ba3a4c0839b9f1e",
+          "status": "excluded",
+          "reason": "正文岗位为AI全栈开发，未确认Java岗位，不用于凑Java面经数量。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/e88feb5cda974cb9b20bb92a25e76aa2",
+          "status": "excluded",
+          "reason": "正文发布栏04-02，时间过旧，未采集。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982",
+          "status": "excluded",
+          "reason": "sourceSSR实际读到正文，发布栏03-05，过旧，不因今日爬取就算近期。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/862367705284816896",
+          "status": "excluded",
+          "reason": "原文sourceSSR读到正文，发布栏04-18，超出扩大窗口。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/871380776183463936",
+          "status": "excluded",
+          "reason": "搜索结果正文线索明确3月底面试、5月追加入职，面试过旧；不以08-20编辑月日冒充新面试。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/e1e3e0ef9810483792709a78ac314416",
+          "status": "excluded",
+          "reason": "搜索返回完整内容写主要开发语言golang，非本轮Java目标。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/b82d5b7c8b6b4e1ea5a371c97ef56ccc",
+          "status": "excluded",
+          "reason": "实际打开原文，发布栏06-12，时间过旧。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/23bcc9c453644915b603a49f5599c3d8",
+          "status": "excluded",
+          "reason": "实际读到正文，但未确定是实习还是秋招，问题过于笼统，仅两条聊天式提问，不作为合格补充。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/3375e792921b46a0ae44aefae6fbcba3",
+          "status": "accepted_with_retry",
+          "reason": "常规页面只导航，同篇正常公开sourceSSR页面返回完整正文，未绕过登录验证码付费或反爬。"
+        },
+        {
+          "quality": "帖子为公开个人面试自述，不对作者身份独立背书；未认证完整发布日期、企业规模与匿名岗位全称。"
+        }
+      ],
+      "execution": {
+        "provider": "cloud",
+        "observations_current": true,
+        "environment_id": "ccarenv_b64_Y2NhcmVudl9kYzY3Mjg0MjczMTg4MTkxYmQzNWU3ODZmZTVlOTg3OQ",
+        "source_config_id": "52a93e04-1934-4e44-a3aa-8716c42ee6e0~cecfg_6ad7846a425c819a80f2cad7d51ca088",
+        "observed_spec_revision": "132",
+        "mode": "cloud_agent_connector_transport",
+        "collection_is_scheduled": null,
+        "configured_daily_time": "06:30 Asia/Shanghai",
+        "planned_time": "2026-10-26T06:30:00+08:00",
+        "scheduled_for": "未知",
+        "started_at": "未知",
+        "run_id": "未知",
+        "platform_last_run_time": "2026-10-25T22:27:18.316934+00:00",
+        "first_observed_utc": "2026-10-25T22:27:26Z",
+        "first_observed_beijing": "2026-10-26T06:27:26+08:00",
+        "batch_prepared_at_utc": "2026-10-25 22:33:28 UTC",
+        "deadline_beijing": "2026-10-26T07:30:00+08:00",
+        "deadline_status": "发布前快照；最终提交及Gitee核对完成时间见本次结果记录",
+        "environment_startup": "首次pending/offline，后收到环境已就绪上下文，再次读取实际running/connected；未沿用旧状态。",
+        "network_policy_state": "unknown；不据此保证Shell联网，实际全部仓库访问仅用连接器。",
+        "permissions": "未观察到审批；无平台审批审计，不作审计级零审批声明。未申请Shell联网权限。",
+        "transport": "GitHub连接器；网页专用search/open；Shell仅离线生成测试。",
+        "schedule_evidence_limit": "接口last_run/latest_result为空，完整scheduled_for/started_at/run_id未知；不把消息到达、启用或last_run_time当完整调度证明。",
+        "project_versions": {
+          "projects": [
+            {
+              "repository": "rys888/caiyuntai",
+              "branch": "main",
+              "head_sha": "6845e8b3e421b8b7504a93ccb3421c56ecff7b0e"
+            },
+            {
+              "repository": "rys888/yanyuetong",
+              "branch": "master",
+              "head_sha": "0170f0c1f0f94216ba111c1d5e7ea771be4d77ce"
+            }
+          ]
+        },
+        "baseline_head": "a2b514eb32a00a935f5dbf52f34efe0775f0eeba",
+        "mac_updated": "未知"
+      },
+      "top_review_ids": []
+    },
+    "2026-10-27": {
+      "source_ids": [
+        "S-d222c33372ba2e20",
+        "S-4b799fd843f93030"
+      ],
+      "notes": [
+        "本次在用户授权调整规则后补跑，已过07:30，未按时完成。",
+        "实际接受2篇，未达到3～5篇目标；只纳入已读正文且明确Java实习的新增来源，不凑数。",
+        "两篇完整发布日期均未知；佛山原文面试时间6.8与发布月日09-10分开记录，不声称近30天。",
+        "两项目版本均待复核，本次暂不展示项目结合，普通答案与频次照常更新；历史项目证据保留。"
+      ],
+      "search_log": [
+        {
+          "queries": [
+            "site.nowcoder.com \"Java 实习面经\" \"10-23\"",
+            "site.nowcoder.com \"小厂\" \"java\" \"实习\" \"10月\"",
+            "site.nowcoder.com \"Java\" \"实习\" \"面经\" \"中小厂\"",
+            "site.juejin.cn \"Java\" \"实习\" \"面经\" \"2026\" \"9月\""
+          ],
+          "window_days": [
+            30,
+            60,
+            90
+          ],
+          "result": "搜索后逐篇实际打开正文；聚合页与摘要仅用于发现候选，不作为来源。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982",
+          "result": "排除：实际正文发布栏03-05缺年份，较旧，优先近期候选。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/940945774676803584",
+          "result": "已读sourceSSR=post正文Q1-Q7，但岗位未明确实习/初级，正文含AI参考思路；本次不计入，避免凑数量。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/b82d5b7c8b6b4e1ea5a371c97ef56ccc",
+          "result": "排除：canonical与sourceSSR=post只返回4行导航，dynamic不可访问；未读正文，不采摘要。"
+        },
+        {
+          "url": "https://www.nowcoder.com/users/188745642",
+          "result": "南讯候选主页显示03-08，较旧；未把主页摘要当独立原文入库。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/462581329104818176",
+          "result": "搜索元数据提示3年前杭州中小厂面经，过旧，未作为近期来源。"
+        },
+        {
+          "technical_reference_urls": [
+            "https://redis.io/docs/latest/develop/programmability/eval-intro/",
+            "https://dev.mysql.com/doc/refman/8.4/en/innodb-locking-reads.html",
+            "https://mybatis.org/mybatis-3/java-api.html",
+            "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet.html"
+          ],
+          "result": "用于核对AI技术解释，不计入面经来源数量或频次。"
+        }
+      ],
+      "execution": {
+        "provider": "cloud",
+        "environment_id": "ccarenv_b64_Y2NhcmVudl9kYzY3Mjg0MjczMTg4MTkxYmQzNWU3ODZmZTVlOTg3OQ",
+        "source_config_id": "52a93e04-1934-4e44-a3aa-8716c42ee6e0~cecfg_6ad7846a425c819a80f2cad7d51ca088",
+        "observations_current": true,
+        "spec_revision": "164",
+        "mode": "agent_collection_resumed_after_user_policy_change",
+        "collection_is_scheduled": false,
+        "scheduled_for": null,
+        "started_at": null,
+        "run_id": null,
+        "schedule_config": "06:30 Asia/Shanghai",
+        "initial_attempt_tool_utc": "2026-10-26T22:32:06Z",
+        "recorded_at_utc": "2026-10-27T02:49:15Z",
+        "recorded_at_asia_shanghai": "2026-10-27T10:49:15+08:00",
+        "completed_before_0730": false,
+        "schedule_evidence_limit": "平台只给last_run_time，无run_id/scheduled_for/started_at；本次由用户更新规则后续作，不称完整无人值守定时证明。",
+        "transport": "github_connector_atomic",
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "project_review": {
+          "status": "pending_review",
+          "caiyuntai_changed_files": 46,
+          "yanyuetong_changed_files": 83,
+          "reviewed_sha_advanced": false,
+          "limitation": "用户已授权项目变化不阻断普通面经；新SHA未复核，不展示项目结合，不修改历史证据。研约通compare返回404 No common ancestor，完整tree对象已确认变化。"
+        }
+      },
+      "top_review_ids": []
+    },
+    "2026-10-28": {
+      "source_ids": [
+        "S-acc0ee181185ca00"
+      ],
+      "notes": [
+        "目标4篇，实际1篇；扩大60/90天后，近期可读、未重复且岗位明确的新来源仍不足，不凑数。",
+        "发表栏未给年份，published_date=null；面试日期依据标题单独记录，不能据此补发表年份。",
+        "7条技术题映射7个规范题，其中4个旧题完整复用现有规范答案（本批省略定义），3个新题为AI参考答案。未新增项目结合、未推进reviewed_sha，实际项目SHA由runner注入。",
+        "本次测试=False；已实际核查至少1篇此前未采集原文。不宣称后台、定时或准点成功；仅交付batch.json，不运行存储渲染或Git发布。"
+      ],
+      "search_log": [
+        {
+          "stage": "近30天优先检索",
+          "queries": [
+            "site.nowcoder.com \"Java\" \"实习\" \"面经\" \"2026\" \"10月\"",
+            "site.nowcoder.com \"小厂\" \"Java\" \"面经\" \"2026\"",
+            "site.juejin.cn \"实习\" \"面经\" \"2026\" \"10\"",
+            "site.nowcoder.com \"java\" \"实习\" \"面经\" \"10-26\"",
+            "site.nowcoder.com \"java\" \"实习\" \"面经\" \"10-20\"",
+            "site.nowcoder.com \"java\" \"实习\" \"面经\" \"2026.10\" -字节 -腾讯 -阿里",
+            "site.nowcoder.com \"北森客开实习生\"",
+            "\"北森客开实习生\" \"面经\"",
+            "\"北森客开实习生(实习转正) 2026.10.13\" site:nowcoder.com/discuss",
+            "\"北森客开实习生\" site:nowcoder.com/feed",
+            "site.xiaohongshu.com \"Java\" \"实习\" \"面经\"",
+            "site.blog.csdn.net \"2026\" \"10月\" \"实习面经\"",
+            "site.cnblogs.com \"2026\" \"面经\" \"实习\""
+          ],
+          "result": "多次返回首页/话题/聚合页及旧文；仅用于发现候选，不计来源。"
+        },
+        {
+          "stage": "扩大60天与90天",
+          "window_days": [
+            60,
+            90
+          ],
+          "queries": [
+            "site.nowcoder.com/discuss \"Java\" \"实习\" \"9月\" \"2026\" -腾讯 -字节 -阿里 -美团",
+            "site.nowcoder.com \"Java\" \"实习\" \"面经\" \"2026.9\" -腾讯 -字节 -阿里 -美团",
+            "site.nowcoder.com \"Java\" \"实习\" \"面经\" \"2026.8\"",
+            "site.nowcoder.com \"小厂\" \"实习\" \"09\" \"java\" 面经",
+            "site.nowcoder.com \"Java\" \"实习\" \"面经\" \"08-28\"",
+            "site.nowcoder.com \"Java\" \"实习\" \"面经\" \"08-20\"",
+            "site.nowcoder.com \"小厂\" \"Java\" \"实习\" \"面经\" after:2026-08-29 before:2026-10-29",
+            "site.nowcoder.com \"Java\" \"实习\" \"面经\" after:2026-07-30 before:2026-08-30",
+            "site.juejin.cn \"Java\" \"实习\" \"面经\" after:2026-07-30",
+            "site.cnblogs.com \"Java\" \"实习\" \"面经\" after:2026-07-30",
+            "site.blog.csdn.net \"小厂\" \"实习\" \"面经\" \"2026\""
+          ],
+          "result": "未获足够合格新来源；日期筛选仍返回2023/2024旧文及2026-01、03、05候选，未把检索日期当发表证据。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e",
+          "attempts": [
+            {
+              "opened_url": "https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e?sourceSSR=subject",
+              "result": "turn7view0只有4行导航。"
+            },
+            {
+              "opened_url": "https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e",
+              "result": "turn8view0 inaccessible。"
+            },
+            {
+              "opened_url": "https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e?sourceSSR=post",
+              "result": "turn8view1及turn10view0公开正文成功，L44-L66核查通过。"
+            }
+          ],
+          "result": "此前未采集文章访问核查成功，收录；初次仅导航未误报成功。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/922897348412309504?sourceSSR=post",
+          "result": "turn10view1正文已读，L72明确转载作者kakerukun及另一URL；并且未明确实习/初级岗位，不收录，不以跨URL转载充数。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/932663753219244032",
+          "result": "turn6view0仅4行导航，未读正文，拒绝。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/943474549624930304?sourceSSR=dynamic",
+          "result": "turn11view2仅4行导航，拒绝。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829?sourceSSR=post",
+          "result": "turn11view0已读正文L44-L66；未明确实习/初级岗位，后端工程师是作者用户标签，不作为面试岗位证据，本批不收录。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/c09e8aff4d4b4ef882150275eddefbdc?sourceSSR=post",
+          "result": "turn11view1已读正文L44-L57；Java秋招终面，但岗位层级未明确，不为凑目标推测为初级岗。"
+        },
+        {
+          "urls": [
+            "https://www.nowcoder.com/discuss/471468692224733184",
+            "https://www.nowcoder.com/discuss/462581329104818176",
+            "https://www.nowcoder.com/feed/main/detail/b64ea414a3eb4dc7a378905a50643528",
+            "https://www.nowcoder.com/feed/main/detail/a2476f1aebb84c9191ab53717464f55c?sourceSSR=enterprise"
+          ],
+          "result": "搜索展示2023/2024/2025历史日期，超90天，不选。"
+        },
+        {
+          "urls": [
+            "https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4",
+            "https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f",
+            "https://www.nowcoder.com/discuss/943496145010020352"
+          ],
+          "result": "现有sources.json已采集，去重排除。"
+        },
+        {
+          "result": "CSDN“Java各大厂实习面试题面经新鲜出炉”、编程导航面经索引、面灵聚合、UP求职题单、招聘条目均拒绝作为原始面经；未脚本抓取、未绕过访问限制。"
+        }
+      ],
+      "execution": {
+        "provider": "selfhost_codex_cli",
+        "mode": "systemd_daily",
+        "collection_is_scheduled": false,
+        "scheduling_evidence": {
+          "invocation_id": "6bc5563ad47440c686ab86bfe5302db5",
+          "verified": false,
+          "limitation": "Unable to verify timer trigger against this service invocation"
+        },
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "host": "VM-0-10-ubuntu",
+        "user": "ubuntu",
+        "started_at": "2026-10-28T06:30:00.293825+08:00",
+        "run_id": "2026-10-28",
+        "transport": "standard_git",
+        "project_review": {
+          "caiyuntai": "pending_review",
+          "yanyuetong": "pending_review"
+        },
+        "recorded_at": "2026-10-28T06:33:13.405175+08:00"
+      },
+      "top_review_ids": []
+    },
+    "2026-10-29": {
+      "source_ids": [
+        "S-1269d0500b32778a",
+        "S-468c6e753854a8f2",
+        "S-7f41046bbd048518",
+        "S-4f6acedbb7a540a9"
+      ],
+      "notes": [
+        "三篇发布栏缺年份，发布日期记未知；武汉众智鸿图保留2024-02-26 18:55已编辑显示，不推断面试日。",
+        "仅选摘可定位的后端技术问句；未收录前端、逻辑题、个人项目经历及条件不完整的问题。"
+      ],
+      "search_log": [
+        {
+          "query": "site:nowcoder.com Java 实习 面经 众智鸿图 中科保泰",
+          "result": "原生web搜索返回两篇优先候选；四篇指定候选均重新open公开正文，与全部21篇来源URL、公司、标题及原题对照，未发现同文转载。只收原文正文，不收评论或推荐。"
+        }
+      ],
+      "execution": {
+        "provider": "selfhost_codex_cli",
+        "mode": "manual_recovery",
+        "manual_recovery": true,
+        "collection_is_scheduled": false,
+        "started_at": "2026-10-29T14:16:06+08:00",
+        "completed_at": "2026-10-29T14:18:12.913362+08:00",
+        "reason": "用户明确授权13时后人工补采；旧时间与岗位限制已取消，保留原06:30零篇事实。",
+        "transport": "standard_git",
+        "cli_version": "0.165.0",
+        "sandbox_helper": "/usr/bin/bwrap",
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "project_review": {
+          "caiyuntai": "pending_review",
+          "yanyuetong": "pending_review"
+        },
+        "previous_attempts": [
+          {
+            "source_ids": [],
+            "notes": [
+              "目标4篇，实际新增0篇；已从近30天扩大60/90天检索，仍未获得满足去重、公开原文、Java实习/初级岗位与时间质量要求的新来源。",
+              "至少测试1篇此前未采集文章：极兔后端一面公开技术正文访问成功，但岗位层级不明，测试成功不等于收录成功。",
+              "仅交付batch.json；没有执行Git发布、业务代码或DDL，没有新增项目结合或推进reviewed_sha；execution按要求留空，实际项目SHA由runner注入。",
+              "未宣称后台、调度或准点完成。未生成无来源问题或答案，现有规范答案保持不变。"
+            ],
+            "search_log": [
+              {
+                "stage": "初始近30天优先（首轮未设recency）",
+                "queries": [
+                  "site.nowcoder.com 2026 10 Java 实习 面经 小厂",
+                  "site.nowcoder.com 2026 9 Java 后端 实习 面经",
+                  "site.juejin.cn 2026 Java 实习 面经 10月",
+                  "site.nowcoder.com \"小厂\" \"实习\" \"10-\" \"面经\" Java",
+                  "site.nowcoder.com \"实习\" \"面经\" \"2026-09\" Java",
+                  "site.cnblogs.com \"2026\" \"面经\" \"实习\"",
+                  "site.xiaohongshu.com Java 实习 面经 2026"
+                ]
+              },
+              {
+                "stage": "扩大60/90天；recency仅检索过滤，不作为发布日期证明",
+                "queries": [
+                  "site.nowcoder.com \"java\" \"实习\" \"面经\" \"09-\" \"2026\" -site:api-cdn.nowcoder.com",
+                  "site.nowcoder.com \"小厂\" \"面经\"",
+                  "site.blog.csdn.net \"实习面经\" \"2026\"",
+                  "site.nowcoder.com \"java\" \"实习生\" \"面经\" \"10-\"",
+                  "site.nowcoder.com \"java\" \"实习\" \"09-\" \"面经\" 小厂",
+                  "site.juejin.cn \"实习\" \"面经\" \"2026\"",
+                  "site.cnblogs.com \"Java\" \"面经\" \"2026\"",
+                  "site.nowcoder.com \"Java\" \"实习\" \"面经\" \"09-\"",
+                  "site.nowcoder.com \"Java\" \"面经\" \"小公司\"",
+                  "site.nowcoder.com \"Java\" \"实习\" \"10-28\"",
+                  "site.nowcoder.com \"Java\" \"实习\" \"10-27\"",
+                  "site.nowcoder.com \"实习面经\" \"09\" \"Java\" -字节 -美团 -阿里 -腾讯 -京东",
+                  "site.nowcoder.com \"小厂\" \"java\" \"面经\" \"08\"",
+                  "site.nowcoder.com \"初级\" \"Java\" \"面经\"",
+                  "site.nowcoder.com \"Java开发实习生\" \"面经\"",
+                  "site.nowcoder.com \"java实习\" \"面经\" \"9月\"",
+                  "site.blog.csdn.net \"小厂\" \"实习\" \"面经\"",
+                  "site.nowcoder.com \"三七互娱\" \"后端\" \"实习\" \"面经\""
+                ]
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/932663753219244032?sourceSSR=post",
+                "result": "此前未采集文章访问测试：turn5view1成功返回315行，turn6view0再次open返回307行，L44作者歪waiy，L46日期09-24 15:52缺年；L51极兔后端一面，L53-L86为真实技术正文。正文未明确实习/初级岗位，不能以学生背景推定岗位，本批不收录。此前仅导航的历史失败不代替本次结果。"
+              },
+              {
+                "url": "https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829?sourceSSR=post",
+                "result": "turn6view1公开正文248行，L44作者选择困难症_uuid，L46发表10-10 15:19缺年，L51用友金融一面，L53-L66技术正文；没有明确实习/初级岗位，用户后端工程师标签不能证明面试岗位层级，拒绝。"
+              },
+              {
+                "urls": [
+                  "https://api-cdn.nowcoder.com/feed/main/detail/124b6e9db981458e839e1771d9b4da04?sourceSSR=post",
+                  "https://www.nowcoder.com/feed/main/detail/124b6e9db981458e839e1771d9b4da04?sourceSSR=post"
+                ],
+                "result": "面经复盘（2026.5.7）：turn2view0返回256行但展示仅导航开头；turn4view0返回267行但展示仅开头；定位正文的turn3view0、turn5view0、turn6view2均只返回4行导航。未取得可定位正文，拒绝；不将搜索摘要当正文。标题面试时间也早于90天，不反推发表年份。两个域名视为同一候选。"
+              },
+              {
+                "url": "https://www.nowcoder.com/feed/main/detail/b82d5b7c8b6b4e1ea5a371c97ef56ccc?sourceSSR=post",
+                "result": "南宁小厂面试-Java后端开发实习：turn7view0仅4行导航，正文不可核验，拒绝；检索显示06-12缺年份，不能证明近期发布。"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/862367705284816896",
+                "result": "26届小厂java实习面经：turn7view1返回283行，实际展示L44作者做梦都想做梦、L46日期04-18 23:53缺年；无法证明近90天发表，不以抓取时间替代发布日期，拒绝。"
+              },
+              {
+                "url": "https://www.nowcoder.com/feed/main/detail/f987c6d6a8c346f08cd141a76aa58cd4?sourceSSR=post",
+                "result": "小厂面经：turn8view0返回250行，展示L44作者在吐槽的小饼干很忙碌，L46日期05-18 20:44缺年；无法证明近期，不收录。"
+              },
+              {
+                "urls": [
+                  "https://www.nowcoder.com/feed/main/detail/0da5ca7b308e49d985dd22aa5fe3a9fc",
+                  "https://www.nowcoder.com/feed/main/detail/1f64e96cac1d4e29a6a8481b732f153a"
+                ],
+                "result": "南京某小厂java实习面经及成都小厂java面经与现有来源重复；不通过追踪参数或聚合站转载重新计数。已读取全部21篇来源元数据与题目记录。"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/939985134931935232?sourceSSR=post",
+                "result": "搜索候选三七互娱一面为后端实习，搜索显示作者golang标签且未证明Java方向；未open正文，不作为已核验来源或凑数。"
+              },
+              {
+                "result": "面灵、面栈、编程导航目录、PracHub比较文章、UP求职题单、CSDN各大厂题目汇总、招聘和历史PDF均未作为原始面经接受。小红书搜索主要返回招聘；掘金/博客园未检出可收录近期原文。未脚本爬取或绕过登录/反爬。"
+              }
+            ],
+            "execution": {
+              "provider": "selfhost_codex_cli",
+              "mode": "systemd_daily",
+              "collection_is_scheduled": false,
+              "scheduling_evidence": {
+                "invocation_id": "21104f310cb74e18be8d5f4e3017a974",
+                "verified": false,
+                "limitation": "Unable to verify timer trigger against this service invocation"
+              },
+              "project_heads": {
+                "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+                "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+              },
+              "host": "VM-0-10-ubuntu",
+              "user": "ubuntu",
+              "started_at": "2026-10-29T06:30:00.347770+08:00",
+              "run_id": "2026-10-29",
+              "transport": "standard_git",
+              "project_review": {
+                "caiyuntai": "pending_review",
+                "yanyuetong": "pending_review"
+              },
+              "recorded_at": "2026-10-29T06:31:50.795327+08:00"
+            },
+            "top_review_ids": []
+          }
+        ]
+      },
+      "top_review_ids": []
+    },
+    "2026-10-30": {
+      "source_ids": [
+        "S-a3d11737ce66e514",
+        "S-a6755f2b6cd19f37",
+        "S-29b177fc2f328323",
+        "S-f20d2659ebb4a260"
+      ],
+      "notes": [
+        "收录4篇牛客公开Java后端实习面经；按正文技术问题与面试叙述判断方向，不以作者职业标签判断。",
+        "4篇页面时间均标注已编辑，无法证明首次发布日期，published_date均为null；保留完整页面显示时间。仅阿里菜鸟正文明确面试日期，其余不推断。",
+        "已补录本次可完整阅读的神州信息与美团正文技术题；阿里菜鸟、京东物流本次仅返回导航，完整覆盖尚未核实，保留原有题目。缺条件算法题按原题保留，回答明确限制。"
+      ],
+      "search_log": [
+        {
+          "queries": [
+            "site.nowcoder.com Java 实习 面经 小厂",
+            "site.cnblogs.com Java 实习 面经",
+            "site.juejin.cn Java 后端 实习 面经",
+            "site.nowcoder.com/discuss \"java\" \"实习\" \"面经\" \"一面\"",
+            "site.cnblogs.com \"Java\" \"实习\" \"面经\"",
+            "site.juejin.cn/post \"Java\" \"实习\" \"面经\"",
+            "site.nowcoder.com \"Java实习面经\" \"一面\" -南京 -汇总 -小厂",
+            "site.blog.csdn.net \"java实习\" \"面经\" \"我\"",
+            "site.xiaohongshu.com \"Java\" \"实习面经\"",
+            "site.nowcoder.com/discuss \"java实习\" \"面经\" \"美团\"",
+            "site.nowcoder.com/discuss \"java实习\" \"面经\" \"京东\""
+          ],
+          "result": "实际使用内置web search；未限定发表时间或岗位窗口。博客园、小红书未得到可直接核验的新候选；掘金返回学习经历，未据其作为真实技术面经收录。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/0da5ca7b308e49d985dd22aa5fe3a9fc",
+          "decision": "rejected",
+          "reason": "与现有来源重复，不重新计数"
+        },
+        {
+          "url": "https://blog.csdn.net/m0_57545130/article/details/159381226",
+          "decision": "rejected",
+          "reason": "搜索结果明确为多厂题目汇总，非独立原始面经，未作为正文核验来源"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/eb231ca6c4094f3d956dc4e5cf4bbcb3",
+          "decision": "rejected",
+          "reason": "open turn2view0仅返回4行导航；带sourceSSR=post的open turn8view0不可访问，未取得正文"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/759800826842923008",
+          "decision": "rejected",
+          "reason": "open turn4view1仅返回4行导航；转载不替代原文"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/d9e9025b7bd142ac82de275199050072",
+          "decision": "rejected",
+          "reason": "open turn4view2返回不可访问；不采纳转载摘要"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353156373720539136",
+          "decision": "rejected",
+          "reason": "open turn7view0仅返回4行导航"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353159287360921600",
+          "decision": "rejected",
+          "reason": "open turn2view2有正文，但L121明确部门是Go，不能把Java问答或作者标签等同于Java后端岗位，保守不收录"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353156179603955712",
+          "result": "无参数open turn6view0不可访问；搜索命中的公开sourceSSR=subject URL经open turn8view1返回297行，正文可读，按同一来源接受一次。"
+        },
+        {
+          "mode": "manual_completeness_update",
+          "coverage": [
+            {
+              "source_id": "S-a3d11737ce66e514",
+              "status": "partial",
+              "evidence": "turn0view0 L0-L3",
+              "reason": "实际open只有四行导航；未取得正文，保留全部旧items，不据早晨摘录推断遗漏。",
+              "appended_items": 0
+            },
+            {
+              "source_id": "S-a6755f2b6cd19f37",
+              "status": "covered",
+              "evidence": "turn0view1 L51-L74",
+              "existing": "L60-L62三题与旧items逐一对应",
+              "appended_items": 2,
+              "excluded": "L54笔试未披露题目；L55-L58/L63一般学习、课程、实习期限、出差属非技术；L66人员进度协调无技术设计内容；L67-L74作者总结及流程非技术。项目介绍L64保留技术回答。"
+            },
+            {
+              "source_id": "S-29b177fc2f328323",
+              "status": "partial",
+              "evidence": "turn0view2 L0-L3",
+              "reason": "实际open只有四行导航；未取得正文，保留全部旧items，不据早晨摘录推断遗漏。",
+              "appended_items": 0
+            },
+            {
+              "source_id": "S-f20d2659ebb4a260",
+              "status": "covered",
+              "evidence": "turn0view3 L51-L67",
+              "existing": "L58-L60三题与旧items逐一对应",
+              "appended_items": 5,
+              "excluded": "L53/L65作者感受与身份、L67话题标签非技术；L63项目技术提问已收录，不将作者商城叙述冒充用户实现。"
+            }
+          ],
+          "limitation": "未新增来源；两篇原页正文不可访问，整体partial。"
+        }
+      ],
+      "execution": {
+        "provider": "selfhost_codex_cli",
+        "mode": "manual_completeness_update",
+        "collection_is_scheduled": false,
+        "started_at": "2026-10-30T13:25:18+08:00",
+        "content_review_ended_at": "2026-10-30T13:27:23.198484+08:00",
+        "completed_before_0730": false,
+        "host": "VM-0-10-ubuntu",
+        "user": "ubuntu",
+        "cli_version": "0.165.0",
+        "login_method": "ChatGPT (login status only)",
+        "transport": "standard_git",
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "project_review": {
+          "caiyuntai": "pending_review",
+          "yanyuetong": "pending_review"
+        },
+        "coverage_status": "partial",
+        "evidence_log": "logs/completeness-2026-10-30/web-evidence.json",
+        "previous_attempts": [
+          {
+            "source_ids": [
+              "S-a3d11737ce66e514",
+              "S-a6755f2b6cd19f37",
+              "S-29b177fc2f328323",
+              "S-f20d2659ebb4a260"
+            ],
+            "notes": [
+              "收录4篇牛客公开Java后端实习面经；按正文技术问题与面试叙述判断方向，不以作者职业标签判断。",
+              "4篇页面时间均标注已编辑，无法证明首次发布日期，published_date均为null；保留完整页面显示时间。仅阿里菜鸟正文明确面试日期，其余不推断。",
+              "技术问题为选摘，未收录个人经历、反问、缺条件的算法与场景题；公司规模均未独立核实。"
+            ],
+            "search_log": [
+              {
+                "queries": [
+                  "site.nowcoder.com Java 实习 面经 小厂",
+                  "site.cnblogs.com Java 实习 面经",
+                  "site.juejin.cn Java 后端 实习 面经",
+                  "site.nowcoder.com/discuss \"java\" \"实习\" \"面经\" \"一面\"",
+                  "site.cnblogs.com \"Java\" \"实习\" \"面经\"",
+                  "site.juejin.cn/post \"Java\" \"实习\" \"面经\"",
+                  "site.nowcoder.com \"Java实习面经\" \"一面\" -南京 -汇总 -小厂",
+                  "site.blog.csdn.net \"java实习\" \"面经\" \"我\"",
+                  "site.xiaohongshu.com \"Java\" \"实习面经\"",
+                  "site.nowcoder.com/discuss \"java实习\" \"面经\" \"美团\"",
+                  "site.nowcoder.com/discuss \"java实习\" \"面经\" \"京东\""
+                ],
+                "result": "实际使用内置web search；未限定发表时间或岗位窗口。博客园、小红书未得到可直接核验的新候选；掘金返回学习经历，未据其作为真实技术面经收录。"
+              },
+              {
+                "url": "https://www.nowcoder.com/feed/main/detail/0da5ca7b308e49d985dd22aa5fe3a9fc",
+                "decision": "rejected",
+                "reason": "与现有来源重复，不重新计数"
+              },
+              {
+                "url": "https://blog.csdn.net/m0_57545130/article/details/159381226",
+                "decision": "rejected",
+                "reason": "搜索结果明确为多厂题目汇总，非独立原始面经，未作为正文核验来源"
+              },
+              {
+                "url": "https://www.nowcoder.com/feed/main/detail/eb231ca6c4094f3d956dc4e5cf4bbcb3",
+                "decision": "rejected",
+                "reason": "open turn2view0仅返回4行导航；带sourceSSR=post的open turn8view0不可访问，未取得正文"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/759800826842923008",
+                "decision": "rejected",
+                "reason": "open turn4view1仅返回4行导航；转载不替代原文"
+              },
+              {
+                "url": "https://www.nowcoder.com/feed/main/detail/d9e9025b7bd142ac82de275199050072",
+                "decision": "rejected",
+                "reason": "open turn4view2返回不可访问；不采纳转载摘要"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/353156373720539136",
+                "decision": "rejected",
+                "reason": "open turn7view0仅返回4行导航"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/353159287360921600",
+                "decision": "rejected",
+                "reason": "open turn2view2有正文，但L121明确部门是Go，不能把Java问答或作者标签等同于Java后端岗位，保守不收录"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/353156179603955712",
+                "result": "无参数open turn6view0不可访问；搜索命中的公开sourceSSR=subject URL经open turn8view1返回297行，正文可读，按同一来源接受一次。"
+              }
+            ],
+            "execution": {
+              "provider": "selfhost_codex_cli",
+              "mode": "systemd_daily",
+              "collection_is_scheduled": false,
+              "scheduling_evidence": {
+                "invocation_id": "febee8216f024f618448dfbfc6522d03",
+                "verified": false,
+                "limitation": "Unable to verify timer trigger against this service invocation"
+              },
+              "project_heads": {
+                "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+                "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+              },
+              "host": "VM-0-10-ubuntu",
+              "user": "ubuntu",
+              "started_at": "2026-10-30T06:30:00.303610+08:00",
+              "run_id": "2026-10-30",
+              "transport": "standard_git",
+              "project_review": {
+                "caiyuntai": "pending_review",
+                "yanyuetong": "pending_review"
+              },
+              "recorded_at": "2026-10-30T06:32:15.511161+08:00"
+            },
+            "top_review_ids": []
+          }
+        ]
+      },
+      "top_review_ids": []
+    },
+    "2026-10-31": {
+      "source_ids": [
+        "S-94b1fc7e331c3d3c"
+      ],
+      "notes": [
+        "采纳1篇实习面经，完整保留两轮21个编号技术问题，映射为21道归一题；来源数按题量动态调整，未按参考来源数4篇凑数。",
+        "页面显示完整日期2020-05-14并标已编辑；不能确认是否为首次发表日，保留原显示与日期质量说明。面试日期仅5.13，年份未明示，interview_date为null。",
+        "原文自述有些题记不清，本批次只收录可定位问题；三次数字变体与JVM内存模型题干存在歧义，AI答案明确条件，不补造输入。"
+      ],
+      "search_log": [
+        {
+          "query": "site.nowcoder.com/discuss Java 实习 面经 一面 后端",
+          "result": "发现京东、ks等候选；摘要、转载聚合、题库及招聘类结果不作为正文证据。"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java\" \"实习\" \"面经\" \"递归\" \"端口\"",
+          "result": "定位度小满原文URL；转载页只用作发现，不收录转载。"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"java实习\" \"面经\" \"一面\" \"二叉树\" \"Redis\"",
+          "result": "发现贝壳原文，open核实两轮完整正文后采纳；话题页、合集和GitHub汇编不采纳。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/455427571170275328",
+          "decision": "rejected",
+          "reason": "turn2view1及turn3view1 open原文不可访问，不采用转载或搜索摘要补正文。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/71b59c024d8340408d9bed352cc41429",
+          "decision": "rejected",
+          "reason": "规范URL turn3view0仅4行导航；公开api-cdn链接初次返回截取导航，继续open正文两次超时，未完成正文核验。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/933060569995759616",
+          "decision": "not_selected",
+          "reason": "turn3view2正文可读；按完整来源动态控制题量，选择题量已接近目标的贝壳实习原文，本篇未计入采集。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/4853de1d891f41b5b8d5c27bc3fb0748",
+          "decision": "not_selected",
+          "reason": "turn5view1完整正文可读，确认Java后端校招；采用贝壳实习完整来源已达软目标，不追加整篇扩大题量。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353156432944111616",
+          "decision": "accepted",
+          "coverage": "逐项核对一面1—12与二面1—9，21个编号全部收录为23条映射、21道归一题。L65与L69含不同技术角度，各拆为两个映射；垃圾回收介绍/判活及两次HashMap扩容复用同题，每篇计一次。没有遗漏或排除正文编号技术题；L98求offer叙事、评论和推荐文章不属于本次原题。原文未展开的遗忘问题不补造。",
+          "deduplication": "对照全部29篇历史来源URL、标题、题干与124道规范题；未见同文或转载重复。复用4个旧题ID及原答案，不提交旧题定义；具体版本/负载因子/队列实现栈等不同角度单独建题。"
+        },
+        {
+          "purpose": "新答案的技术边界核对",
+          "opened_urls": [
+            "https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html",
+            "https://raw.githubusercontent.com/openjdk/jdk8u/master/jdk/src/share/classes/java/util/HashMap.java",
+            "https://redis.io/docs/latest/develop/data-types/sorted-sets/",
+            "https://www.elastic.co/docs/solutions/search/full-text/how-full-text-works"
+          ],
+          "result": "核对HashMap初始容量与负载因子、ZSet有序集合语义及倒排索引；原文社区评论未作答案依据。"
+        }
+      ],
+      "execution": {
+        "provider": "selfhost_codex_cli",
+        "mode": "systemd_daily",
+        "collection_is_scheduled": false,
+        "scheduling_evidence": {
+          "invocation_id": "3c5f300797744a649952ef210a78a97f",
+          "verified": false,
+          "limitation": "Unable to verify timer trigger against this service invocation"
+        },
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "host": "VM-0-10-ubuntu",
+        "user": "ubuntu",
+        "started_at": "2026-10-31T06:30:00.305278+08:00",
+        "run_id": "2026-10-31",
+        "transport": "standard_git",
+        "project_review": {
+          "caiyuntai": "pending_review",
+          "yanyuetong": "pending_review"
+        },
+        "recorded_at": "2026-10-31T06:32:59.040334+08:00",
+        "manual_display_update": {
+          "mode": "manual_display_update",
+          "recorded_at": "2026-10-31T19:35:35.203814+08:00",
+          "host": "VM-0-10-ubuntu",
+          "user": "ubuntu",
+          "baseline_sha": "317f03d55f5b44c1e0d67eb30d335d1b8af2db94",
+          "baseline_sha256": {
+            "每日面经/2026-10-31.md": "4e1f36a6de7303f49157be03c957185dabd140079d28e4fe2f8c56774a53ef89",
+            "高频题库/Java面试高频题库.md": "7affc73da7bb8fcef32135dc597e0e92d8f11a9de8bed687a381c1fd4d6d7707"
+          },
+          "previous_run": {
+            "source_ids": [
+              "S-94b1fc7e331c3d3c"
+            ],
+            "notes": [
+              "采纳1篇实习面经，完整保留两轮21个编号技术问题，映射为21道归一题；来源数按题量动态调整，未按参考来源数4篇凑数。",
+              "页面显示完整日期2020-05-14并标已编辑；不能确认是否为首次发表日，保留原显示与日期质量说明。面试日期仅5.13，年份未明示，interview_date为null。",
+              "原文自述有些题记不清，本批次只收录可定位问题；三次数字变体与JVM内存模型题干存在歧义，AI答案明确条件，不补造输入。"
+            ],
+            "search_log": [
+              {
+                "query": "site.nowcoder.com/discuss Java 实习 面经 一面 后端",
+                "result": "发现京东、ks等候选；摘要、转载聚合、题库及招聘类结果不作为正文证据。"
+              },
+              {
+                "query": "site.nowcoder.com/discuss \"Java\" \"实习\" \"面经\" \"递归\" \"端口\"",
+                "result": "定位度小满原文URL；转载页只用作发现，不收录转载。"
+              },
+              {
+                "query": "site.nowcoder.com/discuss \"java实习\" \"面经\" \"一面\" \"二叉树\" \"Redis\"",
+                "result": "发现贝壳原文，open核实两轮完整正文后采纳；话题页、合集和GitHub汇编不采纳。"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/455427571170275328",
+                "decision": "rejected",
+                "reason": "turn2view1及turn3view1 open原文不可访问，不采用转载或搜索摘要补正文。"
+              },
+              {
+                "url": "https://www.nowcoder.com/feed/main/detail/71b59c024d8340408d9bed352cc41429",
+                "decision": "rejected",
+                "reason": "规范URL turn3view0仅4行导航；公开api-cdn链接初次返回截取导航，继续open正文两次超时，未完成正文核验。"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/933060569995759616",
+                "decision": "not_selected",
+                "reason": "turn3view2正文可读；按完整来源动态控制题量，选择题量已接近目标的贝壳实习原文，本篇未计入采集。"
+              },
+              {
+                "url": "https://www.nowcoder.com/feed/main/detail/4853de1d891f41b5b8d5c27bc3fb0748",
+                "decision": "not_selected",
+                "reason": "turn5view1完整正文可读，确认Java后端校招；采用贝壳实习完整来源已达软目标，不追加整篇扩大题量。"
+              },
+              {
+                "url": "https://www.nowcoder.com/discuss/353156432944111616",
+                "decision": "accepted",
+                "coverage": "逐项核对一面1—12与二面1—9，21个编号全部收录为23条映射、21道归一题。L65与L69含不同技术角度，各拆为两个映射；垃圾回收介绍/判活及两次HashMap扩容复用同题，每篇计一次。没有遗漏或排除正文编号技术题；L98求offer叙事、评论和推荐文章不属于本次原题。原文未展开的遗忘问题不补造。",
+                "deduplication": "对照全部29篇历史来源URL、标题、题干与124道规范题；未见同文或转载重复。复用4个旧题ID及原答案，不提交旧题定义；具体版本/负载因子/队列实现栈等不同角度单独建题。"
+              },
+              {
+                "purpose": "新答案的技术边界核对",
+                "opened_urls": [
+                  "https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html",
+                  "https://raw.githubusercontent.com/openjdk/jdk8u/master/jdk/src/share/classes/java/util/HashMap.java",
+                  "https://redis.io/docs/latest/develop/data-types/sorted-sets/",
+                  "https://www.elastic.co/docs/solutions/search/full-text/how-full-text-works"
+                ],
+                "result": "核对HashMap初始容量与负载因子、ZSet有序集合语义及倒排索引；原文社区评论未作答案依据。"
+              }
+            ],
+            "execution": {
+              "provider": "selfhost_codex_cli",
+              "mode": "systemd_daily",
+              "collection_is_scheduled": false,
+              "scheduling_evidence": {
+                "invocation_id": "3c5f300797744a649952ef210a78a97f",
+                "verified": false,
+                "limitation": "Unable to verify timer trigger against this service invocation"
+              },
+              "project_heads": {
+                "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+                "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+              },
+              "host": "VM-0-10-ubuntu",
+              "user": "ubuntu",
+              "started_at": "2026-10-31T06:30:00.305278+08:00",
+              "run_id": "2026-10-31",
+              "transport": "standard_git",
+              "project_review": {
+                "caiyuntai": "pending_review",
+                "yanyuetong": "pending_review"
+              },
+              "recorded_at": "2026-10-31T06:32:59.040334+08:00"
+            },
+            "top_review_ids": []
+          },
+          "reason": "用户明确授权2026-10-31整个其他问题板块9题展示排除，保留前12题及全部采集证据与统计；不重采集。"
+        }
+      },
+      "top_review_ids": [],
+      "display_excluded_domains": [
+        "其他问题"
+      ],
+      "display_excluded_question_ids": [
+        "algorithm-binary-tree-diameter",
+        "algorithm-heap-sort",
+        "algorithm-large-file-common-numbers",
+        "algorithm-large-file-common-strings",
+        "algorithm-longest-increasing-subsequence",
+        "algorithm-queue-implements-stack",
+        "algorithm-single-number-frequency",
+        "elasticsearch-basic-overview",
+        "search-inverted-index"
+      ]
+    },
+    "2026-11-01": {
+      "source_ids": [
+        "S-4290dc148e813b79",
+        "S-f6567501ecaadb14"
+      ],
+      "notes": [
+        "用友正文作者栏只显示08-10 23:45，年份不能由正文证明，published_date为null。",
+        "恒生电子日期2020-06-27 19:44标注已编辑，可能为编辑日期而非首发日期；两篇未提供完整面试日期。",
+        "两篇短面经完整收录后端主线，合计21条映射、20道规范题；主题式原题未补造具体条件。"
+      ],
+      "search_log": [
+        {
+          "query": "site.nowcoder.com/discuss Java 后端 实习 面经 一面 集合 Redis",
+          "tool": "web.search_query",
+          "purpose": "不限时间与级别检索真实Java后端面经"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"java实习\" \"一面\" \"十分钟\"",
+          "tool": "web.search_query",
+          "purpose": "不限时间与级别检索真实Java后端面经"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java\" \"实习面经\" \"五个\"",
+          "tool": "web.search_query",
+          "purpose": "不限时间与级别检索真实Java后端面经"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java实习面经\" \"1.\" \"2.\" \"3.\" \"4.\" \"5.\" 小厂",
+          "tool": "web.search_query",
+          "purpose": "不限时间与级别检索真实Java后端面经"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java\" \"实习\" \"面经\" \"十分钟\" \"MySQL\"",
+          "tool": "web.search_query",
+          "purpose": "不限时间与级别检索真实Java后端面经"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java\" \"实习面经\" \"20min\"",
+          "tool": "web.search_query",
+          "purpose": "不限时间与级别检索真实Java后端面经"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/61fc22a4e20a444ebf3b10711cf0f6e5",
+          "status": "rejected",
+          "reason": "turn1view0 open仅4行导航；api-cdn公开URL open turn3view1超时，不采搜索摘要。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/759800826842923008",
+          "status": "rejected",
+          "reason": "turn5view0 open仅4行导航，转载摘要不能代替原文。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353157581390684160",
+          "status": "reviewed_not_selected",
+          "reason": "turn1view1正文L51-L152可读。本次两篇短文已达到约20题软目标，故整篇未采集，并非日期或岗位级别排除。范围审查：L72-L80栈队列及回文手撕、L84-L94通用树结构性质与增删、L150-L152建树遍历为纯算法或泛化数据结构；L96-L100结合HashMap的树选型属于后端主线，后续若选本篇须收录。未删除历史证据。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/0da5ca7b308e49d985dd22aa5fe3a9fc",
+          "status": "duplicate_not_collected",
+          "reason": "已在sources.json收录，带sourceSSR的URL也是同一文章，不重采。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/862367705284816896",
+          "status": "duplicate_not_collected",
+          "reason": "已在历史来源收录，不重采。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/a2476f1aebb84c9191ab53717464f55c",
+          "status": "duplicate_not_collected",
+          "reason": "历史已收录，跟踪参数不构成新来源。"
+        },
+        {
+          "url": "https://blog.csdn.net/m0_57545130/article/details/159381226",
+          "status": "rejected_at_search",
+          "reason": "搜索结果自述多渠道资料汇总，非个人具体面试记录。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/784203612955090944",
+          "status": "accepted_scope_review",
+          "reason": "turn3view0 L53-L60逐条检查；第3条乐观锁与AQS分别映射；L59泛AI认知无具体后端条件，范围外不采。其余主线全部收录。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353156540611895296",
+          "status": "accepted_scope_review",
+          "reason": "turn7view0 L57-L81全部13个技术主题收录；L55自我介绍、L83反问、L84 offer统计及评论推荐不是技术原题。线程池只保留原主题，不补造参数追问。"
+        },
+        {
+          "status": "selection_complete",
+          "reason": "实际两篇21条映射、20道不同规范题，停止为参考来源数4凑篇。两文公司、作者、题序、技术组合不同，非转载；匿名及未知规模不推测。"
+        },
+        {
+          "query": "site.docs.oracle.com AbstractQueuedSynchronizer synchronization state FIFO wait queue",
+          "tool": "web.search_query",
+          "purpose": "新题技术术语核对；不作为面经来源"
+        },
+        {
+          "query": "site.redis.io Redis single threaded in memory data structures persistence",
+          "tool": "web.search_query",
+          "purpose": "新题技术术语核对；不作为面经来源"
+        }
+      ],
+      "execution": {
+        "provider": "selfhost_codex_cli",
+        "mode": "systemd_daily",
+        "collection_is_scheduled": false,
+        "scheduling_evidence": {
+          "invocation_id": "889d0cc373f2416586f0ffef8c4a7bad",
+          "verified": false,
+          "limitation": "Unable to verify timer trigger against this service invocation"
+        },
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "host": "VM-0-10-ubuntu",
+        "user": "ubuntu",
+        "started_at": "2026-11-01T06:30:00.303602+08:00",
+        "run_id": "2026-11-01",
+        "transport": "standard_git",
+        "project_review": {
+          "caiyuntai": "pending_review",
+          "yanyuetong": "pending_review"
+        },
+        "recorded_at": "2026-11-01T06:32:57.486968+08:00"
+      },
+      "top_review_ids": [],
+      "display_excluded_domains": [
+        "其他问题"
+      ]
+    },
+    "2026-11-02": {
+      "source_ids": [
+        "S-db81dfb63438d713",
+        "S-08a8c7e5a62f1aa8"
+      ],
+      "notes": [
+        "本次两篇公开正文共有21道规范主线题（22条原题记录）；按完整收录与约20题软目标停止增加来源。",
+        "匿名实习复盘只公开作者选出的代表性问题，不能还原未披露的整场面试；公司保持匿名。",
+        "华为OD文章面试日期仅写3.14、3.15、3.18，缺少年份，interview_date为null；实习复盘仅写“昨天”，不由此推算面试日期。"
+      ],
+      "search_log": [
+        {
+          "query": "site.nowcoder.com/discuss Java 实习 面经 一面 Redis 线程池",
+          "purpose": "不限年份、岗位级别的真实Java后端面经检索"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java\" \"实习\" \"面经\" \"一面\" -菜鸟 -法大大",
+          "purpose": "不限年份、岗位级别的真实Java后端面经检索"
+        },
+        {
+          "query": "site.cnblogs.com Java 实习 面经 一面",
+          "purpose": "不限年份、岗位级别的真实Java后端面经检索"
+        },
+        {
+          "query": "site.nowcoder.com/discuss/ \"实习面经\" \"Java\" \"美团\"",
+          "purpose": "不限年份、岗位级别的真实Java后端面经检索"
+        },
+        {
+          "query": "site.cnblogs.com/ \"面经\" \"实习\" \"Java\"",
+          "purpose": "不限年份、岗位级别的真实Java后端面经检索"
+        },
+        {
+          "query": "Java 实习 面经 (domains=cnblogs.com)",
+          "purpose": "不限年份、岗位级别的真实Java后端面经检索"
+        },
+        {
+          "query": "Java 实习 一面 面经 (domains=blog.csdn.net)",
+          "purpose": "不限年份、岗位级别的真实Java后端面经检索"
+        },
+        {
+          "query": "Java 实习 面经 (domains=juejin.cn)",
+          "purpose": "不限年份、岗位级别的真实Java后端面经检索"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353157949398917120",
+          "result": "rejected",
+          "tool_result": "turn1view0",
+          "reason": "与sources.json历史来源重复；本次open也仅返回4行导航，不重采集"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/916441385060827136",
+          "result": "rejected",
+          "tool_result": "turn1view1、turn2view0",
+          "reason": "两次open均仅4行导航，搜索摘要不能作为正文证据"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353156365612949504",
+          "result": "rejected",
+          "tool_result": "turn4view0",
+          "reason": "open仅4行导航，无可读正文"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353156261892005888",
+          "result": "rejected",
+          "tool_result": "turn4view1",
+          "reason": "open仅4行导航，无可读正文"
+        },
+        {
+          "url": "https://blog.csdn.net/m0_57545130/article/details/159381226",
+          "result": "not_collected",
+          "reason": "搜索结果自述多渠道反馈汇总，非具体本人面试经历，不以其题单充当原文。"
+        },
+        {
+          "url": "https://notes.kamacoder.com/interview/java/",
+          "result": "not_collected",
+          "reason": "面经汇总导航，不是具体原文。"
+        },
+        {
+          "url": "https://mianstack.com/interview/mj-nc-2026-0429/?view=questions",
+          "result": "not_collected",
+          "reason": "第三方面试题归档页面，未以此替代牛客原文。"
+        },
+        {
+          "url": "https://www.cnblogs.com/thr-0103/p/18113538",
+          "result": "accepted_completeness_review",
+          "included": "第2节6组有明确“问题”标识的主线题全部收录；MyBatis与字节码流程复用旧题。",
+          "not_collected": [
+            {
+              "locator": "turn6view0 L104-L137",
+              "reason": "第3节是作者整理的面试官讲解与见解，无可定位原题，不将ES、OLAP、MyBatis事务等讲解脑补成实际追问。"
+            },
+            {
+              "locator": "turn6view0 L138-L158",
+              "reason": "个人思考与感悟，不是面试原题。"
+            }
+          ]
+        },
+        {
+          "url": "https://juejin.cn/post/7370994785656668187",
+          "result": "accepted_completeness_review",
+          "included": "一面1—6、二面1—6、加面1—4全部保留；面向对象两处原表述映射同一题，频次按同篇一次。",
+          "not_collected": [
+            {
+              "locator": "turn6view1 L16",
+              "reason": "全排列为纯算法手撕，范围外，未采集。"
+            },
+            {
+              "locator": "turn6view1 L26-L30",
+              "reason": "字符串删除题为纯算法手撕，范围外，未采集。"
+            },
+            {
+              "locator": "turn6view1 L38",
+              "reason": "“其他项目细节”未给出可定位具体问题或条件，不能脑补。"
+            },
+            {
+              "locator": "turn6view1 L39-L42",
+              "reason": "连续区间计数为纯算法手撕，范围外，未采集。"
+            }
+          ]
+        },
+        {
+          "purpose": "AI答案技术核验，不计面经来源",
+          "queries": [
+            "site.redis.io docs out of memory maxmemory eviction info memory",
+            "site.rabbitmq.com docs reliability publisher confirms consumer acknowledgements",
+            "site.docs.oracle.com Java checked unchecked exceptions deadlock abstract classes interfaces"
+          ],
+          "opened_results": [
+            "turn8view0 Redis淘汰页重定向后无可读行，仅参考官方搜索结果turn7search2、turn7search4、turn7search5",
+            "turn8view1 RabbitMQ Reliability Guide公开可读",
+            "turn8view2 Oracle Deadlock公开可读",
+            "turn8view3 Oracle受检与非受检异常公开可读"
+          ]
+        }
+      ],
+      "execution": {
+        "provider": "selfhost_codex_cli",
+        "mode": "systemd_daily",
+        "collection_is_scheduled": false,
+        "scheduling_evidence": {
+          "invocation_id": "d612904064bb4a27944dea77c773feb3",
+          "verified": false,
+          "limitation": "Unable to verify timer trigger against this service invocation"
+        },
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "host": "VM-0-10-ubuntu",
+        "user": "ubuntu",
+        "started_at": "2026-11-02T06:30:00.293356+08:00",
+        "run_id": "2026-11-02",
+        "transport": "standard_git",
+        "project_review": {
+          "caiyuntai": "pending_review",
+          "yanyuetong": "pending_review"
+        },
+        "recorded_at": "2026-11-02T06:32:45.401007+08:00"
+      },
+      "top_review_ids": [],
+      "display_excluded_domains": [
+        "其他问题"
+      ]
+    },
+    "2026-11-03": {
+      "source_ids": [
+        "S-362e0430b8c654c6",
+        "S-a4009f3844264049",
+        "S-7c0a8772426df750"
+      ],
+      "notes": [
+        "本批选择3篇正文可读的真实Java面经；来源数按主线内容动态调整，未为参考来源数4凑篇数。",
+        "三篇作者区均仅提供“已编辑”时间，无法证明首次发布日期，published_date均为null；面试日期未明确，亦为null。",
+        "仅记录正文明确保留的问题；作者未记住的追问不补写，未建立任何新的项目代码关联。",
+        "共17条可定位原题，归一15题；其中5题直接复用历史完整规范答案，10题为新角度AI参考答案；同篇重复聊项目不另计频次。"
+      ],
+      "search_log": [
+        {
+          "query": "site.nowcoder.com/discuss Java 实习 面经 HashMap 事务",
+          "purpose": "不限时间与岗位级别搜索真实Java后端面经，正文核实后选择"
+        },
+        {
+          "query": "site.cnblogs.com Java 实习 面经 一面",
+          "purpose": "不限时间与岗位级别搜索真实Java后端面经，正文核实后选择"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java实习\" \"面经\" \"短\"",
+          "purpose": "不限时间与岗位级别搜索真实Java后端面经，正文核实后选择"
+        },
+        {
+          "query": "site.cnblogs.com \"Java\" \"实习面经\"",
+          "purpose": "不限时间与岗位级别搜索真实Java后端面经，正文核实后选择"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java\" \"实习面经\" \"1.\" \"6.\" \"小厂\"",
+          "purpose": "不限时间与岗位级别搜索真实Java后端面经，正文核实后选择"
+        },
+        {
+          "query": "site.nowcoder.com \"北京某小厂 Java 实习面经\"",
+          "purpose": "不限时间与岗位级别搜索真实Java后端面经，正文核实后选择"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java\" \"实习\" \"面经\" \"就问了\"",
+          "purpose": "不限时间与岗位级别搜索真实Java后端面经，正文核实后选择"
+        },
+        {
+          "query": "site.nowcoder.com/discuss \"Java\" \"实习\" \"面经\" \"十分钟\"",
+          "purpose": "不限时间与岗位级别搜索真实Java后端面经，正文核实后选择"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982",
+          "status": "rejected",
+          "reason": "open turn2view1仅L0-L3页脚；带sourceSSR的两次open亦不可访问，搜索摘要不能代替正文。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353154397108641792",
+          "status": "rejected",
+          "reason": "open turn5view0仅L0-L3页脚，turn6view0不可访问；不能据摘要收录。"
+        },
+        {
+          "url": "https://notes.kamacoder.com/interview/java/",
+          "status": "rejected",
+          "reason": "面经目录汇总页，无独立原始面试正文。"
+        },
+        {
+          "url": "https://gitcode.csdn.net/69c09c5254b52172bc636d82.html",
+          "status": "rejected",
+          "reason": "搜索结果自述为多渠道整理的汇总，非独立真实面经原文。"
+        },
+        {
+          "url": "https://offernow.cn/s/interview/real_interview/dgrqv2fxa8gg8xrs",
+          "status": "rejected",
+          "reason": "转载且附生成式参考回答，不作新的独立来源。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353157949398917120",
+          "status": "duplicate",
+          "reason": "已在历史sources.json采集，跳过，不重复计数。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/0da5ca7b308e49d985dd22aa5fe3a9fc",
+          "status": "duplicate",
+          "reason": "已在历史sources.json采集，跳过，不重复计数。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353156461347938304",
+          "status": "not_collected",
+          "reason": "已open turn4view1阅读具体阿里云经历，作为备用未采集；本批选择篇幅较短来源，未登记此篇items或频次。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353155938444058624",
+          "status": "scope_exclusion",
+          "reason": "正文L67技术方向选择偏职业动机；L65、L73-L79自我介绍、学校排名、城市、优势与offer均非后端技术题，排除。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/497888682959974400",
+          "status": "scope_exclusion",
+          "reason": "L55/L73自我介绍、L67薪资、L75实习做事概述及L76反问/结果非具体技术题；不推测缺失技术细节。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353156399897190400",
+          "status": "scope_exclusion",
+          "reason": "L59的地点、实习时间、家庭等及L63自我介绍均非主线技术题；L71继续聊项目无独立题干，与L65同题仅保留一个item。"
+        },
+        {
+          "query": "site.docs.oracle.com HashMap null synchronized notifyAll notify",
+          "purpose": "核对新题AI答案的技术边界；技术文档不计面经来源。"
+        },
+        {
+          "query": "site.dev.mysql.com InnoDB isolation levels locking storage engines",
+          "purpose": "核对新题AI答案的技术边界；技术文档不计面经来源。"
+        },
+        {
+          "query": "site.redis.io replication sentinel cluster differences",
+          "purpose": "核对新题AI答案的技术边界；技术文档不计面经来源。"
+        }
+      ],
+      "execution": {
+        "provider": "selfhost_codex_cli",
+        "mode": "systemd_daily",
+        "collection_is_scheduled": false,
+        "scheduling_evidence": {
+          "invocation_id": "7d33cd8f02bd40c3ad5f529f4b36bb04",
+          "verified": false,
+          "limitation": "Unable to verify timer trigger against this service invocation"
+        },
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "host": "VM-0-10-ubuntu",
+        "user": "ubuntu",
+        "started_at": "2026-11-03T06:30:00.294426+08:00",
+        "run_id": "2026-11-03",
+        "transport": "standard_git",
+        "project_review": {
+          "caiyuntai": "pending_review",
+          "yanyuetong": "pending_review"
+        },
+        "recorded_at": "2026-11-03T06:34:15.587681+08:00"
+      },
+      "top_review_ids": [],
+      "display_excluded_domains": [
+        "其他问题"
+      ]
+    },
+    "2026-11-04": {
+      "source_ids": [
+        "S-711e5df1fb2cb059"
+      ],
+      "notes": [
+        "本篇20组后端主线原题及实际追问完整收录；以约20题软目标停止增加来源，未按参考来源数4凑篇。",
+        "作者区仅显示03-31 21:03，缺年份，发布日期为null；正文相对时间不能证明完整面试日期，interview_date为null。",
+        "项目相关题仅提供通用AI参考思路，原文未披露的Agent项目细节与数据库更新内容不推测；未添加项目代码关联。"
+      ],
+      "search_log": [
+        {
+          "query": "site.nowcoder.com/discuss Java 实习 面经 一面 HashMap Redis",
+          "tool": "web.search_query"
+        },
+        {
+          "query": "site.cnblogs.com Java 实习 面经 一面",
+          "tool": "web.search_query"
+        },
+        {
+          "url": "https://mianstack.com/interview/mj-nc-2026-0429/?view=questions",
+          "status": "rejected_at_search",
+          "reason": "第三方题目归档，不替代独立原文。"
+        },
+        {
+          "url": "https://niceoffersz.com/intv/meituan-backend-javaintern-1st",
+          "status": "rejected_at_search",
+          "reason": "结果明确自述综合牛客整理，非本人具体经历。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353157949398917120",
+          "status": "duplicate_not_collected",
+          "reason": "历史已收录，不重采。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/d94acc1939864dfaa82e6c7954e8311b",
+          "status": "rejected",
+          "reason": "open turn1view2返回Internal Error / not accessible，摘要不能代替正文。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/353158141053444096",
+          "status": "reviewed_not_collected",
+          "reason": "open turn1view1可读本人Java提前批经历，作为备选未登记来源、items或频次；高德单篇完整主线已接近每日软目标。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/868599400765874176",
+          "status": "accepted_completeness_review",
+          "reason": "turn1view0 L56-L75第1—20组主线与技术追问全部登记；L55仅概括Agent项目讨论无具体题干不补造，L76最长回文子串为纯算法手撕不采，L77感想及L83以后评论推荐非原题。"
+        },
+        {
+          "purpose": "新题AI答案技术核验，不作为面经来源",
+          "queries": [
+            "site.dev.mysql.com refman covering index LIKE COUNT InnoDB",
+            "site.redis.io docs set encoding intset listpack skiplist",
+            "site.rocketmq.apache.org architecture producer consumer broker nameserver",
+            "site.guava.dev BloomFilter expectedInsertions fpp"
+          ],
+          "opened_results": [
+            "turn3view0 MySQL WHERE优化",
+            "turn3view1 COUNT聚合",
+            "turn3view2 范围优化",
+            "turn3view3 Redis编码",
+            "turn3view4 RocketMQ最佳实践",
+            "turn3view5 Guava布隆过滤器"
+          ],
+          "references_note": "答案reference_urls指向核验官方资料；技术检索不计入来源频次。"
+        }
+      ],
+      "execution": {
+        "provider": "selfhost_codex_cli",
+        "mode": "systemd_daily",
+        "collection_is_scheduled": false,
+        "scheduling_evidence": {
+          "invocation_id": "6ed5dc042a2449d892cf0c762fc3b2b3",
+          "verified": false,
+          "limitation": "Unable to verify timer trigger against this service invocation"
+        },
+        "project_heads": {
+          "caiyuntai": "bc3b2504a8ff67057f8d77c373019dab27fc3a57",
+          "yanyuetong": "3de45d308c783f84d639ebfa6f7d6e22b1a2c9e2"
+        },
+        "host": "VM-0-10-ubuntu",
+        "user": "ubuntu",
+        "started_at": "2026-11-04T06:30:00.291483+08:00",
+        "run_id": "2026-11-04",
+        "transport": "standard_git",
+        "project_review": {
+          "caiyuntai": "pending_review",
+          "yanyuetong": "pending_review"
+        },
+        "recorded_at": "2026-11-04T06:32:18.256527+08:00"
+      },
+      "top_review_ids": [],
+      "display_excluded_domains": [
+        "其他问题"
+      ]
     }
   }
 }

@@ -139,12 +139,36 @@ def pending_checkbox_edit(path, state, batch):
     return checked != (set(batch['rendered_done']) & set(paths.values())) and checked != (set(batch['done']) & set(paths.values()))
 
 
+def freeze_round_topics(state):
+    """已有轮次保留既有安排；新轮次在开始时固定题库快照。"""
+    for round_ in state['rounds']:
+        if 'target_ids' in round_:
+            continue
+        assigned = {key for batch in round_['batches'] for key in batch['ids']}
+        if not round_['batches']:
+            targets = {key for key, item in state['catalog'].items() if item['active']}
+        else:
+            targets = assigned | {key for key, item in state['catalog'].items()
+                                  if item.get('first_seen', '') <= round_['started_on']}
+        round_['target_ids'] = sorted(targets)
+
+
+def finish_allocation(state, today):
+    for round_ in state['rounds']:
+        targets = {key for key in round_['target_ids'] if state['catalog'][key]['active']}
+        assigned = {key for batch in round_['batches'] for key in batch['ids']}
+        if targets <= assigned:
+            round_.setdefault('allocation_completed_on',
+                             round_['batches'][-1]['date'] if round_['batches'] else today)
+
+
 def select_topics(state, count):
     catalog = state['catalog']
     current = state['rounds'][-1]
     assigned = {k for b in current['batches'] for k in b['ids']}
     pools = collections.defaultdict(list)
-    for key, item in catalog.items():
+    for key in current['target_ids']:
+        item = catalog[key]
         if item['active'] and key not in assigned:
             pools[item['section']].append(key)
     for keys in pools.values():
@@ -176,7 +200,7 @@ def batch_finished(batch, catalog):
 def render_batch(state, batch):
     catalog = state['catalog']
     round_ = next(r for r in state['rounds'] if batch in r['batches'])
-    active = {k for k, v in catalog.items() if v['active']}
+    active = {k for k in round_.get('target_ids', catalog) if catalog[k]['active']}
     done = {k for b in round_['batches'] for k in b['done']} & active
     completed_rounds = sum('completed_on' in r for r in state['rounds'])
     shown = [k for k in batch['ids'] if catalog[k]['active']]
@@ -199,7 +223,7 @@ def render_batch(state, batch):
 def render_progress(state):
     current = state['rounds'][-1]
     catalog = state['catalog']
-    active = {k for k, v in catalog.items() if v['active']}
+    active = {k for k in current.get('target_ids', catalog) if catalog[k]['active']}
     done = {k for b in current['batches'] for k in b['done']} & active
     lines = ['# 复习进度', '', f"已完成 {sum('completed_on' in r for r in state['rounds'])} 轮 · 当前第 {current['number']} 轮 · {len(done)}/{len(active)} 篇", '',
              '| 板块 | 已复习 / 题数 |', '| --- | --- |']
@@ -207,18 +231,20 @@ def render_progress(state):
     for section in sections:
         keys = {k for k in active if catalog[k]['section'] == section}
         lines.append(f'| {section} | {len(keys & done)} / {len(keys)} |')
-    lines += ['', '## 轮次记录', '', '| 轮次 | 开始 | 完成 | 完成时题数 |', '| --- | --- | --- | --- |']
+    lines += ['', '## 轮次记录', '', '| 轮次 | 开始 | 分配结束 | 复习完成 | 题数 |', '| --- | --- | --- | --- | --- |']
     for round_ in state['rounds']:
-        lines.append(f"| {round_['number']} | {round_['started_on']} | {round_.get('completed_on', '进行中')} | {round_.get('topic_count', '—')} |")
+        lines.append(f"| {round_['number']} | {round_['started_on']} | {round_.get('allocation_completed_on', '分配中')} | {round_.get('completed_on', '未全部复习')} | {len(round_.get('target_ids', []))} |")
     return '\n'.join(lines) + '\n'
 
 
 def run(base=BASE, today=None):
     base = base.resolve()
     config = read_json(base / '配置.json')
+    if config.get('paused', False):
+        return read_json(base / '复习状态.json')
     count = config['daily_count']
-    if not isinstance(count, int) or not 15 <= count <= 25:
-        raise ValueError('daily_count 必须是 15 到 25 的整数')
+    if not isinstance(count, int) or not 10 <= count <= 25:
+        raise ValueError('daily_count 必须是 10 到 25 的整数')
     today = today or dt.datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()
     dt.date.fromisoformat(today)
     vault = (base / config['vault']).resolve()
@@ -259,19 +285,11 @@ def run(base=BASE, today=None):
             for batch in round_['batches']:
                 batch['seed_done'] = list(batch.get('done', []))
         state['completion_version'] = 2
-    update_completion(state, scopes, today)
-    # 每个自然日换题；未完成的批次继续保留在每日记录中。
-    current = state['rounds'][-1]
-    if current.get('completed_on', today) < today:
-        current['target_ids'] = [k for k, v in state['catalog'].items() if v['active']]
-        state['rounds'].append({'number': current['number'] + 1, 'started_on': today, 'batches': []})
-        for item in state['catalog'].values():
-            item['new'] = False
     sync_catalog(state, scanned, today)
+    freeze_round_topics(state)
     update_completion(state, scopes, today)
+    finish_allocation(state, today)
     current = state['rounds'][-1]
-    if 'completed_on' in current:
-        current['topic_count'] = sum(v['active'] for v in state['catalog'].values())
     batch = current['batches'][-1] if current['batches'] else None
     entry_batch = batch
     fixed = base / '今日八股复习.md'
@@ -282,10 +300,10 @@ def run(base=BASE, today=None):
         ids = select_topics(state, count)
         if not ids:
             # 全部题目已安排，即进入下一轮；旧轮次是否完成仍由实际勾选决定。
-            current['target_ids'] = [k for k, v in state['catalog'].items() if v['active']]
             state['rounds'].append({'number': current['number'] + 1, 'started_on': today, 'batches': []})
-            for item in state['catalog'].values():
-                item['new'] = False
+            for key, item in state['catalog'].items():
+                item['new'] = key not in current['target_ids']
+            freeze_round_topics(state)
             current = state['rounds'][-1]
             ids = select_topics(state, count)
         if ids:
@@ -294,6 +312,7 @@ def run(base=BASE, today=None):
             batch = {'date': today, 'ids': ids, 'done': [], 'seed_done': []}
             current['batches'].append(batch)
             update_completion(state, scopes, today)
+    finish_allocation(state, today)
     state['last_date'] = today
     # 每日记录独立保留；未消费的复选框操作不覆盖。
     for round_ in state['rounds']:

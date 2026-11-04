@@ -16,7 +16,7 @@
    ┌───┴────┐              ┌───────────┼───────────┐
    │        │              │           │           │
   堆 Heap  方法区        虚拟机栈     本地方法栈    程序计数器
-           Method Area    JVM Stack   Native Stack    PC
+           Method Area  JVM Stack   Native Stack    PC
 ```
 
 这 **5 大区域** 是面试最重要的。
