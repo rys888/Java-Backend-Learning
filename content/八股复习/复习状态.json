@@ -124,7 +124,7 @@
       "path": "java/八股笔记/Java 基础/反射/反射.md",
       "title": "反射",
       "section": "Java 基础",
-      "digest": "5a0d79baf1e0bae44cdcc96a72e1d6bf95142cfaa29f4ea81de20f360b72b4ea",
+      "digest": "7203f8c7890f0392524ec62ed62a48ff7a3a671f8bc225dd5827baf2815c2b71",
       "active": true
     },
     "2286fde2f1c04730b1ea5ffe222ee2ac": {
@@ -151,7 +151,7 @@
       "path": "java/八股笔记/Java 基础/序列化/序列化和反序列化.md",
       "title": "序列化和反序列化",
       "section": "Java 基础",
-      "digest": "7f38b3a6ef1a9cd26877cfd42dcf4e92f952fdcf6e637397bc459dbde9511907",
+      "digest": "17d8cc357474b807a7d3942d93b36ccd9e68fc46397eddca50589e5bc37c1ba3",
       "active": true
     },
     "af3e91a2bff94cb895c6943ca41bb7c3": {
@@ -169,7 +169,7 @@
       "path": "java/八股笔记/Java 基础/数据类型/int 和 Integer.md",
       "title": "int 和 Integer",
       "section": "Java 基础",
-      "digest": "5770624a09681f5b18ca1dff868c66ed00424adbd39299600eab789061a69914",
+      "digest": "c96c6904ead9fb29c7bcbe5526b0b45c605921fb8bd853727e32c8b063e65cc1",
       "active": true
     },
     "f90d30658f984006b59fe5d3b5961140": {
@@ -700,7 +700,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/垃圾回收/java的gc机制.md",
       "title": "java的gc机制",
       "section": "Java虚拟机 JVM",
-      "digest": "a94531ad0244694ab6e2a5093cb69fc5f2ad98f5f121193cfbe95078101bc494",
+      "digest": "f03b0de40e49f6d256dd5bb7fabe83a69b75fe03f33baa4e91589a0168a97c07",
       "active": true
     },
     "07805f92893e411482e4eebce1d180ef": {
@@ -781,7 +781,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/垃圾回收/系统频繁发生Full GC，如何排查.md",
       "title": "系统频繁发生Full GC，如何排查",
       "section": "Java虚拟机 JVM",
-      "digest": "1ee8b2b52646c4aa204642004f450422dfc1cee491c5ad71d9ad5611c1d3b5f7",
+      "digest": "a4b2d7cfa88a01c60709ebf2e04b7cb73887f47e55a08d4c694f6bde523564f6",
       "active": true
     },
     "77b956bd539c406f9a8aba314f79d4cc": {
@@ -970,7 +970,7 @@
       "path": "java/八股笔记/MySQL/事务/事务的隔离级别有哪些.md",
       "title": "事务的隔离级别有哪些",
       "section": "MySQL",
-      "digest": "8e65e96e587a374e13e57b800fe5548aa8013512acb66ed286f9f4d9dd07113b",
+      "digest": "d2e9ec0176ace2a33aaa7a3ecaa2ad3dd3e66dee3dc85a8fd292abdbd06c22d3",
       "active": true
     },
     "fc91ee7bfaf94dd2a05c9cef17eaf5f3": {
@@ -1429,7 +1429,7 @@
       "path": "java/八股笔记/Redis/集群/Redis哨兵机制.md",
       "title": "Redis哨兵机制",
       "section": "Redis",
-      "digest": "0637a2e14baee7d293df6640044dc167045207f3365eade54147ace0e5bd5994",
+      "digest": "a80d92667465bc6fa8ffde396088e301ffd099815afd23dd2d70860d575d6877",
       "active": true
     },
     "8ec629484130478daeb4c1921343f0f2": {
@@ -1988,6 +1988,42 @@
       "title": "InnDB有哪些锁",
       "section": "MySQL",
       "digest": "b34ed1f5eb48caa879a23f87b70765f3a6b30383e13a4bdffcfc7b66da809a75",
+      "active": true
+    },
+    "b42700b848b749fe85bb6ffe5a184fb0": {
+      "first_seen": "2026-11-06",
+      "new": true,
+      "path": "java/八股笔记/agent/rag/rag解决什么问题.md",
+      "title": "rag解决什么问题",
+      "section": "agent",
+      "digest": "cdebf4d4d2b806dd4a7a3712882a4cf9f5cdee69cafb93b690e469e26c86b825",
+      "active": true
+    },
+    "8b52bc9e4c724ae1b5b121281672fe5e": {
+      "first_seen": "2026-11-06",
+      "new": true,
+      "path": "java/八股笔记/agent/rag/rag完整流程.md",
+      "title": "rag完整流程",
+      "section": "agent",
+      "digest": "fd127bdd0fb139f24138c02a65ff975b0aeef817ff2537ce9259c936581ad277",
+      "active": true
+    },
+    "60547e388860412793010101acfcf959": {
+      "first_seen": "2026-11-06",
+      "new": true,
+      "path": "java/八股笔记/agent/rag/不同的复杂RAG范式.md",
+      "title": "不同的复杂RAG范式",
+      "section": "agent",
+      "digest": "c6b1c24020af8c596580943beacd043c1020eaeac6628f82678f749120ca8cf6",
+      "active": true
+    },
+    "5fdb7581ceaa4b0b89b746b8e26be558": {
+      "first_seen": "2026-11-10",
+      "new": true,
+      "path": "java/八股笔记/Java 并发编程 JUC/多线程/Java线程的状态有哪些.md",
+      "title": "Java线程的状态有哪些",
+      "section": "Java 并发编程 JUC",
+      "digest": "138c5110ea83dee32fe0af73a84feda6ace997a9002a9305647e005af582261e",
       "active": true
     }
   },
@@ -3232,11 +3268,148 @@
           ],
           "seed_done": [],
           "done": [],
+          "rendered_done": [],
+          "end_date": "2026-11-04"
+        },
+        {
+          "date": "2026-11-05",
+          "ids": [
+            "af3e91a2bff94cb895c6943ca41bb7c3",
+            "d9e66086f94c4064b24586809fb662d8",
+            "93d1851e9ef847cd814d114ca4bc118f",
+            "b61e7860ea8b4c1c920047a5fa1ab6ce",
+            "48095de0ca1a47ee9bbbac61385a91bc",
+            "fc91ee7bfaf94dd2a05c9cef17eaf5f3",
+            "12cef0a9375c466c8a20481062cf43ac",
+            "483c062ec57449b2b3e029aa59f5f108",
+            "a27389bbf6a34b55b8e21f33b1468ce7",
+            "d7334b304bdb4f5f98b1ae2035eb99d1"
+          ],
+          "done": [],
+          "seed_done": [],
+          "rendered_done": [],
+          "end_date": "2026-11-05"
+        },
+        {
+          "date": "2026-11-06",
+          "ids": [
+            "b4716d2a2c1d474f88aecab4b07edbae",
+            "28bba75908714b1f80dfc0474b8e164d",
+            "308c2f31cb364b5a896b209de949e30f",
+            "bc06b090ef0449e3b86ed9a804530559",
+            "a2bcb2631db04e4cb273ac94000d673e",
+            "d14145b310d6444e93c7bc6991631103",
+            "824b3b892e69472a8d91d46bc82ccbf7",
+            "0585f6858b8c4cb68126ab8c4cb5db8d",
+            "b7c66c3b9c714bb7a854afc50b3f795b",
+            "1999bbc15eed4697882b6386f1682c27"
+          ],
+          "done": [],
+          "seed_done": [],
+          "rendered_done": [],
+          "end_date": "2026-11-06"
+        },
+        {
+          "date": "2026-11-07",
+          "ids": [
+            "d3bf0074ee8640d5afa16d3e74852bcd",
+            "5ae857565f3c40e38e0db325d6ae1612",
+            "5a5ee479e7f144e3bf7c6ec4f3e5dc9f",
+            "a183f6c394844b7183381989bce426e6",
+            "a049ca99f8f54563aff40f1a1f8a9af5",
+            "82bcd182c8204a7294abf9b6ef077bac",
+            "410ac2c3180d40f7998d41a77408879d",
+            "b53422a7bdac42a0b6de70e3eeded75f",
+            "5fe86cc1d570491290c387d314698c62",
+            "99fe13019481424d9edadad3bc55c6e7"
+          ],
+          "done": [
+            "d3bf0074ee8640d5afa16d3e74852bcd"
+          ],
+          "seed_done": [],
+          "rendered_done": [
+            "d3bf0074ee8640d5afa16d3e74852bcd"
+          ],
+          "end_date": "2026-11-07"
+        },
+        {
+          "date": "2026-11-08",
+          "ids": [
+            "2286fde2f1c04730b1ea5ffe222ee2ac",
+            "31146a3ea36d45f7b53b39a74fe76739",
+            "7e26db968d4b4c378a54703aa61f40b6",
+            "f649f39f4276464786ece1e8ed140442",
+            "b17097a76de3457494f99839aeac4b2a",
+            "af125119424d485daf61f6eb38a53938",
+            "fed67ff52b2045e992868c2f7013092c",
+            "f9a4af976c9a4b61927f14a689b65273",
+            "2d4a88857a0f42e29aff41247d219c86",
+            "6bb8ca2176e24123b142b07e6e5d06f6"
+          ],
+          "done": [],
+          "seed_done": [],
+          "rendered_done": [],
+          "end_date": "2026-11-08"
+        },
+        {
+          "date": "2026-11-09",
+          "ids": [
+            "8c6946cf26a44934bff33f9e4f818382",
+            "f372b4d70a824ed590c6b746e33cc72e",
+            "8eee9c4a73a74d299bc326ee6c71b1d5",
+            "005f299ecae9496a84f401d615094e4f",
+            "fd40961e15b642a084b0bef1a48df923",
+            "25265bf6002b4aa6bad97b89d4b9831e",
+            "3af54bca8feb4c28a3bd49f153d18ff0",
+            "6b8ad91646434361b235dee4b364ebcd",
+            "b483c8ce091a4d86a43e2144b309347d",
+            "1142c094b13a4af1a7e58302587f6fa2"
+          ],
+          "done": [],
+          "seed_done": [],
+          "rendered_done": [],
+          "end_date": "2026-11-09"
+        },
+        {
+          "date": "2026-11-10",
+          "ids": [
+            "80ec213243554bbcad1b3c82ff840276",
+            "1ca9f53cccba4f13a601014066225f7d",
+            "50259616c29748f19062ab73a14f6d73",
+            "fe3a91a25f0e491899f976c5948215ac",
+            "50ca988f220b471090a22cf47ecde76e",
+            "9dc11727b0a8433a9305d16a6f62babc",
+            "4985ac8d62bb446abaa4f604c124b58b",
+            "136d552960734d669953083f8992088c",
+            "2909b0fd994c4eb1817d19b62bc0a318",
+            "de4d458bdc3e453185a14ec454496f72"
+          ],
+          "done": [],
+          "seed_done": [],
+          "rendered_done": [],
+          "end_date": "2026-11-10"
+        },
+        {
+          "date": "2026-11-11",
+          "ids": [
+            "5aa8e97b385c4b2db843da198cb448cf",
+            "4a4a06ecdbc34c78bace47a909ee3749",
+            "9f34569d591b46749baad62436823060",
+            "e6568437e097467b835706d556839ba0",
+            "c30f64fc315f4615b86848bb60897cd4",
+            "1c9ff4ef78fd421696a81fe37714cf24",
+            "b96c06cd1ea44622b102e195b0ce47dc",
+            "2a081aa6230e4057b1a641b73a4dfc77",
+            "626ea7ce5a9c40a78aa1ef692f7b8e2e",
+            "e2507740f446411da18a037c9c32b9e6"
+          ],
+          "done": [],
+          "seed_done": [],
           "rendered_done": []
         }
       ]
     }
   ],
-  "last_date": "2026-11-04",
+  "last_date": "2026-11-11",
   "completion_version": 2
 }

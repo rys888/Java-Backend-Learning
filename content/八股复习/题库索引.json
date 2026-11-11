@@ -123,7 +123,7 @@
       "path": "java/八股笔记/Java 基础/反射/反射.md",
       "title": "反射",
       "section": "Java 基础",
-      "digest": "5a0d79baf1e0bae44cdcc96a72e1d6bf95142cfaa29f4ea81de20f360b72b4ea",
+      "digest": "7203f8c7890f0392524ec62ed62a48ff7a3a671f8bc225dd5827baf2815c2b71",
       "active": true
     },
     {
@@ -150,7 +150,7 @@
       "path": "java/八股笔记/Java 基础/序列化/序列化和反序列化.md",
       "title": "序列化和反序列化",
       "section": "Java 基础",
-      "digest": "7f38b3a6ef1a9cd26877cfd42dcf4e92f952fdcf6e637397bc459dbde9511907",
+      "digest": "17d8cc357474b807a7d3942d93b36ccd9e68fc46397eddca50589e5bc37c1ba3",
       "active": true
     },
     {
@@ -168,7 +168,7 @@
       "path": "java/八股笔记/Java 基础/数据类型/int 和 Integer.md",
       "title": "int 和 Integer",
       "section": "Java 基础",
-      "digest": "5770624a09681f5b18ca1dff868c66ed00424adbd39299600eab789061a69914",
+      "digest": "c96c6904ead9fb29c7bcbe5526b0b45c605921fb8bd853727e32c8b063e65cc1",
       "active": true
     },
     {
@@ -699,7 +699,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/垃圾回收/java的gc机制.md",
       "title": "java的gc机制",
       "section": "Java虚拟机 JVM",
-      "digest": "a94531ad0244694ab6e2a5093cb69fc5f2ad98f5f121193cfbe95078101bc494",
+      "digest": "f03b0de40e49f6d256dd5bb7fabe83a69b75fe03f33baa4e91589a0168a97c07",
       "active": true
     },
     {
@@ -780,7 +780,7 @@
       "path": "java/八股笔记/Java虚拟机 JVM/垃圾回收/系统频繁发生Full GC，如何排查.md",
       "title": "系统频繁发生Full GC，如何排查",
       "section": "Java虚拟机 JVM",
-      "digest": "1ee8b2b52646c4aa204642004f450422dfc1cee491c5ad71d9ad5611c1d3b5f7",
+      "digest": "a4b2d7cfa88a01c60709ebf2e04b7cb73887f47e55a08d4c694f6bde523564f6",
       "active": true
     },
     {
@@ -969,7 +969,7 @@
       "path": "java/八股笔记/MySQL/事务/事务的隔离级别有哪些.md",
       "title": "事务的隔离级别有哪些",
       "section": "MySQL",
-      "digest": "8e65e96e587a374e13e57b800fe5548aa8013512acb66ed286f9f4d9dd07113b",
+      "digest": "d2e9ec0176ace2a33aaa7a3ecaa2ad3dd3e66dee3dc85a8fd292abdbd06c22d3",
       "active": true
     },
     {
@@ -1428,7 +1428,7 @@
       "path": "java/八股笔记/Redis/集群/Redis哨兵机制.md",
       "title": "Redis哨兵机制",
       "section": "Redis",
-      "digest": "0637a2e14baee7d293df6640044dc167045207f3365eade54147ace0e5bd5994",
+      "digest": "a80d92667465bc6fa8ffde396088e301ffd099815afd23dd2d70860d575d6877",
       "active": true
     },
     {
@@ -1979,6 +1979,42 @@
       "section": "MySQL",
       "digest": "b34ed1f5eb48caa879a23f87b70765f3a6b30383e13a4bdffcfc7b66da809a75",
       "active": true
+    },
+    {
+      "first_seen": "2026-11-06",
+      "new": true,
+      "path": "java/八股笔记/agent/rag/rag解决什么问题.md",
+      "title": "rag解决什么问题",
+      "section": "agent",
+      "digest": "cdebf4d4d2b806dd4a7a3712882a4cf9f5cdee69cafb93b690e469e26c86b825",
+      "active": true
+    },
+    {
+      "first_seen": "2026-11-06",
+      "new": true,
+      "path": "java/八股笔记/agent/rag/rag完整流程.md",
+      "title": "rag完整流程",
+      "section": "agent",
+      "digest": "fd127bdd0fb139f24138c02a65ff975b0aeef817ff2537ce9259c936581ad277",
+      "active": true
+    },
+    {
+      "first_seen": "2026-11-06",
+      "new": true,
+      "path": "java/八股笔记/agent/rag/不同的复杂RAG范式.md",
+      "title": "不同的复杂RAG范式",
+      "section": "agent",
+      "digest": "c6b1c24020af8c596580943beacd043c1020eaeac6628f82678f749120ca8cf6",
+      "active": true
+    },
+    {
+      "first_seen": "2026-11-10",
+      "new": true,
+      "path": "java/八股笔记/Java 并发编程 JUC/多线程/Java线程的状态有哪些.md",
+      "title": "Java线程的状态有哪些",
+      "section": "Java 并发编程 JUC",
+      "digest": "138c5110ea83dee32fe0af73a84feda6ace997a9002a9305647e005af582261e",
+      "active": true
     }
   ],
   "excluded": [
@@ -2165,6 +2201,58 @@
     {
       "path": "Spring/SpringMVC/SpringMVC.md",
       "reason": "目录页"
+    },
+    {
+      "path": "agent/agent.md",
+      "reason": "目录页"
+    },
+    {
+      "path": "agent/rag/rag 和调参区别.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/rag.md",
+      "reason": "目录页"
+    },
+    {
+      "path": "agent/rag/rag中embedding是什么，怎么评估.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/rag文档切割策略.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/上下文窗口很大时为什么还需要RAG.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/什么场景下，会选择使用图数据库来增强传统的向量检索.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/什么是向量数据库，有没有做过对比选型，有没有遇到过性能瓶颈.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/什么是多路召回.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/向量检索和关键词检索区别.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/如何润色用户的query（query rewrite），目的是什么.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/如何规避RAG系统中大模型的幻觉.md",
+      "reason": "空白页"
+    },
+    {
+      "path": "agent/rag/如何量化RAG的效果.md",
+      "reason": "空白页"
     },
     {
       "path": "八股笔记.md",

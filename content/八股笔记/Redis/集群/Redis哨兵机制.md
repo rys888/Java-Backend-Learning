@@ -191,7 +191,7 @@ Java 客户端
 
 # Q：
 
-Redis Sentinel 是 Redis 提供的**高可用机制**，主要负责监控、自动故障转移和主节点地址通知。
+Redis Sentinel 是 Redis 提供的**高可用机制**，主要负责**监控、自动故障转移和主节点地址通知**。
 
 Sentinel 会定期向 Redis 节点发送 `PING` 命令检查节点是否正常。如果某个 Sentinel 发现 Master 长时间没有响应，就会将其标记为主观下线。随后 Sentinel 会询问其他哨兵，当认为 Master 下线的哨兵数量达到 `quorum` 时，才会判定 Master 客观下线。
 

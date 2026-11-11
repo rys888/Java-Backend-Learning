@@ -4,62 +4,94 @@
 
 频次=实际采集且已核实正文的不同面经数；不是提问条数、生成次数或项目练习次数。已有答案复用，新增角度需由Agent复核后修订。
 
-当前来源 38 篇；归一问题 181 题。
+当前来源 48 篇；归一问题 242 题。
 
 | 问题 | 次数 | 领域 |
 | --- | --- | --- |
-| [HashMap 的存储与查找原理](#hashmap-core-mechanism) | 9 | Java 基础与集合 |
-| [数据库查询如何调优](#mysql-query-tuning-workflow) | 7 | MySQL |
-| [JVM运行时内存区域](#jvm-runtime-memory-areas) | 6 | Java 并发与 JVM |
-| [如何介绍项目的技术设计](#project-technical-introduction) | 6 | 项目设计与技术选型 |
+| [HashMap 的存储与查找原理](#hashmap-core-mechanism) | 15 | Java 基础与集合 |
+| [数据库查询如何调优](#mysql-query-tuning-workflow) | 12 | MySQL |
+| [如何介绍项目的技术设计](#project-technical-introduction) | 10 | 项目设计与技术选型 |
+| [JVM运行时内存区域](#jvm-runtime-memory-areas) | 9 | Java 并发与 JVM |
+| [线程池提交任务流程与拒绝策略](#thread-pool-submit-rejection) | 8 | Java 并发与 JVM |
+| [List、Set与Map的区别](#java-list-set-map-contracts) | 7 | Java 基础与集合 |
+| [Spring AOP的作用与实现](#spring-aop-concept) | 7 | Spring / Spring Boot / MyBatis |
+| [ArrayList与LinkedList的区别及场景](#arraylist-versus-linkedlist) | 6 | Java 基础与集合 |
+| [后端如何选择并发控制方式](#backend-locking-choices) | 6 | Java 并发与 JVM |
+| [垃圾判活与回收的基本机制](#gc-collection-mechanism) | 6 | Java 并发与 JVM |
+| [自定义线程池与七个核心参数](#thread-pool-configuration) | 6 | Java 并发与 JVM |
+| [如何保证缓存与数据库的一致性](#cache-database-consistency) | 5 | Redis |
+| [HashMap如何扩容](#hashmap-resize-jdk8) | 5 | Java 基础与集合 |
 | [Java创建和执行线程任务的方式](#java-thread-creation) | 5 | Java 并发与 JVM |
-| [线程池提交任务流程与拒绝策略](#thread-pool-submit-rejection) | 5 | Java 并发与 JVM |
-| [ArrayList与LinkedList的区别及场景](#arraylist-versus-linkedlist) | 4 | Java 基础与集合 |
-| [后端如何选择并发控制方式](#backend-locking-choices) | 4 | Java 并发与 JVM |
-| [List、Set与Map的区别](#java-list-set-map-contracts) | 4 | Java 基础与集合 |
+| [事务的ACID特性](#mysql-transaction-acid) | 5 | MySQL |
+| [ThreadLocal的场景与风险](#threadlocal-scenarios-risks) | 5 | Java 并发与 JVM |
+| [缓存穿透、击穿与雪崩的区别及应对](#cache-penetration-breakdown-avalanche) | 4 | Redis |
+| [HashMap并发修改有哪些风险](#hashmap-concurrent-modification-risks) | 4 | Java 基础与集合 |
 | [面向对象的理解与价值](#java-object-oriented-basics) | 4 | Java 基础与集合 |
 | [Java基本类型与包装类](#java-primitive-wrappers) | 4 | Java 基础与集合 |
-| [事务的ACID特性](#mysql-transaction-acid) | 4 | MySQL |
-| [Spring AOP的作用与实现](#spring-aop-concept) | 4 | Spring / Spring Boot / MyBatis |
-| [自定义线程池与七个核心参数](#thread-pool-configuration) | 4 | Java 并发与 JVM |
-| [ThreadLocal的场景与风险](#threadlocal-scenarios-risks) | 4 | Java 并发与 JVM |
-| [如何保证缓存与数据库的一致性](#cache-database-consistency) | 3 | Redis |
+| [Java反射的原理与应用场景](#java-reflection-use-cases) | 4 | Java 基础与集合 |
+| [JVM的职责](#jvm-basic-responsibility) | 4 | Java 并发与 JVM |
+| [Redis常用基本数据类型](#redis-basic-data-types) | 4 | Redis |
+| [Redis在项目中的用途](#redis-project-purposes) | 4 | Redis |
+| [为什么使用线程池](#thread-pool-benefits) | 4 | Java 并发与 JVM |
 | [类加载、链接与初始化](#class-loading-process) | 3 | Java 并发与 JVM |
 | [ConcurrentHashMap如何保证并发安全](#concurrenthashmap-jdk8-mechanism) | 3 | Java 并发与 JVM |
-| [HashMap如何扩容](#hashmap-resize-jdk8) | 3 | Java 基础与集合 |
-| [JVM的职责](#jvm-basic-responsibility) | 3 | Java 并发与 JVM |
+| [接口与抽象类有什么区别](#java-interface-versus-abstract-class) | 3 | Java 基础与集合 |
+| [Java引用类型与垃圾回收](#java-reference-strengths) | 3 | Java 并发与 JVM |
+| [常见集合中哪些支持线程安全访问](#java-thread-safe-collections) | 3 | Java 基础与集合 |
+| [Java线程有哪些状态](#java-thread-states) | 3 | Java 并发与 JVM |
+| [OOM 与频繁 GC 如何排查](#jvm-oom-gc-troubleshooting) | 3 | Java 并发与 JVM |
+| [索引的优点与代价](#mysql-index-benefits-costs) | 3 | MySQL |
+| [MySQL常见存储引擎及区别](#mysql-storage-engine-comparison) | 3 | MySQL |
+| [事务的四种隔离级别](#mysql-transaction-isolation-levels) | 3 | MySQL |
+| [如何讲述项目难点与解决过程](#project-technical-problem-solving) | 3 | 项目设计与技术选型 |
+| [Redis的RDB与AOF持久化](#redis-persistence-rdb-aof) | 3 | Redis |
 | [Spring如何使用声明式事务](#spring-declarative-transaction) | 3 | Spring / Spring Boot / MyBatis |
 | [Spring事务不生效与不回滚的场景](#spring-transaction-proxy-failure) | 3 | Spring / Spring Boot / MyBatis |
+| [synchronized与ReentrantLock的区别](#synchronized-versus-reentrantlock) | 3 | Java 并发与 JVM |
+| [后端开发如何理解和选择设计模式](#backend-design-pattern-overview) | 2 | 项目设计与技术选型 |
 | [如何避免重复下单或重复预约](#business-request-idempotency) | 2 | 项目设计与技术选型 |
-| [缓存穿透、击穿与雪崩的区别及应对](#cache-penetration-breakdown-avalanche) | 2 | Redis |
+| [缓存更新策略如何选择](#cache-update-strategy-comparison) | 2 | Redis |
 | [数据库乐观锁与悲观锁如何选择](#database-optimistic-pessimistic-lock) | 2 | MySQL |
-| [垃圾判活与回收的基本机制](#gc-collection-mechanism) | 2 | Java 并发与 JVM |
-| [HashMap并发修改有哪些风险](#hashmap-concurrent-modification-risks) | 2 | Java 基础与集合 |
+| [数据库分表如何设计](#database-sharding-design) | 2 | MySQL |
+| [项目中分布式锁的实际用法](#distributed-lock-project-usage) | 2 | Redis |
+| [Docker常用命令](#docker-common-commands) | 2 | 计算机网络与操作系统 |
+| [HashMap是否允许null键与null值](#hashmap-null-key-value) | 2 | Java 基础与集合 |
 | [HashMap与Hashtable的区别](#hashmap-versus-hashtable) | 2 | Java 基础与集合 |
+| [Cookie与Session有什么区别及使用场景](#http-cookie-versus-session) | 2 | 计算机网络与操作系统 |
+| [GET与POST请求有什么区别](#http-get-versus-post) | 2 | 计算机网络与操作系统 |
 | [HTTP、HTTPS与TLS握手](#https-tls-handshake) | 2 | 计算机网络与操作系统 |
 | [Java如何实现一次编译到处执行](#java-bytecode-portability) | 2 | Java 基础与集合 |
+| [JDK动态代理与CGLIB的区别](#java-dynamic-proxy-jdk-cglib) | 2 | Spring / Spring Boot / MyBatis |
+| [== 与 equals 的区别](#java-equals-versus-reference) | 2 | Java 基础与集合 |
+| [final修饰变量、方法与类的含义](#java-final-semantics) | 2 | Java 基础与集合 |
 | [方法重载与重写的区别](#java-overload-versus-override) | 2 | Java 基础与集合 |
-| [Java引用类型与垃圾回收](#java-reference-strengths) | 2 | Java 并发与 JVM |
-| [Java反射的原理与应用场景](#java-reflection-use-cases) | 2 | Java 基础与集合 |
-| [常见集合中哪些支持线程安全访问](#java-thread-safe-collections) | 2 | Java 基础与集合 |
+| [对象序列化的机制与用途](#java-serialization-purpose) | 2 | Java 基础与集合 |
 | [Java常用版本与Java 17特性](#java-version-features) | 2 | Java 基础与集合 |
-| [OOM 与频繁 GC 如何排查](#jvm-oom-gc-troubleshooting) | 2 | Java 并发与 JVM |
 | [为什么使用消息队列](#mq-business-use-cases) | 2 | RabbitMQ / 消息队列 |
 | [如何保证消息消费幂等](#mq-consumer-idempotence) | 2 | RabbitMQ / 消息队列 |
+| [MyBatis的井号与美元参数占位区别](#mybatis-hash-dollar-parameters) | 2 | Spring / Spring Boot / MyBatis |
+| [MyBatis如何从Mapper方法执行SQL](#mybatis-mapper-execution) | 2 | Spring / Spring Boot / MyBatis |
 | [MyBatis与MyBatis-Plus的区别](#mybatis-plus-versus-mybatis) | 2 | Spring / Spring Boot / MyBatis |
 | [MySQL的B+树索引为什么快](#mysql-bplus-tree-index) | 2 | MySQL |
 | [联合索引中的等值、范围与条件书写顺序](#mysql-composite-equality-range) | 2 | MySQL |
-| [索引的优点与代价](#mysql-index-benefits-costs) | 2 | MySQL |
+| [不同MySQL存储引擎如何存放索引与数据](#mysql-engine-index-storage) | 2 | MySQL |
+| [MySQL应如何选择索引字段](#mysql-index-column-design) | 2 | MySQL |
 | [MySQL索引的分类与使用](#mysql-index-types) | 2 | MySQL |
-| [MySQL常见存储引擎及区别](#mysql-storage-engine-comparison) | 2 | MySQL |
-| [Redis常用基本数据类型](#redis-basic-data-types) | 2 | Redis |
+| [如何说明项目的登录认证流程](#project-login-authentication-flow) | 2 | 项目设计与技术选型 |
+| [Redis的特点与使用边界](#redis-characteristics-tradeoffs) | 2 | Redis |
+| [Redis分布式锁的原理与配置](#redis-distributed-lock-mechanism) | 2 | Redis |
+| [Redis过期与内存淘汰的区别](#redis-expiration-and-eviction) | 2 | Redis |
+| [分布式锁的租期与续期](#redis-lock-lease-renewal) | 2 | Redis |
 | [Lua在Redis Cluster中的约束](#redis-lua-cluster-safety) | 2 | Redis |
+| [如何说明Redis主从、哨兵与分片部署](#redis-topology-deployment-discussion) | 2 | Redis |
 | [Spring Boot自动配置原理](#spring-boot-auto-configuration) | 2 | Spring / Spring Boot / MyBatis |
+| [Spring Boot的核心机制](#spring-boot-core-mechanisms) | 2 | Spring / Spring Boot / MyBatis |
+| [Spring IoC与依赖注入是什么](#spring-ioc-dependency-injection) | 2 | Spring / Spring Boot / MyBatis |
 | [DispatcherServlet的作用](#springmvc-dispatcherservlet) | 2 | Spring / Spring Boot / MyBatis |
 | [策略模式的好处与边界](#strategy-pattern-benefits) | 2 | 项目设计与技术选型 |
 | [synchronized与锁优化](#synchronized-lock-optimization-states) | 2 | Java 并发与 JVM |
-| [synchronized与ReentrantLock的区别](#synchronized-versus-reentrantlock) | 2 | Java 并发与 JVM |
-| [为什么使用线程池](#thread-pool-benefits) | 2 | Java 并发与 JVM |
+| [ThreadLocal如何保存每个线程的变量](#threadlocal-map-storage-mechanism) | 2 | Java 并发与 JVM |
+| [输入URL到页面显示会经历哪些过程](#web-url-request-lifecycle) | 2 | 计算机网络与操作系统 |
 | [AI 生成代码持续不符合要求怎么办](#ai-coding-requirement-iteration) | 1 | 其他问题 |
 | [AI 代码能运行就能直接用于业务吗](#ai-generated-code-acceptance) | 1 | 其他问题 |
 | [二叉树直径如何计算](#algorithm-binary-tree-diameter) | 1 | 其他问题 |
@@ -79,122 +111,151 @@
 | [单体与微服务开发的区别](#architecture-monolith-microservice-difference) | 1 | 项目设计与技术选型 |
 | [单体是否需要拆分及如何划分服务](#architecture-service-split) | 1 | 项目设计与技术选型 |
 | [ArrayList 与 HashSet 的区别](#arraylist-versus-hashset) | 1 | Java 基础与集合 |
+| [后端接口如何测试与选择工具](#backend-api-testing-methods) | 1 | 项目设计与技术选型 |
+| [如何保证并衡量后端代码质量](#backend-code-quality-practices) | 1 | 项目设计与技术选型 |
 | [异常处理如何提供有用信息并保证业务一致性](#backend-exception-handling-design) | 1 | 项目设计与技术选型 |
 | [后端日志应该记录什么与遵循哪些规范](#backend-logging-practices) | 1 | 项目设计与技术选型 |
 | [如何降低布隆过滤器假阳性概率](#bloom-filter-false-positive-tuning) | 1 | Redis |
+| [布隆过滤器的原理与用途](#bloom-filter-principle-membership) | 1 | Redis |
 | [逻辑过期的 key 不设置 TTL 有什么问题](#cache-logical-expiration-costs) | 1 | Redis |
+| [CAS的原理与局限](#cas-principle-limitations) | 1 | Java 并发与 JVM |
 | [CAS与synchronized的区别](#cas-versus-synchronized) | 1 | Java 并发与 JVM |
-| [数据库分表如何设计](#database-sharding-design) | 1 | MySQL |
+| [双亲委派机制有什么作用](#classloader-parent-delegation-purpose) | 1 | Java 并发与 JVM |
+| [CountDownLatch与CyclicBarrier的区别和例子](#countdownlatch-versus-cyclicbarrier) | 1 | Java 并发与 JVM |
 | [常见数据库类型及适用场景](#database-types-relational-nosql) | 1 | MySQL |
-| [项目中分布式锁的实际用法](#distributed-lock-project-usage) | 1 | Redis |
-| [Docker常用命令](#docker-common-commands) | 1 | 计算机网络与操作系统 |
+| [分布式服务的接口限流如何设计](#distributed-api-rate-limiting) | 1 | 项目设计与技术选型 |
 | [Elasticsearch的基本用途与结构](#elasticsearch-basic-overview) | 1 | 其他问题 |
 | [BM25与KNN检索原理](#es-bm25-knn-retrieval) | 1 | 其他问题 |
 | [G1如何划分堆内存](#g1-region-generations) | 1 | Java 并发与 JVM |
 | [常见垃圾回收算法](#gc-basic-algorithms) | 1 | Java 并发与 JVM |
 | [GC Roots与引用计数的局限](#gc-roots-reference-counting) | 1 | Java 并发与 JVM |
+| [什么情况会触发垃圾回收](#gc-trigger-conditions) | 1 | Java 并发与 JVM |
 | [Git 版本回退如何选择 revert 与 reset](#git-revert-versus-reset) | 1 | 其他问题 |
+| [HashMap链表插入采用头插还是尾插](#hashmap-chain-insertion-version) | 1 | Java 基础与集合 |
 | [HashMap指定初始容量13时的数组长度](#hashmap-initial-capacity-rounding) | 1 | Java 基础与集合 |
 | [HashMap负载因子的取舍](#hashmap-load-factor-tradeoff) | 1 | Java 基础与集合 |
-| [HashMap是否允许null键与null值](#hashmap-null-key-value) | 1 | Java 基础与集合 |
+| [HashMap如何避免对null键调用hashCode](#hashmap-null-key-hash-handling) | 1 | Java 基础与集合 |
 | [HashSet 在 JDK 7 与 JDK 8 中的实现](#hashset-jdk-implementation) | 1 | Java 基础与集合 |
+| [HTTP请求与响应如何工作](#http-request-response-mechanism) | 1 | 计算机网络与操作系统 |
 | [HTTP/1.1与HTTP/2的区别](#http11-versus-http2) | 1 | 计算机网络与操作系统 |
 | [如何解决超卖](#inventory-overselling-prevention) | 1 | 项目设计与技术选型 |
+| [ASM是什么及适用场景](#java-asm-bytecode-framework) | 1 | Java 基础与集合 |
+| [文件读取中字节流与字符流如何选择](#java-byte-character-file-streams) | 1 | Java 基础与集合 |
 | [受检异常与运行时异常的区别](#java-checked-unchecked-exceptions) | 1 | Java 基础与集合 |
+| [普通类与抽象类有什么区别](#java-concrete-versus-abstract-class) | 1 | Java 基础与集合 |
 | [什么是死锁以及如何减少死锁](#java-deadlock-prevention) | 1 | Java 并发与 JVM |
-| [JDK动态代理与CGLIB的区别](#java-dynamic-proxy-jdk-cglib) | 1 | Spring / Spring Boot / MyBatis |
-| [== 与 equals 的区别](#java-equals-versus-reference) | 1 | Java 基础与集合 |
 | [Java异常体系如何分类](#java-exception-hierarchy) | 1 | Java 基础与集合 |
-| [final修饰变量、方法与类的含义](#java-final-semantics) | 1 | Java 基础与集合 |
+| [Exchanger的exchange如何交换线程数据](#java-exchanger-pair-exchange) | 1 | Java 并发与 JVM |
 | [try中return后finally是否执行](#java-finally-return-semantics) | 1 | Java 基础与集合 |
 | [Java泛型的T、问号与extends](#java-generics-bounds) | 1 | Java 基础与集合 |
 | [按商品种类计算平均价格](#java-group-average-price) | 1 | Java 基础与集合 |
-| [接口与抽象类有什么区别](#java-interface-versus-abstract-class) | 1 | Java 基础与集合 |
 | [项目为何选择某个JDK版本](#java-jdk-selection) | 1 | 项目设计与技术选型 |
+| [JUC常用类与工具如何分类](#java-juc-tools-overview) | 1 | Java 并发与 JVM |
+| [如何区分Java锁关键字与JUC锁API](#java-lock-keywords-and-lock-api) | 1 | Java 并发与 JVM |
 | [Java内存模型与happens-before](#java-memory-model-happens-before) | 1 | Java 并发与 JVM |
 | [线程获取的对象监视器锁对应什么](#java-monitor-lock-target) | 1 | Java 并发与 JVM |
 | [多线程是否更快及CPU与IO任务如何选线程数](#java-multithreading-workload-selection) | 1 | Java 并发与 JVM |
 | [notify与notifyAll有什么区别](#java-notify-versus-notifyall) | 1 | Java 并发与 JVM |
+| [Java线程与操作系统线程是什么关系](#java-platform-os-thread-mapping) | 1 | Java 并发与 JVM |
 | [Java多态的实现](#java-polymorphism-method-dispatch) | 1 | Java 基础与集合 |
-| [对象序列化的机制与用途](#java-serialization-purpose) | 1 | Java 基础与集合 |
 | [多个线程操作同一个变量可能发生什么](#java-shared-variable-races) | 1 | Java 并发与 JVM |
 | [static关键字的含义](#java-static-semantics) | 1 | Java 基础与集合 |
+| [字符串常量池与intern的作用](#java-string-intern-pool) | 1 | Java 基础与集合 |
+| [线程之间如何同步与协调执行](#java-thread-coordination-mechanisms) | 1 | Java 并发与 JVM |
 | [线程是什么及使用线程的好处](#java-thread-definition-benefits) | 1 | Java 并发与 JVM |
 | [volatile的可见性与重排序约束](#java-volatile-ordering) | 1 | Java 并发与 JVM |
+| [类创建与对象创建流程如何区分](#jvm-class-versus-object-creation) | 1 | Java 并发与 JVM |
 | [堆的分代与不同收集器布局](#jvm-heap-generations) | 1 | Java 并发与 JVM |
 | [JVM内存区域为何区分线程私有与共享](#jvm-memory-layout-design) | 1 | Java 并发与 JVM |
 | [JWT的用途、结构与校验](#jwt-structure-and-validation) | 1 | Spring / Spring Boot / MyBatis |
+| [Linux基本命令如何用于后端运维](#linux-basic-commands) | 1 | 计算机网络与操作系统 |
+| [Linux如何统计文件中字符串出现次数](#linux-count-literal-occurrences) | 1 | 计算机网络与操作系统 |
 | [如何用 JMeter 验证一人一单和不超卖](#load-test-order-invariants) | 1 | 项目设计与技术选型 |
+| [微服务是什么及其工程边界](#microservice-basic-overview) | 1 | 项目设计与技术选型 |
 | [消息队列如何降低消息丢失风险](#mq-reliable-delivery) | 1 | RabbitMQ / 消息队列 |
-| [MyBatis的井号与美元参数占位区别](#mybatis-hash-dollar-parameters) | 1 | Spring / Spring Boot / MyBatis |
-| [MyBatis如何从Mapper方法执行SQL](#mybatis-mapper-execution) | 1 | Spring / Spring Boot / MyBatis |
 | [MyBatis如何传递多个参数](#mybatis-multiple-parameters) | 1 | Spring / Spring Boot / MyBatis |
+| [MyBatis如何实现分页](#mybatis-pagination-mechanisms) | 1 | Spring / Spring Boot / MyBatis |
+| [MyBatis二级缓存的范围与一致性](#mybatis-second-level-cache) | 1 | Spring / Spring Boot / MyBatis |
 | [如何用条件UPDATE防止库存扣成负数](#mysql-conditional-stock-update) | 1 | MySQL |
 | [SELECT COUNT(*)经过哪些执行节点](#mysql-count-execution-pipeline) | 1 | MySQL |
 | [如何利用覆盖索引减少回表](#mysql-covering-index-avoid-lookup) | 1 | MySQL |
-| [不同MySQL存储引擎如何存放索引与数据](#mysql-engine-index-storage) | 1 | MySQL |
 | [EXPLAIN执行计划怎么看](#mysql-explain-plan-reading) | 1 | MySQL |
 | [如何统计每个年级各班的学生数](#mysql-group-by-class-count) | 1 | MySQL |
 | [如何查询学生总分最高者并保留并列](#mysql-group-sum-top-ties) | 1 | MySQL |
+| [B+树叶子页双向链接有什么作用](#mysql-index-leaf-linked-pages) | 1 | MySQL |
 | [哪些情况使索引难以有效定位数据](#mysql-index-unusable-scenarios) | 1 | MySQL |
 | [INNER JOIN与LEFT JOIN的结果差异](#mysql-inner-left-join) | 1 | MySQL |
 | [InnoDB有哪些锁及锁定范围](#mysql-innodb-lock-types) | 1 | MySQL |
 | [LIKE查询是否一定无法使用索引](#mysql-like-index-range) | 1 | MySQL |
 | [InnoDB的MVCC如何工作](#mysql-mvcc-consistent-read) | 1 | MySQL |
 | [MySQL如何分页查询](#mysql-pagination-offset-keyset) | 1 | MySQL |
-| [事务的四种隔离级别](#mysql-transaction-isolation-levels) | 1 | MySQL |
 | [UNION与UNION ALL的区别](#mysql-union-versus-union-all) | 1 | MySQL |
 | [Nacos的注册发现与配置作用](#nacos-registry-config) | 1 | Spring / Spring Boot / MyBatis |
 | [乐观锁的思想与实现](#optimistic-concurrency-control) | 1 | Java 并发与 JVM |
+| [如何说明使用过的ORM或持久层框架](#orm-framework-selection) | 1 | Spring / Spring Boot / MyBatis |
+| [操作系统中进程与线程有什么区别](#os-process-versus-thread) | 1 | 计算机网络与操作系统 |
 | [CPU调度的基本单位是什么](#os-thread-scheduling-unit) | 1 | 计算机网络与操作系统 |
+| [用户态与内核态有什么区别](#os-user-kernel-mode) | 1 | 计算机网络与操作系统 |
+| [如何介绍实际使用过的数据库](#project-database-usage-discussion) | 1 | 项目设计与技术选型 |
+| [如何规划一个项目从需求到交付的流程](#project-delivery-process-design) | 1 | 项目设计与技术选型 |
+| [如何审视自己项目的问题与改进空间](#project-design-self-review) | 1 | 项目设计与技术选型 |
 | [如何说明Java优势在项目中的实际运用](#project-java-language-benefits) | 1 | 项目设计与技术选型 |
+| [如何说明项目中使用的中间件](#project-middleware-selection-discussion) | 1 | 项目设计与技术选型 |
 | [如何说明消息异步驱动的数据库更新内容](#project-mq-database-update-boundary) | 1 | 项目设计与技术选型 |
 | [项目中的多线程如何实现与说明](#project-multithreading-implementation) | 1 | 项目设计与技术选型 |
+| [项目中的关系表如何设计](#project-relational-table-design) | 1 | 项目设计与技术选型 |
 | [项目角色数量与权限模型设计](#project-role-model) | 1 | 项目设计与技术选型 |
-| [如何讲述项目难点与解决过程](#project-technical-problem-solving) | 1 | 项目设计与技术选型 |
 | [如何说明项目中的ThreadLocal用途](#project-threadlocal-usage-evidence) | 1 | 项目设计与技术选型 |
+| [项目中哪些操作需要数据库事务](#project-transaction-boundary-scenarios) | 1 | 项目设计与技术选型 |
 | [Spring AI与RAG的问答链路](#rag-query-pipeline) | 1 | 项目设计与技术选型 |
 | [缓存删除后大量请求回源怎么办](#redis-cache-breakdown) | 1 | Redis |
-| [Redis的特点与使用边界](#redis-characteristics-tradeoffs) | 1 | Redis |
 | [Redis Cluster的哈希槽](#redis-cluster-hash-slots) | 1 | Redis |
-| [Redis分布式锁的原理与配置](#redis-distributed-lock-mechanism) | 1 | Redis |
-| [Redis过期与内存淘汰的区别](#redis-expiration-and-eviction) | 1 | Redis |
+| [Redis数据丢失如何排查与恢复](#redis-data-loss-recovery) | 1 | Redis |
 | [HyperLogLog的用途与原理](#redis-hyperloglog-principle) | 1 | Redis |
-| [分布式锁的租期与续期](#redis-lock-lease-renewal) | 1 | Redis |
 | [分布式锁与随机TTL](#redis-lock-random-ttl) | 1 | Redis |
 | [Lua库存预扣与MySQL扣库存如何取舍](#redis-lua-stock-admission) | 1 | Redis |
 | [Redis内存不足如何定位与处理](#redis-memory-exhaustion-troubleshooting) | 1 | Redis |
-| [Redis的RDB与AOF持久化](#redis-persistence-rdb-aof) | 1 | Redis |
-| [Redis在项目中的用途](#redis-project-purposes) | 1 | Redis |
+| [Redis数据位置与RDB配置](#redis-memory-rdb-configuration) | 1 | Redis |
 | [微博热搜排行榜如何存储和更新](#redis-ranking-design) | 1 | Redis |
+| [Redis如何应对主从读取不一致](#redis-replica-read-consistency) | 1 | Redis |
+| [Redis主从全量与部分同步如何工作](#redis-replication-full-partial-sync) | 1 | Redis |
 | [Redis Set 与 ZSet 的区别](#redis-set-versus-zset) | 1 | Redis |
 | [Redis Set与ZSet的底层编码如何选择](#redis-set-zset-encoding-comparison) | 1 | Redis |
-| [如何说明Redis主从、哨兵与分片部署](#redis-topology-deployment-discussion) | 1 | Redis |
+| [SETNX的原子性覆盖哪些操作](#redis-setnx-atomicity-boundary) | 1 | Redis |
+| [海量关注关系如何权衡Redis与数据库](#redis-social-follow-capacity-cost) | 1 | Redis |
 | [ZSet场景、编码与跳跃表](#redis-zset-skiplist) | 1 | Redis |
+| [REST风格接口如何设计](#rest-api-resource-design) | 1 | 项目设计与技术选型 |
 | [RocketMQ的核心架构组件有哪些](#rocketmq-architecture-components) | 1 | RabbitMQ / 消息队列 |
 | [RPC为何看起来像调用本地方法](#rpc-invocation-pipeline) | 1 | 计算机网络与操作系统 |
 | [倒排索引是什么](#search-inverted-index) | 1 | 其他问题 |
+| [Hessian与JSON如何比较](#serialization-hessian-versus-json) | 1 | Java 基础与集合 |
 | [后端如何每15秒向前端推送消息](#server-periodic-push) | 1 | 计算机网络与操作系统 |
 | [单点登录如何实现](#single-sign-on-design) | 1 | 项目设计与技术选型 |
 | [单例模式与线程安全](#singleton-pattern-thread-safety) | 1 | Java 基础与集合 |
+| [共同好友如何设计](#social-common-friends-design) | 1 | 项目设计与技术选型 |
+| [Socket数据如何传输](#socket-network-transfer-pipeline) | 1 | 计算机网络与操作系统 |
 | [AOP通知类型与环绕通知](#spring-aop-advice-types) | 1 | Spring / Spring Boot / MyBatis |
-| [Spring Boot的核心机制](#spring-boot-core-mechanisms) | 1 | Spring / Spring Boot / MyBatis |
+| [Spring Bean生命周期](#spring-bean-lifecycle) | 1 | Spring / Spring Boot / MyBatis |
+| [Spring注册Bean有哪些方式](#spring-bean-registration-methods) | 1 | Spring / Spring Boot / MyBatis |
 | [Spring常见注解及职责](#spring-common-annotations) | 1 | Spring / Spring Boot / MyBatis |
 | [PostConstruct的作用与时机](#spring-postconstruct-lifecycle) | 1 | Spring / Spring Boot / MyBatis |
 | [应用启动后执行初始化逻辑](#spring-startup-runner) | 1 | Spring / Spring Boot / MyBatis |
+| [Spring事务的传播行为有哪些](#spring-transaction-propagation) | 1 | Spring / Spring Boot / MyBatis |
+| [Spring与Spring Boot有什么区别](#spring-versus-springboot) | 1 | Spring / Spring Boot / MyBatis |
+| [Spring MVC的职责与请求流程](#springmvc-overview) | 1 | Spring / Spring Boot / MyBatis |
+| [Spring MVC如何接收请求参数](#springmvc-request-parameter-binding) | 1 | Spring / Spring Boot / MyBatis |
 | [如何防止SQL注入](#sql-injection-prevention) | 1 | MySQL |
 | [SQLite与MySQL如何选型](#sqlite-versus-mysql-selection) | 1 | 项目设计与技术选型 |
 | [TCP与UDP的区别](#tcp-versus-udp) | 1 | 计算机网络与操作系统 |
 | [线程interrupt的作用](#thread-interrupt-cooperative-cancel) | 1 | Java 并发与 JVM |
 | [订单和本地消息表为何放在同一事务](#transactional-outbox-pattern) | 1 | RabbitMQ / 消息队列 |
-| [输入URL到页面显示会经历哪些过程](#web-url-request-lifecycle) | 1 | 计算机网络与操作系统 |
 | [WebSocket与普通HTTP的区别](#websocket-versus-http) | 1 | 计算机网络与操作系统 |
 
 <a id="hashmap-core-mechanism"></a>
 
 ## hashmap-core-mechanism · HashMap 的存储与查找原理
 
-**次数**：9；**领域**：Java 基础与集合。
+**次数**：15；**领域**：Java 基础与集合。
 
 **A（AI参考答案）**：HashMap 根据键的哈希值定位桶，再通过 equals 区分发生冲突的键。JDK 8 中桶采用链表或红黑树，链较长且数组容量足够时才树化，容量不足时优先扩容；元素数量超过容量与负载因子的乘积也会触发扩容。哈希分布均匀时查询平均接近 O(1)，但不能保证所有场景都为常数时间。它允许 null 键和值，不保证遍历顺序，也不适合并发修改。
 
@@ -211,12 +272,18 @@
 - [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
 - [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
 - [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
 
 <a id="mysql-query-tuning-workflow"></a>
 
 ## mysql-query-tuning-workflow · 数据库查询如何调优
 
-**次数**：7；**领域**：MySQL。
+**次数**：12；**领域**：MySQL。
 
 **A（AI参考答案）**：先从慢查询日志和监控定位高耗时、高调用量SQL，再用EXPLAIN检查访问路径、扫描行数、连接顺序和索引使用，结合真实数据分布判断瓶颈。常见改进包括减少返回列与数据量、设计匹配过滤和排序条件的联合索引、避免不必要回表及优化分页。修改后验证结果一致性、实际延迟和写入成本；没有实测就说明方法，不编造优化百分比或个人成果。
 
@@ -228,12 +295,37 @@
 - [极兔后端一面](https://www.nowcoder.com/discuss/932663753219244032)（采集日 2026-10-29，极兔）
 - [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
 - [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="project-technical-introduction"></a>
+
+## project-technical-introduction · 如何介绍项目的技术设计
+
+**次数**：10；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：通用AI参考思路：先说明业务目标、核心流程和本人负责的技术模块，再解释架构、数据模型、接口及关键技术选型，结合一个真实难点说明方案、取舍与验证方式。原文没有披露完整项目实现，不能据此断言采用了微服务、缓存或消息队列，也不能编造性能指标；回答者应以自己实际做过、能够展示代码依据的内容展开，区分已实现能力与后续优化建议。
+
+**实际来源**：
+- [神州信息 java实习生面经（已offer）](https://www.nowcoder.com/discuss/353159627783217152)（采集日 2026-10-30，神州信息）
+- [美团后台开发Java 实习面经](https://www.nowcoder.com/discuss/353156179603955712)（采集日 2026-10-30，美团）
+- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [浪潮暑期实习java开发面经](https://www.nowcoder.com/discuss/353156399897190400)（采集日 2026-11-03，浪潮）
+- [阅文面试结束，一共四面[Java]](https://www.nowcoder.com/discuss/353155938444058624)（采集日 2026-11-03，阅文）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
 
 <a id="jvm-runtime-memory-areas"></a>
 
 ## jvm-runtime-memory-areas · JVM运行时内存区域
 
-**次数**：6；**领域**：Java 并发与 JVM。
+**次数**：9；**领域**：Java 并发与 JVM。
 
 **A（AI参考答案）**：按JVM规范可说明程序计数器、虚拟机栈、本地方法栈、堆和方法区。计数器与栈随线程组织，堆和方法区通常在线程间共享；栈帧包含局部变量表、操作数栈等，堆主要存放对象和数组。方法区是规范概念，HotSpot在Java8后主要以元空间承载类元数据，不能把元空间当作堆内老年代。直接内存也不能简单列成规范规定的第六块运行时区域。
 
@@ -246,22 +338,173 @@
 - [佛山宏旺 java实习生](https://www.nowcoder.com/feed/main/detail/5083b0fbb75e480db6e8db2bbafc1195)（采集日 2026-10-27，佛山宏旺（原文标题））
 - [极兔后端一面](https://www.nowcoder.com/discuss/932663753219244032)（采集日 2026-10-29，极兔）
 - [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
 
-<a id="project-technical-introduction"></a>
+<a id="thread-pool-submit-rejection"></a>
 
-## project-technical-introduction · 如何介绍项目的技术设计
+## thread-pool-submit-rejection · 线程池提交任务流程与拒绝策略
 
-**次数**：6；**领域**：项目设计与技术选型。
+**次数**：8；**领域**：Java 并发与 JVM。
 
-**A（AI参考答案）**：通用AI参考思路：先说明业务目标、核心流程和本人负责的技术模块，再解释架构、数据模型、接口及关键技术选型，结合一个真实难点说明方案、取舍与验证方式。原文没有披露完整项目实现，不能据此断言采用了微服务、缓存或消息队列，也不能编造性能指标；回答者应以自己实际做过、能够展示代码依据的内容展开，区分已实现能力与后续优化建议。
+**A（AI参考答案）**：提交任务时，若工作线程少于核心数就尝试创建核心线程；否则尝试入队。入队成功后还会复查运行状态与工作线程情况；入队失败则尝试创建非核心线程，达到上限或无法接收时执行拒绝策略。Java内置Abort、CallerRuns、Discard和DiscardOldest。选择要结合业务是否允许丢任务，不能默认静默丢弃；关闭中的线程池也可能拒绝任务。
+
+版本口径：Java 8 ThreadPoolExecutor。
+
+**🔍 面试追问（AI生成）**：
+- CallerRuns一定适合吗？ **简答**：它可能让调用线程执行任务从而施加反压，但会占用请求线程；线程池关闭时也不是可靠持久化机制。
+
+**实际来源**：
+- [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
+- [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
+- [java后端小厂面经](https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4)（采集日 2026-10-23，匿名小厂（标题自述））
+- [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
+- [极兔后端一面](https://www.nowcoder.com/discuss/932663753219244032)（采集日 2026-10-29，极兔）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="java-list-set-map-contracts"></a>
+
+## java-list-set-map-contracts · List、Set与Map的区别
+
+**次数**：7；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：List表示有序序列，通常允许重复元素，可按下标访问；Set主要表达元素唯一性；Map保存键值映射，键唯一而值可以重复，Map本身不继承Collection。具体顺序和空值规则取决于实现：HashSet不保证迭代顺序，TreeSet按排序规则组织元素。HashMap或HashSet中的自定义键要正确实现equals与hashCode，并避免修改参与判等的字段。选择时先看是否需要位置、去重或按键查询，再考虑并发和性能。
 
 **实际来源**：
 - [神州信息 java实习生面经（已offer）](https://www.nowcoder.com/discuss/353159627783217152)（采集日 2026-10-30，神州信息）
-- [美团后台开发Java 实习面经](https://www.nowcoder.com/discuss/353156179603955712)（采集日 2026-10-30，美团）
+- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
 - [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
 - [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
-- [浪潮暑期实习java开发面经](https://www.nowcoder.com/discuss/353156399897190400)（采集日 2026-11-03，浪潮）
-- [阅文面试结束，一共四面[Java]](https://www.nowcoder.com/discuss/353155938444058624)（采集日 2026-11-03，阅文）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
+
+<a id="spring-aop-concept"></a>
+
+## spring-aop-concept · Spring AOP的作用与实现
+
+**次数**：7；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AOP把事务、日志或权限等横切逻辑从业务代码中分离，通过切点选择连接点并织入通知。Spring AOP通常基于JDK动态代理或CGLIB代理，在代理调用处增强方法，因此对象是否由容器管理、调用是否经过代理会影响增强生效。它不是修改所有类的任意代码位置，也不等同于完整的AspectJ编织；项目中的声明式事务可作为有代码依据的典型应用。
+
+**实际来源**：
+- [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
+- [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
+- [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
+- [阿里菜鸟实习Java一面面经](https://www.nowcoder.com/discuss/353157949398917120)（采集日 2026-10-30，阿里菜鸟）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [江苏-南通小厂Java面经(第一次面试)](https://www.nowcoder.com/feed/main/detail/5dda35cf88d546caa2e0d0a274820a04)（采集日 2026-11-07，江苏南通某公司（匿名））
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+
+<a id="arraylist-versus-linkedlist"></a>
+
+## arraylist-versus-linkedlist · ArrayList与LinkedList的区别及场景
+
+**次数**：6；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：ArrayList基于可扩容数组，按下标访问为O(1)，尾部追加通常是摊销O(1)，中间插入删除需要移动元素。LinkedList基于双向链表，按下标定位仍为O(n)，只有已经定位节点或在两端操作时，链接调整才是O(1)，不能笼统说插入一定更快。一般列表优先ArrayList；需要双端操作可比较ArrayDeque等实现。两者都不自动保证并发安全，选择时还要考虑节点内存和缓存局部性。
+
+**实际来源**：
+- [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
+- [用友金融一面](https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829)（采集日 2026-10-29，用友金融）
+- [京东物流java实习一面面经](https://www.nowcoder.com/discuss/353157644422684672)（采集日 2026-10-30，京东物流）
+- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="backend-locking-choices"></a>
+
+## backend-locking-choices · 后端如何选择并发控制方式
+
+**次数**：6；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：先明确竞争的数据和作用范围。单进程内共享变量可用synchronized或ReentrantLock，跨实例共同修改数据库时，优先考虑原子条件更新、唯一约束或数据库行锁；确需协调跨节点任务时再评估分布式锁。选择时还要看事务边界、锁粒度、超时与死锁处理。加锁只能保护参与同一协议的访问，不能拿到锁就认为重复请求、远程调用失败和业务幂等都已解决。
+
+**🔍 面试追问（AI生成）**：
+- 为什么多实例不能只用synchronized保护数据库余额？ **简答**：监视器只协调当前JVM，另一实例仍可同时更新同一行。应让竞争请求在同一数据库约束或其他共享协调机制下竞争。
+
+**实际来源**：
+- [健康160-JAVA开发实习生](https://www.nowcoder.com/discuss/943496145010020352)（采集日 2026-10-25，健康160）
+- [用友 Java实习面经](https://www.nowcoder.com/discuss/784203612955090944)（采集日 2026-11-01，用友）
+- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="gc-collection-mechanism"></a>
+
+## gc-collection-mechanism · 垃圾判活与回收的基本机制
+
+**次数**：6；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：Java通常通过从GC Roots出发的可达性分析判断对象是否仍被使用，不能只看引用计数，否则循环引用难以处理。确定可回收对象后，由具体收集器选择复制、清除或整理等方式处理；不同阶段可能需要暂停应用或并发执行。垃圾回收主要管理堆内存，不替代文件、网络连接等外部资源的显式关闭，也不能保证某个对象在指定时刻马上被回收。
+
+版本口径：JVM基础机制；与“算法有哪些”相关但不是同一原题，不合并虚增同题次数。
+
+**实际来源**：
+- [唯智信息技术 Java开发实习生 一面面经 2026.9.16](https://www.nowcoder.com/feed/main/detail/e00abf3b34e94e4398194442a9a826fb)（采集日 2026-10-21，唯智信息技术）
+- [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
+
+<a id="thread-pool-configuration"></a>
+
+## thread-pool-configuration · 自定义线程池与七个核心参数
+
+**次数**：6；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：ThreadPoolExecutor常见七个参数是corePoolSize、maximumPoolSize、keepAliveTime、时间单位、任务队列、ThreadFactory和拒绝处理器。配置需结合CPU或IO特征、下游容量、允许排队时间和资源限制，不能只套公式。优先使用有界队列，并给线程命名、监控活跃数和拒绝次数；长队列可能延迟扩容，最大线程数也不能超出系统可承受范围。
+
+版本口径：Java 8 ThreadPoolExecutor。
+
+**🔍 面试追问（AI生成）**：
+- 无界队列有什么影响？ **简答**：在核心线程繁忙后通常持续入队，maximumPoolSize难以发挥预期扩容作用，还可能积压内存和延迟。
+
+**实际来源**：
+- [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
+- [广电数科 Java开发实习生 面经](https://www.nowcoder.com/discuss/926952182883053568)（采集日 2026-10-24，广电数科）
+- [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
+- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="cache-database-consistency"></a>
+
+## cache-database-consistency · 如何保证缓存与数据库的一致性
+
+**次数**：5；**领域**：Redis。
+
+**A（AI参考答案）**：常见 Cache-Aside 方案以数据库为准：读取先查缓存，未命中再查库并回填；写入先提交数据库事务，再删除缓存，后续读取重建。删除失败需要可靠重试或消息补偿，并以 TTL 限制陈旧时间。并发读写仍可能出现旧值回填，所以它通常提供最终一致性，不能直接保证强一致；更高要求可结合版本校验、串行化更新，或对关键读取直接访问数据库，再根据延迟和业务容忍度选择方案。
+
+**🔍 面试追问（AI生成）**：
+- 延迟双删能否保证所有并发场景都不出现旧缓存？ **简答**：不能，延迟选择、失败和执行顺序仍可能出问题；它只是降低风险，不能代替一致性边界和可靠补偿。
+
+**实际来源**：
+- [广电数科 Java开发实习生 面经](https://www.nowcoder.com/discuss/926952182883053568)（采集日 2026-10-24，广电数科）
+- [南京车300 Java 实习面经](https://www.nowcoder.com/feed/main/detail/8b78085106ae45a4bada11cb75141d8f)（采集日 2026-10-24，南京车300）
+- [京东物流java实习一面面经](https://www.nowcoder.com/discuss/353157644422684672)（采集日 2026-10-30，京东物流）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
+
+<a id="hashmap-resize-jdk8"></a>
+
+## hashmap-resize-jdk8 · HashMap如何扩容
+
+**次数**：5；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：以JDK 8为例，HashMap通常在元素数量超过容量乘负载因子的阈值时扩容，新桶数组一般扩大为原来的两倍。迁移节点时利用容量为二的幂这一特点，检查哈希值与旧容量对应的位，节点留在原位置或移动到原下标加旧容量的位置，不需要重新调用键的hashCode。扩容有分配和迁移成本，可按预计规模设置初始容量；这些规则并不使HashMap具备并发安全性。
+
+**实际来源**：
+- [熙牛医疗 杭州java实习生 一面面经 2026.9.3](https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f)（采集日 2026-10-25，熙牛医疗）
+- [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
+- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
 
 <a id="java-thread-creation"></a>
 
@@ -280,70 +523,63 @@
 - [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
 - [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
 
-<a id="thread-pool-submit-rejection"></a>
+<a id="mysql-transaction-acid"></a>
 
-## thread-pool-submit-rejection · 线程池提交任务流程与拒绝策略
+## mysql-transaction-acid · 事务的ACID特性
+
+**次数**：5；**领域**：MySQL。
+
+**A（AI参考答案）**：ACID指原子性、一致性、隔离性和持久性。原子性要求事务操作整体提交或回滚；一致性要求满足业务规则和数据库约束，不能只靠开启事务自动得到。隔离性控制并发事务间的相互影响，强度取决于隔离级别；持久性要求提交后的结果能够按配置保障恢复。以InnoDB为例，可从undo、redo、锁和MVCC解释实现分工，避免把每项特性归因于单一日志。
+
+**实际来源**：
+- [java后端小厂面经](https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4)（采集日 2026-10-23，匿名小厂（标题自述））
+- [熙牛医疗 杭州java实习生 一面面经 2026.9.3](https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f)（采集日 2026-10-25，熙牛医疗）
+- [用友金融一面](https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829)（采集日 2026-10-29，用友金融）
+- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="threadlocal-scenarios-risks"></a>
+
+## threadlocal-scenarios-risks · ThreadLocal的场景与风险
 
 **次数**：5；**领域**：Java 并发与 JVM。
 
-**A（AI参考答案）**：提交任务时，若工作线程少于核心数就尝试创建核心线程；否则尝试入队。入队成功后还会复查运行状态与工作线程情况；入队失败则尝试创建非核心线程，达到上限或无法接收时执行拒绝策略。Java内置Abort、CallerRuns、Discard和DiscardOldest。选择要结合业务是否允许丢任务，不能默认静默丢弃；关闭中的线程池也可能拒绝任务。
-
-版本口径：Java 8 ThreadPoolExecutor。
-
-**🔍 面试追问（AI生成）**：
-- CallerRuns一定适合吗？ **简答**：它可能让调用线程执行任务从而施加反压，但会占用请求线程；线程池关闭时也不是可靠持久化机制。
+**A（AI参考答案）**：ThreadLocal为每个线程保存独立变量，常用于请求上下文或事务资源绑定，不负责让同一对象的并发访问自动安全。线程池会复用线程，任务结束后若不remove，旧数据可能串到下个任务；ThreadLocalMap的弱键也不能替代清理，因为值仍可能被线程长期引用。应在finally中清理，异步任务需要显式传递必要上下文，不能假设换线程后原值仍然可见。
 
 **实际来源**：
-- [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
-- [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
 - [java后端小厂面经](https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4)（采集日 2026-10-23，匿名小厂（标题自述））
-- [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
-- [极兔后端一面](https://www.nowcoder.com/discuss/932663753219244032)（采集日 2026-10-29，极兔）
+- [阿里菜鸟实习Java一面面经](https://www.nowcoder.com/discuss/353157949398917120)（采集日 2026-10-30，阿里菜鸟）
+- [美团后台开发Java 实习面经](https://www.nowcoder.com/discuss/353156179603955712)（采集日 2026-10-30，美团）
+- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
 
-<a id="arraylist-versus-linkedlist"></a>
+<a id="cache-penetration-breakdown-avalanche"></a>
 
-## arraylist-versus-linkedlist · ArrayList与LinkedList的区别及场景
+## cache-penetration-breakdown-avalanche · 缓存穿透、击穿与雪崩的区别及应对
 
-**次数**：4；**领域**：Java 基础与集合。
+**次数**：4；**领域**：Redis。
 
-**A（AI参考答案）**：ArrayList基于可扩容数组，按下标访问为O(1)，尾部追加通常是摊销O(1)，中间插入删除需要移动元素。LinkedList基于双向链表，按下标定位仍为O(n)，只有已经定位节点或在两端操作时，链接调整才是O(1)，不能笼统说插入一定更快。一般列表优先ArrayList；需要双端操作可比较ArrayDeque等实现。两者都不自动保证并发安全，选择时还要考虑节点内存和缓存局部性。
-
-**实际来源**：
-- [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
-- [用友金融一面](https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829)（采集日 2026-10-29，用友金融）
-- [京东物流java实习一面面经](https://www.nowcoder.com/discuss/353157644422684672)（采集日 2026-10-30，京东物流）
-- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
-
-<a id="backend-locking-choices"></a>
-
-## backend-locking-choices · 后端如何选择并发控制方式
-
-**次数**：4；**领域**：Java 并发与 JVM。
-
-**A（AI参考答案）**：先明确竞争的数据和作用范围。单进程内共享变量可用synchronized或ReentrantLock，跨实例共同修改数据库时，优先考虑原子条件更新、唯一约束或数据库行锁；确需协调跨节点任务时再评估分布式锁。选择时还要看事务边界、锁粒度、超时与死锁处理。加锁只能保护参与同一协议的访问，不能拿到锁就认为重复请求、远程调用失败和业务幂等都已解决。
-
-**🔍 面试追问（AI生成）**：
-- 为什么多实例不能只用synchronized保护数据库余额？ **简答**：监视器只协调当前JVM，另一实例仍可同时更新同一行。应让竞争请求在同一数据库约束或其他共享协调机制下竞争。
+**A（AI参考答案）**：AI参考答案：穿透是反复查询缓存和数据库都不存在的数据，可用参数校验、短期空值缓存或布隆过滤器减少回源，注意误判及数据新增。击穿是热点键失效引发大量并发回源，可用互斥重建、预热或逻辑过期。雪崩是大量键集中失效或缓存整体故障，可通过过期时间打散、限流降级和高可用减轻影响。方案要明确容忍的旧数据时间和数据库承载能力，不能忽略超时与失败。
 
 **实际来源**：
-- [健康160-JAVA开发实习生](https://www.nowcoder.com/discuss/943496145010020352)（采集日 2026-10-25，健康160）
 - [用友 Java实习面经](https://www.nowcoder.com/discuss/784203612955090944)（采集日 2026-11-01，用友）
-- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
-- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
 
-<a id="java-list-set-map-contracts"></a>
+<a id="hashmap-concurrent-modification-risks"></a>
 
-## java-list-set-map-contracts · List、Set与Map的区别
+## hashmap-concurrent-modification-risks · HashMap并发修改有哪些风险
 
 **次数**：4；**领域**：Java 基础与集合。
 
-**A（AI参考答案）**：List表示有序序列，通常允许重复元素，可按下标访问；Set主要表达元素唯一性；Map保存键值映射，键唯一而值可以重复，Map本身不继承Collection。具体顺序和空值规则取决于实现：HashSet不保证迭代顺序，TreeSet按排序规则组织元素。HashMap或HashSet中的自定义键要正确实现equals与hashCode，并避免修改参与判等的字段。选择时先看是否需要位置、去重或按键查询，再考虑并发和性能。
+**A（AI参考答案）**：AI参考答案：HashMap没有为并发修改提供同步保证，多线程put可能发生覆盖、丢更新或读取到不符合预期的结果，size和遍历也不能视为一致快照。JDK 7扩容的链表成环问题不能直接套到JDK 8，但8仍不是线程安全容器。共享可变映射应使用ConcurrentHashMap或统一外部锁，先查后改等复合业务也需原子API或完整加锁。
 
 **实际来源**：
-- [神州信息 java实习生面经（已offer）](https://www.nowcoder.com/discuss/353159627783217152)（采集日 2026-10-30，神州信息）
-- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
-- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
 - [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
 
 <a id="java-object-oriented-basics"></a>
 
@@ -375,82 +611,77 @@
 - [神州信息 java实习生面经（已offer）](https://www.nowcoder.com/discuss/353159627783217152)（采集日 2026-10-30，神州信息）
 - [京东物流java实习一面面经](https://www.nowcoder.com/discuss/353157644422684672)（采集日 2026-10-30，京东物流）
 
-<a id="mysql-transaction-acid"></a>
+<a id="java-reflection-use-cases"></a>
 
-## mysql-transaction-acid · 事务的ACID特性
+## java-reflection-use-cases · Java反射的原理与应用场景
 
-**次数**：4；**领域**：MySQL。
+**次数**：4；**领域**：Java 基础与集合。
 
-**A（AI参考答案）**：ACID指原子性、一致性、隔离性和持久性。原子性要求事务操作整体提交或回滚；一致性要求满足业务规则和数据库约束，不能只靠开启事务自动得到。隔离性控制并发事务间的相互影响，强度取决于隔离级别；持久性要求提交后的结果能够按配置保障恢复。以InnoDB为例，可从undo、redo、锁和MVCC解释实现分工，避免把每项特性归因于单一日志。
+**A（AI参考答案）**：反射是在运行时通过Class等对象获取类、字段、构造器和方法信息，并按权限规则创建实例或调用成员。常见场景包括依赖注入、对象映射、注解解析、测试框架和动态代理的调用分发，使框架不必为每种业务类写死处理逻辑。代价是额外运行开销、访问检查和对成员名称的运行时依赖，应缓存元数据并控制使用范围；反射不会自动让对象线程安全。Java 9后的模块封装也可能限制深反射，不能假定setAccessible永远可用。
+
+版本口径：Java 9+模块访问限制。
 
 **实际来源**：
-- [java后端小厂面经](https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4)（采集日 2026-10-23，匿名小厂（标题自述））
-- [熙牛医疗 杭州java实习生 一面面经 2026.9.3](https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f)（采集日 2026-10-25，熙牛医疗）
-- [用友金融一面](https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829)（采集日 2026-10-29，用友金融）
+- [佛山宏旺 java实习生](https://www.nowcoder.com/feed/main/detail/5083b0fbb75e480db6e8db2bbafc1195)（采集日 2026-10-27，佛山宏旺（原文标题））
 - [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
 
-<a id="spring-aop-concept"></a>
+<a id="jvm-basic-responsibility"></a>
 
-## spring-aop-concept · Spring AOP的作用与实现
-
-**次数**：4；**领域**：Spring / Spring Boot / MyBatis。
-
-**A（AI参考答案）**：AOP把事务、日志或权限等横切逻辑从业务代码中分离，通过切点选择连接点并织入通知。Spring AOP通常基于JDK动态代理或CGLIB代理，在代理调用处增强方法，因此对象是否由容器管理、调用是否经过代理会影响增强生效。它不是修改所有类的任意代码位置，也不等同于完整的AspectJ编织；项目中的声明式事务可作为有代码依据的典型应用。
-
-**实际来源**：
-- [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
-- [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
-- [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
-- [阿里菜鸟实习Java一面面经](https://www.nowcoder.com/discuss/353157949398917120)（采集日 2026-10-30，阿里菜鸟）
-
-<a id="thread-pool-configuration"></a>
-
-## thread-pool-configuration · 自定义线程池与七个核心参数
+## jvm-basic-responsibility · JVM的职责
 
 **次数**：4；**领域**：Java 并发与 JVM。
 
-**A（AI参考答案）**：ThreadPoolExecutor常见七个参数是corePoolSize、maximumPoolSize、keepAliveTime、时间单位、任务队列、ThreadFactory和拒绝处理器。配置需结合CPU或IO特征、下游容量、允许排队时间和资源限制，不能只套公式。优先使用有界队列，并给线程命名、监控活跃数和拒绝次数；长队列可能延迟扩容，最大线程数也不能超出系统可承受范围。
-
-版本口径：Java 8 ThreadPoolExecutor。
-
-**🔍 面试追问（AI生成）**：
-- 无界队列有什么影响？ **简答**：在核心线程繁忙后通常持续入队，maximumPoolSize难以发挥预期扩容作用，还可能积压内存和延迟。
+**A（AI参考答案）**：JVM负责执行Java字节码，提供类加载、运行时内存管理、解释与即时编译以及垃圾回收等能力。通常先由javac把源码编译为class文件，再由具体JVM实现加载和执行；跨平台来自统一字节码规范与各平台的JVM实现。回答时区分JDK开发工具、运行环境和JVM，也不要把Java内存模型JMM与JVM运行时内存区域混为一谈。
 
 **实际来源**：
-- [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
+- [终于找到实习了！](https://www.nowcoder.com/feed/main/detail/067e9a7c702a4c2eb87ac95c952bdea2)（采集日 2026-10-22，匿名小厂（作者自述））
 - [广电数科 Java开发实习生 面经](https://www.nowcoder.com/discuss/926952182883053568)（采集日 2026-10-24，广电数科）
-- [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
 - [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
 
-<a id="threadlocal-scenarios-risks"></a>
+<a id="redis-basic-data-types"></a>
 
-## threadlocal-scenarios-risks · ThreadLocal的场景与风险
+## redis-basic-data-types · Redis常用基本数据类型
 
-**次数**：4；**领域**：Java 并发与 JVM。
+**次数**：4；**领域**：Redis。
 
-**A（AI参考答案）**：ThreadLocal为每个线程保存独立变量，常用于请求上下文或事务资源绑定，不负责让同一对象的并发访问自动安全。线程池会复用线程，任务结束后若不remove，旧数据可能串到下个任务；ThreadLocalMap的弱键也不能替代清理，因为值仍可能被线程长期引用。应在finally中清理，异步任务需要显式传递必要上下文，不能假设换线程后原值仍然可见。
+**A（AI参考答案）**：AI参考答案：常用类型包括String、Hash、List、Set和ZSet。String适合简单缓存或计数，Hash适合对象字段，List适合两端操作的序列，Set适合去重及交并差，ZSet适合按分数排序和范围查询。类型是对外的数据语义，底层编码会随元素数量、大小及版本变化。选型应结合查询与更新方式、内存和过期粒度；Stream等也是Redis支持的类型，不能把传统五种说成全部类型。
 
 **实际来源**：
-- [java后端小厂面经](https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4)（采集日 2026-10-23，匿名小厂（标题自述））
-- [阿里菜鸟实习Java一面面经](https://www.nowcoder.com/discuss/353157949398917120)（采集日 2026-10-30，阿里菜鸟）
-- [美团后台开发Java 实习面经](https://www.nowcoder.com/discuss/353156179603955712)（采集日 2026-10-30，美团）
+- [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
 - [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
 
-<a id="cache-database-consistency"></a>
+<a id="redis-project-purposes"></a>
 
-## cache-database-consistency · 如何保证缓存与数据库的一致性
+## redis-project-purposes · Redis在项目中的用途
 
-**次数**：3；**领域**：Redis。
+**次数**：4；**领域**：Redis。
 
-**A（AI参考答案）**：常见 Cache-Aside 方案以数据库为准：读取先查缓存，未命中再查库并回填；写入先提交数据库事务，再删除缓存，后续读取重建。删除失败需要可靠重试或消息补偿，并以 TTL 限制陈旧时间。并发读写仍可能出现旧值回填，所以它通常提供最终一致性，不能直接保证强一致；更高要求可结合版本校验、串行化更新，或对关键读取直接访问数据库，再根据延迟和业务容忍度选择方案。
-
-**🔍 面试追问（AI生成）**：
-- 延迟双删能否保证所有并发场景都不出现旧缓存？ **简答**：不能，延迟选择、失败和执行顺序仍可能出问题；它只是降低风险，不能代替一致性边界和可靠补偿。
+**A（AI参考答案）**：回答要从真实业务出发，常见用途包括会话状态、读多写少缓存、计数与原子准入，但不能只罗列数据结构。会话要解释过期与撤销，缓存要解释命中、空值及更新策略，计数和准入要解释原子范围及故障窗口。Redis与MySQL之间并非天然一致，必须按各自权威数据和补偿路径说明取舍；没有实现的用途不应包装为项目亮点。
 
 **实际来源**：
-- [广电数科 Java开发实习生 面经](https://www.nowcoder.com/discuss/926952182883053568)（采集日 2026-10-24，广电数科）
-- [南京车300 Java 实习面经](https://www.nowcoder.com/feed/main/detail/8b78085106ae45a4bada11cb75141d8f)（采集日 2026-10-24，南京车300）
-- [京东物流java实习一面面经](https://www.nowcoder.com/discuss/353157644422684672)（采集日 2026-10-30，京东物流）
+- [唯智信息技术 Java开发实习生 一面面经 2026.9.16](https://www.nowcoder.com/feed/main/detail/e00abf3b34e94e4398194442a9a826fb)（采集日 2026-10-21，唯智信息技术）
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
+
+<a id="thread-pool-benefits"></a>
+
+## thread-pool-benefits · 为什么使用线程池
+
+**次数**：4；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：线程池通过复用工作线程减少频繁创建和销毁的成本，并集中管理并发数、任务队列和生命周期。相比每个任务新建线程，它更便于限制资源、监控和实施拒绝策略，但不会让任务自动变快。需要结合CPU或IO特征、下游容量和超时要求选择线程数与有界队列，避免无界排队拖垮内存；任务异常、取消及应用关闭也要有处理策略。
+
+**实际来源**：
+- [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
+- [用友 Java实习面经](https://www.nowcoder.com/discuss/784203612955090944)（采集日 2026-11-01，用友）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
 
 <a id="class-loading-process"></a>
 
@@ -483,31 +714,137 @@
 - [北森客开实习生(实习转正) 2026.10.13](https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e)（采集日 2026-10-28，北森）
 - [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
 
-<a id="hashmap-resize-jdk8"></a>
+<a id="java-interface-versus-abstract-class"></a>
 
-## hashmap-resize-jdk8 · HashMap如何扩容
+## java-interface-versus-abstract-class · 接口与抽象类有什么区别
 
 **次数**：3；**领域**：Java 基础与集合。
 
-**A（AI参考答案）**：以JDK 8为例，HashMap通常在元素数量超过容量乘负载因子的阈值时扩容，新桶数组一般扩大为原来的两倍。迁移节点时利用容量为二的幂这一特点，检查哈希值与旧容量对应的位，节点留在原位置或移动到原下标加旧容量的位置，不需要重新调用键的hashCode。扩容有分配和迁移成本，可按预计规模设置初始容量；这些规则并不使HashMap具备并发安全性。
+**A（AI参考答案）**：AI参考答案：接口主要定义能力契约，一个类可以实现多个接口；抽象类适合表达同一类型体系中的共享状态和部分实现，一个类只能直接继承一个类。抽象类可以有实例字段、构造器和不同可见性的方法；接口字段是常量，不能保存每个对象的实例状态。Java 8接口可有default和static方法，Java 9起还可有private方法。选择时优先根据类型关系与职责决定，不要仅为了代码复用建立不合理继承。
 
 **实际来源**：
-- [熙牛医疗 杭州java实习生 一面面经 2026.9.3](https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f)（采集日 2026-10-25，熙牛医疗）
-- [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
-- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [恒生电子Java开发](https://www.nowcoder.com/discuss/938437442237890560)（采集日 2026-11-08，恒生电子）
 
-<a id="jvm-basic-responsibility"></a>
+<a id="java-reference-strengths"></a>
 
-## jvm-basic-responsibility · JVM的职责
+## java-reference-strengths · Java引用类型与垃圾回收
 
 **次数**：3；**领域**：Java 并发与 JVM。
 
-**A（AI参考答案）**：JVM负责执行Java字节码，提供类加载、运行时内存管理、解释与即时编译以及垃圾回收等能力。通常先由javac把源码编译为class文件，再由具体JVM实现加载和执行；跨平台来自统一字节码规范与各平台的JVM实现。回答时区分JDK开发工具、运行环境和JVM，也不要把Java内存模型JMM与JVM运行时内存区域混为一谈。
+**A（AI参考答案）**：通常区分强引用、软引用、弱引用和虚引用。对象若仍通过有效的强引用链从GC Roots可达，就不能当作垃圾回收；软引用对象在内存压力下可能被清理，弱引用不会阻止其所指对象被回收。虚引用的get始终返回null，常配合引用队列进行回收后的资源管理通知。具体回收时机由收集器决定，不能承诺一次GC必定回收；弱键也不代表容器里相关的强引用值会自动及时释放。
 
 **实际来源**：
-- [终于找到实习了！](https://www.nowcoder.com/feed/main/detail/067e9a7c702a4c2eb87ac95c952bdea2)（采集日 2026-10-22，匿名小厂（作者自述））
+- [熙牛医疗 杭州java实习生 一面面经 2026.9.3](https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f)（采集日 2026-10-25，熙牛医疗）
+- [阿里菜鸟实习Java一面面经](https://www.nowcoder.com/discuss/353157949398917120)（采集日 2026-10-30，阿里菜鸟）
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
+
+<a id="java-thread-safe-collections"></a>
+
+## java-thread-safe-collections · 常见集合中哪些支持线程安全访问
+
+**次数**：3；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：AI参考答案：常用ArrayList、HashMap、HashSet不提供并发修改安全保证。可按需求使用ConcurrentHashMap、CopyOnWriteArrayList或阻塞队列，也可用Collections的同步包装；Vector和Hashtable的方法虽有同步，复合操作仍可能产生竞争。并发Map的“先判断再写入”应使用putIfAbsent、compute等原子接口。CopyOnWrite适合读多写少，写入会复制数组；遍历同步包装集合通常仍需外部加同一把锁。
+
+**实际来源**：
+- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="java-thread-states"></a>
+
+## java-thread-states · Java线程有哪些状态
+
+**次数**：3；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：Thread.State定义六种状态：NEW尚未启动；RUNNABLE可运行，包含JVM视角的就绪与执行；BLOCKED等待进入对象监视器；WAITING无期限等待；TIMED_WAITING限时等待；TERMINATED已结束。sleep常进入限时等待且不释放持有的监视器，wait会释放对应监视器，唤醒后还需重新竞争。Java状态不能直接等同于操作系统状态，诊断时要结合线程栈和锁信息。
+
+**实际来源**：
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
+
+<a id="jvm-oom-gc-troubleshooting"></a>
+
+## jvm-oom-gc-troubleshooting · OOM 与频繁 GC 如何排查
+
+**次数**：3；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：先结合异常类型、GC 日志和监控区分堆不足、元空间、直接内存或线程资源耗尽，不能看到 OOM 就只调大堆。堆问题可分析堆转储中的大对象、支配关系和 GC Roots，判断是正常容量需求、分配过快还是对象被长期持有；频繁 GC 还需看回收后占用、停顿时间和分配速率。优先修复泄漏、无界队列等根因，再通过压测决定容量或收集器参数，抓取诊断数据也要控制线上开销。
+
+**实际来源**：
 - [广电数科 Java开发实习生 面经](https://www.nowcoder.com/discuss/926952182883053568)（采集日 2026-10-24，广电数科）
-- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [用友金融一面](https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829)（采集日 2026-10-29，用友金融）
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+
+<a id="mysql-index-benefits-costs"></a>
+
+## mysql-index-benefits-costs · 索引的优点与代价
+
+**次数**：3；**领域**：MySQL。
+
+**A（AI参考答案）**：索引可减少满足过滤、连接或排序条件时的扫描范围，但收益取决于选择性、查询条件和执行计划。索引需要占用存储，并让插入、删除及修改相关字段承担维护成本；数量越多不一定越快。设计时围绕高频查询确定联合索引顺序，检查回表、排序及覆盖情况，再用真实数据验证。仅为低选择性字段单独建索引，或为每个字段建索引，都可能得不偿失。
+
+**实际来源**：
+- [广东某公司java实习生面经](https://www.nowcoder.com/feed/main/detail/6fe8d56b45144d4b81f0082cb0f35572)（采集日 2026-10-23，匿名广东公司）
+- [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="mysql-storage-engine-comparison"></a>
+
+## mysql-storage-engine-comparison · MySQL常见存储引擎及区别
+
+**次数**：3；**领域**：MySQL。
+
+**A（AI参考答案）**：AI参考答案：常见引擎有InnoDB、MyISAM、MEMORY等。MySQL 8.0默认InnoDB，支持事务、崩溃恢复、外键和行级锁，适合常见业务表。MyISAM不支持事务，主要使用表级锁；MEMORY将数据保存在内存中，重启后数据会丢失，不能代替持久业务存储。选择应看事务、一致性、恢复能力和访问模式，不能单凭读写速度作结论。
+
+**实际来源**：
+- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [恒生电子Java开发](https://www.nowcoder.com/discuss/938437442237890560)（采集日 2026-11-08，恒生电子）
+
+<a id="mysql-transaction-isolation-levels"></a>
+
+## mysql-transaction-isolation-levels · 事务的四种隔离级别
+
+**次数**：3；**领域**：MySQL。
+
+**A（AI参考答案）**：AI参考答案：四种级别是读未提交、读已提交、可重复读和串行化，隔离增强通常伴随并发成本。InnoDB默认可重复读，普通一致性读通常复用事务内首次一致性读建立的快照；读已提交每次一致性读可建立新视图。更新与锁定读按当前版本并结合锁工作，不能套用快照读结论。幻读应区分读方式、锁范围与事务场景，不能说一个级别能无条件消除所有并发异常。
+
+**实际来源**：
+- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [恒生电子Java开发](https://www.nowcoder.com/discuss/938437442237890560)（采集日 2026-11-08，恒生电子）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+
+<a id="project-technical-problem-solving"></a>
+
+## project-technical-problem-solving · 如何讲述项目难点与解决过程
+
+**次数**：3；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：选择自己确实参与的问题，说明触发场景、影响范围和限制条件，再展示如何通过日志、监控、复现或代码阅读定位根因。比较候选方案的成本与风险，解释采用方案、边界处理和验证方式，并交代遗留问题。没有实测数据就描述可核查的现象和验证步骤，不编造性能收益；原文未公开项目实现，不能替作者或回答者补写某次故障经历。
+
+**实际来源**：
+- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [江苏-南通小厂Java面经(第一次面试)](https://www.nowcoder.com/feed/main/detail/5dda35cf88d546caa2e0d0a274820a04)（采集日 2026-11-07，江苏南通某公司（匿名））
+
+<a id="redis-persistence-rdb-aof"></a>
+
+## redis-persistence-rdb-aof · Redis的RDB与AOF持久化
+
+**次数**：3；**领域**：Redis。
+
+**A（AI参考答案）**：RDB保存某时刻的数据快照，文件紧凑、恢复快，但两次快照之间的修改可能丢失；后台快照还要考虑fork与写时复制成本。AOF记录写操作，丢失窗口取决于刷盘策略，文件与重写也有成本。二者可结合使用，但持久化不等于高可用或零丢失，仍需备份恢复演练。Redis7引入多部件AOF等变化，不能把旧版本的单文件细节当成所有版本都相同。
+
+版本口径：Redis常用RDB/AOF原理；Redis7多部件AOF需与旧版区分。
+
+**实际来源**：
+- [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
 
 <a id="spring-declarative-transaction"></a>
 
@@ -542,6 +879,31 @@
 - [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
 - [极兔后端一面](https://www.nowcoder.com/discuss/932663753219244032)（采集日 2026-10-29，极兔）
 
+<a id="synchronized-versus-reentrantlock"></a>
+
+## synchronized-versus-reentrantlock · synchronized与ReentrantLock的区别
+
+**次数**：3；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：两者都支持互斥和可重入。synchronized由JVM管理监视器，退出同步块或异常离开时自动释放，使用简单；ReentrantLock需要在成功加锁后用finally解锁，但支持可中断获取、限时尝试及可选公平策略，还能创建多个Condition。公平锁并不保证线程调度的绝对先后，性能也要结合竞争情况测试。普通临界区可优先用简单方式，确有取消、超时或多条件等待需求时再选择显式锁。
+
+**实际来源**：
+- [熙牛医疗 杭州java实习生 一面面经 2026.9.3](https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f)（采集日 2026-10-25，熙牛医疗）
+- [北森客开实习生(实习转正) 2026.10.13](https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e)（采集日 2026-10-28，北森）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+
+<a id="backend-design-pattern-overview"></a>
+
+## backend-design-pattern-overview · 后端开发如何理解和选择设计模式
+
+**次数**：2；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：设计模式是对常见职责和变化方式的经验总结。策略模式隔离可替换算法，工厂集中创建逻辑，模板方法固定流程并开放步骤，观察者解耦事件发布与响应，代理在调用前后附加行为。选择前先说明业务变化点以及直接实现的困难，再评估新增抽象的维护成本。通用AI参考思路：用自己真实代码说明调用关系，没有代码证据时只讲概念，不宣称项目已采用某种模式。
+
+**实际来源**：
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
+
 <a id="business-request-idempotency"></a>
 
 ## business-request-idempotency · 如何避免重复下单或重复预约
@@ -557,17 +919,17 @@
 - [益普科技 Java开发实习生 面经](https://www.nowcoder.com/discuss/926599685232422912)（采集日 2026-10-24，益普科技）
 - [广电数科 Java开发实习生 面经](https://www.nowcoder.com/discuss/926952182883053568)（采集日 2026-10-24，广电数科）
 
-<a id="cache-penetration-breakdown-avalanche"></a>
+<a id="cache-update-strategy-comparison"></a>
 
-## cache-penetration-breakdown-avalanche · 缓存穿透、击穿与雪崩的区别及应对
+## cache-update-strategy-comparison · 缓存更新策略如何选择
 
 **次数**：2；**领域**：Redis。
 
-**A（AI参考答案）**：AI参考答案：穿透是反复查询缓存和数据库都不存在的数据，可用参数校验、短期空值缓存或布隆过滤器减少回源，注意误判及数据新增。击穿是热点键失效引发大量并发回源，可用互斥重建、预热或逻辑过期。雪崩是大量键集中失效或缓存整体故障，可通过过期时间打散、限流降级和高可用减轻影响。方案要明确容忍的旧数据时间和数据库承载能力，不能忽略超时与失败。
+**A（AI参考答案）**：AI参考答案：常见方案包括Cache-Aside、Read/Write-Through与Write-Behind。Cache-Aside由应用读缓存、未命中查库回填，写库后使缓存失效；Through把读写穿透到后端存储的职责交给缓存层；Behind先更新缓存，再异步落库，吞吐较好但增加丢失和恢复风险。应按业务可接受的陈旧窗口、写入可靠性和复杂度选择，Redis本身不会自动完成数据库同步，各方案都需考虑失败与并发。
 
 **实际来源**：
-- [用友 Java实习面经](https://www.nowcoder.com/discuss/784203612955090944)（采集日 2026-11-01，用友）
-- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
 
 <a id="database-optimistic-pessimistic-lock"></a>
 
@@ -581,31 +943,56 @@
 - [京东物流java实习一面面经](https://www.nowcoder.com/discuss/353157644422684672)（采集日 2026-10-30，京东物流）
 - [美团后台开发Java 实习面经](https://www.nowcoder.com/discuss/353156179603955712)（采集日 2026-10-30，美团）
 
-<a id="gc-collection-mechanism"></a>
+<a id="database-sharding-design"></a>
 
-## gc-collection-mechanism · 垃圾判活与回收的基本机制
+## database-sharding-design · 数据库分表如何设计
 
-**次数**：2；**领域**：Java 并发与 JVM。
+**次数**：2；**领域**：MySQL。
 
-**A（AI参考答案）**：Java通常通过从GC Roots出发的可达性分析判断对象是否仍被使用，不能只看引用计数，否则循环引用难以处理。确定可回收对象后，由具体收集器选择复制、清除或整理等方式处理；不同阶段可能需要暂停应用或并发执行。垃圾回收主要管理堆内存，不替代文件、网络连接等外部资源的显式关闭，也不能保证某个对象在指定时刻马上被回收。
+**A（AI参考答案）**：AI参考答案：先确认单表瓶颈是否可通过索引、归档或SQL优化解决，再按业务访问路径选择分片键。水平分表分散数据行，可按哈希均匀分布，也可按时间等范围便于归档；垂直拆分则按字段或业务职责拆开。设计时考虑热点、分片路由、全局ID、跨表分页与聚合，以及跨分片事务和扩容迁移。原文没有表结构、数据量和查询条件，只能给通用取舍，不能假定某个固定分片数。
 
-版本口径：JVM基础机制；与“算法有哪些”相关但不是同一原题，不合并虚增同题次数。
+**实际来源**：
+- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+
+<a id="distributed-lock-project-usage"></a>
+
+## distributed-lock-project-usage · 项目中分布式锁的实际用法
+
+**次数**：2；**领域**：Redis。
+
+**A（AI参考答案）**：先说明锁保护的资源、粒度、获取方式、超时与释放，再解释为什么还需要数据库兜底。分布式锁可能因租期到期、进程暂停或网络问题失去互斥，不能把它当作业务幂等和数据库约束的替代。若锁有所有者标识，应比较后再释放，避免删除别人的锁；若给出显式租期，就必须说明超过租期的边界，不能把计划实现的锁写成已经使用。
+
+**🔍 面试追问（AI生成）**：
+- 显式10秒租期下业务超过10秒怎么办？ **简答**：可能失去互斥，应按实际耗时选择租期/续期方案并保留数据库幂等；优化建议不能写成现有实现。
 
 **实际来源**：
 - [唯智信息技术 Java开发实习生 一面面经 2026.9.16](https://www.nowcoder.com/feed/main/detail/e00abf3b34e94e4398194442a9a826fb)（采集日 2026-10-21，唯智信息技术）
-- [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
 
-<a id="hashmap-concurrent-modification-risks"></a>
+<a id="docker-common-commands"></a>
 
-## hashmap-concurrent-modification-risks · HashMap并发修改有哪些风险
+## docker-common-commands · Docker常用命令
+
+**次数**：2；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：可按生命周期介绍：docker pull拉取镜像，build构建镜像，run创建并启动容器，ps查看容器，logs查看日志，exec进入运行容器执行命令，inspect查看配置，stop停止容器，rm删除容器，images与rmi管理镜像。说明镜像、容器和持久化卷的区别，删除容器不应被当成业务数据备份策略。面试只需说明用途，不能把清理命令直接拿到真实服务器执行。
+
+**实际来源**：
+- [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
+- [江苏-南通小厂Java面经(第一次面试)](https://www.nowcoder.com/feed/main/detail/5dda35cf88d546caa2e0d0a274820a04)（采集日 2026-11-07，江苏南通某公司（匿名））
+
+<a id="hashmap-null-key-value"></a>
+
+## hashmap-null-key-value · HashMap是否允许null键与null值
 
 **次数**：2；**领域**：Java 基础与集合。
 
-**A（AI参考答案）**：AI参考答案：HashMap没有为并发修改提供同步保证，多线程put可能发生覆盖、丢更新或读取到不符合预期的结果，size和遍历也不能视为一致快照。JDK 7扩容的链表成环问题不能直接套到JDK 8，但8仍不是线程安全容器。共享可变映射应使用ConcurrentHashMap或统一外部锁，先查后改等复合业务也需原子API或完整加锁。
+**A（AI参考答案）**：AI参考答案：HashMap允许一个null键及多个null值；再次写入null键会更新同一映射。get返回null既可能表示没有该键，也可能表示该键对应的值为null，需要containsKey区分。允许空值与线程安全是不同问题；ConcurrentHashMap不允许null键和值，不能把HashMap的规则推广到所有Map。设计接口时应说明缺失值与空值各自的业务含义。
 
 **实际来源**：
 - [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
-- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
 
 <a id="hashmap-versus-hashtable"></a>
 
@@ -618,6 +1005,30 @@
 **实际来源**：
 - [成都小厂java面经](https://www.nowcoder.com/feed/main/detail/1f64e96cac1d4e29a6a8481b732f153a)（采集日 2026-10-23，匿名成都小厂（标题自述））
 - [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+
+<a id="http-cookie-versus-session"></a>
+
+## http-cookie-versus-session · Cookie与Session有什么区别及使用场景
+
+**次数**：2；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：Cookie是浏览器按域和路径等规则保存并随请求发送的数据；Session通常是在服务端维护的会话状态，客户端以会话标识关联该状态，标识常通过Cookie携带。登录态可用Session保存用户信息，Cookie也可用于偏好配置。两者可以配合使用，不能说Session天然不依赖客户端标识。应保护标识、设置过期和适当的安全属性，多实例部署还需考虑会话共享；个人使用经历必须据实说明。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+
+<a id="http-get-versus-post"></a>
+
+## http-get-versus-post · GET与POST请求有什么区别
+
+**次数**：2；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：GET用于获取资源表示，按HTTP语义应是安全且幂等的；POST用于提交内容并由目标资源处理，通常不保证幂等。GET常把查询条件放在URL，POST常使用请求体，但差异不能简单归结为参数位置或固定长度上限。GET内容没有通用的请求体语义；POST也不能天然防止重复提交或保证安全。敏感数据传输应使用HTTPS，缓存行为还要结合响应头和客户端支持判断。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
 
 <a id="https-tls-handshake"></a>
 
@@ -646,6 +1057,45 @@
 - [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
 - [Java 后端新手的第一次面试复盘](https://www.cnblogs.com/thr-0103/p/18113538)（采集日 2026-11-02，匿名公司）
 
+<a id="java-dynamic-proxy-jdk-cglib"></a>
+
+## java-dynamic-proxy-jdk-cglib · JDK动态代理与CGLIB的区别
+
+**次数**：2；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：JDK动态代理通常基于接口生成代理对象，通过InvocationHandler转发调用；CGLIB通过生成目标类的子类实现增强，因此不能靠子类重写增强final方法，也不能继承final类。Spring AOP可根据配置和目标类型选择实现，不能笼统说始终使用其中一种。无论哪种代理，普通同类内部直接调用都可能绕过代理增强；判断事务或切面是否生效，要看实际调用是否经过代理对象。
+
+**实际来源**：
+- [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="java-equals-versus-reference"></a>
+
+## java-equals-versus-reference · == 与 equals 的区别
+
+**次数**：2；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：== 对基本类型比较数值，对引用类型比较是否指向同一对象；equals 是对象的方法，默认实现也比较引用，但 String 等类重写后按内容判断。业务对象需要按关键字段判等时，应同时重写 equals 和 hashCode，保证相等对象具有相同哈希值，否则放入 HashMap、HashSet 可能出现查找或去重异常。比较字符串内容通常用 equals，并注意接收者为 null 时的空指针问题。
+
+**🔍 面试追问（AI生成）**：
+- 两个对象 hashCode 相同就一定相等吗？ **简答**：不一定，哈希冲突允许存在，还要通过 equals 判断；equals 相等则必须具有相同 hashCode。
+
+**实际来源**：
+- [益普科技 Java开发实习生 面经](https://www.nowcoder.com/discuss/926599685232422912)（采集日 2026-10-24，益普科技）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+
+<a id="java-final-semantics"></a>
+
+## java-final-semantics · final修饰变量、方法与类的含义
+
+**次数**：2；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：final修饰变量表示只能赋值一次；引用变量不能再指向其他对象，但对象内部状态仍可能变化，所以不等于不可变或线程安全。修饰方法表示不能被子类重写，修饰类表示不能被继承。成员final字段需在声明、初始化块或构造过程中完成赋值；局部变量需在使用前赋值。并发中final字段有专门的初始化可见性语义，但前提包括构造期间不让this逸出，仍不能代替对可变共享状态的同步。
+
+**实际来源**：
+- [神州信息 java实习生面经（已offer）](https://www.nowcoder.com/discuss/353159627783217152)（采集日 2026-10-30，神州信息）
+- [恒生电子Java开发](https://www.nowcoder.com/discuss/938437442237890560)（采集日 2026-11-08，恒生电子）
+
 <a id="java-overload-versus-override"></a>
 
 ## java-overload-versus-override · 方法重载与重写的区别
@@ -658,43 +1108,17 @@
 - [27届学院本Agent秋招（OC已拒）](https://www.nowcoder.com/discuss/932329388496945152)（采集日 2026-10-26，匿名公司）
 - [北森客开实习生(实习转正) 2026.10.13](https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e)（采集日 2026-10-28，北森）
 
-<a id="java-reference-strengths"></a>
+<a id="java-serialization-purpose"></a>
 
-## java-reference-strengths · Java引用类型与垃圾回收
-
-**次数**：2；**领域**：Java 并发与 JVM。
-
-**A（AI参考答案）**：通常区分强引用、软引用、弱引用和虚引用。对象若仍通过有效的强引用链从GC Roots可达，就不能当作垃圾回收；软引用对象在内存压力下可能被清理，弱引用不会阻止其所指对象被回收。虚引用的get始终返回null，常配合引用队列进行回收后的资源管理通知。具体回收时机由收集器决定，不能承诺一次GC必定回收；弱键也不代表容器里相关的强引用值会自动及时释放。
-
-**实际来源**：
-- [熙牛医疗 杭州java实习生 一面面经 2026.9.3](https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f)（采集日 2026-10-25，熙牛医疗）
-- [阿里菜鸟实习Java一面面经](https://www.nowcoder.com/discuss/353157949398917120)（采集日 2026-10-30，阿里菜鸟）
-
-<a id="java-reflection-use-cases"></a>
-
-## java-reflection-use-cases · Java反射的原理与应用场景
+## java-serialization-purpose · 对象序列化的机制与用途
 
 **次数**：2；**领域**：Java 基础与集合。
 
-**A（AI参考答案）**：反射是在运行时通过Class等对象获取类、字段、构造器和方法信息，并按权限规则创建实例或调用成员。常见场景包括依赖注入、对象映射、注解解析、测试框架和动态代理的调用分发，使框架不必为每种业务类写死处理逻辑。代价是额外运行开销、访问检查和对成员名称的运行时依赖，应缓存元数据并控制使用范围；反射不会自动让对象线程安全。Java 9后的模块封装也可能限制深反射，不能假定setAccessible永远可用。
-
-版本口径：Java 9+模块访问限制。
+**A（AI参考答案）**：序列化是把对象所表示的数据按约定格式编码，供网络传输或持久化；反序列化再按格式恢复数据结构。Java原生对象流依赖Serializable等协议，可处理对象图；JSON和Protobuf则采用各自的数据模型与兼容规则，并不要求都实现Serializable。实际选型要看跨语言、体积、性能与版本演进。不能把所有序列化都等同于Java对象流，也应避免对不可信输入直接使用原生反序列化。
 
 **实际来源**：
-- [佛山宏旺 java实习生](https://www.nowcoder.com/feed/main/detail/5083b0fbb75e480db6e8db2bbafc1195)（采集日 2026-10-27，佛山宏旺（原文标题））
-- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
-
-<a id="java-thread-safe-collections"></a>
-
-## java-thread-safe-collections · 常见集合中哪些支持线程安全访问
-
-**次数**：2；**领域**：Java 基础与集合。
-
-**A（AI参考答案）**：AI参考答案：常用ArrayList、HashMap、HashSet不提供并发修改安全保证。可按需求使用ConcurrentHashMap、CopyOnWriteArrayList或阻塞队列，也可用Collections的同步包装；Vector和Hashtable的方法虽有同步，复合操作仍可能产生竞争。并发Map的“先判断再写入”应使用putIfAbsent、compute等原子接口。CopyOnWrite适合读多写少，写入会复制数组；遍历同步包装集合通常仍需外部加同一把锁。
-
-**实际来源**：
-- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
-- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [华盛通JAVA实习生二面](https://www.nowcoder.com/feed/main/detail/fd30324de36044c69ab16437026163d4)（采集日 2026-10-25，华盛通）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
 
 <a id="java-version-features"></a>
 
@@ -707,18 +1131,6 @@
 **实际来源**：
 - [终于找到实习了！](https://www.nowcoder.com/feed/main/detail/067e9a7c702a4c2eb87ac95c952bdea2)（采集日 2026-10-22，匿名小厂（作者自述））
 - [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
-
-<a id="jvm-oom-gc-troubleshooting"></a>
-
-## jvm-oom-gc-troubleshooting · OOM 与频繁 GC 如何排查
-
-**次数**：2；**领域**：Java 并发与 JVM。
-
-**A（AI参考答案）**：先结合异常类型、GC 日志和监控区分堆不足、元空间、直接内存或线程资源耗尽，不能看到 OOM 就只调大堆。堆问题可分析堆转储中的大对象、支配关系和 GC Roots，判断是正常容量需求、分配过快还是对象被长期持有；频繁 GC 还需看回收后占用、停顿时间和分配速率。优先修复泄漏、无界队列等根因，再通过压测决定容量或收集器参数，抓取诊断数据也要控制线上开销。
-
-**实际来源**：
-- [广电数科 Java开发实习生 面经](https://www.nowcoder.com/discuss/926952182883053568)（采集日 2026-10-24，广电数科）
-- [用友金融一面](https://www.nowcoder.com/feed/main/detail/b087698fedff49668324389ed50f3829)（采集日 2026-10-29，用友金融）
 
 <a id="mq-business-use-cases"></a>
 
@@ -743,6 +1155,32 @@
 **实际来源**：
 - [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
 - [java后端小厂面经](https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4)（采集日 2026-10-23，匿名小厂（标题自述））
+
+<a id="mybatis-hash-dollar-parameters"></a>
+
+## mybatis-hash-dollar-parameters · MyBatis的井号与美元参数占位区别
+
+**次数**：2；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：MyBatis的#{value}通常生成PreparedStatement的问号占位并绑定参数，适合传递数据值；${value}是直接把字符串替换进SQL结构，不能依靠参数绑定防止注入。表名、列名和排序方向不能简单当作普通问号参数，确需动态选择时，应由服务端把有限选项映射到固定SQL片段或做严格白名单校验。不要将用户输入直接放入${}；模糊查询也可使用绑定参数构造匹配值。
+
+**实际来源**：
+- [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="mybatis-mapper-execution"></a>
+
+## mybatis-mapper-execution · MyBatis如何从Mapper方法执行SQL
+
+**次数**：2；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：MyBatis加载配置、Mapper XML或注解，建立映射语句等元数据；获取Mapper接口时通常返回动态代理。调用方法后，代理按接口与方法定位MappedStatement，将参数及动态SQL处理成可执行SQL和参数映射，再由执行器经JDBC完成预编译、绑定、查询或更新，最后按结果映射转为对象。MyBatis主要封装SQL执行与映射，SQL仍需开发者负责；SqlSession本身不宜跨线程共享，Spring集成通常通过SqlSessionTemplate参与事务管理。
+
+版本口径：MyBatis 3及常见Spring集成。
+
+**实际来源**：
+- [佛山宏旺 java实习生](https://www.nowcoder.com/feed/main/detail/5083b0fbb75e480db6e8db2bbafc1195)（采集日 2026-10-27，佛山宏旺（原文标题））
+- [江苏-南通小厂Java面经(第一次面试)](https://www.nowcoder.com/feed/main/detail/5dda35cf88d546caa2e0d0a274820a04)（采集日 2026-11-07，江苏南通某公司（匿名））
 
 <a id="mybatis-plus-versus-mybatis"></a>
 
@@ -787,17 +1225,29 @@
 - [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
 - [极兔后端一面](https://www.nowcoder.com/discuss/932663753219244032)（采集日 2026-10-29，极兔）
 
-<a id="mysql-index-benefits-costs"></a>
+<a id="mysql-engine-index-storage"></a>
 
-## mysql-index-benefits-costs · 索引的优点与代价
+## mysql-engine-index-storage · 不同MySQL存储引擎如何存放索引与数据
 
 **次数**：2；**领域**：MySQL。
 
-**A（AI参考答案）**：索引可减少满足过滤、连接或排序条件时的扫描范围，但收益取决于选择性、查询条件和执行计划。索引需要占用存储，并让插入、删除及修改相关字段承担维护成本；数量越多不一定越快。设计时围绕高频查询确定联合索引顺序，检查回表、排序及覆盖情况，再用真实数据验证。仅为低选择性字段单独建索引，或为每个字段建索引，都可能得不偿失。
+**A（AI参考答案）**：AI参考答案：InnoDB通常以B+树组织索引，聚簇索引叶子保存完整行，二级索引叶子保存索引键和主键，读取其他列时可能再查聚簇索引。没有显式主键时按规则选择合适唯一键或生成隐藏行标识。MyISAM的索引与数据分开存放，索引叶子通过数据地址定位记录。MEMORY可使用HASH或BTREE索引。回答应先明确引擎，不能把所有引擎的索引叶子都说成保存行数据。
 
 **实际来源**：
-- [广东某公司java实习生面经](https://www.nowcoder.com/feed/main/detail/6fe8d56b45144d4b81f0082cb0f35572)（采集日 2026-10-23，匿名广东公司）
-- [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
+- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+
+<a id="mysql-index-column-design"></a>
+
+## mysql-index-column-design · MySQL应如何选择索引字段
+
+**次数**：2；**领域**：MySQL。
+
+**A（AI参考答案）**：AI参考答案：先从实际高频SQL和执行计划出发，观察WHERE过滤、JOIN关联、ORDER BY和覆盖查询需求，再结合选择性、数据分布与写入频率选择字段。联合索引要考虑最左前缀以及等值、范围、排序条件的组合，不能只按字段出现顺序机械建索引。避免为每列都建索引或保留大量重复索引，评估额外空间和写放大。最后用代表性数据验证扫描行数及耗时，业务唯一性约束也应明确表达。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
 
 <a id="mysql-index-types"></a>
 
@@ -813,29 +1263,65 @@
 - [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
 - [几百人小厂Java实习面经 第50场面!](https://www.nowcoder.com/feed/main/detail/a2476f1aebb84c9191ab53717464f55c)（采集日 2026-10-29，武汉众智鸿图）
 
-<a id="mysql-storage-engine-comparison"></a>
+<a id="project-login-authentication-flow"></a>
 
-## mysql-storage-engine-comparison · MySQL常见存储引擎及区别
+## project-login-authentication-flow · 如何说明项目的登录认证流程
 
-**次数**：2；**领域**：MySQL。
+**次数**：2；**领域**：项目设计与技术选型。
 
-**A（AI参考答案）**：AI参考答案：常见引擎有InnoDB、MyISAM、MEMORY等。MySQL 8.0默认InnoDB，支持事务、崩溃恢复、外键和行级锁，适合常见业务表。MyISAM不支持事务，主要使用表级锁；MEMORY将数据保存在内存中，重启后数据会丢失，不能代替持久业务存储。选择应看事务、一致性、恢复能力和访问模式，不能单凭读写速度作结论。
+**A（AI参考答案）**：通用AI参考思路：按接收凭据、校验身份、建立会话、后续鉴权和退出失效讲完整链路，并用自己真实代码说明实现。密码应使用带盐的专用密码哈希方案，不能把MD5当作安全存储方案；验证码应有短有效期、限次和使用后失效。登录成功后更新会话标识，浏览器Cookie按场景配置安全属性，接口仍需校验权限。原文省略了登录细节，不能断言采用JWT、单点登录或具体Redis结构，也不能替回答者编造实现。
 
 **实际来源**：
-- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
-- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
 
-<a id="redis-basic-data-types"></a>
+<a id="redis-characteristics-tradeoffs"></a>
 
-## redis-basic-data-types · Redis常用基本数据类型
+## redis-characteristics-tradeoffs · Redis的特点与使用边界
 
 **次数**：2；**领域**：Redis。
 
-**A（AI参考答案）**：AI参考答案：常用类型包括String、Hash、List、Set和ZSet。String适合简单缓存或计数，Hash适合对象字段，List适合两端操作的序列，Set适合去重及交并差，ZSet适合按分数排序和范围查询。类型是对外的数据语义，底层编码会随元素数量、大小及版本变化。选型应结合查询与更新方式、内存和过期粒度；Stream等也是Redis支持的类型，不能把传统五种说成全部类型。
+**A（AI参考答案）**：AI参考答案：Redis以内存数据访问为主，提供字符串、哈希、列表、集合和有序集合等结构，常用于缓存、计数和排行榜，也可配置持久化、复制与集群。需要权衡内存成本、过期淘汰和故障恢复时的数据丢失窗口，不能默认数据永不丢失。以常见Redis开源版本为例，核心命令处理以串行为主，但网络IO及后台任务可使用其他线程或进程，不能笼统说整个Redis只有一个线程。
 
 **实际来源**：
-- [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
-- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="redis-distributed-lock-mechanism"></a>
+
+## redis-distributed-lock-mechanism · Redis分布式锁的原理与配置
+
+**次数**：2；**领域**：Redis。
+
+**A（AI参考答案）**：单个Redis实例上可用SET key 唯一标识 NX PX 租期原子加锁，失败后按策略重试或退出；释放时需原子比较所有者标识再删除，避免误删别人已重新获得的锁。租期过短可能让业务并发执行，过长会延迟故障恢复；还需考虑续期、主从切换与持久化边界。工程中可使用Redisson，但必须说明实际等待和租期配置，数据库幂等与约束仍需保留。
+
+**实际来源**：
+- [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
+
+<a id="redis-expiration-and-eviction"></a>
+
+## redis-expiration-and-eviction · Redis过期与内存淘汰的区别
+
+**次数**：2；**领域**：Redis。
+
+**A（AI参考答案）**：过期处理针对设置了TTL且已到期的键，Redis会在访问时惰性删除，并周期性主动检查部分过期键。内存淘汰则在达到maxmemory限制后，依据noeviction、allkeys或volatile范围内的LRU、LFU、随机等策略决定是否及如何释放数据；具体可选策略以版本为准。二者触发条件不同，设置TTL不代表内存永远够用，也不能用缓存淘汰承载必须可靠保存的业务状态。
+
+**实际来源**：
+- [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
+
+<a id="redis-lock-lease-renewal"></a>
+
+## redis-lock-lease-renewal · 分布式锁的租期与续期
+
+**次数**：2；**领域**：Redis。
+
+**A（AI参考答案）**：锁租期用于在持有者故障时释放资源，但业务耗时超过租期可能出现两个持有者并发执行。续期应确认所有者身份，且只在持锁进程仍存活并满足条件时延长，不能直接无条件续命。以Redisson为例，默认看门狗续期与显式指定leaseTime的调用语义不同，需结合实际版本和代码说明；即使有续期，长暂停和网络故障仍要求业务幂等、数据库约束或其他正确性兜底。
+
+**实际来源**：
+- [广东某公司java实习生面经](https://www.nowcoder.com/feed/main/detail/6fe8d56b45144d4b81f0082cb0f35572)（采集日 2026-10-23，匿名广东公司）
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
 
 <a id="redis-lua-cluster-safety"></a>
 
@@ -848,6 +1334,18 @@
 **实际来源**：
 - [java后端小厂面经](https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4)（采集日 2026-10-23，匿名小厂（标题自述））
 - [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
+
+<a id="redis-topology-deployment-discussion"></a>
+
+## redis-topology-deployment-discussion · 如何说明Redis主从、哨兵与分片部署
+
+**次数**：2；**领域**：Redis。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：先如实回答是否亲自搭建，再区分三种职责。主从复制同步数据并可分担读流量，异步复制可能产生延迟；Sentinel监控主从并协调故障转移，不负责数据分片；Redis Cluster把键空间按哈希槽分配给不同主节点，并配合副本提供可用性。实际部署还需验证客户端重连、故障恢复和数据丢失窗口，未搭建过不能编造配置或故障演练经历。
+
+**实际来源**：
+- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
 
 <a id="spring-boot-auto-configuration"></a>
 
@@ -862,6 +1360,30 @@
 **实际来源**：
 - [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
 - [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
+
+<a id="spring-boot-core-mechanisms"></a>
+
+## spring-boot-core-mechanisms · Spring Boot的核心机制
+
+**次数**：2；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：Spring Boot基于Spring容器，通过starter组织常用依赖，通过条件化自动配置提供约定好的Bean，并支持外部化配置和嵌入式服务器，减少重复搭建工作。自动配置会检查类路径、属性及已有Bean，并非把所有组件无条件注册。以Boot 2.7为例可通过AutoConfiguration.imports声明自动配置候选；具体导入方式应结合版本，不把Boot 3要求直接套到现有Boot 2项目。
+
+**实际来源**：
+- [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="spring-ioc-dependency-injection"></a>
+
+## spring-ioc-dependency-injection · Spring IoC与依赖注入是什么
+
+**次数**：2；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：IoC将对象创建、依赖装配和生命周期管理交给容器，依赖注入是实现这种控制反转的常用方式。业务类声明依赖接口，由容器按配置选取实现并注入，减少自行查找依赖和硬编码创建逻辑。常优先构造器注入以明确必需依赖，也可使用Setter等方式；多实现需结合Qualifier或Primary消歧。容器管理不自动保证业务线程安全，作用域和共享状态仍需设计。
+
+**实际来源**：
+- [江苏-南通小厂Java面经(第一次面试)](https://www.nowcoder.com/feed/main/detail/5dda35cf88d546caa2e0d0a274820a04)（采集日 2026-11-07，江苏南通某公司（匿名））
+- [恒生电子Java开发](https://www.nowcoder.com/discuss/938437442237890560)（采集日 2026-11-08，恒生电子）
 
 <a id="springmvc-dispatcherservlet"></a>
 
@@ -899,29 +1421,29 @@
 - [美团后台开发Java 实习面经](https://www.nowcoder.com/discuss/353156179603955712)（采集日 2026-10-30，美团）
 - [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
 
-<a id="synchronized-versus-reentrantlock"></a>
+<a id="threadlocal-map-storage-mechanism"></a>
 
-## synchronized-versus-reentrantlock · synchronized与ReentrantLock的区别
-
-**次数**：2；**领域**：Java 并发与 JVM。
-
-**A（AI参考答案）**：两者都支持互斥和可重入。synchronized由JVM管理监视器，退出同步块或异常离开时自动释放，使用简单；ReentrantLock需要在成功加锁后用finally解锁，但支持可中断获取、限时尝试及可选公平策略，还能创建多个Condition。公平锁并不保证线程调度的绝对先后，性能也要结合竞争情况测试。普通临界区可优先用简单方式，确有取消、超时或多条件等待需求时再选择显式锁。
-
-**实际来源**：
-- [熙牛医疗 杭州java实习生 一面面经 2026.9.3](https://www.nowcoder.com/feed/main/detail/6512d3ef462a49cbb0aa5167d57d372f)（采集日 2026-10-25，熙牛医疗）
-- [北森客开实习生(实习转正) 2026.10.13](https://www.nowcoder.com/feed/main/detail/cecac304535c4b3c99e6ff117908251e)（采集日 2026-10-28，北森）
-
-<a id="thread-pool-benefits"></a>
-
-## thread-pool-benefits · 为什么使用线程池
+## threadlocal-map-storage-mechanism · ThreadLocal如何保存每个线程的变量
 
 **次数**：2；**领域**：Java 并发与 JVM。
 
-**A（AI参考答案）**：线程池通过复用工作线程减少频繁创建和销毁的成本，并集中管理并发数、任务队列和生命周期。相比每个任务新建线程，它更便于限制资源、监控和实施拒绝策略，但不会让任务自动变快。需要结合CPU或IO特征、下游容量和超时要求选择线程数与有界队列，避免无界排队拖垮内存；任务异常、取消及应用关闭也要有处理策略。
+**A（AI参考答案）**：AI参考答案：以常见OpenJDK实现为例，Thread对象持有自己的ThreadLocalMap，键是ThreadLocal对象的弱引用，值是该线程保存的数据；get、set操作先找到当前线程，再访问它的映射。因此不是所有线程共用一张以线程为键的全局Map。弱键被回收后，值仍可能被存活线程保留，线程池任务应在finally中remove；它隔离变量绑定，不会自动复制对象或使共享对象线程安全。
 
 **实际来源**：
-- [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
-- [用友 Java实习面经](https://www.nowcoder.com/discuss/784203612955090944)（采集日 2026-11-01，用友）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+
+<a id="web-url-request-lifecycle"></a>
+
+## web-url-request-lifecycle · 输入URL到页面显示会经历哪些过程
+
+**次数**：2；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：浏览器解析URL并检查可用缓存，通常通过DNS获得服务器地址。使用HTTP/1.1或HTTP/2时一般建立TCP连接，HTTPS还需TLS握手与证书校验；已有连接可以复用，HTTP/3则基于QUIC。请求经网关或负载均衡到达后端，后端执行业务并返回响应。浏览器解析HTML，获取样式和脚本等资源，构建页面并布局绘制。实际过程会受到缓存、代理、重定向和协议版本影响。
+
+**实际来源**：
+- [Java 后端新手的第一次面试复盘](https://www.cnblogs.com/thr-0103/p/18113538)（采集日 2026-11-02，匿名公司）
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
 
 <a id="ai-coding-requirement-iteration"></a>
 
@@ -1135,6 +1657,28 @@
 **实际来源**：
 - [南京车300 Java 实习面经](https://www.nowcoder.com/feed/main/detail/8b78085106ae45a4bada11cb75141d8f)（采集日 2026-10-24，南京车300）
 
+<a id="backend-api-testing-methods"></a>
+
+## backend-api-testing-methods · 后端接口如何测试与选择工具
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：先明确请求、响应、认证和副作用契约，再验证正常路径、缺参、边界、权限失败、重复与并发请求。Postman或curl便于手工调试，Spring MockMvc便于控制层自动化，集成测试验证真实数据库与外部依赖交互；性能问题另做负载测试。不能只看HTTP 200，要断言业务返回与数据一致性，测试数据应可隔离清理，不编造个人使用经历。
+
+**实际来源**：
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
+
+<a id="backend-code-quality-practices"></a>
+
+## backend-code-quality-practices · 如何保证并衡量后端代码质量
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：通用AI参考思路：从清晰职责、统一规范、代码审查、静态检查和分层测试入手；关键路径验证边界、权限、异常与并发一致性，并把自动检查接入持续集成。可观察缺陷逃逸率、重复代码、复杂度、覆盖率和线上故障等指标，但覆盖率高不代表断言有效，也不应只追求数字。原文问到质量数据却没有给出实测结果，回答应区分建议使用的指标与自己确实看过的数据，不能虚构改善比例。
+
+**实际来源**：
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+
 <a id="backend-exception-handling-design"></a>
 
 ## backend-exception-handling-design · 异常处理如何提供有用信息并保证业务一致性
@@ -1168,6 +1712,17 @@
 **实际来源**：
 - [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
 
+<a id="bloom-filter-principle-membership"></a>
+
+## bloom-filter-principle-membership · 布隆过滤器的原理与用途
+
+**次数**：1；**领域**：Redis。
+
+**A（AI参考答案）**：AI参考答案：布隆过滤器用位数组和多个哈希函数表示集合，插入时将对应位置设为1，查询时只要有一位为0即可判断不存在，全部为1仅表示可能存在。它节省内存，适合缓存穿透过滤和大规模成员预判，但阳性结果仍需访问真实数据源确认。误判率受容量、位数及哈希次数影响；普通实现不能直接清位删除，否则可能误伤其他元素。无假阴性的前提是数据正确插入且位数组未被错误修改。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
 <a id="cache-logical-expiration-costs"></a>
 
 ## cache-logical-expiration-costs · 逻辑过期的 key 不设置 TTL 有什么问题
@@ -1178,6 +1733,17 @@
 
 **实际来源**：
 - [南京车300 Java 实习面经](https://www.nowcoder.com/feed/main/detail/8b78085106ae45a4bada11cb75141d8f)（采集日 2026-10-24，南京车300）
+
+<a id="cas-principle-limitations"></a>
+
+## cas-principle-limitations · CAS的原理与局限
+
+**次数**：1；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：CAS将内存中的值与期望值比较，相同才原子地写入新值，不同则失败，由调用方决定重试。Java原子类常用它实现计数等操作。局限包括ABA、竞争激烈时自旋消耗CPU，以及单次CAS通常只能保护一个位置，不能自动保证多个变量的不变量。ABA可考虑带版本号的引用；复杂临界区可用锁。CAS提供的内存语义还取决于具体API，不能把所有普通读写都当成原子更新。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
 
 <a id="cas-versus-synchronized"></a>
 
@@ -1190,16 +1756,27 @@
 **实际来源**：
 - [广东某公司java实习生面经](https://www.nowcoder.com/feed/main/detail/6fe8d56b45144d4b81f0082cb0f35572)（采集日 2026-10-23，匿名广东公司）
 
-<a id="database-sharding-design"></a>
+<a id="classloader-parent-delegation-purpose"></a>
 
-## database-sharding-design · 数据库分表如何设计
+## classloader-parent-delegation-purpose · 双亲委派机制有什么作用
 
-**次数**：1；**领域**：MySQL。
+**次数**：1；**领域**：Java 并发与 JVM。
 
-**A（AI参考答案）**：AI参考答案：先确认单表瓶颈是否可通过索引、归档或SQL优化解决，再按业务访问路径选择分片键。水平分表分散数据行，可按哈希均匀分布，也可按时间等范围便于归档；垂直拆分则按字段或业务职责拆开。设计时考虑热点、分片路由、全局ID、跨表分页与聚合，以及跨分片事务和扩容迁移。原文没有表结构、数据量和查询条件，只能给通用取舍，不能假定某个固定分片数。
+**A（AI参考答案）**：AI参考答案：典型ClassLoader加载类时先检查是否已加载，再委托父加载器，父加载器无法加载才尝试自身查找。这样能复用基础类并减少同名类被重复定义，避免应用随意替换核心类。类身份由类名与定义它的加载器共同决定。委派是加载器的实现约定，并非所有场景都不可改变；SPI、容器隔离等可能使用线程上下文加载器或自定义策略，需要明确隔离边界。
 
 **实际来源**：
-- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="countdownlatch-versus-cyclicbarrier"></a>
+
+## countdownlatch-versus-cyclicbarrier · CountDownLatch与CyclicBarrier的区别和例子
+
+**次数**：1；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：CountDownLatch由指定计数开始，任务调用countDown递减，等待者在await处等到零，计数不能重置，适合主线程等待多个初始化任务结束。CyclicBarrier让固定数量的参与线程互相等待，每轮都到齐后继续，可重复使用并执行汇总动作，适合分阶段并行计算。例子是多个分片分别计算后在屏障汇合再进入下一轮。使用线程池时要保证参与者能获得执行线程，并处理超时、中断和屏障损坏，避免相互等待。
+
+**实际来源**：
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
 
 <a id="database-types-relational-nosql"></a>
 
@@ -1212,30 +1789,16 @@
 **实际来源**：
 - [健康160-JAVA开发实习生](https://www.nowcoder.com/discuss/943496145010020352)（采集日 2026-10-25，健康160）
 
-<a id="distributed-lock-project-usage"></a>
+<a id="distributed-api-rate-limiting"></a>
 
-## distributed-lock-project-usage · 项目中分布式锁的实际用法
+## distributed-api-rate-limiting · 分布式服务的接口限流如何设计
 
-**次数**：1；**领域**：Redis。
+**次数**：1；**领域**：项目设计与技术选型。
 
-**A（AI参考答案）**：先说明锁保护的资源、粒度、获取方式、超时与释放，再解释为什么还需要数据库兜底。分布式锁可能因租期到期、进程暂停或网络问题失去互斥，不能把它当作业务幂等和数据库约束的替代。若锁有所有者标识，应比较后再释放，避免删除别人的锁；若给出显式租期，就必须说明超过租期的边界，不能把计划实现的锁写成已经使用。
-
-**🔍 面试追问（AI生成）**：
-- 显式10秒租期下业务超过10秒怎么办？ **简答**：可能失去互斥，应按实际耗时选择租期/续期方案并保留数据库幂等；优化建议不能写成现有实现。
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：先确定按用户、接口还是租户限流，以及突发流量与公平性要求。固定窗口简单但有边界突发，滑动窗口更平滑，令牌桶允许受控突发。多实例需要统一计数，可在网关或Redis中用原子脚本完成计数、判断与过期设置，并处理热点键和依赖故障。超限可返回429并提供重试提示；降级、排队和故障时放行还是拒绝，应按业务风险确定，不编造项目已实现。
 
 **实际来源**：
-- [唯智信息技术 Java开发实习生 一面面经 2026.9.16](https://www.nowcoder.com/feed/main/detail/e00abf3b34e94e4398194442a9a826fb)（采集日 2026-10-21，唯智信息技术）
-
-<a id="docker-common-commands"></a>
-
-## docker-common-commands · Docker常用命令
-
-**次数**：1；**领域**：计算机网络与操作系统。
-
-**A（AI参考答案）**：可按生命周期介绍：docker pull拉取镜像，build构建镜像，run创建并启动容器，ps查看容器，logs查看日志，exec进入运行容器执行命令，inspect查看配置，stop停止容器，rm删除容器，images与rmi管理镜像。说明镜像、容器和持久化卷的区别，删除容器不应被当成业务数据备份策略。面试只需说明用途，不能把清理命令直接拿到真实服务器执行。
-
-**实际来源**：
-- [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
 
 <a id="elasticsearch-basic-overview"></a>
 
@@ -1294,6 +1857,17 @@
 **实际来源**：
 - [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
 
+<a id="gc-trigger-conditions"></a>
+
+## gc-trigger-conditions · 什么情况会触发垃圾回收
+
+**次数**：1；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：触发时机取决于收集器及配置，常见情况是对象分配造成分代或区域压力，达到占用阈值后启动回收。传统分代收集器中新生代空间不足可能触发Young GC；老年代压力、晋升失败或元数据分配压力可能导致更重的回收。System.gc只是请求，可能被忽略。G1等并发收集器还会根据预测提前启动周期，因此不能简单说堆满了才GC，也不能保证固定时间发生。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
 <a id="git-revert-versus-reset"></a>
 
 ## git-revert-versus-reset · Git 版本回退如何选择 revert 与 reset
@@ -1307,6 +1881,17 @@
 
 **实际来源**：
 - [益普科技 Java开发实习生 面经](https://www.nowcoder.com/discuss/926599685232422912)（采集日 2026-10-24，益普科技）
+
+<a id="hashmap-chain-insertion-version"></a>
+
+## hashmap-chain-insertion-version · HashMap链表插入采用头插还是尾插
+
+**次数**：1；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：AI参考答案：需要先明确HashMap版本和操作。常见OpenJDK 7实现向桶链表头部插入新节点；OpenJDK 8的putVal在普通链表桶中遍历查找，键已存在则更新值，否则把新节点接到链尾，满足条件时还可能树化。扩容迁移与普通插入是不同过程，不能混为一谈。尾插不表示Map具有插入顺序，也没有让HashMap变成线程安全容器；并发修改仍应使用合适的同步或并发Map。
+
+**实际来源**：
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
 
 <a id="hashmap-initial-capacity-rounding"></a>
 
@@ -1330,16 +1915,16 @@
 **实际来源**：
 - [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
 
-<a id="hashmap-null-key-value"></a>
+<a id="hashmap-null-key-hash-handling"></a>
 
-## hashmap-null-key-value · HashMap是否允许null键与null值
+## hashmap-null-key-hash-handling · HashMap如何避免对null键调用hashCode
 
 **次数**：1；**领域**：Java 基础与集合。
 
-**A（AI参考答案）**：AI参考答案：HashMap允许一个null键及多个null值；再次写入null键会更新同一映射。get返回null既可能表示没有该键，也可能表示该键对应的值为null，需要containsKey区分。允许空值与线程安全是不同问题；ConcurrentHashMap不允许null键和值，不能把HashMap的规则推广到所有Map。设计接口时应说明缺失值与空值各自的业务含义。
+**A（AI参考答案）**：AI参考答案：以OpenJDK 8的HashMap为例，计算键的散列值时先判断键是否为null，null直接取散列值0，因此不会调用null.hashCode，也不会因此抛空指针异常。它与其他散列值映射到同一桶的键仍要通过身份或equals区分，再次写入null键更新原映射。null值只是条目的值，不参与键的散列计算。允许null属于HashMap的契约，不能据此认为ConcurrentHashMap或所有Map实现也允许null。
 
 **实际来源**：
-- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
 
 <a id="hashset-jdk-implementation"></a>
 
@@ -1351,6 +1936,17 @@
 
 **实际来源**：
 - [南京车300 Java 实习面经](https://www.nowcoder.com/feed/main/detail/8b78085106ae45a4bada11cb75141d8f)（采集日 2026-10-24，南京车300）
+
+<a id="http-request-response-mechanism"></a>
+
+## http-request-response-mechanism · HTTP请求与响应如何工作
+
+**次数**：1；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：HTTP按请求与响应语义交互，客户端发送方法、目标、字段及可选内容，服务端完成路由与业务处理，返回状态码、字段和可选内容。HTTP/1.1常依赖TCP，HTTPS增加TLS；HTTP/2用二进制帧复用流，HTTP/3基于QUIC，不能说所有HTTP都基于TCP。协议本身无状态，登录态可通过Cookie和服务端会话等机制维护，连接可按协议与配置复用。
+
+**实际来源**：
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
 
 <a id="http11-versus-http2"></a>
 
@@ -1374,6 +1970,28 @@
 **实际来源**：
 - [神州信息 java实习生面经（已offer）](https://www.nowcoder.com/discuss/353159627783217152)（采集日 2026-10-30，神州信息）
 
+<a id="java-asm-bytecode-framework"></a>
+
+## java-asm-bytecode-framework · ASM是什么及适用场景
+
+**次数**：1；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：AI参考答案：ASM是Java字节码分析与操作框架，可读取class结构、修改现有字节码或动态生成类，常用于插桩、代理生成、覆盖率统计和诊断工具。它处理的是类文件及指令层面，反射主要在运行时检查类型和调用已有成员，两者用途不同。使用时要保证栈、控制流与类文件格式合法，并确认工具支持目标JDK的class版本；普通业务开发通常优先使用成熟框架封装，避免直接修改字节码增加维护成本。
+
+**实际来源**：
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+
+<a id="java-byte-character-file-streams"></a>
+
+## java-byte-character-file-streams · 文件读取中字节流与字符流如何选择
+
+**次数**：1；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：AI参考答案：InputStream按字节读取，FileInputStream可接收文件路径或File对象，适合图片、压缩包等二进制内容；Reader按字符读取，适合文本。常用InputStreamReader将字节按指定Charset解码，再用BufferedReader缓冲并按行读取。应显式指定UTF-8等实际编码，避免依赖平台默认值；缓冲大小按场景选择，不必一次读完整个大文件。使用try-with-resources关闭资源，并处理IOException及字符解码问题。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
 <a id="java-checked-unchecked-exceptions"></a>
 
 ## java-checked-unchecked-exceptions · 受检异常与运行时异常的区别
@@ -1384,6 +2002,17 @@
 
 **实际来源**：
 - [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
+
+<a id="java-concrete-versus-abstract-class"></a>
+
+## java-concrete-versus-abstract-class · 普通类与抽象类有什么区别
+
+**次数**：1；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：AI参考答案：具体类在构造器可访问等条件满足时可以直接创建对象；抽象类不能直接实例化，主要用于表达共同抽象及共享实现。抽象类可以同时包含字段、构造器、普通方法和抽象方法，也可以没有抽象方法；具体子类必须实现继承而来的抽象方法。设计时只有确实存在稳定的类型继承关系才使用抽象父类，单纯复用代码也可以考虑组合，不能把抽象类理解为只有方法声明。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
 
 <a id="java-deadlock-prevention"></a>
 
@@ -1396,31 +2025,6 @@
 **实际来源**：
 - [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
 
-<a id="java-dynamic-proxy-jdk-cglib"></a>
-
-## java-dynamic-proxy-jdk-cglib · JDK动态代理与CGLIB的区别
-
-**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
-
-**A（AI参考答案）**：JDK动态代理通常基于接口生成代理对象，通过InvocationHandler转发调用；CGLIB通过生成目标类的子类实现增强，因此不能靠子类重写增强final方法，也不能继承final类。Spring AOP可根据配置和目标类型选择实现，不能笼统说始终使用其中一种。无论哪种代理，普通同类内部直接调用都可能绕过代理增强；判断事务或切面是否生效，要看实际调用是否经过代理对象。
-
-**实际来源**：
-- [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
-
-<a id="java-equals-versus-reference"></a>
-
-## java-equals-versus-reference · == 与 equals 的区别
-
-**次数**：1；**领域**：Java 基础与集合。
-
-**A（AI参考答案）**：== 对基本类型比较数值，对引用类型比较是否指向同一对象；equals 是对象的方法，默认实现也比较引用，但 String 等类重写后按内容判断。业务对象需要按关键字段判等时，应同时重写 equals 和 hashCode，保证相等对象具有相同哈希值，否则放入 HashMap、HashSet 可能出现查找或去重异常。比较字符串内容通常用 equals，并注意接收者为 null 时的空指针问题。
-
-**🔍 面试追问（AI生成）**：
-- 两个对象 hashCode 相同就一定相等吗？ **简答**：不一定，哈希冲突允许存在，还要通过 equals 判断；equals 相等则必须具有相同 hashCode。
-
-**实际来源**：
-- [益普科技 Java开发实习生 面经](https://www.nowcoder.com/discuss/926599685232422912)（采集日 2026-10-24，益普科技）
-
 <a id="java-exception-hierarchy"></a>
 
 ## java-exception-hierarchy · Java异常体系如何分类
@@ -1432,16 +2036,16 @@
 **实际来源**：
 - [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
 
-<a id="java-final-semantics"></a>
+<a id="java-exchanger-pair-exchange"></a>
 
-## java-final-semantics · final修饰变量、方法与类的含义
+## java-exchanger-pair-exchange · Exchanger的exchange如何交换线程数据
 
-**次数**：1；**领域**：Java 基础与集合。
+**次数**：1；**领域**：Java 并发与 JVM。
 
-**A（AI参考答案）**：final修饰变量表示只能赋值一次；引用变量不能再指向其他对象，但对象内部状态仍可能变化，所以不等于不可变或线程安全。修饰方法表示不能被子类重写，修饰类表示不能被继承。成员final字段需在声明、初始化块或构造过程中完成赋值；局部变量需在使用前赋值。并发中final字段有专门的初始化可见性语义，但前提包括构造期间不让this逸出，仍不能代替对可变共享状态的同步。
+**A（AI参考答案）**：AI参考答案：原文只写exchange()，未给出所属类；若指并发工具Exchanger，它让两个线程在交换点配对，各自交出对象并获得对方对象，适合交换已填满和空闲缓冲区。没有配对线程时调用会等待，可选择超时版本，并处理超时与中断。它提供交换前后相应的内存可见性保证，但不是广播或持久化队列，也不保证交换后共享可变对象的后续访问自动安全；实际口述应先确认API，不能编造使用经历。
 
 **实际来源**：
-- [神州信息 java实习生面经（已offer）](https://www.nowcoder.com/discuss/353159627783217152)（采集日 2026-10-30，神州信息）
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
 
 <a id="java-finally-return-semantics"></a>
 
@@ -1479,17 +2083,6 @@
 **实际来源**：
 - [重庆小小小厂面试](https://www.nowcoder.com/feed/main/detail/3375e792921b46a0ae44aefae6fbcba3)（采集日 2026-10-26，重庆某小厂（匿名））
 
-<a id="java-interface-versus-abstract-class"></a>
-
-## java-interface-versus-abstract-class · 接口与抽象类有什么区别
-
-**次数**：1；**领域**：Java 基础与集合。
-
-**A（AI参考答案）**：AI参考答案：接口主要定义能力契约，一个类可以实现多个接口；抽象类适合表达同一类型体系中的共享状态和部分实现，一个类只能直接继承一个类。抽象类可以有实例字段、构造器和不同可见性的方法；接口字段是常量，不能保存每个对象的实例状态。Java 8接口可有default和static方法，Java 9起还可有private方法。选择时优先根据类型关系与职责决定，不要仅为了代码复用建立不合理继承。
-
-**实际来源**：
-- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
-
 <a id="java-jdk-selection"></a>
 
 ## java-jdk-selection · 项目为何选择某个JDK版本
@@ -1500,6 +2093,28 @@
 
 **实际来源**：
 - [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
+
+<a id="java-juc-tools-overview"></a>
+
+## java-juc-tools-overview · JUC常用类与工具如何分类
+
+**次数**：1；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：可以按用途介绍JUC：ThreadPoolExecutor管理任务执行，Future和CompletableFuture表示异步结果；ConcurrentHashMap和BlockingQueue提供并发容器；ReentrantLock、Semaphore、CountDownLatch、CyclicBarrier用于互斥、限流和协作；AtomicInteger等原子类处理单变量更新。选择时先明确是否需要保护状态、等待结果还是协调阶段，注意超时、中断、队列容量和异常传播。线程安全容器也不自动保证多步业务操作原子性。
+
+**实际来源**：
+- [恒生电子Java开发](https://www.nowcoder.com/discuss/938437442237890560)（采集日 2026-11-08，恒生电子）
+
+<a id="java-lock-keywords-and-lock-api"></a>
+
+## java-lock-keywords-and-lock-api · 如何区分Java锁关键字与JUC锁API
+
+**次数**：1；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：原文只有“juc锁关键字”，应先澄清具体考点。synchronized是Java语言关键字，提供监视器互斥并保证相应可见性；JUC的ReentrantLock、ReadWriteLock等是类或接口，通过显式加锁解锁使用，可支持可中断等待、限时获取等能力。Lock通常要在finally中释放。volatile也是关键字，但主要提供可见性和有序性，不能独立保证复合操作原子性，更不能把所有JUC工具都称作锁关键字。
+
+**实际来源**：
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
 
 <a id="java-memory-model-happens-before"></a>
 
@@ -1547,6 +2162,17 @@
 **实际来源**：
 - [浪潮暑期实习java开发面经](https://www.nowcoder.com/discuss/353156399897190400)（采集日 2026-11-03，浪潮）
 
+<a id="java-platform-os-thread-mapping"></a>
+
+## java-platform-os-thread-mapping · Java线程与操作系统线程是什么关系
+
+**次数**：1；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：在常见HotSpot实现中，平台线程通常与操作系统线程一一对应，调度依赖操作系统；Java提供Thread对象、状态和中断等抽象，但Java的RUNNABLE包含操作系统视角的就绪与运行，不能直接等同。每个平台线程有栈等资源，数量过多会增加内存和切换成本。Java 21正式提供的虚拟线程可由少量载体平台线程承载，不能把平台线程的一对一结论套用于所有Java线程。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
 <a id="java-polymorphism-method-dispatch"></a>
 
 ## java-polymorphism-method-dispatch · Java多态的实现
@@ -1557,17 +2183,6 @@
 
 **实际来源**：
 - [成都小厂java面经](https://www.nowcoder.com/feed/main/detail/1f64e96cac1d4e29a6a8481b732f153a)（采集日 2026-10-23，匿名成都小厂（标题自述））
-
-<a id="java-serialization-purpose"></a>
-
-## java-serialization-purpose · 对象序列化的机制与用途
-
-**次数**：1；**领域**：Java 基础与集合。
-
-**A（AI参考答案）**：序列化是把对象所表示的数据按约定格式编码，供网络传输或持久化；反序列化再按格式恢复数据结构。Java原生对象流依赖Serializable等协议，可处理对象图；JSON和Protobuf则采用各自的数据模型与兼容规则，并不要求都实现Serializable。实际选型要看跨语言、体积、性能与版本演进。不能把所有序列化都等同于Java对象流，也应避免对不可信输入直接使用原生反序列化。
-
-**实际来源**：
-- [华盛通JAVA实习生二面](https://www.nowcoder.com/feed/main/detail/fd30324de36044c69ab16437026163d4)（采集日 2026-10-25，华盛通）
 
 <a id="java-shared-variable-races"></a>
 
@@ -1591,6 +2206,28 @@
 **实际来源**：
 - [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
 
+<a id="java-string-intern-pool"></a>
+
+## java-string-intern-pool · 字符串常量池与intern的作用
+
+**次数**：1；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：AI参考答案：字符串常量池用于复用内容相同的规范字符串引用。字面量和编译期常量表达式会使用池中引用；new String通常创建新对象，不能用==判断内容相等。intern返回等值的池中规范引用，没有时将该字符串引用加入池。应区分class文件常量池、运行时常量池和字符串池；HotSpot从JDK 7起将字符串池移至堆中。大量动态字符串不宜盲目intern，要结合重复率、内存和查找成本评估。
+
+**实际来源**：
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
+
+<a id="java-thread-coordination-mechanisms"></a>
+
+## java-thread-coordination-mechanisms · 线程之间如何同步与协调执行
+
+**次数**：1；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：先区分保护共享数据和协调执行时机。前者可用synchronized或Lock实现互斥与可见性；后者可用wait/notify、Condition、CountDownLatch或CyclicBarrier。wait必须持有对应监视器，并在while中检查条件，等待时释放该监视器，唤醒后需重新获取；Condition需配合同一把Lock。等待若干任务完成可选闭锁，多阶段汇合可选屏障，还应处理异常、超时和中断，避免某个任务失败导致其他线程永久等待。
+
+**实际来源**：
+- [网易考拉海购Java后台开发实习-面经（已拿offer）大三](https://www.nowcoder.com/discuss/353154223065997312)（采集日 2026-11-06，网易考拉海购）
+
 <a id="java-thread-definition-benefits"></a>
 
 ## java-thread-definition-benefits · 线程是什么及使用线程的好处
@@ -1612,6 +2249,17 @@
 
 **实际来源**：
 - [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
+
+<a id="jvm-class-versus-object-creation"></a>
+
+## jvm-class-versus-object-creation · 类创建与对象创建流程如何区分
+
+**次数**：1；**领域**：Java 并发与 JVM。
+
+**A（AI参考答案）**：AI参考答案：原题“类创建”含义不清，先确认问类加载还是对象实例化。类加载通常包括加载、链接和初始化，链接包含验证、准备、解析；对象创建则先确认类已初始化，再分配对象内存、零值初始化、设置对象头并执行构造初始化。内存分配可采用指针碰撞或空闲列表，受收集器影响；TLAB常用于降低分配竞争，不能把类变量初始化与实例字段初始化混为一谈。
+
+**实际来源**：
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
 
 <a id="jvm-heap-generations"></a>
 
@@ -1648,6 +2296,28 @@
 **实际来源**：
 - [华盛通JAVA实习生面经](https://www.nowcoder.com/feed/main/detail/45c6d1c751e84ec2b3974ec2e4af9e06)（采集日 2026-10-26，华盛通）
 
+<a id="linux-basic-commands"></a>
+
+## linux-basic-commands · Linux基本命令如何用于后端运维
+
+**次数**：1；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：可按目的组织：pwd、ls、cd查看位置与目录，less、tail查看文本日志，rg或grep检索关键字，ps、top观察进程与资源，df、du检查磁盘，ss查看套接字，chmod管理权限。排障先明确时间窗口、进程和请求标识，再关联日志与资源现象，避免一次输出全部日志或敏感配置。命令选项随发行版和工具实现变化，删除、杀进程等操作应先确认影响范围。
+
+**实际来源**：
+- [江苏-南通小厂Java面经(第一次面试)](https://www.nowcoder.com/feed/main/detail/5dda35cf88d546caa2e0d0a274820a04)（采集日 2026-11-07，江苏南通某公司（匿名））
+
+<a id="linux-count-literal-occurrences"></a>
+
+## linux-count-literal-occurrences · Linux如何统计文件中字符串出现次数
+
+**次数**：1；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：先明确要统计匹配行数还是出现总次数。对普通文本文件，GNU grep可用grep -oF --后接目标字符串与文件名，逐个输出非重叠的字面匹配，再交给wc -l计数；grep -c统计的是匹配行数，一行多次只算一行。-F避免把字符串解释成正则，参数应正确引用。空字符串、跨行匹配、重叠匹配及二进制文件需要另行约定，不能用同一命令声称覆盖所有情况。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
 <a id="load-test-order-invariants"></a>
 
 ## load-test-order-invariants · 如何用 JMeter 验证一人一单和不超卖
@@ -1658,6 +2328,17 @@
 
 **实际来源**：
 - [南京车300 Java 实习面经](https://www.nowcoder.com/feed/main/detail/8b78085106ae45a4bada11cb75141d8f)（采集日 2026-10-24，南京车300）
+
+<a id="microservice-basic-overview"></a>
+
+## microservice-basic-overview · 微服务是什么及其工程边界
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：微服务按业务能力划分服务，各服务通过明确接口协作，可独立部署与扩缩容，并对自己的数据和职责负责。它并非把每个接口都拆成单独进程，边界应结合业务关系和团队维护能力决定。服务间网络调用会带来超时、部分失败和一致性问题，因此还需幂等、限流、监控和故障隔离。小规模业务未必需要拆分；没实际做过微服务时，应明确仅理解概念，不把方案介绍包装成经历。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
 
 <a id="mq-reliable-delivery"></a>
 
@@ -1670,30 +2351,6 @@
 **实际来源**：
 - [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
 
-<a id="mybatis-hash-dollar-parameters"></a>
-
-## mybatis-hash-dollar-parameters · MyBatis的井号与美元参数占位区别
-
-**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
-
-**A（AI参考答案）**：MyBatis的#{value}通常生成PreparedStatement的问号占位并绑定参数，适合传递数据值；${value}是直接把字符串替换进SQL结构，不能依靠参数绑定防止注入。表名、列名和排序方向不能简单当作普通问号参数，确需动态选择时，应由服务端把有限选项映射到固定SQL片段或做严格白名单校验。不要将用户输入直接放入${}；模糊查询也可使用绑定参数构造匹配值。
-
-**实际来源**：
-- [26届 小厂java实习面经](https://www.nowcoder.com/discuss/862367705284816896)（采集日 2026-10-29，深圳市中科保泰科技有限公司）
-
-<a id="mybatis-mapper-execution"></a>
-
-## mybatis-mapper-execution · MyBatis如何从Mapper方法执行SQL
-
-**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
-
-**A（AI参考答案）**：MyBatis加载配置、Mapper XML或注解，建立映射语句等元数据；获取Mapper接口时通常返回动态代理。调用方法后，代理按接口与方法定位MappedStatement，将参数及动态SQL处理成可执行SQL和参数映射，再由执行器经JDBC完成预编译、绑定、查询或更新，最后按结果映射转为对象。MyBatis主要封装SQL执行与映射，SQL仍需开发者负责；SqlSession本身不宜跨线程共享，Spring集成通常通过SqlSessionTemplate参与事务管理。
-
-版本口径：MyBatis 3及常见Spring集成。
-
-**实际来源**：
-- [佛山宏旺 java实习生](https://www.nowcoder.com/feed/main/detail/5083b0fbb75e480db6e8db2bbafc1195)（采集日 2026-10-27，佛山宏旺（原文标题））
-
 <a id="mybatis-multiple-parameters"></a>
 
 ## mybatis-multiple-parameters · MyBatis如何传递多个参数
@@ -1704,6 +2361,28 @@
 
 **实际来源**：
 - [成都小厂java面经](https://www.nowcoder.com/feed/main/detail/1f64e96cac1d4e29a6a8481b732f153a)（采集日 2026-10-23，匿名成都小厂（标题自述））
+
+<a id="mybatis-pagination-mechanisms"></a>
+
+## mybatis-pagination-mechanisms · MyBatis如何实现分页
+
+**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：MyBatis可在映射SQL中显式编写数据库分页语句，例如MySQL的LIMIT；RowBounds提供偏移和数量参数，但不能直接等同于数据库端LIMIT，默认处理方式可能读取并跳过较多结果。分页插件则可拦截执行流程并按数据库方言改写SQL，需要核对插件配置与实际执行语句。分页必须有稳定排序，深分页还应考虑索引和游标方案；总数查询也有额外成本。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="mybatis-second-level-cache"></a>
+
+## mybatis-second-level-cache · MyBatis二级缓存的范围与一致性
+
+**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：一级缓存通常属于SqlSession，二级缓存按Mapper命名空间共享，需通过cache或相应注解显式配置。查询结果按事务提交语义进入二级缓存，同命名空间增删改通常触发清理；可用useCache和flushCache控制语句行为。默认读写缓存需要结果对象可序列化，返回副本降低共享修改风险。跨命名空间联表、绕过MyBatis写库或多实例部署可能产生陈旧数据，不能把它当作自动保证全局一致性的缓存。
+
+**实际来源**：
+- [北京某小厂 Java 实习面经](https://www.nowcoder.com/feed/main/detail/792c51bfca37403bb87c2504fd6df982)（采集日 2026-11-08，匿名公司（北京））
 
 <a id="mysql-conditional-stock-update"></a>
 
@@ -1739,17 +2418,6 @@
 **次数**：1；**领域**：MySQL。
 
 **A（AI参考答案）**：AI参考答案：让查询所需的过滤、返回等列尽量由同一个索引提供，可以减少从二级索引再次访问聚簇索引的操作。例如按业务查询模式设计联合索引并只选择必要列，避免无目的SELECT *。InnoDB二级索引通常包含主键，查询主键也可被覆盖。索引越宽越占空间、增加写入成本，不能把全部字段都塞入索引；需要结合EXPLAIN与实测验证，事务可见性等细节也可能影响实际访问。
-
-**实际来源**：
-- [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
-
-<a id="mysql-engine-index-storage"></a>
-
-## mysql-engine-index-storage · 不同MySQL存储引擎如何存放索引与数据
-
-**次数**：1；**领域**：MySQL。
-
-**A（AI参考答案）**：AI参考答案：InnoDB通常以B+树组织索引，聚簇索引叶子保存完整行，二级索引叶子保存索引键和主键，读取其他列时可能再查聚簇索引。没有显式主键时按规则选择合适唯一键或生成隐藏行标识。MyISAM的索引与数据分开存放，索引叶子通过数据地址定位记录。MEMORY可使用HASH或BTREE索引。回答应先明确引擎，不能把所有引擎的索引叶子都说成保存行数据。
 
 **实际来源**：
 - [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
@@ -1794,6 +2462,17 @@
 
 **实际来源**：
 - [佛山宏旺 java实习生](https://www.nowcoder.com/feed/main/detail/5083b0fbb75e480db6e8db2bbafc1195)（采集日 2026-10-27，佛山宏旺（原文标题））
+
+<a id="mysql-index-leaf-linked-pages"></a>
+
+## mysql-index-leaf-linked-pages · B+树叶子页双向链接有什么作用
+
+**次数**：1；**领域**：MySQL。
+
+**A（AI参考答案）**：AI参考答案：以InnoDB的B+树索引为例，同层索引页有前后链接，叶子层按键值有序。范围查找定位到起点后，可以沿相邻叶子页继续扫描，减少反复从根搜索的成本；反向遍历也便于支持适合索引顺序的倒序访问。应区分页间链接与页内记录组织，不能说每行都构成跨页双向链表。收益仍受扫描范围、回表和缓存命中影响，双向链接并不意味着任意排序都能省去排序操作。
+
+**实际来源**：
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
 
 <a id="mysql-index-unusable-scenarios"></a>
 
@@ -1864,17 +2543,6 @@
 **实际来源**：
 - [华盛通JAVA实习生二面](https://www.nowcoder.com/feed/main/detail/fd30324de36044c69ab16437026163d4)（采集日 2026-10-25，华盛通）
 
-<a id="mysql-transaction-isolation-levels"></a>
-
-## mysql-transaction-isolation-levels · 事务的四种隔离级别
-
-**次数**：1；**领域**：MySQL。
-
-**A（AI参考答案）**：AI参考答案：四种级别是读未提交、读已提交、可重复读和串行化，隔离增强通常伴随并发成本。InnoDB默认可重复读，普通一致性读通常复用事务内首次一致性读建立的快照；读已提交每次一致性读可建立新视图。更新与锁定读按当前版本并结合锁工作，不能套用快照读结论。幻读应区分读方式、锁范围与事务场景，不能说一个级别能无条件消除所有并发异常。
-
-**实际来源**：
-- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
-
 <a id="mysql-union-versus-union-all"></a>
 
 ## mysql-union-versus-union-all · UNION与UNION ALL的区别
@@ -1910,6 +2578,28 @@
 **实际来源**：
 - [用友 Java实习面经](https://www.nowcoder.com/discuss/784203612955090944)（采集日 2026-11-01，用友）
 
+<a id="orm-framework-selection"></a>
+
+## orm-framework-selection · 如何说明使用过的ORM或持久层框架
+
+**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：只介绍自己确实用过的持久层框架，说明它如何处理SQL执行、参数绑定、对象映射和事务集成。以MyBatis为例，开发者通过XML或注解维护SQL，框架封装JDBC并映射结果，便于控制复杂查询；采用JPA等方案时则更多围绕实体与映射管理持久化。选型要结合SQL复杂度、团队熟悉程度和维护成本，不能把框架名称当作项目实践证据。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="os-process-versus-thread"></a>
+
+## os-process-versus-thread · 操作系统中进程与线程有什么区别
+
+**次数**：1；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：进程通常是资源分配和隔离的单位，具有独立虚拟地址空间；线程是操作系统调度执行的重要单位，同一进程中的线程共享代码、堆和打开的文件等资源，但各有栈、寄存器上下文及执行位置。线程间通信方便，也更容易发生数据竞争；进程间通信需要管道、共享内存或Socket等机制。切换代价与实现有关，不能简单认为线程切换完全没有成本。
+
+**实际来源**：
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
+
 <a id="os-thread-scheduling-unit"></a>
 
 ## os-thread-scheduling-unit · CPU调度的基本单位是什么
@@ -1923,6 +2613,50 @@
 **实际来源**：
 - [佛山宏旺 java实习生](https://www.nowcoder.com/feed/main/detail/5083b0fbb75e480db6e8db2bbafc1195)（采集日 2026-10-27，佛山宏旺（原文标题））
 
+<a id="os-user-kernel-mode"></a>
+
+## os-user-kernel-mode · 用户态与内核态有什么区别
+
+**次数**：1；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：用户态运行应用代码，访问硬件和受保护资源的权限受限；内核态运行操作系统核心逻辑，可以执行特权操作。应用读文件、建立网络连接等通常通过系统调用进入内核，处理后返回用户态，中断和异常也可能引起切换。权限分离能限制应用故障的影响。模式切换有保存现场等成本，但不一定发生线程调度，不能把用户态到内核态切换与进程上下文切换完全等同。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
+<a id="project-database-usage-discussion"></a>
+
+## project-database-usage-discussion · 如何介绍实际使用过的数据库
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：列出自己确实使用过的数据库及对应业务，再以一种数据库解释表结构、主要读写路径、索引、事务和备份需求。例如关系型数据库适合表达明确约束与关联查询，但这只是选型依据，不能由题干推断个人已经实现。介绍时说明版本和使用深度，区分本地练习、参与开发与生产维护；不了解的产品直接说明，不编造数据规模、调优经历或故障处理。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="project-delivery-process-design"></a>
+
+## project-delivery-process-design · 如何规划一个项目从需求到交付的流程
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：先澄清用户、核心流程、验收标准及时间约束，再做模块划分、接口与数据模型设计，识别一致性、安全和依赖风险。按可验证的小阶段分工实现，配合代码审查、单元与集成验证，准备部署配置、监控和回滚方案；上线后根据真实反馈修复迭代。具体流程应随项目规模调整，原文没有披露业务和特殊场景，不能编造团队人数、交付成果或隐含需求。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="project-design-self-review"></a>
+
+## project-design-self-review · 如何审视自己项目的问题与改进空间
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：从需求正确性、数据一致性、并发安全、异常恢复、安全控制和可维护性检查现有设计，再根据真实代码、日志或测试证据指出问题。说明问题触发条件和影响范围，区分已经观察到的缺陷与可能的风险；优先修复影响核心流程的问题。提出改进方案时交代成本、验证方法和回滚路径，尚未实现的优化明确标注为建议，不能凭原题补写项目漏洞或性能瓶颈。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
 <a id="project-java-language-benefits"></a>
 
 ## project-java-language-benefits · 如何说明Java优势在项目中的实际运用
@@ -1933,6 +2667,17 @@
 
 **实际来源**：
 - [阅文面试结束，一共四面[Java]](https://www.nowcoder.com/discuss/353155938444058624)（采集日 2026-11-03，阅文）
+
+<a id="project-middleware-selection-discussion"></a>
+
+## project-middleware-selection-discussion · 如何说明项目中使用的中间件
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：通用AI参考思路：只介绍自己确实使用并能说明调用链的中间件，按业务问题、选型原因、接入位置和故障处理组织回答。例如缓存需说明数据权威与更新策略，消息队列需说明投递、重试和消费幂等，注册中心需说明服务发现边界。再补充版本、部署方式及监控依据，区分已实现方案和改进建议。原文没有公开具体实现，不能替回答者编造Redis、消息队列的使用经历或性能提升数据。
+
+**实际来源**：
+- [恒生电子Java开发](https://www.nowcoder.com/discuss/938437442237890560)（采集日 2026-11-08，恒生电子）
 
 <a id="project-mq-database-update-boundary"></a>
 
@@ -1956,6 +2701,17 @@
 **实际来源**：
 - [浪潮暑期实习java开发面经](https://www.nowcoder.com/discuss/353156399897190400)（采集日 2026-11-03，浪潮）
 
+<a id="project-relational-table-design"></a>
+
+## project-relational-table-design · 项目中的关系表如何设计
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：通用AI参考思路：先围绕业务实体、关系和访问路径设计表，明确主键、字段类型、非空与唯一约束，再根据高频查询设计索引。关联表要表达真实业务关系，状态字段需说明允许的流转；金额和时间字段明确精度与时区。通常先保持合理范式，再因有证据的性能需求做冗余，并设计同步机制。原文未给表结构，不能代编用户的表名、数据量或设计经历。
+
+**实际来源**：
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
+
 <a id="project-role-model"></a>
 
 ## project-role-model · 项目角色数量与权限模型设计
@@ -1967,17 +2723,6 @@
 **实际来源**：
 - [28届Java后端实习面试](https://www.nowcoder.com/discuss/941324379416166400)（采集日 2026-10-21，百川云璟）
 
-<a id="project-technical-problem-solving"></a>
-
-## project-technical-problem-solving · 如何讲述项目难点与解决过程
-
-**次数**：1；**领域**：项目设计与技术选型。
-
-**A（AI参考答案）**：AI参考答案：通用AI参考思路：选择自己确实参与的问题，说明触发场景、影响范围和限制条件，再展示如何通过日志、监控、复现或代码阅读定位根因。比较候选方案的成本与风险，解释采用方案、边界处理和验证方式，并交代遗留问题。没有实测数据就描述可核查的现象和验证步骤，不编造性能收益；原文未公开项目实现，不能替作者或回答者补写某次故障经历。
-
-**实际来源**：
-- [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
-
 <a id="project-threadlocal-usage-evidence"></a>
 
 ## project-threadlocal-usage-evidence · 如何说明项目中的ThreadLocal用途
@@ -1988,6 +2733,17 @@
 
 **实际来源**：
 - [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
+
+<a id="project-transaction-boundary-scenarios"></a>
+
+## project-transaction-boundary-scenarios · 项目中哪些操作需要数据库事务
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：通用AI参考思路：当多个数据库写入必须共同满足业务不变量时，应划定一个事务边界，例如业务记录与其明细需要一起提交或回滚；这只是示例，不代表用户已经实现。说明真实调用链、失败处理、隔离级别及并发约束，避免把网络调用放在长事务中。Spring声明式事务还需经过代理并配置合适回滚规则；Redis更新和消息发送通常不属于同一数据库事务，要另设计一致性与补偿。
+
+**实际来源**：
+- [唯品会Java后端日常实习面经](https://www.nowcoder.com/discuss/562663630517420032)（采集日 2026-11-09，唯品会）
 
 <a id="rag-query-pipeline"></a>
 
@@ -2016,17 +2772,6 @@
 **实际来源**：
 - [南京车300 Java 实习面经](https://www.nowcoder.com/feed/main/detail/8b78085106ae45a4bada11cb75141d8f)（采集日 2026-10-24，南京车300）
 
-<a id="redis-characteristics-tradeoffs"></a>
-
-## redis-characteristics-tradeoffs · Redis的特点与使用边界
-
-**次数**：1；**领域**：Redis。
-
-**A（AI参考答案）**：AI参考答案：Redis以内存数据访问为主，提供字符串、哈希、列表、集合和有序集合等结构，常用于缓存、计数和排行榜，也可配置持久化、复制与集群。需要权衡内存成本、过期淘汰和故障恢复时的数据丢失窗口，不能默认数据永不丢失。以常见Redis开源版本为例，核心命令处理以串行为主，但网络IO及后台任务可使用其他线程或进程，不能笼统说整个Redis只有一个线程。
-
-**实际来源**：
-- [恒生电子Java实习超短面经](https://www.nowcoder.com/discuss/353156540611895296)（采集日 2026-11-01，恒生电子）
-
 <a id="redis-cluster-hash-slots"></a>
 
 ## redis-cluster-hash-slots · Redis Cluster的哈希槽
@@ -2038,27 +2783,16 @@
 **实际来源**：
 - [java后端小厂面经](https://www.nowcoder.com/feed/main/detail/b24739216ffb4c62bfee8a06f90810b4)（采集日 2026-10-23，匿名小厂（标题自述））
 
-<a id="redis-distributed-lock-mechanism"></a>
+<a id="redis-data-loss-recovery"></a>
 
-## redis-distributed-lock-mechanism · Redis分布式锁的原理与配置
-
-**次数**：1；**领域**：Redis。
-
-**A（AI参考答案）**：单个Redis实例上可用SET key 唯一标识 NX PX 租期原子加锁，失败后按策略重试或退出；释放时需原子比较所有者标识再删除，避免误删别人已重新获得的锁。租期过短可能让业务并发执行，过长会延迟故障恢复；还需考虑续期、主从切换与持久化边界。工程中可使用Redisson，但必须说明实际等待和租期配置，数据库幂等与约束仍需保留。
-
-**实际来源**：
-- [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
-
-<a id="redis-expiration-and-eviction"></a>
-
-## redis-expiration-and-eviction · Redis过期与内存淘汰的区别
+## redis-data-loss-recovery · Redis数据丢失如何排查与恢复
 
 **次数**：1；**领域**：Redis。
 
-**A（AI参考答案）**：过期处理针对设置了TTL且已到期的键，Redis会在访问时惰性删除，并周期性主动检查部分过期键。内存淘汰则在达到maxmemory限制后，依据noeviction、allkeys或volatile范围内的LRU、LFU、随机等策略决定是否及如何释放数据；具体可选策略以版本为准。二者触发条件不同，设置TTL不代表内存永远够用，也不能用缓存淘汰承载必须可靠保存的业务状态。
+**A（AI参考答案）**：AI参考答案：先区分缓存失效、淘汰、误删、重启未持久化和主从切换丢写，通过日志、过期时间、内存与持久化状态定位。缓存可从权威数据库限速重建；重要状态应先保全RDB、AOF和备份，再在隔离实例验证恢复，避免覆盖证据。RDB和AOF只能恢复已保存的内容，异步复制也有丢写窗口。事后按业务损失容忍度设计备份、刷盘与补偿。
 
 **实际来源**：
-- [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
 
 <a id="redis-hyperloglog-principle"></a>
 
@@ -2070,17 +2804,6 @@
 
 **实际来源**：
 - [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
-
-<a id="redis-lock-lease-renewal"></a>
-
-## redis-lock-lease-renewal · 分布式锁的租期与续期
-
-**次数**：1；**领域**：Redis。
-
-**A（AI参考答案）**：锁租期用于在持有者故障时释放资源，但业务耗时超过租期可能出现两个持有者并发执行。续期应确认所有者身份，且只在持锁进程仍存活并满足条件时延长，不能直接无条件续命。以Redisson为例，默认看门狗续期与显式指定leaseTime的调用语义不同，需结合实际版本和代码说明；即使有续期，长暂停和网络故障仍要求业务幂等、数据库约束或其他正确性兜底。
-
-**实际来源**：
-- [广东某公司java实习生面经](https://www.nowcoder.com/feed/main/detail/6fe8d56b45144d4b81f0082cb0f35572)（采集日 2026-10-23，匿名广东公司）
 
 <a id="redis-lock-random-ttl"></a>
 
@@ -2118,29 +2841,16 @@
 **实际来源**：
 - [纯干货-华为OD面经 [Java]](https://juejin.cn/post/7370994785656668187)（采集日 2026-11-02，华为OD）
 
-<a id="redis-persistence-rdb-aof"></a>
+<a id="redis-memory-rdb-configuration"></a>
 
-## redis-persistence-rdb-aof · Redis的RDB与AOF持久化
-
-**次数**：1；**领域**：Redis。
-
-**A（AI参考答案）**：RDB保存某时刻的数据快照，文件紧凑、恢复快，但两次快照之间的修改可能丢失；后台快照还要考虑fork与写时复制成本。AOF记录写操作，丢失窗口取决于刷盘策略，文件与重写也有成本。二者可结合使用，但持久化不等于高可用或零丢失，仍需备份恢复演练。Redis7引入多部件AOF等变化，不能把旧版本的单文件细节当成所有版本都相同。
-
-版本口径：Redis常用RDB/AOF原理；Redis7多部件AOF需与旧版区分。
-
-**实际来源**：
-- [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
-
-<a id="redis-project-purposes"></a>
-
-## redis-project-purposes · Redis在项目中的用途
+## redis-memory-rdb-configuration · Redis数据位置与RDB配置
 
 **次数**：1；**领域**：Redis。
 
-**A（AI参考答案）**：回答要从真实业务出发，常见用途包括会话状态、读多写少缓存、计数与原子准入，但不能只罗列数据结构。会话要解释过期与撤销，缓存要解释命中、空值及更新策略，计数和准入要解释原子范围及故障窗口。Redis与MySQL之间并非天然一致，必须按各自权威数据和补偿路径说明取舍；没有实现的用途不应包装为项目亮点。
+**A（AI参考答案）**：AI参考答案：Redis常规数据主要在内存，RDB是写到磁盘的时间点快照。可在配置中通过save设置时间与修改次数的触发条件，dir与dbfilename确定保存位置；BGSAVE通常由子进程生成快照，SAVE会阻塞主线程。需结合磁盘空间、fork与写时复制开销选择频率，并检查持久化状态。快照间写入仍可能丢失，配置不是零丢失保证。
 
 **实际来源**：
-- [唯智信息技术 Java开发实习生 一面面经 2026.9.16](https://www.nowcoder.com/feed/main/detail/e00abf3b34e94e4398194442a9a826fb)（采集日 2026-10-21，唯智信息技术）
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
 
 <a id="redis-ranking-design"></a>
 
@@ -2152,6 +2862,28 @@
 
 **实际来源**：
 - [南京车300 Java 实习面经](https://www.nowcoder.com/feed/main/detail/8b78085106ae45a4bada11cb75141d8f)（采集日 2026-10-24，南京车300）
+
+<a id="redis-replica-read-consistency"></a>
+
+## redis-replica-read-consistency · Redis如何应对主从读取不一致
+
+**次数**：1；**领域**：Redis。
+
+**A（AI参考答案）**：AI参考答案：Redis默认异步复制，因此写入主节点成功后立即读取副本，可能得到旧值。要求读己之写的关键请求可直接读主节点，普通查询按业务容忍度读取副本，并监控复制延迟和故障切换。WAIT可等待当前连接此前写入被指定数量副本确认，但必须检查返回值；它不会使系统成为强一致系统，也不保证之后任意副本都已更新。严格一致性需求应明确读写路由和故障策略。
+
+**实际来源**：
+- [百度日常实习一面&二面](https://www.nowcoder.com/discuss/645681234500165632)（采集日 2026-11-11，百度）
+
+<a id="redis-replication-full-partial-sync"></a>
+
+## redis-replication-full-partial-sync · Redis主从全量与部分同步如何工作
+
+**次数**：1；**领域**：Redis。
+
+**A（AI参考答案）**：AI参考答案：副本连接主节点后请求同步，能否部分同步取决于复制历史标识、偏移量及主节点复制积压缓冲区是否还保留缺失数据。不能部分同步时执行全量同步，主节点生成并传输快照，副本加载后再接收期间积累的写命令，随后持续接收命令流。断线重连优先尝试部分同步。默认复制是异步的，副本可能落后，复制不等于持久化备份或强一致保障。
+
+**实际来源**：
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
 
 <a id="redis-set-versus-zset"></a>
 
@@ -2175,16 +2907,27 @@
 **实际来源**：
 - [高德java一面面经](https://www.nowcoder.com/discuss/868599400765874176)（采集日 2026-11-04，高德）
 
-<a id="redis-topology-deployment-discussion"></a>
+<a id="redis-setnx-atomicity-boundary"></a>
 
-## redis-topology-deployment-discussion · 如何说明Redis主从、哨兵与分片部署
+## redis-setnx-atomicity-boundary · SETNX的原子性覆盖哪些操作
 
 **次数**：1；**领域**：Redis。
 
-**A（AI参考答案）**：AI参考答案：通用AI参考思路：先如实回答是否亲自搭建，再区分三种职责。主从复制同步数据并可分担读流量，异步复制可能产生延迟；Sentinel监控主从并协调故障转移，不负责数据分片；Redis Cluster把键空间按哈希槽分配给不同主节点，并配合副本提供可用性。实际部署还需验证客户端重连、故障恢复和数据丢失窗口，未搭建过不能编造配置或故障演练经历。
+**A（AI参考答案）**：AI参考答案：单条SETNX在Redis执行时，会原子完成判断键不存在并写入；但SETNX之后再单独执行EXPIRE是两条命令，中间进程故障可能留下没有过期时间的锁。现代Redis通常使用SET配合NX和PX或EX一次完成加锁与设置租期。解锁应原子校验唯一所有者标识再删除。命令原子性只覆盖Redis中的该操作，不自动覆盖业务代码、数据库事务或锁过期后的并发执行。
 
 **实际来源**：
-- [北京小厂Java实习面经 oc](https://www.nowcoder.com/discuss/497888682959974400)（采集日 2026-11-03，匿名（北京小厂））
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
+
+<a id="redis-social-follow-capacity-cost"></a>
+
+## redis-social-follow-capacity-cost · 海量关注关系如何权衡Redis与数据库
+
+**次数**：1；**领域**：Redis。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：先估算用户关系边数、单条存储开销、查询频率和允许延迟，不能因为Redis快就把全部关系常驻内存。可用数据库保存权威关系并建立适当联合索引，只缓存热点用户或热点共同关注结果，设置容量和过期策略。分片能分散容量与负载，但会增加跨分片求交和一致性成本；应通过真实容量测试选择方案，不能编造原项目的规模和实现。
+
+**实际来源**：
+- [杭州小厂java实习面经一面 20min oc](https://www.nowcoder.com/discuss/463814213815779328)（采集日 2026-11-11，匿名杭州公司）
 
 <a id="redis-zset-skiplist"></a>
 
@@ -2196,6 +2939,17 @@
 
 **实际来源**：
 - [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
+
+<a id="rest-api-resource-design"></a>
+
+## rest-api-resource-design · REST风格接口如何设计
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：用URI标识资源，GET读取、POST提交处理或创建、PUT按语义替换、DELETE删除，PATCH表达部分修改，并用状态码和响应表示说明结果。安全性、幂等性来自操作语义，不能靠把路径改为名词自动获得；并发修改可采用版本号或条件请求。面试中的“使用过吗”必须结合自己的真实接口，未提供经历时只讨论设计原则。
+
+**实际来源**：
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
 
 <a id="rocketmq-architecture-components"></a>
 
@@ -2230,6 +2984,17 @@
 **实际来源**：
 - [贝壳Java实习一二面面经](https://www.nowcoder.com/discuss/353156432944111616)（采集日 2026-10-31，贝壳）
 
+<a id="serialization-hessian-versus-json"></a>
+
+## serialization-hessian-versus-json · Hessian与JSON如何比较
+
+**次数**：1；**领域**：Java 基础与集合。
+
+**A（AI参考答案）**：AI参考答案：二者都可用于编码数据供传输或存储，但抽象范围不完全相同：JSON是文本数据交换格式，具有对象、数组及基本值模型；Hessian提供二进制序列化协议，也定义了远程调用协议。比较时应限定为序列化部分，再评估跨语言支持、体积、性能、类型表达及版本兼容。不能因为Hessian常出现在RPC框架中，就认为JSON不能用于RPC；格式选择也不能替代鉴权和输入校验。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
 <a id="server-periodic-push"></a>
 
 ## server-periodic-push · 后端如何每15秒向前端推送消息
@@ -2263,6 +3028,28 @@
 **实际来源**：
 - [广东某公司java实习生面经](https://www.nowcoder.com/feed/main/detail/6fe8d56b45144d4b81f0082cb0f35572)（采集日 2026-10-23，匿名广东公司）
 
+<a id="social-common-friends-design"></a>
+
+## social-common-friends-design · 共同好友如何设计
+
+**次数**：1；**领域**：项目设计与技术选型。
+
+**A（AI参考答案）**：AI参考答案：通用AI参考思路：原题“实习”疑为“实现”，先确认要查共同好友还是共同关注。可将每个用户的关系集合按用户ID保存，查询两个集合的交集；双向好友需要维护双方关系。Redis Set可用于加速，数据库仍应保存可靠关系事实，并考虑删除、缓存同步及大集合查询成本。没有原项目代码，不能声称作者使用了某种实现。
+
+**实际来源**：
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
+
+<a id="socket-network-transfer-pipeline"></a>
+
+## socket-network-transfer-pipeline · Socket数据如何传输
+
+**次数**：1；**领域**：计算机网络与操作系统。
+
+**A（AI参考答案）**：AI参考答案：以TCP为例，服务端创建套接字、绑定地址、监听并接受连接，客户端连接后双方读写。发送的数据进入内核缓冲区，由TCP排序与可靠传输、IP路由及链路层送达；接收端内核处理后供应用读取。TCP是字节流，没有应用消息边界，需要长度字段或分隔符等协议处理拆包粘包。UDP按数据报收发且不提供TCP的可靠性。原题未指定协议，回答应先说明讨论前提。
+
+**实际来源**：
+- [菜鸟2023暑期实习Java面经](https://www.nowcoder.com/discuss/473067662558396416)（采集日 2026-11-10，菜鸟）
+
 <a id="spring-aop-advice-types"></a>
 
 ## spring-aop-advice-types · AOP通知类型与环绕通知
@@ -2274,16 +3061,27 @@
 **实际来源**：
 - [昆山java后端小厂面经](https://www.nowcoder.com/feed/main/detail/bcf78a7db16f4d22a7ce33aca1358876)（采集日 2026-10-22，匿名昆山小厂（标题自述））
 
-<a id="spring-boot-core-mechanisms"></a>
+<a id="spring-bean-lifecycle"></a>
 
-## spring-boot-core-mechanisms · Spring Boot的核心机制
+## spring-bean-lifecycle · Spring Bean生命周期
 
 **次数**：1；**领域**：Spring / Spring Boot / MyBatis。
 
-**A（AI参考答案）**：Spring Boot基于Spring容器，通过starter组织常用依赖，通过条件化自动配置提供约定好的Bean，并支持外部化配置和嵌入式服务器，减少重复搭建工作。自动配置会检查类路径、属性及已有Bean，并非把所有组件无条件注册。以Boot 2.7为例可通过AutoConfiguration.imports声明自动配置候选；具体导入方式应结合版本，不把Boot 3要求直接套到现有Boot 2项目。
+**A（AI参考答案）**：AI参考答案：典型单例Bean先实例化并注入依赖，执行相关Aware回调，再经过初始化前的BeanPostProcessor处理、初始化回调及初始化后的处理，代理常在后处理环节产生。初始化回调可包括@PostConstruct、afterPropertiesSet及自定义init方法；容器关闭时执行销毁回调。具体顺序受扩展点影响，原型Bean通常不由容器自动销毁。Spring 6及以后注解包使用jakarta.annotation。
 
 **实际来源**：
-- [9.10北京爱学习java开发日常实习面经](https://www.nowcoder.com/feed/main/detail/248055ff78ba49c5ad5dfa1b3ef822dd)（采集日 2026-10-22，爱学习（北京，原文标题））
+- [江苏-南通小厂Java面经(第一次面试)](https://www.nowcoder.com/feed/main/detail/5dda35cf88d546caa2e0d0a274820a04)（采集日 2026-11-07，江苏南通某公司（匿名））
+
+<a id="spring-bean-registration-methods"></a>
+
+## spring-bean-registration-methods · Spring注册Bean有哪些方式
+
+**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：常见方式包括XML的bean定义，组件扫描发现@Component及其派生注解，以及配置类中用@Bean工厂方法声明Bean。还可通过@Import引入配置、ImportSelector或注册器扩展注册过程。需要先澄清原题问注册方式还是实例化方式；构造器、静态工厂和实例工厂属于另一维度。自己new出的对象若未注册，通常不会自动获得容器注入和完整生命周期管理。
+
+**实际来源**：
+- [江苏-南通小厂Java面经(第一次面试)](https://www.nowcoder.com/feed/main/detail/5dda35cf88d546caa2e0d0a274820a04)（采集日 2026-11-07，江苏南通某公司（匿名））
 
 <a id="spring-common-annotations"></a>
 
@@ -2323,6 +3121,50 @@
 
 **实际来源**：
 - [北京小厂Java一面](https://www.nowcoder.com/feed/main/detail/85836bc50a5947f8b8f788471838c08a)（采集日 2026-10-21，匿名北京小厂（作者自述））
+
+<a id="spring-transaction-propagation"></a>
+
+## spring-transaction-propagation · Spring事务的传播行为有哪些
+
+**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：传播行为描述调用事务方法时如何处理已有事务。REQUIRED默认加入已有事务，没有则新建；REQUIRES_NEW挂起外层并独立新建；NESTED通常借助保存点局部回滚，需事务管理器支持。SUPPORTS有则加入、无则非事务；MANDATORY要求已有事务；NOT_SUPPORTED挂起事务；NEVER禁止已有事务。加入同一物理事务的内层标记回滚会影响外层，独立新事务还要考虑连接池容量；代理模式下同类自调用通常不会触发这些设置。
+
+**实际来源**：
+- [恒生电子Java开发](https://www.nowcoder.com/discuss/938437442237890560)（采集日 2026-11-08，恒生电子）
+
+<a id="spring-versus-springboot"></a>
+
+## spring-versus-springboot · Spring与Spring Boot有什么区别
+
+**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：Spring提供IoC、AOP、事务等基础能力，也包含Web开发支持；Spring Boot基于Spring，重点简化应用搭建和运维配置。它通过starter组织依赖、按条件自动配置组件，结合嵌入式服务器、外部化配置和健康检查减少重复工作。两者不是互相替代的框架，使用Boot仍需理解Bean和事务等Spring机制；自动配置也能按业务需求覆盖或排除。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="springmvc-overview"></a>
+
+## springmvc-overview · Spring MVC的职责与请求流程
+
+**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：Spring MVC是基于Servlet的Web框架，将请求处理拆成控制器、模型与视图等职责。DispatcherServlet接收请求后，通过HandlerMapping定位处理器，由HandlerAdapter调用控制器，并完成参数绑定、校验和返回值处理；页面可经视图解析器渲染，REST接口通常经消息转换器返回JSON。异常可集中处理。Spring Boot可以自动配置MVC，但MVC本身不等于Boot，也不是监听端口的服务器。
+
+**实际来源**：
+- [贝壳 java研发实习 一二三面面经](https://www.nowcoder.com/discuss/353159422975352832)（采集日 2026-11-05，贝壳）
+
+<a id="springmvc-request-parameter-binding"></a>
+
+## springmvc-request-parameter-binding · Spring MVC如何接收请求参数
+
+**次数**：1；**领域**：Spring / Spring Boot / MyBatis。
+
+**A（AI参考答案）**：AI参考答案：按参数位置选择绑定方式：查询或表单字段常用@RequestParam，路径参数用@PathVariable，JSON请求体常用@RequestBody配合消息转换器转为DTO；文件上传可用MultipartFile。复杂表单可绑定模型对象，不能把所有请求都当JSON。还应检查Content-Type、必填项、类型转换与校验，绑定失败返回清晰错误。Spring 6使用Jakarta校验体系时需匹配依赖版本。
+
+**实际来源**：
+- [南昌某公司java后端实习面试](https://www.nowcoder.com/feed/main/detail/42cce4ad7daf456a822cb237ba1e15fa)（采集日 2026-11-07，南昌某公司（匿名））
 
 <a id="sql-injection-prevention"></a>
 
@@ -2381,17 +3223,6 @@
 
 **实际来源**：
 - [南京某小厂java实习面经](https://www.nowcoder.com/feed/main/detail/0da5ca7b308e49d985dd22aa5fe3a9fc)（采集日 2026-10-27，南京某小厂（匿名，作者自述））
-
-<a id="web-url-request-lifecycle"></a>
-
-## web-url-request-lifecycle · 输入URL到页面显示会经历哪些过程
-
-**次数**：1；**领域**：计算机网络与操作系统。
-
-**A（AI参考答案）**：AI参考答案：浏览器解析URL并检查可用缓存，通常通过DNS获得服务器地址。使用HTTP/1.1或HTTP/2时一般建立TCP连接，HTTPS还需TLS握手与证书校验；已有连接可以复用，HTTP/3则基于QUIC。请求经网关或负载均衡到达后端，后端执行业务并返回响应。浏览器解析HTML，获取样式和脚本等资源，构建页面并布局绘制。实际过程会受到缓存、代理、重定向和协议版本影响。
-
-**实际来源**：
-- [Java 后端新手的第一次面试复盘](https://www.cnblogs.com/thr-0103/p/18113538)（采集日 2026-11-02，匿名公司）
 
 <a id="websocket-versus-http"></a>
 

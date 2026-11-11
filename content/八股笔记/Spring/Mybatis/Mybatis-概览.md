@@ -4,7 +4,7 @@ aliases:
 title: "Mybatis"
 ---
 
-[[八股笔记/Spring/Mybatis/Mybatis里的]]
+[[Mybatis里的]]
 
 
 
